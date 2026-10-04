@@ -6,7 +6,8 @@ place, and draws the connections between them for you: a web of who knows
 who, side-by-side Versus, a story grid, and a page planner laid out the way
 comics are printed.
 
-Everything about it, plus a version you can use in your browser, is at
+No AI, no subscription, and your comics stay on your computer. Everything
+about it, plus a version you can use in your browser, is at
 **[inkwell-comics.gbusiness-mtake.workers.dev](https://inkwell-comics.gbusiness-mtake.workers.dev)**.
 
 ## Download
@@ -28,8 +29,10 @@ shasum -a 256 ~/Downloads/Inkwell-mac.dmg
 
 ## Help
 
+[How to use Inkwell](https://inkwell-comics.gbusiness-mtake.workers.dev/guide/) ·
 [Help and questions](https://inkwell-comics.gbusiness-mtake.workers.dev/help/) ·
 [Terms](https://inkwell-comics.gbusiness-mtake.workers.dev/legal/terms.html) ·
-[Privacy](https://inkwell-comics.gbusiness-mtake.workers.dev/legal/privacy.html)
+[Privacy](https://inkwell-comics.gbusiness-mtake.workers.dev/legal/privacy.html) ·
+[Refunds](https://inkwell-comics.gbusiness-mtake.workers.dev/legal/refunds.html)
 
 This repository only has the releases in it. Inkwell's source code isn't here.
