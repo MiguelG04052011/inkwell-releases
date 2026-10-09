@@ -1,0 +1,145 @@
+{
+ "id": "2026-10-09-a-launch-film",
+ "fps": 30,
+ "windowCenterY": 1120,
+ "hook": {
+  "text": "POV: your story is spread across a dozen notes, two notebooks and your head.",
+  "dur": 3.0,
+  "top": 560,
+  "size": 84,
+  "bgShots": [
+   "web-who-knows-who",
+   "power-rankings",
+   "page-planner"
+  ]
+ },
+ "scenes": [
+  {
+   "shot": "home",
+   "text": "So I made one place for all of it.",
+   "dur": 2.7,
+   "camA": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "camB": [
+    0.1,
+    0.3,
+    0.66,
+    0.97
+   ],
+   "cursor": {
+    "from": [
+     0.62,
+     0.55
+    ],
+    "to": [
+     0.244,
+     0.769
+    ],
+    "t": [
+     0.9,
+     1.85
+    ],
+    "click": 2.1
+   }
+  },
+  {
+   "shot": "character-page",
+   "text": "Heroes, villains and the people under the masks.",
+   "dur": 2.5,
+   "camA": [
+    0.17,
+    0.0,
+    0.62,
+    0.3
+   ],
+   "camB": [
+    0.17,
+    0.44,
+    0.62,
+    0.76
+   ]
+  },
+  {
+   "shot": "power-rankings",
+   "text": "Keep everyone's powers consistent.",
+   "dur": 2.4,
+   "camA": [
+    0.2,
+    0.25,
+    1.0,
+    0.98
+   ],
+   "camB": [
+    0.2,
+    0.42,
+    0.72,
+    0.72
+   ]
+  },
+  {
+   "shot": "web-who-knows-who",
+   "text": "See how everyone is connected.",
+   "dur": 2.5,
+   "camA": [
+    0.47,
+    0.42,
+    0.75,
+    0.68
+   ],
+   "camB": [
+    0.3,
+    0.12,
+    0.95,
+    0.95
+   ],
+   "maskTop": 720
+  },
+  {
+   "shot": "page-planner",
+   "text": "Plan your pages the way they'll be printed.",
+   "dur": 2.5,
+   "camA": [
+    0.27,
+    0.36,
+    0.92,
+    0.78
+   ],
+   "camB": [
+    0.4,
+    0.4,
+    0.8,
+    0.7
+   ]
+  },
+  {
+   "shot": "tier-list",
+   "text": "Make your own tier lists.",
+   "dur": 2.4,
+   "camA": [
+    0.19,
+    0.22,
+    0.78,
+    0.55
+   ],
+   "camB": [
+    0.19,
+    0.42,
+    0.66,
+    0.84
+   ]
+  }
+ ],
+ "end": {
+  "line": [
+   "Your whole comic,",
+   "in one place."
+  ],
+  "cta": "Start free in your browser",
+  "sub": "Link in bio",
+  "dur": 3.6
+ }
+}

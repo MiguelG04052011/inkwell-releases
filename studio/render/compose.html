@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: 'InkwellDisplay'; src: url('../assets/fonts/InkwellDisplay-Variable.ttf') format('truetype'); font-weight: 200 900; }
+@font-face { font-family: 'InkwellDisplayXB'; src: url('../assets/fonts/InkwellDisplay-ExtraBold.ttf') format('truetype'); }
+html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #0B0B10; }
+* { box-sizing: border-box; }
+#root { position: absolute; inset: 0; overflow: hidden; background: #0B0B10; }
+.layer { position: absolute; inset: 0; }
+#glowA, #glowB { position: absolute; border-radius: 50%; filter: blur(140px); will-change: transform; }
+#glowA { width: 1100px; height: 1100px; left: -380px; top: -260px; background: radial-gradient(circle, rgba(106,88,246,0.55), rgba(106,88,246,0) 70%); }
+#glowB { width: 1000px; height: 1000px; right: -420px; bottom: -200px; background: radial-gradient(circle, rgba(240,106,156,0.35), rgba(240,106,156,0) 70%); }
+#grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px); background-size: 72px 72px; -webkit-mask-image: radial-gradient(ellipse 80% 60% at 30% 20%, black 20%, transparent 75%); }
+#vignette { position: absolute; inset: 0; background: radial-gradient(ellipse 90% 70% at 50% 45%, transparent 55%, rgba(0,0,0,0.55) 100%); pointer-events: none; }
+#grain { position: absolute; inset: -200px; background-image: url('../assets/noise.png'); opacity: 0.07; mix-blend-mode: overlay; pointer-events: none; }
+.scene { position: absolute; inset: 0; will-change: transform, opacity, clip-path; }
+.headline { text-wrap: balance; position: absolute; left: 96px; width: 860px; top: 300px; font-family: 'InkwellDisplay'; font-weight: 800; color: #EEEEF3; font-size: 76px; line-height: 1.04; letter-spacing: -0.025em; }
+.headline .w { display: inline-block; white-space: pre; will-change: transform, opacity, filter; }
+.kicker { position: absolute; left: 100px; top: 236px; font-family: 'InkwellDisplay'; font-weight: 600; font-size: 30px; letter-spacing: 0.01em; color: #8D8E9F; display: flex; align-items: center; gap: 14px; }
+.kicker i { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
+.cam { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; perspective: 2400px; perspective-origin: 540px 1100px; }
+.win { position: absolute; left: 0; top: 0; transform-origin: 0 0; border-radius: 40px; background: #121219; box-shadow: 0 0 0 3px rgba(255,255,255,0.07), 0 90px 260px rgba(0,0,0,0.75), 0 0 300px rgba(106,88,246,0.25); overflow: hidden; }
+.win .bar { height: 74px; background: #15151D; border-bottom: 2px solid #262630; display: flex; align-items: center; padding-left: 34px; gap: 18px; }
+.win .bar b { width: 24px; height: 24px; border-radius: 50%; display: inline-block; background: #3A3A46; }
+.win .bar b:nth-child(1) { background: #FF5F57; } .win .bar b:nth-child(2) { background: #FEBC2E; } .win .bar b:nth-child(3) { background: #28C840; }
+.win img { display: block; width: 2720px; height: 1702px; }
+#cursor { position: absolute; left: 0; top: 0; width: 46px; height: 46px; z-index: 50; pointer-events: none; will-change: transform, opacity; }
+#ripple { position: absolute; width: 120px; height: 120px; border-radius: 50%; border: 4px solid rgba(255,255,255,0.9); z-index: 49; opacity: 0; }
+#drop { position: absolute; left: 0; top: 0; width: 84px; height: 120px; z-index: 60; opacity: 0; }
+.ring { position: absolute; width: 200px; height: 200px; border-radius: 50%; border: 5px solid #B65CF0; z-index: 59; opacity: 0; }
+#end { position: absolute; inset: 0; }
+#endIcon { position: absolute; left: 380px; top: 470px; width: 320px; height: 320px; border-radius: 72px; box-shadow: 0 40px 140px rgba(106,88,246,0.45), 0 0 0 2px rgba(255,255,255,0.08); }
+#endWord { position: absolute; width: 100%; text-align: center; top: 830px; font-family: 'InkwellDisplay'; font-weight: 700; font-size: 64px; color: #EEEEF3; letter-spacing: -0.02em; }
+#endLine { position: absolute; width: 100%; text-align: center; top: 950px; font-family: 'InkwellDisplay'; font-weight: 800; font-size: 84px; line-height: 1.05; letter-spacing: -0.03em; color: #EEEEF3; padding: 0 70px; }
+.grad { background: linear-gradient(90deg, #8C7CFF 0%, #B65CF0 50%, #F06A9C 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+#endCta { position: absolute; left: 50%; top: 1190px; transform: translateX(-50%); padding: 26px 48px; border-radius: 999px; background: #EEEEF3; color: #0D0D12; font-family: 'InkwellDisplay'; font-weight: 700; font-size: 40px; white-space: nowrap; }
+#endSub { position: absolute; width: 100%; text-align: center; top: 1300px; font-family: 'InkwellDisplay'; font-weight: 600; font-size: 32px; color: #8D8E9F; }
+#bgShots { position: absolute; inset: 0; }
+#bgShots img { position: absolute; width: 1700px; border-radius: 30px; opacity: 0.0; filter: blur(3px) saturate(0.9); }
+</style>
+</head>
+<body>
+<div id="root">
+  <div class="layer" id="bg"><div id="glowA"></div><div id="glowB"></div><div id="grid"></div></div>
+  <div class="layer" id="bgShots"></div>
+  <div class="layer" id="stage"></div>
+  <div class="layer" id="fx">
+    <svg id="drop" viewBox="0 0 84 120"><defs><linearGradient id="dg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8C7CFF"/><stop offset="0.55" stop-color="#B65CF0"/><stop offset="1" stop-color="#F06A9C"/></linearGradient></defs><path d="M42 2 C42 2 6 52 6 78 A36 36 0 0 0 78 78 C78 52 42 2 42 2 Z" fill="url(#dg)"/></svg>
+    <div class="ring" id="ring1"></div><div class="ring" id="ring2"></div>
+    <div id="ripple"></div>
+    <svg id="cursor" viewBox="0 0 32 32"><path d="M6 3 L6 25 L11.5 20 L15 28.5 L18.6 27 L15.2 18.8 L22.5 18.8 Z" fill="#fff" stroke="#000" stroke-width="1.6" stroke-linejoin="round"/></svg>
+  </div>
+  <div class="layer" id="end" style="opacity:0">
+    <img id="endIcon" src="../assets/brand/app-icon-1024.png">
+    <div id="endWord">Inkwell</div>
+    <div id="endLine"></div>
+    <div id="endCta"></div>
+    <div id="endSub"></div>
+  </div>
+  <div id="vignette"></div>
+  <div id="grain"></div>
+</div>
+<script src="engine.js"></script>
+</body>
+</html>

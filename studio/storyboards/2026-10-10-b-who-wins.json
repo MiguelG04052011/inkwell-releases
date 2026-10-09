@@ -1,0 +1,102 @@
+{
+ "id": "2026-10-10-b-who-wins",
+ "fps": 30,
+ "windowCenterY": 1120,
+ "hook": {
+  "text": "Who wins: the villain who ate a moon, or the hero who vanished in issue 1?",
+  "dur": 3.1,
+  "top": 560,
+  "size": 84,
+  "bgShots": [
+   "versus",
+   "battles",
+   "lineup"
+  ]
+ },
+ "scenes": [
+  {
+   "shot": "versus",
+   "text": "The Hollow King vs Solstice.",
+   "dur": 2.3,
+   "camA": [
+    0.3,
+    0.27,
+    0.62,
+    0.41
+   ],
+   "camB": [
+    0.56,
+    0.27,
+    0.88,
+    0.41
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "versus",
+   "cont": true,
+   "text": "Every power, side by side.",
+   "dur": 2.6,
+   "camA": [
+    0.56,
+    0.27,
+    0.88,
+    0.41
+   ],
+   "camB": [
+    0.3,
+    0.4,
+    0.62,
+    0.66
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "versus",
+   "cont": true,
+   "text": "On paper, The Hollow King has the edge, 57 to 49.",
+   "dur": 2.8,
+   "camA": [
+    0.3,
+    0.4,
+    0.62,
+    0.66
+   ],
+   "camB": [
+    0.4,
+    0.7,
+    0.8,
+    0.79
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "versus",
+   "cont": true,
+   "text": "They haven't actually fought yet.",
+   "dur": 2.4,
+   "camA": [
+    0.4,
+    0.7,
+    0.8,
+    0.79
+   ],
+   "camB": [
+    0.28,
+    0.8,
+    0.62,
+    0.94
+   ],
+   "maskTop": 690
+  }
+ ],
+ "end": {
+  "line": [
+   "Who wins",
+   "in your universe?"
+  ],
+  "cta": "Start free in your browser",
+  "sub": "Link in bio",
+  "dur": 3.4
+ }
+}
