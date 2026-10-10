@@ -1,0 +1,13 @@
+{
+ "id": "2026-10-11-b-who-could-stop-titan",
+ "fps": 30,
+ "windowCenterY": 1120,
+ "hook": {"text": "Who could stop Titan? Wrong answers only.", "dur": 2.3, "top": 580, "size": 96, "bgShots": ["tier-list", "power-rankings", "battles"]},
+ "scenes": [
+  {"shot": "tier-list", "text": "Say Captain Titan turned on the world tomorrow.", "dur": 2.5, "camA": [0.2, 0.2, 0.98, 0.87], "camB": [0.2, 0.22, 0.56, 0.32], "maskTop": 690},
+  {"shot": "tier-list", "cont": true, "text": "S tier: Solstice. She's gone.", "dur": 2.3, "camA": [0.2, 0.22, 0.56, 0.32], "camB": [0.2, 0.38, 0.5, 0.49], "maskTop": 690},
+  {"shot": "tier-list", "cont": true, "text": "Her daughter's only B tier. She's sixteen.", "dur": 2.6, "camA": [0.2, 0.38, 0.5, 0.49], "camB": [0.2, 0.56, 0.5, 0.67], "maskTop": 690},
+  {"shot": "tier-list", "cont": true, "text": "Wrong answer: Relay, and a drone called Kevin.", "dur": 2.7, "camA": [0.2, 0.56, 0.5, 0.67], "camB": [0.2, 0.74, 0.5, 0.85], "maskTop": 690}
+ ],
+ "end": {"line": ["Who could stop", "your strongest?"], "cta": "Start free in your browser", "sub": "Link in bio", "dur": 3.4}
+}
