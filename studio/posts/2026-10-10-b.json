@@ -4,6 +4,10 @@
   "format": "F2 Who wins",
   "slot": "B 2026-10-10 00:00 Lisbon",
   "hook": "Who wins: the villain who ate a moon, or the hero who vanished in issue 1?",
-  "buffer": { "tiktok": "6ac942e5bba9419ccbdbf84b", "youtube": "6ac942e7bba9419ccbdbf8ce" },
+  "buffer": {
+    "tiktok": "6ac9f416d9cab260a7b8d7a3",
+    "youtube": "6ac942e7bba9419ccbdbf8ce",
+    "tiktok_note": "6ac942e5bba9419ccbdbf84b was lost when the TikTok channel was reconnected on 9 Oct; rescheduled as 6ac9f416d9cab260a7b8d7a3 for 2026-10-10 19:00 Lisbon"
+  },
   "youtube_title": "Who wins? The Hollow King vs Solstice, by the numbers"
 }
