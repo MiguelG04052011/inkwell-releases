@@ -1,0 +1,151 @@
+{
+ "id": "2026-10-12-b-villain-240cm",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "text": "My villain is 240 cm. How tall is yours?",
+   "dur": 2.8,
+   "camA": [
+    0.228,
+    0.38,
+    0.47,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    0.56,
+    0.625
+   ],
+   "size": 88,
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "The Hollow King. He watches Earth from a moon he ate.",
+   "dur": 2.9,
+   "camA": [
+    0.228,
+    0.09,
+    0.56,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    0.5,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Captain Titan is 196 cm and smiles slightly too much.",
+   "dur": 2.8,
+   "camA": [
+    0.228,
+    0.09,
+    0.5,
+    0.625
+   ],
+   "camB": [
+    0.36,
+    0.09,
+    0.64,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Solstice is 175 cm, and she's missing.",
+   "dur": 2.9,
+   "camA": [
+    0.36,
+    0.09,
+    0.64,
+    0.625
+   ],
+   "camB": [
+    0.7,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Now drop your OCs' heights.",
+   "dur": 2.4,
+   "camA": [
+    0.7,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  }
+ ],
+ "end": {
+  "line": [
+   "Line up",
+   "your whole cast."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser",
+  "dur": 3.2
+ }
+}

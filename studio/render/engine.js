@@ -49,7 +49,8 @@
     return im;
   });
 
-  let t0 = hook.dur - 0.1; // impact time = first scene start
+  const COLD = !!hook.cold; // cold open: the first scene is on screen and moving from frame 0, no text-only card
+  let t0 = COLD ? 0 : hook.dur - 0.1; // impact time = first scene start
   const scenes = SB.scenes.map((sc) => {
     const el = document.createElement('div');
     el.className = 'scene';
@@ -64,6 +65,10 @@
     }
     const img = document.createElement('img'); img.src = `../assets/shots/${sc.shot}.png`;
     win.appendChild(img);
+    if (sc.crop) { // show only part of the screen, as a card (no window bar)
+      const c = sc.crop; win.style.background = 'transparent'; win.style.boxShadow = 'none'; win.style.borderRadius = '0';
+      win.style.clipPath = `inset(${BAR + c[1] * IMG_H}px ${(1 - c[2]) * IMG_W}px ${(1 - c[3]) * IMG_H}px ${c[0] * IMG_W}px round 28px)`;
+    }
     tilt.appendChild(win); cam.appendChild(tilt); el.appendChild(cam);
     if (sc.maskTop) { const m = `linear-gradient(to bottom, transparent 0px, transparent ${sc.maskTop - 140}px, black ${sc.maskTop + 40}px)`; cam.style.webkitMaskImage = m; cam.style.maskImage = m; }
     const hl = document.createElement('div'); hl.className = 'headline';
@@ -79,7 +84,7 @@
   const endStart = t0;
   const total = endStart + SB.end.dur;
   window.SB_TOTAL = total;
-  window.SB_TIMES = { hookImpact: hook.dur - 0.1, scenes: scenes.map((s) => [s.start, s.end]), endStart, total };
+  window.SB_TIMES = { hookImpact: COLD ? 0.45 : hook.dur - 0.1, scenes: scenes.map((s) => [s.start, s.end]), endStart, total };
 
   // end card
   const endLine = $('endLine');
@@ -130,7 +135,7 @@
     hookEl.style.opacity = 1 - E.outCubic(hookOut);
     hookEl.style.transform = `translateY(${-E.outCubic(hookOut) * 160}px) scale(${1 + hookOut * 0.05})`;
     hookEl.style.filter = hookOut > 0 && hookOut < 1 ? `blur(${hookOut * 14}px)` : 'none';
-    hookEl.style.visibility = hookOut >= 1 ? 'hidden' : 'visible';
+    hookEl.style.visibility = (COLD || hookOut >= 1) ? 'hidden' : 'visible';
     // hook background screens (the scattered story)
     const bgPos = [[-420, 260, -7], [180, 1180, 6], [-760, 1500, -3]];
     bgShots.forEach((im, i) => {
@@ -145,7 +150,7 @@
     const fallStart = impact - 0.42;
     const pf = clamp((t - fallStart) / 0.42);
     const impactY = CY;
-    if (t >= fallStart && t < impact + 0.02) {
+    if (!COLD && t >= fallStart && t < impact + 0.02) {
       drop.style.opacity = 1;
       const y = lerp(-160, impactY - 120, E.inQuad(pf));
       drop.style.transform = `translate(${CX - 42}px, ${y}px) scale(${1 - pf * 0.15}, ${1 + pf * 0.25})`;
@@ -153,7 +158,7 @@
     [['ring1', 0], ['ring2', 0.09]].forEach(([id, d]) => {
       const r = $(id);
       const pr = clamp((t - impact - d) / 0.7);
-      r.style.opacity = pr > 0 && pr < 1 ? (1 - pr) * 0.9 : 0;
+      r.style.opacity = !COLD && pr > 0 && pr < 1 ? (1 - pr) * 0.9 : 0;
       r.style.transform = `translate(${CX - 100}px, ${impactY - 100}px) scale(${0.1 + E.outCubic(pr) * 4.2})`;
     });
 
@@ -172,7 +177,9 @@
       win.style.transform = `translate(${X.x}px, ${X.y}px) scale(${X.s})`;
       // entrance
       let rx = 0, ry = 0, ty = 0, sc3 = 1, op = 1, blur = 0;
-      if (first) {
+      if (first && COLD) {
+        el.style.clipPath = 'none';
+      } else if (first) {
         const pc = clamp((t - start) / 0.62);
         const r = E.outCubic(pc) * 2300;
         el.style.clipPath = pc < 1 ? `circle(${r}px at ${CX}px ${impactY}px)` : 'none';
@@ -196,7 +203,7 @@
       el.style.opacity = op;
       el.style.filter = blur > 0.2 ? `blur(${blur}px)` : 'none';
       // headline
-      wordIn(ws, start + 0.1, t, 0.04, 0.42);
+      wordIn(ws, first && COLD ? -0.3 : start + 0.1, t, 0.04, 0.42);
       if (contOut) { const ho = clamp((t - (end - 0.22)) / 0.2); if (ho > 0) ws.forEach((w) => { w.style.opacity = Math.min(Number(w.style.opacity), 1 - ho); w.style.transform = `translateY(${-ho * 30}px)`; }); }
       if (kick) { const pk = clamp((t - start - 0.02) / 0.35); kick.style.opacity = pk; kick.style.transform = `translateY(${(1 - E.outCubic(pk)) * 20}px)`; }
       // cursor

@@ -1,0 +1,14 @@
+{
+ "id": "2026-10-11-a-left-page-reveal",
+ "fps": 30,
+ "windowCenterY": 1120,
+ "hook": {"cold": true, "text": "", "dur": 0.1},
+ "scenes": [
+  {"shot": "page-planner", "text": "Put your big reveals on a left page.", "dur": 2.8, "camA": [0.27, 0.33, 0.75, 0.80], "camB": [0.42, 0.33, 0.90, 0.80], "maskTop": 690, "size": 88},
+  {"shot": "page-planner", "cont": true, "text": "Page 1 sits alone on the right.", "dur": 3.0, "camA": [0.42, 0.33, 0.90, 0.80], "camB": [0.28, 0.36, 0.59, 0.80], "maskTop": 690},
+  {"shot": "page-planner", "cont": true, "text": "So every left page comes right after a page turn.", "dur": 3.2, "camA": [0.28, 0.36, 0.59, 0.80], "camB": [0.59, 0.36, 0.90, 0.80], "maskTop": 690},
+  {"shot": "page-planner", "cont": true, "text": "The reader can't see it coming. Put the surprise there.", "dur": 3.2, "camA": [0.59, 0.36, 0.90, 0.80], "camB": [0.57, 0.37, 0.77, 0.80], "maskTop": 690},
+  {"shot": "page-planner", "cont": true, "text": "Inkwell's page planner lays every issue out like this.", "dur": 3.0, "camA": [0.57, 0.37, 0.77, 0.80], "camB": [0.27, 0.30, 0.90, 0.95], "maskTop": 690}
+ ],
+ "end": {"line": ["Plan your pages the way", "they'll be printed."], "cta": "Free to start in your browser", "sub": "On a Mac or in any browser", "dur": 3.4}
+}

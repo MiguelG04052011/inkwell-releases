@@ -1,4 +1,14 @@
-date,post_id,platform,video_id,format,slot,hook,views,likes,comments,shares,saves,reach
-2026-10-10,6ac9684f115c22f534cf03af,tiktok,2026-10-09-a-launch-film,F1,A,"POV: your story is spread across a dozen notes, two notebooks and your head.",132,1,0,0,,0
-2026-10-10,6ac93f25bba9419ccbdb4c29,youtube,2026-10-09-a-launch-film,F1,A,"POV: your story is spread across a dozen notes, two notebooks and your head.",0,0,0,,,
-2026-10-10,6ac942e7bba9419ccbdbf8ce,youtube,2026-10-10-b-who-wins,F2,B,"Who wins: the villain who ate a moon, or the hero who vanished in issue 1?",0,0,0,,,
+date,post_id,platform,video_id,format,slot,hook,views,likes,comments,shares,saves,reach,avg_watch_s,follows,length_s
+2026-10-10,6ac9684f115c22f534cf03af,tiktok,2026-10-09-a-launch-film,F1,A,"POV: your story is spread across a dozen notes, two notebooks and your head.",132,1,0,0,,0,,,
+2026-10-10,6ac93f25bba9419ccbdb4c29,youtube,2026-10-09-a-launch-film,F1,A,"POV: your story is spread across a dozen notes, two notebooks and your head.",0,0,0,,,,,,
+2026-10-10,6ac942e7bba9419ccbdbf8ce,youtube,2026-10-10-b-who-wins,F2,B,"Who wins: the villain who ate a moon, or the hero who vanished in issue 1?",0,0,0,,,,,,
+2026-10-11,6ac9684f115c22f534cf03af,tiktok,2026-10-09-a-launch-film,F1,A,"POV: your story is spread across a dozen notes, two notebooks and your head.",203,1,0,0,,0,2.59,,21.5
+2026-10-11,6ac93f25bba9419ccbdb4c29,youtube,2026-10-09-a-launch-film,F1,A,"POV: your story is spread across a dozen notes, two notebooks and your head.",2,0,0,,,,,,21.5
+2026-10-11,6ac942e7bba9419ccbdbf8ce,youtube,2026-10-10-b-who-wins,F2,B,"Who wins: the villain who ate a moon, or the hero who vanished in issue 1?",3,0,0,,,,,,16.5
+2026-10-11,6ac9f416d9cab260a7b8d7a3,tiktok,2026-10-10-b-who-wins,F2,self-heal 19:00,"Who wins: the villain who ate a moon, or the hero who vanished in issue 1?",166,1,0,0,,0,2.17,,16.5
+2026-10-11,6ac9f401c4de2d2b121dadaf,tiktok,2026-10-10-a-pov-secret-identity,F4,A,POV: you forgot who knows your hero's secret identity.,205,3,0,0,,0,1.37,,15.9
+2026-10-11,6ac9f406ed92ed8fa5c01d08,youtube,2026-10-10-a-pov-secret-identity,F4,A,POV: you forgot who knows your hero's secret identity.,0,0,0,,,,,,15.9
+2026-10-11,6ac9f409b07d37ac97665d52,instagram,2026-10-10-a-pov-secret-identity,F4,A,POV: you forgot who knows your hero's secret identity.,2,0,0,0,0,1,,0,15.9
+2026-10-11,6ac9f40ced92ed8fa5c020e1,tiktok,2026-10-11-b-who-could-stop-titan,F3,B,Who could stop Titan? Wrong answers only.,,,,,,,,,15.7
+2026-10-11,6ac9f410ed92ed8fa5c0233f,youtube,2026-10-11-b-who-could-stop-titan,F3,B,Who could stop Titan? Wrong answers only.,0,0,0,,,,,,15.7
+2026-10-11,6ac9f413f91f772d45872c6a,instagram,2026-10-11-b-who-could-stop-titan,F3,B,Who could stop Titan? Wrong answers only.,,,,,,,,,15.7

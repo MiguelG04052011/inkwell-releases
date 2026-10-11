@@ -46,6 +46,9 @@ node render/preview.js storyboards/<id>.json /tmp/pv 1.5,4,8,12
 - `cont: true`: same screenshot as the previous scene, no transition; the camera keeps moving and only the headline changes.
   Set this scene's `camA` to the previous scene's `camB` for a seamless move.
 - `cursor`: a pointer that moves (fractions of the screenshot) and clicks, in scene-local seconds.
+- Cold open (default since 11 Oct 2026): `"hook": {"cold": true, "text": "", "dur": 0.1}`. No text card, ink drop or reveal; the first scene is on screen and moving from frame 0 and its `text` is the hook.
+- `crop: [x0, y0, x1, y1]` on a scene shows only that part of the screenshot as a card with no window bar (used to keep the 0.1.6 lineup's ruler out of frame). Repeat it on every `cont` scene.
+- `maxW` / `maxH` (px, default 960 / 760) limit how large the camera region is drawn.
 - End card: the second `line` is drawn in the brand gradient (one gradient phrase per video).
 
 Safe zone on the 1080×1920 canvas: keep words inside x 96–960 and y 250–1250. Nothing important in the bottom 30%
