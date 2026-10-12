@@ -1,0 +1,115 @@
+{
+ "id": "2026-10-13-b-hero-tax",
+ "fps": 30,
+ "windowCenterY": 1060,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "mind-map",
+   "text": "This city has been saved so many times it has a tax for it.",
+   "dur": 3.0,
+   "camA": [
+    0.7,
+    0.42,
+    0.99,
+    0.68
+   ],
+   "camB": [
+    0.82,
+    0.5,
+    0.97,
+    0.6
+   ],
+   "maskTop": 690,
+   "size": 80
+  },
+  {
+   "shot": "mind-map",
+   "cont": true,
+   "text": "Brightwater City, from Afterburn, the example comic inside Inkwell.",
+   "dur": 3.0,
+   "camA": [
+    0.82,
+    0.5,
+    0.97,
+    0.6
+   ],
+   "camB": [
+    0.55,
+    0.47,
+    0.75,
+    0.6
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "home",
+   "text": "The day the world's greatest hero vanishes, her daughter inherits her powers.",
+   "dur": 3.2,
+   "camA": [
+    0.2,
+    0.06,
+    0.98,
+    0.36
+   ],
+   "camB": [
+    0.22,
+    0.1,
+    0.55,
+    0.27
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "home",
+   "cont": true,
+   "text": "Along with every enemy she ever made.",
+   "dur": 2.6,
+   "camA": [
+    0.22,
+    0.1,
+    0.55,
+    0.27
+   ],
+   "camB": [
+    0.2,
+    0.62,
+    0.52,
+    0.99
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "home",
+   "cont": true,
+   "text": "What's the strangest law in your story's city?",
+   "dur": 2.8,
+   "camA": [
+    0.2,
+    0.62,
+    0.52,
+    0.99
+   ],
+   "camB": [
+    0.2,
+    0.3,
+    0.98,
+    0.99
+   ],
+   "maskTop": 690
+  }
+ ],
+ "end": {
+  "line": [
+   "Your whole story,",
+   "in one place."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.2
+ }
+}

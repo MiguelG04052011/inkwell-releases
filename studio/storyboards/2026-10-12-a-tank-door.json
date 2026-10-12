@@ -1,0 +1,115 @@
+{
+ "id": "2026-10-12-a-tank-door",
+ "fps": 30,
+ "windowCenterY": 1060,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "power-rankings",
+   "text": "He lifted a tank in issue 2. Why can't he open this door?",
+   "dur": 3.0,
+   "camA": [
+    0.21,
+    0.25,
+    0.66,
+    0.62
+   ],
+   "camB": [
+    0.24,
+    0.36,
+    0.52,
+    0.58
+   ],
+   "maskTop": 690,
+   "size": 80
+  },
+  {
+   "shot": "power-rankings",
+   "cont": true,
+   "text": "Readers notice. So I rate every power once, out of 10.",
+   "dur": 3.0,
+   "camA": [
+    0.24,
+    0.36,
+    0.52,
+    0.58
+   ],
+   "camB": [
+    0.36,
+    0.35,
+    0.66,
+    0.58
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "power-rankings",
+   "cont": true,
+   "text": "Then every fight starts from the same numbers.",
+   "dur": 2.7,
+   "camA": [
+    0.36,
+    0.35,
+    0.66,
+    0.58
+   ],
+   "camB": [
+    0.21,
+    0.22,
+    0.99,
+    0.75
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "continuity-checks",
+   "text": "And Inkwell flags what a careful reader would catch.",
+   "dur": 2.9,
+   "camA": [
+    0.19,
+    0.0,
+    0.86,
+    0.48
+   ],
+   "camB": [
+    0.22,
+    0.135,
+    0.47,
+    0.215
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "continuity-checks",
+   "cont": true,
+   "text": "Like a hero in issue 7 who died in issue 5.",
+   "dur": 2.8,
+   "camA": [
+    0.22,
+    0.135,
+    0.47,
+    0.215
+   ],
+   "camB": [
+    0.45,
+    0.135,
+    0.7,
+    0.215
+   ],
+   "maskTop": 690
+  }
+ ],
+ "end": {
+  "line": [
+   "Keep everyone's",
+   "powers consistent."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.2
+ }
+}

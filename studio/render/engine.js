@@ -203,7 +203,7 @@
       el.style.opacity = op;
       el.style.filter = blur > 0.2 ? `blur(${blur}px)` : 'none';
       // headline
-      wordIn(ws, first && COLD ? -0.3 : start + 0.1, t, 0.04, 0.42);
+      wordIn(ws, first && COLD ? -2 : start + 0.1, t, 0.04, 0.42);
       if (contOut) { const ho = clamp((t - (end - 0.22)) / 0.2); if (ho > 0) ws.forEach((w) => { w.style.opacity = Math.min(Number(w.style.opacity), 1 - ho); w.style.transform = `translateY(${-ho * 30}px)`; }); }
       if (kick) { const pk = clamp((t - start - 0.02) / 0.35); kick.style.opacity = pk; kick.style.transform = `translateY(${(1 - E.outCubic(pk)) * 20}px)`; }
       // cursor
@@ -256,7 +256,7 @@
         const pr = clamp((lt - d) / 0.8);
         if (pr > 0 && pr < 1) {
           r.style.opacity = (1 - pr) * 0.7;
-          r.style.transform = `translate(${CX - 100}px, ${630 - 100}px) scale(${0.6 + E.outCubic(pr) * 4})`;
+          r.style.transform = `translate(${CX - 100}px, ${500 - 100}px) scale(${0.6 + E.outCubic(pr) * 4})`;
         }
       });
     }

@@ -49,7 +49,7 @@ node render/preview.js storyboards/<id>.json /tmp/pv 1.5,4,8,12
 - Cold open (default since 11 Oct 2026): `"hook": {"cold": true, "text": "", "dur": 0.1}`. No text card, ink drop or reveal; the first scene is on screen and moving from frame 0 and its `text` is the hook.
 - `crop: [x0, y0, x1, y1]` on a scene shows only that part of the screenshot as a card with no window bar (used to keep the 0.1.6 lineup's ruler out of frame). Repeat it on every `cont` scene.
 - `maxW` / `maxH` (px, default 960 / 760) limit how large the camera region is drawn.
-- End card: the second `line` is drawn in the brand gradient (one gradient phrase per video).
+- End card: the second `line` is drawn in the brand gradient (one gradient phrase per video). Since 12 Oct 2026 the whole end card sits 130 px higher so the CTA and subline stay above y 1250, and a cold-open hook is fully on screen at frame 0. Keep each end line under about 20 characters so it stays inside x 960.
 
 Safe zone on the 1080×1920 canvas: keep words inside x 96–960 and y 250–1250. Nothing important in the bottom 30%
 or the right 150 px (the apps' buttons and captions sit there).
