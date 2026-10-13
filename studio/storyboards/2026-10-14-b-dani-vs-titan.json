@@ -1,0 +1,97 @@
+{
+ "id": "2026-10-14-b-dani-vs-titan",
+ "fps": 30,
+ "windowCenterY": 1060,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "battles",
+   "text": "A 16-year-old vs the strongest man in the world. Who wins?",
+   "dur": 3.2,
+   "camA": [
+    0.185,
+    0.375,
+    0.415,
+    0.645
+   ],
+   "camB": [
+    0.195,
+    0.385,
+    0.4,
+    0.635
+   ],
+   "maskTop": 690,
+   "size": 80
+  },
+  {
+   "shot": "battles",
+   "cont": true,
+   "text": "Afterburn vs Captain Titan. Still \"not decided yet\".",
+   "dur": 3.0,
+   "camA": [
+    0.195,
+    0.385,
+    0.4,
+    0.635
+   ],
+   "camB": [
+    0.2,
+    0.4,
+    0.39,
+    0.61
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "battles",
+   "cont": true,
+   "text": "Her first fight went better. She set Brickbat's trousers on fire.",
+   "dur": 3.4,
+   "camA": [
+    0.2,
+    0.4,
+    0.39,
+    0.61
+   ],
+   "camB": [
+    0.195,
+    0.16,
+    0.4,
+    0.41
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "battles",
+   "cont": true,
+   "text": "Every fight in the example comic gets logged: who won, and what it cost.",
+   "dur": 3.4,
+   "camA": [
+    0.195,
+    0.16,
+    0.4,
+    0.41
+   ],
+   "camB": [
+    0.19,
+    0.0,
+    0.62,
+    0.43
+   ],
+   "maskTop": 690
+  }
+ ],
+ "end": {
+  "line": [
+   "Who wins:",
+   "Dani or Titan?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.2
+ }
+}

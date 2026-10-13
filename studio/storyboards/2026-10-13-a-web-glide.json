@@ -1,0 +1,100 @@
+{
+ "id": "2026-10-13-a-web-glide",
+ "fps": 30,
+ "windowCenterY": 930,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "web-who-knows-who",
+   "text": "Every character, and everyone they know.",
+   "dur": 3.0,
+   "camA": [
+    0.47,
+    0.46,
+    0.69,
+    0.74
+   ],
+   "camB": [
+    0.45,
+    0.37,
+    0.66,
+    0.64
+   ],
+   "maskTop": 690,
+   "size": 84
+  },
+  {
+   "shot": "web-who-knows-who",
+   "cont": true,
+   "text": "Write it down once and Inkwell draws the web.",
+   "dur": 3.0,
+   "camA": [
+    0.45,
+    0.37,
+    0.66,
+    0.64
+   ],
+   "camB": [
+    0.62,
+    0.36,
+    0.83,
+    0.63
+   ],
+   "maskTop": 690,
+   "size": 64
+  },
+  {
+   "shot": "web-who-knows-who",
+   "cont": true,
+   "text": "This is Afterburn, the example comic inside Inkwell.",
+   "dur": 3.0,
+   "camA": [
+    0.62,
+    0.36,
+    0.83,
+    0.63
+   ],
+   "camB": [
+    0.47,
+    0.64,
+    0.71,
+    0.95
+   ],
+   "maskTop": 690,
+   "size": 64
+  },
+  {
+   "shot": "web-who-knows-who",
+   "cont": true,
+   "text": "Nobody's connected to Brickbat yet.",
+   "dur": 3.2,
+   "camA": [
+    0.47,
+    0.64,
+    0.71,
+    0.95
+   ],
+   "camB": [
+    0.32,
+    0.3,
+    0.92,
+    0.97
+   ],
+   "maskTop": 690,
+   "size": 64
+  }
+ ],
+ "end": {
+  "line": [
+   "See how everyone",
+   "is connected."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.2
+ }
+}
