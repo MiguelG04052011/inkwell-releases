@@ -1,0 +1,120 @@
+{
+ "id": "2026-10-14-a-setups-payoffs",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "threads",
+   "text": "Readers remember every mystery you plant. Do you?",
+   "dur": 3.2,
+   "camA": [
+    0.17,
+    0.2,
+    0.47,
+    0.35
+   ],
+   "camB": [
+    0.18,
+    0.225,
+    0.44,
+    0.325
+   ],
+   "maskTop": 690,
+   "size": 76
+  },
+  {
+   "shot": "threads",
+   "cont": true,
+   "text": "Write each one down the day you plant it.",
+   "dur": 3.0,
+   "camA": [
+    0.18,
+    0.225,
+    0.44,
+    0.325
+   ],
+   "camB": [
+    0.3,
+    0.225,
+    0.56,
+    0.325
+   ],
+   "maskTop": 690,
+   "size": 70
+  },
+  {
+   "shot": "threads",
+   "cont": true,
+   "text": "Where is Solstice? Set up in issue 1. Still open.",
+   "dur": 3.2,
+   "camA": [
+    0.3,
+    0.225,
+    0.56,
+    0.325
+   ],
+   "camB": [
+    0.4,
+    0.225,
+    0.66,
+    0.325
+   ],
+   "maskTop": 690,
+   "size": 70
+  },
+  {
+   "shot": "threads",
+   "cont": true,
+   "text": "Why couldn't Minus drain her? Set up in 3, paid off in 4.",
+   "dur": 3.4,
+   "camA": [
+    0.4,
+    0.225,
+    0.66,
+    0.325
+   ],
+   "camB": [
+    0.3,
+    0.08,
+    0.68,
+    0.62
+   ],
+   "maskTop": 690,
+   "size": 66
+  },
+  {
+   "shot": "threads",
+   "cont": true,
+   "text": "Before you finish an issue, check what's still open.",
+   "dur": 3.4,
+   "camA": [
+    0.3,
+    0.08,
+    0.68,
+    0.62
+   ],
+   "camB": [
+    0.18,
+    0.0,
+    0.94,
+    0.66
+   ],
+   "maskTop": 690,
+   "size": 66
+  }
+ ],
+ "end": {
+  "line": [
+   "Track every thread",
+   "until it pays off."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.4
+ }
+}

@@ -66,3 +66,4 @@ end card. Everything is synthesised from sine waves and noise, so there's nothin
 - `assets/brand/`: icon, lockups, profile picture, YouTube banner, the two tier-list pictures in both themes.
 - `assets/fonts/`: Inkwell Display (SIL Open Font License, keep `OFL.txt`).
 - `assets/video/`: the website's demo loop, vertical, both themes.
+- `assets/shots/strongest-in-brightwater.png`: the brand tier-list picture (dark) centred on a 2720×1702 canvas so the engine can film it; use `crop: [0.271, 0, 0.729, 1]` (added 14 Oct 2026).
