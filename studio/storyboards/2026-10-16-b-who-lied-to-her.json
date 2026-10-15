@@ -1,0 +1,120 @@
+{
+ "id": "2026-10-16-b-who-lied-to-her",
+ "fps": 30,
+ "windowCenterY": 930,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "character-page",
+   "text": "POV: it's issue 8 and you've forgotten who lied to her.",
+   "dur": 3.2,
+   "camA": [
+    0.72,
+    0.6,
+    0.98,
+    0.86
+   ],
+   "camB": [
+    0.73,
+    0.66,
+    0.97,
+    0.84
+   ],
+   "maskTop": 690,
+   "size": 74
+  },
+  {
+   "shot": "character-page",
+   "cont": true,
+   "text": "Captain Titan. About the office. About the Crater. About a lot.",
+   "dur": 3.4,
+   "camA": [
+    0.73,
+    0.66,
+    0.97,
+    0.84
+   ],
+   "camB": [
+    0.73,
+    0.68,
+    0.97,
+    0.83
+   ],
+   "maskTop": 690,
+   "size": 66
+  },
+  {
+   "shot": "character-page",
+   "cont": true,
+   "text": "Every tie gets a note: lied to by, saved by, best friend of.",
+   "dur": 3.4,
+   "camA": [
+    0.73,
+    0.68,
+    0.97,
+    0.83
+   ],
+   "camB": [
+    0.72,
+    0.5,
+    0.98,
+    0.76
+   ],
+   "maskTop": 690,
+   "size": 64
+  },
+  {
+   "shot": "character-page",
+   "cont": true,
+   "text": "Which issues she's in: all eight, first in Hand-Me-Down Sun.",
+   "dur": 3.2,
+   "camA": [
+    0.72,
+    0.5,
+    0.98,
+    0.76
+   ],
+   "camB": [
+    0.72,
+    0.02,
+    0.98,
+    0.2
+   ],
+   "maskTop": 690,
+   "size": 64
+  },
+  {
+   "shot": "character-page",
+   "cont": true,
+   "text": "Her fight record too: 2 wins, 1 loss, 1 draw.",
+   "dur": 3.0,
+   "camA": [
+    0.72,
+    0.02,
+    0.98,
+    0.2
+   ],
+   "camB": [
+    0.72,
+    0.19,
+    0.98,
+    0.44
+   ],
+   "maskTop": 690,
+   "size": 68
+  }
+ ],
+ "end": {
+  "line": [
+   "Her whole story,",
+   "on one page."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.4
+ }
+}
