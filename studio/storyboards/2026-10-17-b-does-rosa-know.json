@@ -1,0 +1,118 @@
+{
+ "id": "2026-10-17-b-does-rosa-know",
+ "fps": 30,
+ "windowCenterY": 930,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "secret-identities",
+   "text": "Her sister notices everything. So why isn't she on this list?",
+   "dur": 3.3,
+   "camA": [
+    0.2,
+    0.27,
+    0.46,
+    0.47
+   ],
+   "camB": [
+    0.2,
+    0.24,
+    0.46,
+    0.47
+   ],
+   "maskTop": 690,
+   "size": 70
+  },
+  {
+   "shot": "secret-identities",
+   "cont": true,
+   "text": "Her best friend, her missing mum and a government agent know. Rosa doesn't.",
+   "dur": 3.4,
+   "camA": [
+    0.2,
+    0.24,
+    0.46,
+    0.47
+   ],
+   "camB": [
+    0.2,
+    0.2,
+    0.46,
+    0.47
+   ],
+   "maskTop": 690,
+   "size": 62
+  },
+  {
+   "shot": "characters",
+   "text": "Rosa is nine. She thinks superheroes are overrated.",
+   "dur": 3.0,
+   "camA": [
+    0.77,
+    0.4,
+    0.98,
+    0.66
+   ],
+   "camB": [
+    0.775,
+    0.42,
+    0.975,
+    0.66
+   ],
+   "maskTop": 690,
+   "size": 68
+  },
+  {
+   "shot": "threads",
+   "text": "It's been an open thread since issue 1: Does Rosa know?",
+   "dur": 3.2,
+   "camA": [
+    0.18,
+    0.07,
+    0.44,
+    0.25
+   ],
+   "camB": [
+    0.2,
+    0.07,
+    0.48,
+    0.25
+   ],
+   "maskTop": 690,
+   "size": 64
+  },
+  {
+   "shot": "threads",
+   "cont": true,
+   "text": "Still open at issue 8.",
+   "dur": 2.8,
+   "camA": [
+    0.2,
+    0.07,
+    0.48,
+    0.25
+   ],
+   "camB": [
+    0.68,
+    0.07,
+    0.95,
+    0.25
+   ],
+   "maskTop": 690,
+   "size": 74
+  }
+ ],
+ "end": {
+  "line": [
+   "Does Rosa",
+   "know?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.4
+ }
+}

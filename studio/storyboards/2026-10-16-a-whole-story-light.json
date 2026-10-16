@@ -1,0 +1,21 @@
+{
+ "id": "2026-10-16-a-whole-story-light",
+ "fps": 30,
+ "windowCenterY": 930,
+ "hook": {"cold": true, "text": "", "dur": 0.1},
+ "scenes": [
+  {"shot": "light/covers-wall", "text": "Where does your whole comic live? Mine lives here.", "dur": 3.0,
+   "camA": [0.19, 0.04, 1.0, 0.72], "camB": [0.2, 0.12, 0.72, 0.5], "maskTop": 690, "size": 74},
+  {"shot": "light/characters", "text": "Heroes, villains and the people under the masks.", "dur": 2.6,
+   "camA": [0.2, 0.1, 0.62, 0.45], "camB": [0.55, 0.1, 0.98, 0.45], "maskTop": 690, "size": 70},
+  {"shot": "light/power-rankings", "text": "Keep everyone's powers consistent.", "dur": 2.5,
+   "camA": [0.2, 0.36, 0.62, 0.66], "camB": [0.2, 0.42, 0.58, 0.7], "maskTop": 690, "size": 74},
+  {"shot": "light/web-who-knows-who", "text": "See how everyone is connected.", "dur": 2.5,
+   "camA": [0.3, 0.2, 0.98, 0.85], "camB": [0.42, 0.3, 0.86, 0.7], "maskTop": 690, "size": 74},
+  {"shot": "light/page-planner", "text": "Plan your pages the way they'll be printed.", "dur": 2.6,
+   "camA": [0.2, 0.3, 0.75, 0.75], "camB": [0.3, 0.38, 0.75, 0.72], "maskTop": 690, "size": 70},
+  {"shot": "light/story-grid", "text": "The whole run on one screen.", "dur": 2.5,
+   "camA": [0.2, 0.05, 0.8, 0.6], "camB": [0.19, 0.0, 1.0, 0.75], "maskTop": 690, "size": 74}
+ ],
+ "end": {"line": ["Your whole story,", "in one place."], "cta": "Free to start in your browser", "sub": "On a Mac or in a browser on any computer", "dur": 3.4}
+}
