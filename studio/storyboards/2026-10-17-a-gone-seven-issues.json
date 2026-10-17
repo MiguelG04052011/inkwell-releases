@@ -1,0 +1,146 @@
+{
+ "id": "2026-10-17-a-gone-seven-issues",
+ "fps": 30,
+ "windowCenterY": 980,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "who-appears-where",
+   "text": "Rosa is in issue 1. Then she's gone for seven issues.",
+   "dur": 3.2,
+   "camA": [
+    0.18,
+    0.745,
+    0.55,
+    0.895
+   ],
+   "camB": [
+    0.18,
+    0.745,
+    0.45,
+    0.895
+   ],
+   "maskTop": 690,
+   "size": 80,
+   "crop": [
+    0.18,
+    0.745,
+    0.8,
+    0.895
+   ]
+  },
+  {
+   "shot": "who-appears-where",
+   "cont": true,
+   "text": "Readers notice when a character just disappears.",
+   "dur": 2.8,
+   "camA": [
+    0.18,
+    0.745,
+    0.45,
+    0.895
+   ],
+   "camB": [
+    0.45,
+    0.745,
+    0.8,
+    0.895
+   ],
+   "maskTop": 690,
+   "crop": [
+    0.18,
+    0.745,
+    0.8,
+    0.895
+   ]
+  },
+  {
+   "shot": "who-appears-where",
+   "cont": false,
+   "text": "The story grid shows who is in which issue.",
+   "dur": 2.8,
+   "camA": [
+    0.18,
+    0.03,
+    0.8,
+    0.6
+   ],
+   "camB": [
+    0.18,
+    0.03,
+    0.6,
+    0.35
+   ],
+   "maskTop": 690,
+   "crop": [
+    0.18,
+    0.03,
+    0.8,
+    0.6
+   ]
+  },
+  {
+   "shot": "who-appears-where",
+   "cont": true,
+   "text": "Afterburn, the hero, is in all eight.",
+   "dur": 3.0,
+   "camA": [
+    0.18,
+    0.03,
+    0.6,
+    0.35
+   ],
+   "camB": [
+    0.4,
+    0.3,
+    0.8,
+    0.58
+   ],
+   "maskTop": 690,
+   "crop": [
+    0.18,
+    0.03,
+    0.8,
+    0.6
+   ]
+  },
+  {
+   "shot": "who-appears-where",
+   "cont": true,
+   "text": "Check it before you plan the next issue.",
+   "dur": 2.6,
+   "camA": [
+    0.4,
+    0.3,
+    0.8,
+    0.58
+   ],
+   "camB": [
+    0.18,
+    0.03,
+    0.8,
+    0.6
+   ],
+   "maskTop": 690,
+   "crop": [
+    0.18,
+    0.03,
+    0.8,
+    0.6
+   ]
+  }
+ ],
+ "end": {
+  "line": [
+   "Who's gone missing",
+   "in your story?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.2
+ }
+}

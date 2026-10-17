@@ -1,0 +1,177 @@
+{
+ "id": "2026-10-18-b-where-do-they-stand",
+ "fps": 30,
+ "windowCenterY": 930,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "text": "Your OC joins this line. Where do they stand?",
+   "dur": 2.9,
+   "camA": [
+    0.7,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "camB": [
+    0.62,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "size": 86,
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "light/lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Relay, 170 cm, the one with the drones.",
+   "dur": 2.6,
+   "camA": [
+    0.62,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "camB": [
+    0.72,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "light/lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Solstice 175. Blue Comet 180. Agent Maddox 185.",
+   "dur": 2.8,
+   "camA": [
+    0.72,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "camB": [
+    0.52,
+    0.09,
+    0.84,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "light/lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Captain Titan 196. Brickbat 201.",
+   "dur": 2.6,
+   "camA": [
+    0.52,
+    0.09,
+    0.84,
+    0.625
+   ],
+   "camB": [
+    0.33,
+    0.09,
+    0.62,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "light/lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "And the Hollow King, 240 cm. He ate a moon.",
+   "dur": 2.8,
+   "camA": [
+    0.33,
+    0.09,
+    0.62,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    0.5,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  },
+  {
+   "shot": "light/lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Drop your OC's height in the comments.",
+   "dur": 2.5,
+   "camA": [
+    0.228,
+    0.09,
+    0.5,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "maskTop": 630,
+   "maxH": 640
+  }
+ ],
+ "end": {
+  "line": [
+   "Line up your OCs,",
+   "tallest first."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.2
+ }
+}
