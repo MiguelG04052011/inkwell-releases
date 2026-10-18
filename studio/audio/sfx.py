@@ -150,7 +150,7 @@ def build(times, sb, out, mood='warm'):
     place(dry, sub_hit(1.2, 150, 36), E + 0.08, 1.0)
     p2 = plip(0.2); place(dry, p2, E + 0.1, 0.5)
     wet_src[int((E + 0.1) * SR):int((E + 0.1) * SR) + len(p2)] += p2
-    sh = shimmer(min(3.0, total - E)); place(dry, sh, E + 0.15, 0.55)
+    sh = shimmer(min(3.0, total - E - 0.2)); place(dry, sh, E + 0.15, 0.55)
     wet_src[int((E + 0.15) * SR):int((E + 0.15) * SR) + len(sh)] += sh * 0.8
     ck2 = click(); place(dry, ck2, E + 1.15, 0.4)
     # bed

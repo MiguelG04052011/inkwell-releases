@@ -1,0 +1,83 @@
+{
+ "id": "2026-10-18-a-draws-the-web",
+ "fps": 30,
+ "windowCenterY": 960,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/web-who-knows-who",
+   "text": "Write it down once. Inkwell draws the web.",
+   "dur": 3.2,
+   "camA": [
+    0.44,
+    0.45,
+    0.67,
+    0.72
+   ],
+   "camB": [
+    0.46,
+    0.41,
+    0.68,
+    0.68
+   ],
+   "maskTop": 690,
+   "size": 84,
+   "maxW": 840
+  },
+  {
+   "shot": "light/web-who-knows-who",
+   "cont": true,
+   "text": "Lied to, saved, best friend of. Every tie gets a line.",
+   "dur": 3.0,
+   "camA": [
+    0.46,
+    0.41,
+    0.68,
+    0.68
+   ],
+   "camB": [
+    0.5,
+    0.4,
+    0.72,
+    0.67
+   ],
+   "maskTop": 690,
+   "size": 64,
+   "maxW": 840
+  },
+  {
+   "shot": "light/web-who-knows-who",
+   "cont": true,
+   "text": "Eleven characters, every tie, one screen.",
+   "dur": 3.0,
+   "camA": [
+    0.5,
+    0.4,
+    0.72,
+    0.67
+   ],
+   "camB": [
+    0.28,
+    0.22,
+    0.88,
+    0.95
+   ],
+   "maskTop": 690,
+   "size": 64,
+   "maxW": 840
+  }
+ ],
+ "end": {
+  "line": [
+   "Write it once.",
+   "See the web."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}

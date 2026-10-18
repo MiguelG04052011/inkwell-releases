@@ -1,0 +1,101 @@
+{
+ "id": "2026-10-19-b-never-fought",
+ "fps": 30,
+ "windowCenterY": 960,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "versus",
+   "text": "57 against 49, and they haven't fought yet. Who wins?",
+   "dur": 3.1,
+   "camA": [
+    0.285,
+    0.265,
+    0.89,
+    0.66
+   ],
+   "camB": [
+    0.29,
+    0.27,
+    0.885,
+    0.62
+   ],
+   "maskTop": 630,
+   "size": 80,
+   "crop": [
+    0.285,
+    0.265,
+    0.89,
+    0.925
+   ],
+   "maxW": 840
+  },
+  {
+   "shot": "versus",
+   "cont": true,
+   "text": "A villain who ate a moon. A hero who went missing.",
+   "dur": 2.7,
+   "camA": [
+    0.29,
+    0.27,
+    0.885,
+    0.62
+   ],
+   "camB": [
+    0.3,
+    0.27,
+    0.88,
+    0.43
+   ],
+   "maskTop": 630,
+   "size": 64,
+   "crop": [
+    0.285,
+    0.265,
+    0.89,
+    0.925
+   ],
+   "maxW": 840
+  },
+  {
+   "shot": "versus",
+   "cont": true,
+   "text": "On paper he wins. Five battles logged, none between them.",
+   "dur": 2.8,
+   "camA": [
+    0.3,
+    0.27,
+    0.88,
+    0.43
+   ],
+   "camB": [
+    0.29,
+    0.55,
+    0.88,
+    0.925
+   ],
+   "maskTop": 630,
+   "size": 64,
+   "crop": [
+    0.285,
+    0.265,
+    0.89,
+    0.925
+   ],
+   "maxW": 840
+  }
+ ],
+ "end": {
+  "line": [
+   "Who wins",
+   "this one?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
