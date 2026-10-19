@@ -140,7 +140,7 @@ def build(times, sb, out, mood='warm'):
             place(dry, w, s - 0.28, 0.55, -0.6 if k % 2 else 0.6)
             place(dry, sub_hit(0.45, 95, 48), s, 0.35)
         sc = sb['scenes'][k]
-        if sc.get('cursor'):
+        if sc.get('cursor') and sc['cursor'].get('click') is not None:
             c = sc['cursor']
             ck = click(); place(dry, ck, s + c['click'], 0.5, 0.15)
             wet_src[int((s + c['click']) * SR):int((s + c['click']) * SR) + len(ck)] += ck * 0.3

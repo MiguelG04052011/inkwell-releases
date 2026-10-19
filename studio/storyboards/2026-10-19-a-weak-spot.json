@@ -1,0 +1,128 @@
+{
+ "id": "2026-10-19-a-weak-spot",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "power-rankings",
+   "text": "What can't your strongest character do?",
+   "dur": 2.8,
+   "camA": [
+    0.22,
+    0.31,
+    0.5,
+    0.57
+   ],
+   "camB": [
+    0.23,
+    0.32,
+    0.49,
+    0.56
+   ],
+   "maskTop": 640,
+   "size": 84
+  },
+  {
+   "shot": "power-rankings",
+   "cont": true,
+   "text": "Captain Titan, strongest man in the world: strength 10.",
+   "dur": 2.4,
+   "camA": [
+    0.23,
+    0.32,
+    0.49,
+    0.56
+   ],
+   "camB": [
+    0.22,
+    0.36,
+    0.47,
+    0.58
+   ],
+   "maskTop": 640,
+   "size": 64,
+   "cursor": {
+    "from": [
+     0.36,
+     0.66
+    ],
+    "to": [
+     0.45,
+     0.545
+    ],
+    "t": [
+     0.5,
+     1.4
+    ]
+   }
+  },
+  {
+   "shot": "power-rankings",
+   "cont": true,
+   "text": "His intelligence: 6.",
+   "dur": 3.0,
+   "camA": [
+    0.22,
+    0.36,
+    0.47,
+    0.58
+   ],
+   "camB": [
+    0.66,
+    0.34,
+    0.94,
+    0.58
+   ],
+   "maskTop": 640,
+   "size": 72,
+   "cursor": {
+    "from": [
+     0.45,
+     0.545
+    ],
+    "to": [
+     0.895,
+     0.556
+    ],
+    "t": [
+     0.1,
+     2.0
+    ]
+   }
+  },
+  {
+   "shot": "power-rankings",
+   "cont": true,
+   "text": "Give your strongest one weak spot before issue 1.",
+   "dur": 2.0,
+   "camA": [
+    0.66,
+    0.34,
+    0.94,
+    0.58
+   ],
+   "camB": [
+    0.42,
+    0.31,
+    0.95,
+    0.6
+   ],
+   "maskTop": 640,
+   "size": 64
+  }
+ ],
+ "end": {
+  "line": [
+   "Find their",
+   "weak spot."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}

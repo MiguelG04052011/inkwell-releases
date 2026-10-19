@@ -45,7 +45,7 @@ node render/preview.js storyboards/<id>.json /tmp/pv 1.5,4,8,12
 - `maskTop`: fades the window out above this y (px), so it never sits behind the headline. Use about 690 when the camera is zoomed in.
 - `cont: true`: same screenshot as the previous scene, no transition; the camera keeps moving and only the headline changes.
   Set this scene's `camA` to the previous scene's `camB` for a seamless move.
-- `cursor`: a pointer that moves (fractions of the screenshot) and clicks, in scene-local seconds.
+- `cursor`: a pointer that moves (fractions of the screenshot) and clicks, in scene-local seconds. `click` is optional: leave it out for a pointer that only points (no click sound; fixed 19 Oct 2026).
 - Cold open (default since 11 Oct 2026): `"hook": {"cold": true, "text": "", "dur": 0.1}`. No text card, ink drop or reveal; the first scene is on screen and moving from frame 0 and its `text` is the hook.
 - `crop: [x0, y0, x1, y1]` on a scene shows only that part of the screenshot as a card with no window bar (used to keep the 0.1.6 lineup's ruler out of frame). Repeat it on every `cont` scene.
 - `maxW` / `maxH` (px, default 960 / 760) limit how large the camera region is drawn.

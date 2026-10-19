@@ -1,0 +1,79 @@
+{
+ "id": "2026-10-20-b-who-knows",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "characters",
+   "text": "How many people know your hero's secret?",
+   "dur": 3.0,
+   "camA": [
+    0.2,
+    0.15,
+    0.74,
+    0.66
+   ],
+   "camB": [
+    0.2,
+    0.16,
+    0.62,
+    0.47
+   ],
+   "maskTop": 640,
+   "size": 84
+  },
+  {
+   "shot": "secret-identities",
+   "text": "Afterburn: 3 people know.",
+   "dur": 2.6,
+   "camA": [
+    0.19,
+    0.19,
+    0.5,
+    0.49
+   ],
+   "camB": [
+    0.2,
+    0.2,
+    0.47,
+    0.48
+   ],
+   "maskTop": 640,
+   "size": 72
+  },
+  {
+   "shot": "secret-identities",
+   "cont": false,
+   "text": "Mr. Minus: nobody yet. Every mask on one screen.",
+   "dur": 2.8,
+   "camA": [
+    0.675,
+    0.18,
+    0.995,
+    0.5
+   ],
+   "camB": [
+    0.69,
+    0.17,
+    1.0,
+    0.5
+   ],
+   "maskTop": 640,
+   "size": 64
+  }
+ ],
+ "end": {
+  "line": [
+   "How many",
+   "know yours?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
