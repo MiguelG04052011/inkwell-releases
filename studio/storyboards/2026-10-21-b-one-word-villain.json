@@ -1,0 +1,94 @@
+{
+ "id": "2026-10-21-b-one-word-villain",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/home",
+   "text": "Your villain, in one word?",
+   "dur": 3.0,
+   "camA": [
+    0.207,
+    0.72,
+    0.5,
+    1.0
+   ],
+   "camB": [
+    0.207,
+    0.72,
+    0.45,
+    1.0
+   ],
+   "maskTop": 640,
+   "size": 90
+  },
+  {
+   "shot": "light/home",
+   "cont": true,
+   "text": "The Hollow King: hungry. He ate a moon.",
+   "dur": 2.7,
+   "camA": [
+    0.207,
+    0.72,
+    0.45,
+    1.0
+   ],
+   "camB": [
+    0.207,
+    0.86,
+    0.37,
+    0.995
+   ],
+   "maskTop": 640,
+   "size": 74
+  },
+  {
+   "shot": "light/home",
+   "cont": true,
+   "text": "Captain Titan, a hero: smiling. Slightly too much.",
+   "dur": 2.9,
+   "camA": [
+    0.207,
+    0.86,
+    0.37,
+    0.995
+   ],
+   "camB": [
+    0.207,
+    0.71,
+    0.42,
+    0.86
+   ],
+   "maskTop": 640,
+   "size": 68,
+   "cursor": {
+    "from": [
+     0.36,
+     0.95
+    ],
+    "to": [
+     0.31,
+     0.79
+    ],
+    "t": [
+     0.5,
+     1.6
+    ]
+   }
+  }
+ ],
+ "end": {
+  "line": [
+   "Now yours,",
+   "in one word."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}

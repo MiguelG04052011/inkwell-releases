@@ -1,0 +1,80 @@
+{
+ "id": "2026-10-20-a-which-tier",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/tier-list",
+   "text": "Your OC moves to Brightwater. Which tier?",
+   "dur": 3.2,
+   "camA": [
+    0.205,
+    0.39,
+    0.64,
+    0.85
+   ],
+   "camB": [
+    0.205,
+    0.39,
+    0.58,
+    0.76
+   ],
+   "maskTop": 640,
+   "size": 84
+  },
+  {
+   "shot": "light/tier-list",
+   "cont": true,
+   "text": "This one ranks who could stop Captain Titan.",
+   "dur": 2.7,
+   "camA": [
+    0.205,
+    0.39,
+    0.58,
+    0.76
+   ],
+   "camB": [
+    0.205,
+    0.22,
+    0.55,
+    0.48
+   ],
+   "maskTop": 640,
+   "size": 70
+  },
+  {
+   "shot": "light/tier-list",
+   "cont": true,
+   "text": "Afterburn, the hero, is only B tier.",
+   "dur": 2.6,
+   "camA": [
+    0.205,
+    0.22,
+    0.55,
+    0.48
+   ],
+   "camB": [
+    0.205,
+    0.56,
+    0.45,
+    0.66
+   ],
+   "maskTop": 640,
+   "size": 72
+  }
+ ],
+ "end": {
+  "line": [
+   "Where does",
+   "your OC go?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
