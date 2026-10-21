@@ -1,0 +1,113 @@
+{
+ "id": "2026-10-21-a-taller-than-240",
+ "fps": 30,
+ "windowCenterY": 790,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "text": "Is your villain taller than 240 cm?",
+   "dur": 3.0,
+   "camA": [
+    0.24,
+    0.09,
+    0.5,
+    0.42
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    0.53,
+    0.625
+   ],
+   "size": 88,
+   "maskTop": 540,
+   "maxH": 500
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Mine is. Captain Titan only reaches his shoulders.",
+   "dur": 3.0,
+   "camA": [
+    0.228,
+    0.09,
+    0.53,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    0.62,
+    0.625
+   ],
+   "maskTop": 540,
+   "maxH": 560,
+   "cursor": {
+    "from": [
+     0.53,
+     0.33
+    ],
+    "to": [
+     0.5,
+     0.25
+    ],
+    "t": [
+     0.5,
+     1.5
+    ]
+   }
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Sorted tallest first.",
+   "dur": 2.4,
+   "camA": [
+    0.228,
+    0.09,
+    0.62,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "maskTop": 540,
+   "maxH": 560
+  }
+ ],
+ "end": {
+  "line": [
+   "How tall is",
+   "your villain?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}

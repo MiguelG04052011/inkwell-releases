@@ -1,0 +1,77 @@
+{
+ "id": "2026-10-22-b-back-from-the-dead",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "timeline",
+   "text": "Dead in issue 5, back in issue 7?",
+   "dur": 3.0,
+   "camA": [
+    0.55,
+    0.08,
+    1.0,
+    0.33
+   ],
+   "camB": [
+    0.62,
+    0.08,
+    1.0,
+    0.33
+   ],
+   "size": 88,
+   "maskTop": 640
+  },
+  {
+   "shot": "continuity-checks",
+   "text": "Inkwell flags it: Blue Comet dies in issue 5.",
+   "dur": 2.9,
+   "camA": [
+    0.17,
+    0.12,
+    0.5,
+    0.21
+   ],
+   "camB": [
+    0.52,
+    0.12,
+    0.88,
+    0.21
+   ],
+   "maskTop": 690
+  },
+  {
+   "shot": "timeline",
+   "text": "Issue 7 shows a rescue from 10 years before. A flashback, so dismiss it.",
+   "dur": 3.2,
+   "camA": [
+    0.8,
+    0.08,
+    1.0,
+    0.28
+   ],
+   "camB": [
+    0.84,
+    0.09,
+    1.0,
+    0.25
+   ],
+   "maskTop": 690,
+   "size": 68
+  }
+ ],
+ "end": {
+  "line": [
+   "Catch it before",
+   "your readers do."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
