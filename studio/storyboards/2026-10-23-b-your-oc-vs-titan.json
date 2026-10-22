@@ -1,0 +1,97 @@
+{
+ "id": "2026-10-23-b-your-oc-vs-titan",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/battles",
+   "text": "Is your OC strong enough to beat Captain Titan?",
+   "dur": 3.2,
+   "camA": [
+    0.2,
+    0.39,
+    0.4,
+    0.6
+   ],
+   "camB": [
+    0.205,
+    0.4,
+    0.39,
+    0.59
+   ],
+   "maskTop": 640,
+   "size": 82,
+   "crop": [
+    0.2,
+    0.165,
+    0.6,
+    0.6
+   ]
+  },
+  {
+   "shot": "light/battles",
+   "cont": true,
+   "text": "Afterburn hasn't yet. That fight is still \"not decided yet\".",
+   "dur": 3.0,
+   "camA": [
+    0.205,
+    0.4,
+    0.39,
+    0.59
+   ],
+   "camB": [
+    0.205,
+    0.43,
+    0.39,
+    0.56
+   ],
+   "maskTop": 640,
+   "size": 72,
+   "crop": [
+    0.2,
+    0.165,
+    0.6,
+    0.6
+   ]
+  },
+  {
+   "shot": "light/teams",
+   "text": "He leads the Dawn Guard. Their merchandise outsells the army.",
+   "dur": 3.0,
+   "camA": [
+    0.46,
+    0.1,
+    0.72,
+    0.52
+   ],
+   "camB": [
+    0.46,
+    0.1,
+    0.72,
+    0.4
+   ],
+   "maskTop": 690,
+   "size": 70,
+   "crop": [
+    0.46,
+    0.1,
+    0.72,
+    0.52
+   ]
+  }
+ ],
+ "end": {
+  "line": [
+   "Your OC",
+   "vs Captain Titan?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}

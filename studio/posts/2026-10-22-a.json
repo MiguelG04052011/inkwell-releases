@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-22-a-files-stay-yours",
+  "video": "videos/2026-10-22-a-files-stay-yours.mp4",
+  "format": "F8 Build in public",
+  "built_for": "sends, follows",
+  "opening": "cold open, dark covers wall (eight coloured issue cards) filling the frame, camera pushing in",
+  "slot": "A 2026-10-22 19:00 Lisbon",
+  "dueAt": "2026-10-22T19:00:00+01:00",
+  "hook": "Could you open your comic with the Wi-Fi off?",
+  "length_s": 17.7,
+  "thumbnailOffset": 1500,
+  "experiment": "length: control (17-19 s)",
+  "captions": {
+    "tiktok": "Comic planner that keeps your comic on your own computer.\nI built Inkwell so each comic is a file on your computer. It works offline, and you can export the whole comic to one file on any plan. Your comics stay yours.\nWhere does your comic live right now?\nLink in bio.\n#webcomic #comicartist #indiecomics #inkwellcomics",
+    "instagram": "Comic planner that keeps your comic on your own computer.\nI'm Miguel, making Inkwell on my own in Portugal. I built it so each comic is a file on your computer. It works offline, and you can export the whole comic to one file on any plan. Your comics stay yours.\nWhere does your comic live right now?\nLink in bio.\n#webcomic #comicartist #indiecomics #writingcommunity #inkwellcomics",
+    "youtube_title": "Could you open your comic offline? Why my comic planner saves to your computer",
+    "youtube": "I'm Miguel, making Inkwell on my own in Portugal. Each comic is a file on your own computer: it works offline and exports to one file on any plan. The issues on screen are from Afterburn, the example comic inside Inkwell.\ninkwell-comics.gbusiness-mtake.workers.dev\n#webcomic #indiecomics #comicartist"
+  }
+}

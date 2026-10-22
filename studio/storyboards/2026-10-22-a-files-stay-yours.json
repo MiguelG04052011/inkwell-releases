@@ -1,0 +1,98 @@
+{
+ "id": "2026-10-22-a-files-stay-yours",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "covers-wall",
+   "text": "Could you open your comic with the Wi-Fi off?",
+   "dur": 3.4,
+   "camA": [
+    0.205,
+    0.11,
+    0.67,
+    0.47
+   ],
+   "camB": [
+    0.205,
+    0.11,
+    0.6,
+    0.44
+   ],
+   "maskTop": 640,
+   "size": 84
+  },
+  {
+   "shot": "covers-wall",
+   "cont": true,
+   "text": "I built Inkwell so each comic is a file on your own computer.",
+   "dur": 3.6,
+   "camA": [
+    0.205,
+    0.11,
+    0.6,
+    0.44
+   ],
+   "camB": [
+    0.52,
+    0.11,
+    0.975,
+    0.47
+   ],
+   "maskTop": 640,
+   "size": 70
+  },
+  {
+   "shot": "home",
+   "text": "It works offline, and exports to one file on any plan.",
+   "dur": 3.8,
+   "camA": [
+    0.205,
+    0.09,
+    0.75,
+    0.33
+   ],
+   "camB": [
+    0.205,
+    0.11,
+    0.52,
+    0.3
+   ],
+   "maskTop": 690,
+   "size": 70
+  },
+  {
+   "shot": "covers-wall",
+   "text": "Back it up like any other file.",
+   "dur": 3.3,
+   "camA": [
+    0.205,
+    0.11,
+    0.66,
+    0.9
+   ],
+   "camB": [
+    0.205,
+    0.08,
+    0.975,
+    0.9
+   ],
+   "maskTop": 640,
+   "size": 76
+  }
+ ],
+ "end": {
+  "line": [
+   "Your comics",
+   "stay yours."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 3.6
+ }
+}
