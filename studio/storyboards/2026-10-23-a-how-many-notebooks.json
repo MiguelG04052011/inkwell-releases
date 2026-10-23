@@ -1,0 +1,87 @@
+{
+ "id": "2026-10-23-a-how-many-notebooks",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "page-planner",
+   "text": "How many notebooks is your comic in?",
+   "dur": 3.3,
+   "camA": [
+    0.42,
+    0.36,
+    0.885,
+    0.81
+   ],
+   "camB": [
+    0.44,
+    0.37,
+    0.875,
+    0.8
+   ],
+   "maskTop": 640,
+   "size": 84,
+   "crop": [
+    0.35,
+    0.355,
+    0.91,
+    0.83
+   ],
+   "maxH": 900
+  },
+  {
+   "shot": "web-who-knows-who",
+   "text": "Mine is in one place. Who knows who, drawn for you.",
+   "dur": 2.9,
+   "camA": [
+    0.34,
+    0.28,
+    0.76,
+    0.74
+   ],
+   "camB": [
+    0.4,
+    0.32,
+    0.72,
+    0.68
+   ],
+   "maskTop": 640,
+   "size": 72,
+   "maxW": 860
+  },
+  {
+   "shot": "story-grid",
+   "text": "Every arc, issue by issue, in one grid.",
+   "dur": 2.9,
+   "camA": [
+    0.185,
+    0.22,
+    0.65,
+    0.64
+   ],
+   "camB": [
+    0.19,
+    0.24,
+    0.62,
+    0.62
+   ],
+   "maskTop": 640,
+   "size": 72,
+   "maxW": 860
+  }
+ ],
+ "end": {
+  "line": [
+   "Your whole story,",
+   "in one place."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.9
+ }
+}

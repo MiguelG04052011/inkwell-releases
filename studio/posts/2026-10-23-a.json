@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-23-a-how-many-notebooks",
+  "video": "videos/2026-10-23-a-how-many-notebooks.mp4",
+  "format": "F1 Feature film",
+  "built_for": "shares, sends",
+  "opening": "cold open, dark page planner (issue #4's first pages as big panel grids) filling the frame, camera pushing in",
+  "slot": "A 2026-10-23 19:00 Lisbon",
+  "dueAt": "2026-10-23T19:00:00+01:00",
+  "hook": "How many notebooks is your comic in?",
+  "length_s": 12.0,
+  "thumbnailOffset": 1500,
+  "experiment": "length: short (10-13 s)",
+  "captions": {
+    "tiktok": "Comic planner for a story that's spread across too many notebooks.\nI made Inkwell so my whole comic lives in one place. Everything on screen is from Afterburn, the example comic inside it.\nHow many notebooks is yours in?\nLink in bio.\n#webcomic #comicartist #indiecomics #inkwellcomics",
+    "instagram": "Comic planner for a story that's spread across too many notebooks.\nI'm Miguel, making Inkwell on my own in Portugal, so my whole comic lives in one place. Everything on screen is from Afterburn, the example comic inside it.\nHow many notebooks is yours in?\nLink in bio.\n#webcomic #comicartist #indiecomics #storytelling #inkwellcomics",
+    "youtube_title": "How many notebooks is your comic in? A comic planner for your whole story",
+    "youtube": "I'm Miguel, making Inkwell on my own in Portugal. It has the web of who knows who, a page planner laid out the way the comic will be printed, and every arc on one story grid. Everything on screen is from Afterburn, the example comic inside Inkwell.\ninkwell-comics.gbusiness-mtake.workers.dev\n#webcomic #comicartist #indiecomics"
+  }
+}
