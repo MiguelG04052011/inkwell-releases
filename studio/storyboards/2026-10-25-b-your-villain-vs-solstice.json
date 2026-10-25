@@ -1,0 +1,101 @@
+{
+ "id": "2026-10-25-b-your-villain-vs-solstice",
+ "fps": 30,
+ "windowCenterY": 960,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/versus",
+   "text": "Your villain against Solstice. Who wins?",
+   "dur": 3.1,
+   "camA": [
+    0.6,
+    0.28,
+    0.885,
+    0.6
+   ],
+   "camB": [
+    0.58,
+    0.28,
+    0.885,
+    0.62
+   ],
+   "maskTop": 630,
+   "size": 84,
+   "crop": [
+    0.285,
+    0.27,
+    0.89,
+    0.925
+   ],
+   "maxW": 840
+  },
+  {
+   "shot": "light/versus",
+   "cont": true,
+   "text": "Mine: the Hollow King. 57 to 49, on paper.",
+   "dur": 2.9,
+   "camA": [
+    0.58,
+    0.28,
+    0.885,
+    0.62
+   ],
+   "camB": [
+    0.33,
+    0.6,
+    0.81,
+    0.8
+   ],
+   "maskTop": 630,
+   "size": 68,
+   "crop": [
+    0.285,
+    0.27,
+    0.89,
+    0.925
+   ],
+   "maxW": 840
+  },
+  {
+   "shot": "light/versus",
+   "cont": true,
+   "text": "But they haven't fought yet.",
+   "dur": 2.6,
+   "camA": [
+    0.33,
+    0.6,
+    0.81,
+    0.8
+   ],
+   "camB": [
+    0.3,
+    0.79,
+    0.62,
+    0.93
+   ],
+   "maskTop": 630,
+   "size": 72,
+   "crop": [
+    0.285,
+    0.27,
+    0.89,
+    0.925
+   ],
+   "maxW": 840
+  }
+ ],
+ "end": {
+  "line": [
+   "Your villain",
+   "vs Solstice?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
