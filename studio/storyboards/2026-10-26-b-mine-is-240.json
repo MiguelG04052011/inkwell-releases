@@ -1,0 +1,142 @@
+{
+ "id": "2026-10-26-b-mine-is-240",
+ "fps": 30,
+ "windowCenterY": 800,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "text": "How tall is your villain? A number is enough.",
+   "dur": 3.0,
+   "camA": [
+    0.232,
+    0.1,
+    0.37,
+    0.55
+   ],
+   "camB": [
+    0.228,
+    0.1,
+    0.385,
+    0.55
+   ],
+   "size": 84,
+   "maskTop": 490,
+   "maxH": 760
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Mine: 240 cm. The Hollow King.",
+   "dur": 2.6,
+   "camA": [
+    0.228,
+    0.1,
+    0.385,
+    0.55
+   ],
+   "camB": [
+    0.228,
+    0.1,
+    0.43,
+    0.55
+   ],
+   "size": 80,
+   "maskTop": 490,
+   "maxH": 760,
+   "cursor": {
+    "from": [
+     0.3,
+     0.55
+    ],
+    "to": [
+     0.285,
+     0.62
+    ],
+    "t": [
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Captain Titan, the hero, is 196.",
+   "dur": 2.4,
+   "camA": [
+    0.228,
+    0.1,
+    0.43,
+    0.55
+   ],
+   "camB": [
+    0.3,
+    0.1,
+    0.57,
+    0.55
+   ],
+   "size": 80,
+   "maskTop": 490,
+   "maxH": 760
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.09,
+    1.0,
+    0.625
+   ],
+   "cont": true,
+   "text": "Now put yours in the line.",
+   "dur": 2.2,
+   "camA": [
+    0.3,
+    0.1,
+    0.57,
+    0.55
+   ],
+   "camB": [
+    0.228,
+    0.09,
+    0.78,
+    0.625
+   ],
+   "size": 80,
+   "maskTop": 490,
+   "maxH": 760
+  }
+ ],
+ "end": {
+  "line": [
+   "Mine is 240.",
+   "How tall is yours?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.6
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "2026-10-26-a-who-told-maddox",
+ "fps": 30,
+ "windowCenterY": 820,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/threads",
+   "crop": [
+    0.185,
+    0.08,
+    0.93,
+    0.6
+   ],
+   "text": "Does your villain know your hero's secret? Yes or no.",
+   "dur": 3.0,
+   "camA": [
+    0.19,
+    0.34,
+    0.41,
+    0.41
+   ],
+   "camB": [
+    0.185,
+    0.33,
+    0.47,
+    0.42
+   ],
+   "maskTop": 690,
+   "size": 76
+  },
+  {
+   "shot": "light/threads",
+   "crop": [
+    0.185,
+    0.08,
+    0.93,
+    0.6
+   ],
+   "cont": true,
+   "text": "Mine doesn't. A government agent does. Nobody knows who told him.",
+   "dur": 3.0,
+   "camA": [
+    0.185,
+    0.33,
+    0.47,
+    0.42
+   ],
+   "camB": [
+    0.36,
+    0.33,
+    0.66,
+    0.42
+   ],
+   "maskTop": 690,
+   "size": 66
+  },
+  {
+   "shot": "light/threads",
+   "crop": [
+    0.185,
+    0.08,
+    0.93,
+    0.6
+   ],
+   "cont": true,
+   "text": "So it's a thread: set up in issue 2, still open.",
+   "dur": 2.6,
+   "camA": [
+    0.36,
+    0.33,
+    0.66,
+    0.42
+   ],
+   "camB": [
+    0.44,
+    0.08,
+    0.9,
+    0.42
+   ],
+   "maskTop": 560,
+   "size": 70
+  },
+  {
+   "shot": "light/threads",
+   "crop": [
+    0.185,
+    0.08,
+    0.93,
+    0.6
+   ],
+   "cont": true,
+   "text": "Plant it early. Pay it off later, like this one: issue 3 to 4.",
+   "dur": 3.0,
+   "camA": [
+    0.44,
+    0.08,
+    0.9,
+    0.42
+   ],
+   "camB": [
+    0.38,
+    0.06,
+    0.76,
+    0.52
+   ],
+   "maskTop": 560,
+   "size": 62
+  }
+ ],
+ "end": {
+  "line": [
+   "Plant every secret.",
+   "Pay it off later."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.6
+ }
+}
