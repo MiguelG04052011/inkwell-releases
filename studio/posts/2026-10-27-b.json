@@ -1,0 +1,19 @@
+{
+  "id": "2026-10-27-b-mine-has-three",
+  "video": "videos/2026-10-27-b-mine-has-three.mp4",
+  "format": "F1 Feature film",
+  "built_for": "shares",
+  "opening": "cold open, dark Home cast panel, villains row",
+  "slot": "B 2026-10-27 23:00 Lisbon (+00:00)",
+  "dueAt": "2026-10-27T23:00:00+00:00",
+  "hook": "How many villains does your comic have?",
+  "length_s": 12.9,
+  "thumbnailOffset": 1500,
+  "experiment": "theme: dark (week 4 experiment 1)",
+  "made_by": "afternoon check (morning run made no posts)",
+  "buffer": {
+    "tiktok": "6ae0d24fd7e117a25cbe84e5",
+    "instagram": "6ae0d25032ab4f1bc54bf453",
+    "youtube": "6ae0d251d7e117a25cbe85b8"
+  }
+}
