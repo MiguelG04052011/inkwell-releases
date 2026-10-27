@@ -1,0 +1,99 @@
+{
+ "id": "2026-10-27-b-mine-has-three",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "home",
+   "text": "How many villains does your comic have?",
+   "dur": 3.0,
+   "camA": [
+    0.207,
+    0.835,
+    0.4,
+    0.995
+   ],
+   "camB": [
+    0.207,
+    0.82,
+    0.42,
+    0.995
+   ],
+   "maskTop": 640,
+   "size": 84
+  },
+  {
+   "shot": "home",
+   "cont": true,
+   "text": "Mine has three: the Hollow King, Mr. Minus and Brickbat.",
+   "dur": 2.6,
+   "camA": [
+    0.207,
+    0.82,
+    0.42,
+    0.995
+   ],
+   "camB": [
+    0.207,
+    0.69,
+    0.5,
+    0.995
+   ],
+   "maskTop": 640,
+   "size": 68
+  },
+  {
+   "shot": "web-who-knows-who",
+   "text": "Write it down once and Inkwell draws the web.",
+   "dur": 2.3,
+   "camA": [
+    0.46,
+    0.4,
+    0.66,
+    0.62
+   ],
+   "camB": [
+    0.42,
+    0.34,
+    0.7,
+    0.62
+   ],
+   "maskTop": 690,
+   "maxW": 860,
+   "size": 72
+  },
+  {
+   "shot": "power-rankings",
+   "text": "Keep everyone's powers consistent.",
+   "dur": 2.2,
+   "camA": [
+    0.22,
+    0.31,
+    0.5,
+    0.57
+   ],
+   "camB": [
+    0.24,
+    0.34,
+    0.52,
+    0.58
+   ],
+   "maskTop": 640,
+   "size": 76
+  }
+ ],
+ "end": {
+  "line": [
+   "Your whole story,",
+   "in one place."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}

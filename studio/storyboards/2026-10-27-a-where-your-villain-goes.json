@@ -1,0 +1,94 @@
+{
+ "id": "2026-10-27-a-where-your-villain-goes",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "tier-list",
+   "text": "Which tier is your villain? S, A, B or C.",
+   "dur": 3.2,
+   "camA": [
+    0.205,
+    0.4,
+    0.56,
+    0.84
+   ],
+   "camB": [
+    0.205,
+    0.41,
+    0.53,
+    0.8
+   ],
+   "maskTop": 640,
+   "size": 84
+  },
+  {
+   "shot": "tier-list",
+   "cont": true,
+   "text": "Mine, the Hollow King: A tier at stopping Titan.",
+   "dur": 2.8,
+   "camA": [
+    0.205,
+    0.41,
+    0.53,
+    0.8
+   ],
+   "camB": [
+    0.205,
+    0.46,
+    0.47,
+    0.62
+   ],
+   "maskTop": 640,
+   "size": 72,
+   "cursor": {
+    "from": [
+     0.36,
+     0.7
+    ],
+    "to": [
+     0.33,
+     0.53
+    ],
+    "t": [
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "shot": "tier-list",
+   "cont": true,
+   "text": "Mr. Minus and Brickbat? Only C tier.",
+   "dur": 2.6,
+   "camA": [
+    0.205,
+    0.46,
+    0.47,
+    0.62
+   ],
+   "camB": [
+    0.205,
+    0.62,
+    0.49,
+    0.78
+   ],
+   "maskTop": 640,
+   "size": 74
+  }
+ ],
+ "end": {
+  "line": [
+   "Where does",
+   "your villain go?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
