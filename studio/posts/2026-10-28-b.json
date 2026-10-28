@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-28-b-taller-or-shorter",
+  "video": "videos/2026-10-28-b-taller-or-shorter.mp4",
+  "format": "F7 Height lineup",
+  "built_for": "comments",
+  "opening": "cold open, light lineup cropped to the tall end (Hollow King, Brickbat, Captain Titan)",
+  "slot": "B 2026-10-28 23:00 Lisbon (+00:00)",
+  "dueAt": "2026-10-28T23:00:00+00:00",
+  "hook": "Is your villain taller or shorter than mine?",
+  "length_s": 13.2,
+  "thumbnailOffset": 1500,
+  "experiment": "theme: light (week 4 experiment 1)",
+  "buffer": {
+    "tiktok": "6ae1bec1deb69b3963beecf1",
+    "instagram": "6ae1bec217d013af799e12b4",
+    "youtube": "6ae1bec317d013af799e12ec"
+  }
+}
