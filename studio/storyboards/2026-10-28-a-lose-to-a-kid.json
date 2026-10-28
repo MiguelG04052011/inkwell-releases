@@ -1,0 +1,113 @@
+{
+ "id": "2026-10-28-a-lose-to-a-kid",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "battles",
+   "crop": [
+    0.2,
+    0.165,
+    0.785,
+    0.395
+   ],
+   "text": "Brickbat lost to a 16-year-old. Would your villain?",
+   "dur": 3.2,
+   "camA": [
+    0.203,
+    0.168,
+    0.4,
+    0.393
+   ],
+   "camB": [
+    0.203,
+    0.17,
+    0.395,
+    0.39
+   ],
+   "maskTop": 640,
+   "size": 82
+  },
+  {
+   "shot": "battles",
+   "crop": [
+    0.2,
+    0.165,
+    0.785,
+    0.395
+   ],
+   "cont": true,
+   "text": "Mine did. She won by setting his trousers on fire.",
+   "dur": 2.9,
+   "camA": [
+    0.203,
+    0.17,
+    0.395,
+    0.39
+   ],
+   "camB": [
+    0.205,
+    0.24,
+    0.39,
+    0.38
+   ],
+   "maskTop": 640,
+   "size": 74,
+   "cursor": {
+    "from": [
+     0.33,
+     0.33
+    ],
+    "to": [
+     0.3,
+     0.3
+    ],
+    "t": [
+     0.5,
+     1.4
+    ]
+   }
+  },
+  {
+   "shot": "battles",
+   "crop": [
+    0.2,
+    0.165,
+    0.785,
+    0.395
+   ],
+   "cont": true,
+   "text": "The Hollow King didn't. His projection held the Crater against three heroes.",
+   "dur": 3.1,
+   "camA": [
+    0.205,
+    0.24,
+    0.39,
+    0.38
+   ],
+   "camB": [
+    0.565,
+    0.168,
+    0.785,
+    0.393
+   ],
+   "maskTop": 640,
+   "size": 68,
+   "maxW": 820
+  }
+ ],
+ "end": {
+  "line": [
+   "Would yours",
+   "lose to a kid?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.6
+ }
+}
