@@ -1,0 +1,94 @@
+{
+ "id": "2026-10-29-a-who-stops-them",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "light/tier-list",
+   "text": "If your hero turned villain, who could stop them? One name.",
+   "dur": 3.2,
+   "camA": [
+    0.205,
+    0.22,
+    0.6,
+    0.5
+   ],
+   "camB": [
+    0.205,
+    0.235,
+    0.56,
+    0.49
+   ],
+   "maskTop": 640,
+   "size": 76
+  },
+  {
+   "shot": "light/tier-list",
+   "cont": true,
+   "text": "Mine would be Captain Titan. Only Solstice could stop him, and she's gone.",
+   "dur": 3.2,
+   "camA": [
+    0.205,
+    0.235,
+    0.56,
+    0.49
+   ],
+   "camB": [
+    0.205,
+    0.37,
+    0.48,
+    0.535
+   ],
+   "maskTop": 640,
+   "size": 68,
+   "cursor": {
+    "from": [
+     0.4,
+     0.5
+    ],
+    "to": [
+     0.335,
+     0.44
+    ],
+    "t": [
+     0.4,
+     1.3
+    ]
+   }
+  },
+  {
+   "shot": "light/tier-list",
+   "cont": true,
+   "text": "Next in line is a villain: the Hollow King.",
+   "dur": 2.6,
+   "camA": [
+    0.205,
+    0.37,
+    0.48,
+    0.535
+   ],
+   "camB": [
+    0.205,
+    0.46,
+    0.48,
+    0.625
+   ],
+   "maskTop": 640,
+   "size": 72
+  }
+ ],
+ "end": {
+  "line": [
+   "Who stops",
+   "your hero?"
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
