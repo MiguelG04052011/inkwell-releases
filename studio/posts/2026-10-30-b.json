@@ -7,8 +7,12 @@
   "slot": "B 2026-10-30 23:00 Lisbon (+00:00)",
   "dueAt": "2026-10-30T23:00:00+00:00",
   "hook": "Is your villain the tallest in your cast? Yes or no.",
-  "length_s": 14.2,
+  "length_s": 13.8,
   "thumbnailOffset": 1500,
   "experiment": "theme: dark (week 4 experiment 1)",
-  "buffer": {}
+  "buffer": {
+    "tiktok": "6ae4626458a62337fb78981f",
+    "instagram": "6ae4626536e83ed1636991d8",
+    "youtube": "6ae46265c2427e8527c8f95c"
+  }
 }

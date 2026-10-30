@@ -7,8 +7,12 @@
   "slot": "A 2026-10-30 19:00 Lisbon (+00:00); YouTube 16:00 (week 4 experiment 2)",
   "dueAt": "2026-10-30T19:00:00+00:00",
   "hook": "How many arcs is your comic juggling? Mine: four.",
-  "length_s": 13.8,
+  "length_s": 14.2,
   "thumbnailOffset": 1500,
   "experiment": "theme: light (week 4 experiment 1); YouTube weekday 16:00 (experiment 2)",
-  "buffer": {}
+  "buffer": {
+    "tiktok": "6ae4626258a62337fb7897bc",
+    "instagram": "6ae46263c2427e8527c8f7ed",
+    "youtube": "6ae4626358a62337fb7897ea"
+  }
 }
