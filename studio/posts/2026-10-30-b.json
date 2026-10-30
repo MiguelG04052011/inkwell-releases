@@ -1,0 +1,14 @@
+{
+  "id": "2026-10-30-b-tallest-in-your-cast",
+  "video": "videos/2026-10-30-b-tallest-in-your-cast.mp4",
+  "format": "F7 Height lineup",
+  "built_for": "comments",
+  "opening": "cold open, dark lineup cropped to the short end (Blue Comet, Solstice, Vesper, Relay), walking up to the Hollow King",
+  "slot": "B 2026-10-30 23:00 Lisbon (+00:00)",
+  "dueAt": "2026-10-30T23:00:00+00:00",
+  "hook": "Is your villain the tallest in your cast? Yes or no.",
+  "length_s": 14.2,
+  "thumbnailOffset": 1500,
+  "experiment": "theme: dark (week 4 experiment 1)",
+  "buffer": {}
+}

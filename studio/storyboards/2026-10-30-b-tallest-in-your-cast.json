@@ -1,0 +1,155 @@
+{
+ "id": "2026-10-30-b-tallest-in-your-cast",
+ "fps": 30,
+ "windowCenterY": 900,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.11,
+    1.0,
+    0.625
+   ],
+   "text": "Is your villain the tallest in your cast? Yes or no.",
+   "dur": 3.2,
+   "camA": [
+    0.7,
+    0.11,
+    1.0,
+    0.625
+   ],
+   "camB": [
+    0.5,
+    0.11,
+    0.8,
+    0.625
+   ],
+   "maskTop": 490,
+   "maxH": 860,
+   "size": 80
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.11,
+    1.0,
+    0.625
+   ],
+   "text": "My tallest hero: Captain Titan, 196 cm.",
+   "dur": 2.8,
+   "camA": [
+    0.5,
+    0.11,
+    0.8,
+    0.625
+   ],
+   "camB": [
+    0.4,
+    0.11,
+    0.7,
+    0.625
+   ],
+   "maskTop": 490,
+   "maxH": 860,
+   "size": 76,
+   "cont": true,
+   "cursor": {
+    "from": [
+     0.55,
+     0.45
+    ],
+    "to": [
+     0.49,
+     0.38
+    ],
+    "t": [
+     1.2,
+     2.2
+    ]
+   }
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.11,
+    1.0,
+    0.625
+   ],
+   "text": "Mine: yes. The Hollow King, 240 cm.",
+   "dur": 2.8,
+   "camA": [
+    0.228,
+    0.11,
+    0.53,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.11,
+    0.51,
+    0.625
+   ],
+   "maskTop": 490,
+   "maxH": 860,
+   "size": 78,
+   "cursor": {
+    "from": [
+     0.36,
+     0.45
+    ],
+    "to": [
+     0.29,
+     0.36
+    ],
+    "t": [
+     0.9,
+     1.9
+    ]
+   }
+  },
+  {
+   "shot": "lineup",
+   "crop": [
+    0.228,
+    0.11,
+    1.0,
+    0.625
+   ],
+   "text": "Second tallest: Brickbat. Also a villain.",
+   "dur": 2.4,
+   "camA": [
+    0.228,
+    0.11,
+    0.51,
+    0.625
+   ],
+   "camB": [
+    0.228,
+    0.11,
+    0.64,
+    0.625
+   ],
+   "maskTop": 490,
+   "maxH": 860,
+   "size": 72,
+   "cont": true
+  }
+ ],
+ "end": {
+  "line": [
+   "Tallest in yours?",
+   "Yes or no."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.6
+ }
+}
