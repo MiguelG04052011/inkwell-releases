@@ -1,0 +1,138 @@
+{
+ "id": "2026-10-31-a-is-your-villain-s-tier",
+ "fps": 30,
+ "windowCenterY": 1000,
+ "hook": {
+  "cold": true,
+  "text": "",
+  "dur": 0.1
+ },
+ "scenes": [
+  {
+   "shot": "strongest-in-brightwater",
+   "crop": [
+    0.271,
+    0.0,
+    0.729,
+    1.0
+   ],
+   "text": "Is your villain S tier? Yes or no.",
+   "dur": 3.0,
+   "camA": [
+    0.3,
+    0.19,
+    0.585,
+    0.335
+   ],
+   "camB": [
+    0.295,
+    0.17,
+    0.62,
+    0.35
+   ],
+   "maskTop": 760,
+   "size": 86
+  },
+  {
+   "shot": "strongest-in-brightwater",
+   "crop": [
+    0.271,
+    0.0,
+    0.729,
+    1.0
+   ],
+   "cont": true,
+   "text": "Mine is. The Hollow King, level with Solstice and Captain Titan.",
+   "dur": 2.8,
+   "camA": [
+    0.295,
+    0.17,
+    0.62,
+    0.35
+   ],
+   "camB": [
+    0.29,
+    0.165,
+    0.66,
+    0.355
+   ],
+   "cursor": {
+    "from": [
+     0.42,
+     0.33
+    ],
+    "to": [
+     0.405,
+     0.27
+    ],
+    "t": [
+     0.5,
+     1.4
+    ]
+   },
+   "maskTop": 760,
+   "size": 66
+  },
+  {
+   "shot": "strongest-in-brightwater",
+   "crop": [
+    0.271,
+    0.0,
+    0.729,
+    1.0
+   ],
+   "cont": true,
+   "text": "Mr. Minus is only B. Brickbat, C.",
+   "dur": 2.4,
+   "camA": [
+    0.29,
+    0.165,
+    0.66,
+    0.355
+   ],
+   "camB": [
+    0.29,
+    0.4,
+    0.66,
+    0.7
+   ],
+   "maskTop": 690,
+   "size": 74
+  },
+  {
+   "shot": "strongest-in-brightwater",
+   "crop": [
+    0.271,
+    0.0,
+    0.729,
+    1.0
+   ],
+   "text": "Filled in from everyone's power grid. Saved as a picture.",
+   "dur": 2.6,
+   "camA": [
+    0.28,
+    0.3,
+    0.72,
+    0.98
+   ],
+   "camB": [
+    0.27,
+    0.04,
+    0.73,
+    1.0
+   ],
+   "maskTop": 690,
+   "maxH": 760,
+   "size": 64
+  }
+ ],
+ "end": {
+  "line": [
+   "S tier or not?",
+   "Yes or no."
+  ],
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in a browser on any computer",
+  "dur": 2.8
+ }
+}
