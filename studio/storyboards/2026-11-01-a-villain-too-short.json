@@ -1,0 +1,424 @@
+{
+ "id": "2026-11-01-a-villain-too-short",
+ "engine": 2,
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-10-31",
+ "pulse": 0.008,
+ "music": {
+  "style": "drive",
+  "dropouts": [
+   [
+    5.5,
+    6
+   ]
+  ],
+  "risers": [
+   18
+  ]
+ },
+ "shots": [
+  {
+   "b": 2,
+   "kind": "still",
+   "src": "s-lineup-end",
+   "in": "cut",
+   "dim": 0.45,
+   "cam": [
+    [
+     1015,
+     110,
+     1355,
+     712
+    ],
+    [
+     1060,
+     175,
+     1320,
+     636
+    ]
+   ],
+   "camEase": "outCubic",
+   "text": [
+    {
+     "style": "slam",
+     "text": "YOUR VILLAIN",
+     "at": -0.6,
+     "y": 610,
+     "size": 148,
+     "shake": 0
+    },
+    {
+     "style": "slam",
+     "text": "IS *TOO SHORT.*",
+     "at": 1,
+     "y": 790,
+     "size": 148,
+     "shake": 0.7
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "still",
+   "src": "s-lineup",
+   "in": "whip-u",
+   "cam": [
+    [
+     250,
+     300,
+     522,
+     783
+    ],
+    [
+     232,
+     0,
+     538,
+     544
+    ]
+   ],
+   "camEase": "outQuint",
+   "text": [
+    {
+     "style": "cap",
+     "text": "Mine is",
+     "at": 0.1,
+     "y": 250,
+     "size": 76
+    },
+    {
+     "style": "count",
+     "from": 0,
+     "to": 240,
+     "unit": "cm",
+     "at": 0.5,
+     "dur": 1.2,
+     "y": 1150,
+     "size": 270
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "still",
+   "src": "s-lineup-end",
+   "in": "whip-l",
+   "cam": [
+    [
+     1050,
+     150,
+     1274,
+     548
+    ],
+    [
+     1078,
+     170,
+     1248,
+     472
+    ]
+   ],
+   "camEase": "outCubic",
+   "text": [
+    {
+     "style": "cap",
+     "text": "The *hero?*",
+     "at": 0.1,
+     "y": 250,
+     "size": 76
+    },
+    {
+     "style": "count",
+     "from": 0,
+     "to": 163,
+     "unit": "cm",
+     "at": 0.4,
+     "dur": 1.1,
+     "y": 1150,
+     "size": 270
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "type",
+   "bg": "still:s-lineup",
+   "in": "flash",
+   "shake": 0.8,
+   "text": [
+    {
+     "style": "slam",
+     "text": "^77 CM^",
+     "at": 0,
+     "y": 600,
+     "size": 300,
+     "shake": 0.9
+    },
+    {
+     "style": "slam",
+     "text": "OF PURE MENACE.",
+     "at": 1,
+     "y": 950,
+     "size": 104,
+     "shake": 0.35
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-lineup-pan",
+   "in": "zoom",
+   "look": "card",
+   "box": [
+    30,
+    560,
+    1020,
+    900
+   ],
+   "cam": [
+    [
+     330,
+     40,
+     1290,
+     620
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    12,
+    -14,
+    6,
+    10
+   ],
+   "speed": 1.9,
+   "from": 0.2,
+   "cursor": false,
+   "text": [
+    {
+     "style": "cap",
+     "text": "Readers feel *who's in charge*",
+     "at": 0.1,
+     "y": 300,
+     "size": 70
+    },
+    {
+     "style": "cap",
+     "text": "before anyone speaks.",
+     "at": 1.4,
+     "y": 1440,
+     "size": 70
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-lineup-ft",
+   "in": "whip-l",
+   "look": "card",
+   "box": [
+    30,
+    560,
+    1020,
+    900
+   ],
+   "cam": [
+    [
+     760,
+     0,
+     1360,
+     560
+    ],
+    [
+     800,
+     0,
+     1360,
+     520
+    ]
+   ],
+   "speed": 1.35,
+   "from": 0.25,
+   "text": [
+    {
+     "style": "cap",
+     "text": "*Inkwell* lines up your cast to scale.",
+     "at": 0.1,
+     "y": 300,
+     "size": 70
+    },
+    {
+     "style": "label",
+     "text": "cm or ft",
+     "anchor": [
+      1300,
+      32
+     ],
+     "offset": [
+      -60,
+      110
+     ],
+     "at": 1.3,
+     "cls": "hot"
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-web-hover",
+   "in": "whip-r",
+   "from": 1.4,
+   "speed": 2.2,
+   "cursor": true,
+   "cam": [
+    [
+     548,
+     210,
+     908,
+     850
+    ]
+   ],
+   "drift": 0.1,
+   "text": [
+    {
+     "style": "tag",
+     "text": "WHO KNOWS WHO",
+     "at": 0,
+     "y": 300,
+     "size": 96,
+     "shake": 0.3,
+     "cls": "hot",
+     "rot": 2
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-tier-menu",
+   "in": "whip-l",
+   "from": 0.55,
+   "speed": 2.6,
+   "cam": [
+    [
+     200,
+     110,
+     540,
+     714
+    ]
+   ],
+   "drift": 0.08,
+   "text": [
+    {
+     "style": "tag",
+     "text": "TIER LISTS",
+     "at": 0,
+     "y": 300,
+     "size": 96,
+     "shake": 0.3,
+     "cls": "",
+     "rot": -2
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "still",
+   "src": "s-versus",
+   "in": "whip-r",
+   "cam": [
+    [
+     598,
+     222,
+     1012,
+     958
+    ],
+    [
+     640,
+     250,
+     970,
+     836
+    ]
+   ],
+   "camEase": "outExpo",
+   "text": [
+    {
+     "style": "tag",
+     "text": "VERSUS",
+     "at": 0,
+     "y": 300,
+     "size": 96,
+     "shake": 0.3,
+     "cls": "hot",
+     "rot": 2
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-covers-scroll",
+   "in": "whip-l",
+   "from": 0.4,
+   "speed": 2.4,
+   "cam": [
+    [
+     268,
+     50,
+     610,
+     658
+    ]
+   ],
+   "drift": 0.06,
+   "text": [
+    {
+     "style": "tag",
+     "text": "EVERY COVER",
+     "at": 0,
+     "y": 300,
+     "size": 96,
+     "shake": 0.3,
+     "cls": "",
+     "rot": -2
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "type",
+   "bg": "still:s-lineup-end",
+   "in": "zoom",
+   "text": [
+    {
+     "style": "slam",
+     "text": "HOW TALL",
+     "at": 0,
+     "y": 600,
+     "size": 156,
+     "shake": 0.5
+    },
+    {
+     "style": "slam",
+     "text": "IS *YOURS?*",
+     "at": 0.5,
+     "y": 780,
+     "size": 156,
+     "shake": 0.6
+    },
+    {
+     "style": "small",
+     "text": "Just the number. Mine's 240.",
+     "at": 1.1,
+     "y": 1060,
+     "size": 40
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 5,
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

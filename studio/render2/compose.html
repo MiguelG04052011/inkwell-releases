@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: 'InkwellDisplay'; src: url('../assets/fonts/InkwellDisplay-Variable.ttf') format('truetype'); font-weight: 200 900; }
+html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #07070B; }
+* { box-sizing: border-box; }
+#root { position: absolute; inset: 0; overflow: hidden; background: #07070B; }
+.layer { position: absolute; inset: 0; }
+#world { position: absolute; inset: 0; will-change: transform; }
+#glowA, #glowB { position: absolute; border-radius: 50%; filter: blur(150px); will-change: transform; }
+#glowA { width: 1200px; height: 1200px; left: -420px; top: -300px; background: radial-gradient(circle, rgba(106,88,246,0.55), rgba(106,88,246,0) 70%); }
+#glowB { width: 1100px; height: 1100px; right: -460px; bottom: -240px; background: radial-gradient(circle, rgba(240,106,156,0.38), rgba(240,106,156,0) 70%); }
+#grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px); background-size: 72px 72px; -webkit-mask-image: radial-gradient(ellipse 85% 65% at 50% 40%, black 15%, transparent 75%); }
+.shot { position: absolute; inset: 0; overflow: hidden; will-change: transform, opacity, filter; }
+.cam { position: absolute; inset: 0; perspective: 2200px; perspective-origin: 540px 960px; }
+.tilt { position: absolute; inset: 0; transform-style: preserve-3d; will-change: transform; }
+.media { position: absolute; overflow: hidden; }
+.media.card { border-radius: 44px; box-shadow: 0 0 0 3px rgba(255,255,255,0.09), 0 70px 200px rgba(0,0,0,0.8), 0 0 220px rgba(106,88,246,0.32); background: #0D0D12; }
+.media img { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; image-rendering: auto; }
+.media .shade { position: absolute; inset: 0; pointer-events: none; }
+.pop { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform, opacity; }
+.pop .pin { position: absolute; overflow: hidden; border-radius: 18px; box-shadow: 0 40px 120px rgba(0,0,0,0.75), 0 0 0 3px rgba(255,255,255,0.18), 0 0 120px rgba(140,124,255,0.55); }
+.pop .pin img { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.tx { position: absolute; left: 0; width: 1080px; text-align: center; font-family: 'InkwellDisplay'; font-weight: 800; color: #F4F4F8; letter-spacing: -0.03em; line-height: 0.98; padding: 0 70px; }
+.tx .w { display: inline-block; white-space: pre; will-change: transform, opacity, filter; }
+.tx.slam { font-weight: 900; text-transform: uppercase; text-shadow: 0 10px 50px rgba(0,0,0,0.65), 0 2px 0 rgba(0,0,0,0.35); }
+.tx.slam .w.hl { background: #F06A9C; color: #0B0B10; padding: 0 0.16em; margin: 0.02em 0; border-radius: 0.12em; text-shadow: none; box-shadow: 0 16px 60px rgba(240,106,156,0.5); }
+.tx.slam .w.hl2 { background: linear-gradient(90deg, #8C7CFF, #B65CF0 55%, #F06A9C); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: none; filter: drop-shadow(0 10px 40px rgba(182,92,240,0.55)); }
+.tx.cap { font-weight: 800; letter-spacing: -0.02em; line-height: 1.12; }
+.tx.cap .box { display: inline; background: rgba(9,9,14,0.78); box-decoration-break: clone; -webkit-box-decoration-break: clone; padding: 0.08em 0.3em; border-radius: 0.28em; box-shadow: 0 20px 60px rgba(0,0,0,0.45); }
+.tx.cap .w.hl { background: linear-gradient(90deg, #A08FFF, #D06AF0 55%, #FF7BAA); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.tx.count { font-weight: 900; letter-spacing: -0.05em; font-variant-numeric: tabular-nums; }
+.tx.count .num { background: linear-gradient(180deg, #FFFFFF 10%, #C9C2FF 60%, #F06A9C 100%); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 18px 60px rgba(140,124,255,0.55)); }
+.tx.count .unit { font-size: 0.32em; letter-spacing: -0.01em; color: #F4F4F8; margin-left: 0.12em; vertical-align: 0.28em; }
+.tx.tag { font-weight: 900; text-transform: uppercase; letter-spacing: -0.02em; }
+.tx.tag .pill { display: inline-block; background: #F4F4F8; color: #0B0B10; padding: 0.1em 0.34em 0.06em; border-radius: 0.22em; box-shadow: 0 24px 80px rgba(0,0,0,0.6); will-change: transform, opacity, filter; }
+.tx.tag.hot .pill { background: #F06A9C; }
+.tx.tag.violet .pill { background: linear-gradient(90deg, #8C7CFF, #B65CF0 55%, #F06A9C); }
+.tx.small { font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #B9B9C8; }
+.label { position: absolute; left: 0; top: 0; padding: 14px 28px; border-radius: 999px; background: #F4F4F8; color: #0B0B10; font-family: 'InkwellDisplay'; font-weight: 800; font-size: 44px; white-space: nowrap; box-shadow: 0 18px 60px rgba(0,0,0,0.55); will-change: transform, opacity; }
+.label.dark { background: #0B0B10; color: #F4F4F8; box-shadow: 0 0 0 3px rgba(255,255,255,0.16), 0 18px 60px rgba(0,0,0,0.55); }
+.label.hot { background: #F06A9C; color: #0B0B10; }
+#cursor { position: absolute; left: 0; top: 0; width: 64px; height: 64px; z-index: 50; will-change: transform, opacity; filter: drop-shadow(0 6px 14px rgba(0,0,0,0.55)); }
+#ripple { position: absolute; left: 0; top: 0; width: 140px; height: 140px; border-radius: 50%; border: 5px solid rgba(255,255,255,0.95); z-index: 49; opacity: 0; box-shadow: 0 0 40px rgba(140,124,255,0.6); }
+#flash { position: absolute; inset: 0; background: #FFFFFF; opacity: 0; z-index: 80; pointer-events: none; mix-blend-mode: normal; }
+#leak { position: absolute; inset: -200px; opacity: 0; z-index: 79; pointer-events: none; background: radial-gradient(ellipse 50% 40% at 30% 30%, rgba(182,92,240,0.9), transparent 70%), radial-gradient(ellipse 45% 35% at 75% 70%, rgba(240,106,156,0.8), transparent 70%); mix-blend-mode: screen; }
+#vignette { position: absolute; inset: 0; background: radial-gradient(ellipse 95% 75% at 50% 45%, transparent 58%, rgba(0,0,0,0.5) 100%); pointer-events: none; z-index: 85; }
+#grain { position: absolute; inset: -200px; background-image: url('../assets/noise.png'); opacity: 0.06; mix-blend-mode: overlay; pointer-events: none; z-index: 86; }
+#end { position: absolute; inset: 0; z-index: 70; opacity: 0; }
+#endIcon { position: absolute; left: 360px; top: 470px; width: 360px; height: 360px; border-radius: 82px; box-shadow: 0 50px 160px rgba(106,88,246,0.55), 0 0 0 2px rgba(255,255,255,0.1); will-change: transform; }
+#endWord { position: absolute; width: 100%; text-align: center; top: 880px; font-family: 'InkwellDisplay'; font-weight: 800; font-size: 120px; color: #F4F4F8; letter-spacing: -0.04em; }
+#endLine { position: absolute; width: 100%; text-align: center; top: 1030px; font-family: 'InkwellDisplay'; font-weight: 700; font-size: 54px; line-height: 1.12; color: #C9C9D6; padding: 0 90px; letter-spacing: -0.015em; }
+#endCta { position: absolute; left: 50%; top: 1200px; padding: 30px 56px; border-radius: 999px; background: linear-gradient(90deg, #8C7CFF, #B65CF0 55%, #F06A9C); color: #0B0B10; font-family: 'InkwellDisplay'; font-weight: 800; font-size: 46px; white-space: nowrap; box-shadow: 0 24px 90px rgba(182,92,240,0.55); }
+#endSub { position: absolute; width: 100%; text-align: center; top: 1340px; font-family: 'InkwellDisplay'; font-weight: 600; font-size: 34px; color: #8D8E9F; }
+#endRing1, #endRing2 { position: absolute; width: 200px; height: 200px; left: 440px; top: 550px; border-radius: 50%; border: 6px solid #B65CF0; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="root">
+  <div id="world">
+    <div class="layer" id="bg"><div id="glowA"></div><div id="glowB"></div><div id="grid"></div></div>
+    <div class="layer" id="stage"></div>
+    <div class="layer" id="texts" style="z-index:60"></div>
+    <div id="ripple"></div>
+    <svg id="cursor" viewBox="0 0 32 32"><path d="M6 3 L6 25 L11.5 20 L15 28.5 L18.6 27 L15.2 18.8 L22.5 18.8 Z" fill="#fff" stroke="#0B0B10" stroke-width="1.5" stroke-linejoin="round"/></svg>
+    <div id="end">
+      <div id="endRing1"></div><div id="endRing2"></div>
+      <img id="endIcon" src="../assets/brand/app-icon-1024.png">
+      <div id="endWord">Inkwell</div>
+      <div id="endLine"></div>
+      <div id="endCta"></div>
+      <div id="endSub"></div>
+    </div>
+  </div>
+  <div id="leak"></div>
+  <div id="flash"></div>
+  <div id="vignette"></div>
+  <div id="grain"></div>
+</div>
+<script src="engine.js"></script>
+</body>
+</html>
