@@ -9,33 +9,33 @@
   "style": "drive",
   "dropouts": [
    [
-    5.5,
-    6
+    8.5,
+    9
    ]
   ],
   "risers": [
-   18
+   20
   ]
  },
  "shots": [
   {
-   "b": 2,
+   "b": 3,
    "kind": "still",
-   "src": "s-lineup-end",
+   "src": "s-lineup",
    "in": "cut",
    "dim": 0.45,
    "cam": [
     [
-     1015,
-     110,
-     1355,
-     712
+     255,
+     60,
+     515,
+     522
     ],
     [
-     1060,
-     175,
-     1320,
-     636
+     275,
+     80,
+     495,
+     471
     ]
    ],
    "camEase": "outCubic",
@@ -44,37 +44,37 @@
      "style": "slam",
      "text": "YOUR VILLAIN",
      "at": -0.6,
-     "y": 610,
+     "y": 600,
      "size": 148,
      "shake": 0
     },
     {
      "style": "slam",
      "text": "IS *TOO SHORT.*",
-     "at": 1,
-     "y": 790,
+     "at": 0.6,
+     "y": 780,
      "size": 148,
      "shake": 0.7
     }
    ]
   },
   {
-   "b": 2,
+   "b": 3,
    "kind": "still",
    "src": "s-lineup",
    "in": "whip-u",
    "cam": [
     [
-     250,
      300,
-     522,
-     783
+     60,
+     470,
+     362
     ],
     [
-     232,
+     215,
      0,
-     538,
-     544
+     555,
+     604
     ]
    ],
    "camEase": "outQuint",
@@ -83,7 +83,7 @@
      "style": "cap",
      "text": "Mine is",
      "at": 0.1,
-     "y": 250,
+     "y": 230,
      "size": 76
     },
     {
@@ -91,30 +91,30 @@
      "from": 0,
      "to": 240,
      "unit": "cm",
-     "at": 0.5,
-     "dur": 1.2,
-     "y": 1150,
+     "at": 0.3,
+     "dur": 1.1,
+     "y": 1100,
      "size": 270
     }
    ]
   },
   {
-   "b": 2,
+   "b": 3,
    "kind": "still",
    "src": "s-lineup-end",
    "in": "whip-l",
    "cam": [
     [
-     1050,
-     150,
-     1274,
-     548
+     1040,
+     100,
+     1282,
+     530
     ],
     [
-     1078,
-     170,
-     1248,
-     472
+     1060,
+     120,
+     1262,
+     479
     ]
    ],
    "camEase": "outCubic",
@@ -123,7 +123,7 @@
      "style": "cap",
      "text": "The *hero?*",
      "at": 0.1,
-     "y": 250,
+     "y": 230,
      "size": 76
     },
     {
@@ -131,15 +131,15 @@
      "from": 0,
      "to": 163,
      "unit": "cm",
-     "at": 0.4,
-     "dur": 1.1,
-     "y": 1150,
+     "at": 0.3,
+     "dur": 1.0,
+     "y": 1100,
      "size": 270
     }
    ]
   },
   {
-   "b": 2,
+   "b": 3,
    "kind": "type",
    "bg": "still:s-lineup",
    "in": "flash",
@@ -171,9 +171,9 @@
    "look": "card",
    "box": [
     30,
-    560,
+    520,
     1020,
-    900
+    760
    ],
    "cam": [
     [
@@ -196,17 +196,10 @@
    "text": [
     {
      "style": "cap",
-     "text": "Readers feel *who's in charge*",
+     "text": "Readers feel *who's in charge* before anyone speaks.",
      "at": 0.1,
-     "y": 300,
-     "size": 70
-    },
-    {
-     "style": "cap",
-     "text": "before anyone speaks.",
-     "at": 1.4,
-     "y": 1440,
-     "size": 70
+     "y": 250,
+     "size": 66
     }
    ]
   },
@@ -217,25 +210,20 @@
    "in": "whip-l",
    "look": "card",
    "box": [
-    30,
-    560,
-    1020,
-    900
+    40,
+    470,
+    860,
+    760
    ],
    "cam": [
     [
-     760,
+     740,
      0,
      1360,
      560
-    ],
-    [
-     800,
-     0,
-     1360,
-     520
     ]
    ],
+   "drift": 0.03,
    "speed": 1.35,
    "from": 0.25,
    "text": [
@@ -243,7 +231,7 @@
      "style": "cap",
      "text": "*Inkwell* lines up your cast to scale.",
      "at": 0.1,
-     "y": 300,
+     "y": 250,
      "size": 70
     },
     {
@@ -254,8 +242,8 @@
       32
      ],
      "offset": [
-      -60,
-      110
+      -90,
+      120
      ],
      "at": 1.3,
      "cls": "hot"
@@ -263,91 +251,28 @@
    ]
   },
   {
-   "b": 1,
+   "b": 2,
    "kind": "clip",
    "src": "c-web-hover",
    "in": "whip-r",
-   "from": 1.4,
-   "speed": 2.2,
-   "cursor": true,
+   "from": 0.3,
+   "speed": 1.6,
    "cam": [
     [
-     548,
-     210,
-     908,
-     850
-    ]
-   ],
-   "drift": 0.1,
-   "text": [
-    {
-     "style": "tag",
-     "text": "WHO KNOWS WHO",
-     "at": 0,
-     "y": 300,
-     "size": 96,
-     "shake": 0.3,
-     "cls": "hot",
-     "rot": 2
-    }
-   ]
-  },
-  {
-   "b": 1,
-   "kind": "clip",
-   "src": "c-tier-menu",
-   "in": "whip-l",
-   "from": 0.55,
-   "speed": 2.6,
-   "cam": [
-    [
-     200,
-     110,
-     540,
-     714
+     620,
+     170,
+     980,
+     810
     ]
    ],
    "drift": 0.08,
    "text": [
     {
      "style": "tag",
-     "text": "TIER LISTS",
+     "text": "WHO KNOWS WHO",
      "at": 0,
-     "y": 300,
-     "size": 96,
-     "shake": 0.3,
-     "cls": "",
-     "rot": -2
-    }
-   ]
-  },
-  {
-   "b": 1,
-   "kind": "still",
-   "src": "s-versus",
-   "in": "whip-r",
-   "cam": [
-    [
-     598,
-     222,
-     1012,
-     958
-    ],
-    [
-     640,
-     250,
-     970,
-     836
-    ]
-   ],
-   "camEase": "outExpo",
-   "text": [
-    {
-     "style": "tag",
-     "text": "VERSUS",
-     "at": 0,
-     "y": 300,
-     "size": 96,
+     "y": 270,
+     "size": 92,
      "shake": 0.3,
      "cls": "hot",
      "rot": 2
@@ -355,61 +280,32 @@
    ]
   },
   {
-   "b": 1,
-   "kind": "clip",
-   "src": "c-covers-scroll",
-   "in": "whip-l",
-   "from": 0.4,
-   "speed": 2.4,
-   "cam": [
-    [
-     268,
-     50,
-     610,
-     658
-    ]
-   ],
-   "drift": 0.06,
-   "text": [
-    {
-     "style": "tag",
-     "text": "EVERY COVER",
-     "at": 0,
-     "y": 300,
-     "size": 96,
-     "shake": 0.3,
-     "cls": "",
-     "rot": -2
-    }
-   ]
-  },
-  {
-   "b": 2,
+   "b": 3,
    "kind": "type",
    "bg": "still:s-lineup-end",
-   "in": "zoom",
+   "in": "drop",
    "text": [
     {
      "style": "slam",
-     "text": "HOW TALL",
+     "text": "WHAT'S",
      "at": 0,
      "y": 600,
-     "size": 156,
+     "size": 160,
      "shake": 0.5
     },
     {
      "style": "slam",
-     "text": "IS *YOURS?*",
+     "text": "YOUR *GAP?*",
      "at": 0.5,
      "y": 780,
-     "size": 156,
+     "size": 160,
      "shake": 0.6
     },
     {
      "style": "small",
-     "text": "Just the number. Mine's 240.",
+     "text": "Villain minus hero. Mine's 77 cm.",
      "at": 1.1,
-     "y": 1060,
+     "y": 1040,
      "size": 40
     }
    ]

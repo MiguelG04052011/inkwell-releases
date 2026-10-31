@@ -48,13 +48,13 @@ html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hid
 #leak { position: absolute; inset: -200px; opacity: 0; z-index: 79; pointer-events: none; background: radial-gradient(ellipse 50% 40% at 30% 30%, rgba(182,92,240,0.9), transparent 70%), radial-gradient(ellipse 45% 35% at 75% 70%, rgba(240,106,156,0.8), transparent 70%); mix-blend-mode: screen; }
 #vignette { position: absolute; inset: 0; background: radial-gradient(ellipse 95% 75% at 50% 45%, transparent 58%, rgba(0,0,0,0.5) 100%); pointer-events: none; z-index: 85; }
 #grain { position: absolute; inset: -200px; background-image: url('../assets/noise.png'); opacity: 0.06; mix-blend-mode: overlay; pointer-events: none; z-index: 86; }
-#end { position: absolute; inset: 0; z-index: 70; opacity: 0; }
+#end { position: absolute; inset: 0; z-index: 70; opacity: 0; isolation: isolate; }
 #endIcon { position: absolute; left: 360px; top: 470px; width: 360px; height: 360px; border-radius: 82px; box-shadow: 0 50px 160px rgba(106,88,246,0.55), 0 0 0 2px rgba(255,255,255,0.1); will-change: transform; }
 #endWord { position: absolute; width: 100%; text-align: center; top: 880px; font-family: 'InkwellDisplay'; font-weight: 800; font-size: 120px; color: #F4F4F8; letter-spacing: -0.04em; }
 #endLine { position: absolute; width: 100%; text-align: center; top: 1030px; font-family: 'InkwellDisplay'; font-weight: 700; font-size: 54px; line-height: 1.12; color: #C9C9D6; padding: 0 90px; letter-spacing: -0.015em; }
 #endCta { position: absolute; left: 50%; top: 1200px; padding: 30px 56px; border-radius: 999px; background: linear-gradient(90deg, #8C7CFF, #B65CF0 55%, #F06A9C); color: #0B0B10; font-family: 'InkwellDisplay'; font-weight: 800; font-size: 46px; white-space: nowrap; box-shadow: 0 24px 90px rgba(182,92,240,0.55); }
 #endSub { position: absolute; width: 100%; text-align: center; top: 1340px; font-family: 'InkwellDisplay'; font-weight: 600; font-size: 34px; color: #8D8E9F; }
-#endRing1, #endRing2 { position: absolute; width: 200px; height: 200px; left: 440px; top: 550px; border-radius: 50%; border: 6px solid #B65CF0; opacity: 0; }
+#endRing1, #endRing2 { position: absolute; z-index: -1; width: 200px; height: 200px; left: 440px; top: 550px; border-radius: 50%; border: 6px solid #B65CF0; opacity: 0; }
 </style>
 </head>
 <body>

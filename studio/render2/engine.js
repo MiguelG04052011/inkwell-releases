@@ -376,6 +376,15 @@
           return;
         }
         if (T.style === 'small') { const p = clamp(lt / 0.25); T.box.style.opacity = op * p; T.box.style.transform += ` translateY(${(1 - E.outCubic(p)) * 24}px)`; return; }
+        if (T.style === 'slam' && !T.stagger) {
+          // a line that lands all at once moves as one block (no words overlapping mid-scale)
+          const p = clamp(lt / 0.16); const e = E.outExpo(p);
+          T.box.style.transform += ` scale(${lerp(1.9, 1, e)})`;
+          T.box.style.opacity = op * clamp(lt / 0.04);
+          T.box.style.filter = p < 1 ? `blur(${((1 - e) * 14).toFixed(1)}px)` : (blur > 0.3 ? `blur(${blur.toFixed(1)}px)` : 'none');
+          T.words.forEach((w) => { w.style.opacity = 1; w.style.transform = 'none'; w.style.filter = 'none'; });
+          return;
+        }
         T.words.forEach((w, k) => {
           const d = lt - k * T.stagger;
           if (T.style === 'slam') {
@@ -418,8 +427,8 @@
       $('endIcon').style.opacity = clamp(lt / 0.06);
       [['endRing1', 0.1], ['endRing2', 0.2]].forEach(([id, d]) => {
         const pr = clamp((lt - d) / 0.75);
-        $(id).style.opacity = pr > 0 && pr < 1 ? (1 - pr) * 0.8 : 0;
-        $(id).style.transform = `scale(${0.8 + E.outCubic(pr) * 4.6})`;
+        $(id).style.opacity = pr > 0 && pr < 1 ? (1 - pr) * (1 - pr) * 0.75 : 0;
+        $(id).style.transform = `scale(${0.8 + E.outCubic(pr) * 3.0})`;
       });
       const pw = clamp((lt - 0.22) / 0.35);
       $('endWord').style.opacity = pw; $('endWord').style.transform = `translateY(${(1 - E.outExpo(pw)) * 60}px)`;
