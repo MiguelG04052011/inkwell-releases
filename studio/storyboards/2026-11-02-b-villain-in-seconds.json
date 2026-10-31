@@ -1,0 +1,370 @@
+{
+ "id": "2026-11-02-b-villain-in-seconds",
+ "engine": 2,
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-10-31",
+ "pulse": 0.008,
+ "music": {
+  "style": "dark",
+  "dropouts": [
+   [
+    12.5,
+    13
+   ]
+  ],
+  "risers": [
+   18
+  ]
+ },
+ "shots": [
+  {
+   "b": 4,
+   "kind": "still",
+   "src": "s-lineup-new",
+   "in": "cut",
+   "dim": 0.4,
+   "cam": [
+    [
+     250,
+     40,
+     640,
+     733
+    ],
+    [
+     290,
+     70,
+     620,
+     656
+    ]
+   ],
+   "camEase": "outCubic",
+   "text": [
+    {
+     "style": "slam",
+     "text": "THIS VILLAIN",
+     "at": -0.6,
+     "y": 560,
+     "size": 150,
+     "shake": 0
+    },
+    {
+     "style": "slam",
+     "text": "DIDN'T EXIST",
+     "at": 0.7,
+     "y": 730,
+     "size": 150,
+     "shake": 0.5
+    },
+    {
+     "style": "slam",
+     "text": "*10 SECONDS AGO.*",
+     "at": 1.4,
+     "y": 900,
+     "size": 128,
+     "shake": 0.7
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-new-villain",
+   "in": "whip-l",
+   "look": "card",
+   "box": [
+    40,
+    500,
+    1000,
+    800
+   ],
+   "cam": [
+    [
+     800,
+     0,
+     1360,
+     467
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    6,
+    -8,
+    4,
+    -4
+   ],
+   "from": 0.4,
+   "speed": 1.0,
+   "text": [
+    {
+     "style": "tag",
+     "text": "NEW CHARACTER",
+     "at": 0,
+     "y": 300,
+     "size": 84,
+     "cls": "hot",
+     "rot": -2
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-new-villain",
+   "in": "punch",
+   "look": "card",
+   "box": [
+    40,
+    500,
+    1000,
+    800
+   ],
+   "cam": [
+    [
+     300,
+     40,
+     860,
+     507
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    6,
+    8,
+    4,
+    4
+   ],
+   "from": 1.2,
+   "speed": 0.9,
+   "text": [
+    {
+     "style": "tag",
+     "text": "VILLAIN",
+     "at": 0,
+     "y": 300,
+     "size": 84,
+     "rot": 2
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "clip",
+   "src": "c-new-villain",
+   "in": "punch",
+   "look": "card",
+   "box": [
+    40,
+    520,
+    1000,
+    700
+   ],
+   "cam": [
+    [
+     250,
+     0,
+     900,
+     474
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    6,
+    -6,
+    4,
+    -2
+   ],
+   "from": 1.7,
+   "speed": 1.15,
+   "text": [
+    {
+     "style": "tag",
+     "text": "A NAME",
+     "at": 0,
+     "y": 300,
+     "size": 84,
+     "cls": "hot",
+     "rot": -2
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "clip",
+   "src": "c-new-villain",
+   "in": "punch",
+   "look": "card",
+   "box": [
+    40,
+    520,
+    1000,
+    700
+   ],
+   "cam": [
+    [
+     180,
+     200,
+     830,
+     674
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    6,
+    6,
+    4,
+    2
+   ],
+   "from": 3.95,
+   "speed": 1.0,
+   "text": [
+    {
+     "style": "tag",
+     "text": "A HEIGHT",
+     "at": 0,
+     "y": 300,
+     "size": 84,
+     "rot": 2
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "still",
+   "src": "s-lineup-new",
+   "in": "whip-u",
+   "shake": 0.6,
+   "cam": [
+    [
+     300,
+     280,
+     620,
+     849
+    ],
+    [
+     280,
+     0,
+     640,
+     640
+    ]
+   ],
+   "camEase": "outQuint",
+   "text": [
+    {
+     "style": "cap",
+     "text": "Taller than *The Hollow King.*",
+     "at": 0.2,
+     "y": 240,
+     "size": 70
+    },
+    {
+     "style": "label",
+     "text": "NEW",
+     "anchor": [
+      384,
+      127
+     ],
+     "offset": [
+      -150,
+      0
+     ],
+     "at": 0.7,
+     "cls": "hot"
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "type",
+   "bg": "still:s-lineup-new",
+   "in": "flash",
+   "text": [
+    {
+     "style": "slam",
+     "text": "^250 CM^",
+     "at": 0,
+     "y": 640,
+     "size": 280,
+     "shake": 0.9
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-lineup-new",
+   "in": "zoom",
+   "look": "card",
+   "box": [
+    30,
+    520,
+    1020,
+    760
+   ],
+   "cam": [
+    [
+     250,
+     40,
+     1290,
+     620
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    10,
+    -12,
+    5,
+    8
+   ],
+   "from": 0.3,
+   "speed": 1.4,
+   "cursor": false,
+   "text": [
+    {
+     "style": "cap",
+     "text": "Type a height once. *Inkwell* lines him up.",
+     "at": 0.1,
+     "y": 250,
+     "size": 70
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "type",
+   "bg": "still:s-lineup",
+   "in": "drop",
+   "text": [
+    {
+     "style": "slam",
+     "text": "YOUR",
+     "at": 0,
+     "y": 620,
+     "size": 170,
+     "shake": 0.5
+    },
+    {
+     "style": "slam",
+     "text": "*VILLAIN* NEXT.",
+     "at": 0.5,
+     "y": 800,
+     "size": 150,
+     "shake": 0.6
+    },
+    {
+     "style": "small",
+     "text": "Free to start in your browser",
+     "at": 1.0,
+     "y": 1040,
+     "size": 40
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 5,
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

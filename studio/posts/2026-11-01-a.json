@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-01-a-villain-too-short",
+  "engine": 2,
+  "video": "videos/2026-11-01-a-villain-too-short.mp4",
+  "video_bio": "videos/2026-11-01-a-villain-too-short-bio.mp4",
+  "format": "F11 Hot take",
+  "built_for": "comments, conversion",
+  "opening": "frame one: YOUR VILLAIN / IS TOO SHORT. over the dark lineup's tall end (The Hollow King filling the frame)",
+  "slot": "A 2026-11-01 14:00 Lisbon (+00:00)",
+  "dueAt": "2026-11-01T14:00:00+00:00",
+  "hook": "Your villain is too short.",
+  "question": "What's your gap? Villain minus hero.",
+  "length_s": 13.1,
+  "bpm": 128,
+  "music": "drive",
+  "thumbnailOffset": 1000,
+  "experiment": "engine 2 vs engine 1 (week 5 experiment 1); hot take vs question (experiment 2)",
+  "made_by": "Claude in conversation with Miguel, 31 Oct 2026 (reviewed by a separate agent, re-cut after its notes)",
+  "captions": {
+    "tiktok": "Your villain is too short (character height comparison)\nMine is 240 cm. The hero is 163. That's 77 cm of menace before anyone says a word.\nMade in Inkwell, the comic planner I'm building. Free to start in your browser, link in bio.\nWhat's your gap? Villain minus hero, just the number.\n#oc #villainoc #heightcomparison #comicartist",
+    "instagram": "Your villain is too short (character height comparison)\nMine is 240 cm. The hero is 163. That's 77 cm of menace before anyone says a word, and readers feel it.\nThis is the lineup in Inkwell, the comic planner I'm building: your whole cast to scale, in cm or ft. Free to start in your browser, link in bio.\nWhat's your gap? Villain minus hero, just the number.\n#oc #originalcharacter #villainoc #heightcomparison #webcomic",
+    "youtube_title": "Your villain is too short | character height comparison",
+    "youtube": "My villain, The Hollow King, is 240 cm. My hero, Afterburn, is 163. Height tells readers who's in charge before anyone speaks.\nBoth are from Afterburn, the example comic inside Inkwell, a comic planner that lines up your whole cast to scale.\nFree to start in your browser: inkwell-comics.gbusiness-mtake.workers.dev\n#oc #worldbuilding #comicartist"
+  },
+  "buffer": {
+    "tiktok": "6ae654ab37c1acd2a0cd463d",
+    "instagram": "6ae654ac21c807e9d584a28f",
+    "youtube": "6ae654acab019b908723c9f1"
+  }
+}
