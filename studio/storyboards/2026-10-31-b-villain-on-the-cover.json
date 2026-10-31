@@ -43,7 +43,7 @@
     0.52
    ],
    "cont": true,
-   "text": "Mine does. Issue 3, Minus Zero: Mr. Minus holding a guttering sun.",
+   "text": "Mine will. Issue 3, Minus Zero: Mr. Minus holding a guttering sun.",
    "dur": 2.9,
    "camA": [
     0.51,
@@ -81,7 +81,7 @@
     0.2,
     0.105,
     0.975,
-    0.93
+    0.52
    ],
    "text": "Every cover side by side, like the rack in a comic shop.",
    "dur": 2.6,
@@ -95,11 +95,11 @@
     0.2,
     0.105,
     0.975,
-    0.93
+    0.52
    ],
    "maskTop": 690,
    "size": 66,
-   "maxW": 860
+   "maxW": 830
   },
   {
    "shot": "light/home",
@@ -113,19 +113,19 @@
    "dur": 2.4,
    "camA": [
     0.215,
-    0.85,
-    0.42,
+    0.7,
+    0.66,
     0.995
    ],
    "camB": [
     0.215,
-    0.7,
-    0.52,
-    0.995
+    0.665,
+    0.66,
+    0.998
    ],
    "maskTop": 690,
    "size": 68,
-   "maxW": 860
+   "maxW": 830
   }
  ],
  "end": {
