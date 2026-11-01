@@ -1,0 +1,293 @@
+{
+ "id": "2026-11-03-a-before-i-draw",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 100,
+ "footage": "../footage/2026-11-02",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "pluck"
+   }
+  ],
+  "opener": "soft"
+ },
+ "shots": [
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-stock-43941-pour",
+   "theme": "paper",
+   "grade": "warm",
+   "cursor": false,
+   "cam": [
+    [
+     40,
+     70,
+     500,
+     890
+    ],
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "camEase": "outCubic",
+   "text": [
+    {
+     "style": "serif",
+     "text": "How I plan a comic",
+     "at": -1.2,
+     "y": 820,
+     "size": 116,
+     "cls": "light"
+    },
+    {
+     "style": "serif",
+     "text": "*before I draw a page.*",
+     "at": -0.8,
+     "y": 950,
+     "size": 100,
+     "cls": "light"
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "clip",
+   "src": "c-stock-100488-sketch",
+   "theme": "paper",
+   "grade": "warm",
+   "in": "fade",
+   "fadeDur": 0.3,
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     30,
+     50,
+     510,
+     910
+    ]
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "7:10 \u00b7 rough ideas",
+     "at": 0.15,
+     "y": 270,
+     "size": 72,
+     "dur": 1.1,
+     "cls": "light"
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "clip",
+   "src": "c-stock-99890-write2",
+   "theme": "paper",
+   "grade": "warm",
+   "in": "blurin",
+   "cursor": false,
+   "cam": [
+    [
+     30,
+     50,
+     510,
+     910
+    ],
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "7:25 \u00b7 who knows what",
+     "at": 0.15,
+     "y": 270,
+     "size": 70,
+     "dur": 1.1,
+     "cls": "light"
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-gs-char-wide",
+   "theme": "paper",
+   "grade": "warm",
+   "in": "page",
+   "look": "card",
+   "box": [
+    60,
+    640,
+    960,
+    540
+   ],
+   "cam": [
+    [
+     0,
+     0,
+     960,
+     540
+    ]
+   ],
+   "drift": 0.05,
+   "tilt": [
+    5,
+    -8,
+    2,
+    5
+   ],
+   "cursor": false,
+   "text": [
+    {
+     "style": "hand",
+     "text": "7:40 \u00b7 all of it into *Inkwell*",
+     "at": 0.15,
+     "y": 330,
+     "size": 66,
+     "dur": 1.1
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "clip",
+   "src": "c-timeline-scroll",
+   "theme": "paper",
+   "in": "page",
+   "look": "card",
+   "box": [
+    70,
+    620,
+    940,
+    608
+   ],
+   "cam": [
+    [
+     180,
+     30,
+     1360,
+     790
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    6,
+    9,
+    3,
+    -5
+   ],
+   "speed": 1.2,
+   "cursor": false,
+   "text": [
+    {
+     "style": "hand",
+     "text": "8:00 \u00b7 what happened when",
+     "at": 0.15,
+     "y": 330,
+     "size": 66,
+     "dur": 1.1
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "clip",
+   "src": "c-stock-785-tablet",
+   "theme": "paper",
+   "grade": "warm",
+   "in": "fade",
+   "fadeDur": 0.3,
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     27,
+     48,
+     513,
+     912
+    ]
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "8:30 \u00b7 now I draw",
+     "at": 0.15,
+     "y": 270,
+     "size": 72,
+     "dur": 1.1,
+     "cls": "light"
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-stock-2858-draw",
+   "theme": "paper",
+   "grade": "warm",
+   "in": "blurin",
+   "cursor": false,
+   "cam": [
+    [
+     20,
+     36,
+     520,
+     924
+    ],
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "9:15.",
+     "at": 0.3,
+     "y": 260,
+     "size": 120
+    },
+    {
+     "style": "serif",
+     "text": "*First page, done.*",
+     "at": 0.8,
+     "y": 390,
+     "size": 104
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 4,
+  "theme": "paper",
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

@@ -13,7 +13,7 @@
     "style": "frantic"
    },
    {
-    "at": 13,
+    "at": 14.0,
     "style": "lofi",
     "half": true
    }
@@ -143,7 +143,7 @@
    ]
   },
   {
-   "b": 1,
+   "b": 1.5,
    "kind": "blank",
    "bg": "ink",
    "theme": "ink",
@@ -176,7 +176,7 @@
        }
       ],
       [
-       1,
+       1.5,
        {
         "s": 1.0,
         "r": -2
@@ -187,7 +187,7 @@
    ]
   },
   {
-   "b": 1,
+   "b": 0.5,
    "kind": "clip",
    "src": "c-stock-99890-write",
    "theme": "ink",
@@ -202,19 +202,10 @@
      960
     ]
    ],
-   "text": [
-    {
-     "style": "caption",
-     "text": "3/9 a sketchbook",
-     "at": -1.0,
-     "y": 236,
-     "size": 74,
-     "stagger": 0
-    }
-   ]
+   "text": []
   },
   {
-   "b": 1,
+   "b": 1.5,
    "kind": "blank",
    "bg": "ink",
    "theme": "ink",
@@ -247,7 +238,7 @@
        }
       ],
       [
-       1,
+       1.5,
        {
         "s": 1.0,
         "r": 1.5
@@ -258,9 +249,9 @@
    ]
   },
   {
-   "b": 1,
+   "b": 0.5,
    "kind": "clip",
-   "src": "c-stock-50112-sticky",
+   "src": "c-stock-99909-sticky2",
    "theme": "ink",
    "grade": "film",
    "in": "punch",
@@ -272,20 +263,10 @@
      540,
      960
     ]
-   ],
-   "text": [
-    {
-     "style": "caption",
-     "text": "5/9 more sticky notes",
-     "at": -1.0,
-     "y": 236,
-     "size": 74,
-     "stagger": 0
-    }
    ]
   },
   {
-   "b": 1,
+   "b": 1.5,
    "kind": "blank",
    "bg": "ink",
    "theme": "ink",
@@ -318,7 +299,7 @@
        }
       ],
       [
-       1,
+       1.5,
        {
         "s": 1.0,
         "r": -1
@@ -329,7 +310,7 @@
    ]
   },
   {
-   "b": 1,
+   "b": 0.5,
    "kind": "clip",
    "src": "c-stock-4526-throw",
    "theme": "ink",
@@ -344,19 +325,10 @@
      960
     ]
    ],
-   "text": [
-    {
-     "style": "caption",
-     "text": "7/9 printouts",
-     "at": -1.0,
-     "y": 236,
-     "size": 74,
-     "stagger": 0
-    }
-   ]
+   "text": []
   },
   {
-   "b": 1,
+   "b": 1.5,
    "kind": "blank",
    "bg": "ink",
    "theme": "ink",
@@ -382,14 +354,14 @@
      ],
      "kf": [
       [
-       0,
+       0.0,
        {
         "s": 0.6,
         "o": 0
        }
       ],
       [
-       0.12,
+       0.15,
        {
         "s": 1,
         "o": 1
@@ -409,14 +381,14 @@
      ],
      "kf": [
       [
-       0.3,
+       0.45,
        {
         "s": 0.6,
         "o": 0
        }
       ],
       [
-       0.42,
+       0.6,
        {
         "s": 1,
         "o": 1
@@ -436,14 +408,14 @@
      ],
      "kf": [
       [
-       0.6,
+       0.9,
        {
         "s": 0.6,
         "o": 0
        }
       ],
       [
-       0.72,
+       1.05,
        {
         "s": 1,
         "o": 1
@@ -456,7 +428,7 @@
    ]
   },
   {
-   "b": 1,
+   "b": 1.5,
    "kind": "clip",
    "src": "c-stock-4508-head",
    "theme": "ink",
@@ -848,10 +820,10 @@
    "text": [
     {
      "style": "cap",
-     "text": "*Inkwell:* every note, one search away.",
+     "text": "*Inkwell:* one search away.",
      "at": 0.3,
      "y": 1120,
-     "size": 64
+     "size": 60
     }
    ]
   },
@@ -889,18 +861,26 @@
    "text": [
     {
      "style": "hand",
-     "text": "your whole cast, to scale",
+     "text": "your whole cast,",
      "at": 0.2,
-     "y": 330,
+     "y": 300,
      "size": 80,
-     "dur": 1.6
+     "dur": 0.9
+    },
+    {
+     "style": "hand",
+     "text": "to scale",
+     "at": 0.9,
+     "y": 395,
+     "size": 80,
+     "dur": 0.7
     }
    ]
   },
   {
    "b": 4,
    "kind": "clip",
-   "src": "c-web-hover",
+   "src": "c-identities",
    "theme": "paper",
    "in": "page",
    "look": "card",
@@ -912,9 +892,9 @@
    ],
    "cam": [
     [
-     250,
-     110,
-     1250,
+     180,
+     40,
+     1360,
      800
     ]
    ],
@@ -925,16 +905,24 @@
     3,
     -6
    ],
-   "speed": 1.4,
-   "from": 0.4,
+   "speed": 1.0,
+   "from": 0.2,
    "text": [
     {
      "style": "hand",
-     "text": "and who knows *whose secret*",
+     "text": "who knows",
      "at": 0.2,
-     "y": 330,
+     "y": 300,
      "size": 80,
-     "dur": 1.6
+     "dur": 0.7
+    },
+    {
+     "style": "hand",
+     "text": "*whose secret*",
+     "at": 0.8,
+     "y": 395,
+     "size": 80,
+     "dur": 0.9
     }
    ]
   },
