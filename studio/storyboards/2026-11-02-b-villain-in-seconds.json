@@ -3,7 +3,7 @@
  "engine": 2,
  "fps": 30,
  "bpm": 128,
- "footage": "../footage/2026-10-31",
+ "footage": "../footage/2026-11-01",
  "pulse": 0.008,
  "music": {
   "style": "dark",
@@ -14,7 +14,7 @@
    ]
   ],
   "risers": [
-   18
+   19
   ]
  },
  "shots": [
@@ -26,16 +26,16 @@
    "dim": 0.4,
    "cam": [
     [
-     250,
-     40,
-     640,
-     733
+     225,
+     70,
+     495,
+     552
     ],
     [
-     290,
-     70,
-     620,
-     656
+     240,
+     95,
+     490,
+     540
     ]
    ],
    "camEase": "outCubic",
@@ -98,10 +98,10 @@
    "text": [
     {
      "style": "tag",
-     "text": "NEW CHARACTER",
+     "text": "INKWELL \u00b7 NEW CHARACTER",
      "at": 0,
      "y": 300,
-     "size": 84,
+     "size": 70,
      "cls": "hot",
      "rot": -2
     }
@@ -242,9 +242,9 @@
      849
     ],
     [
-     280,
-     0,
-     640,
+     270,
+     -40,
+     650,
      640
     ]
    ],
@@ -253,8 +253,8 @@
     {
      "style": "cap",
      "text": "Taller than *The Hollow King.*",
-     "at": 0.2,
-     "y": 240,
+     "at": 0.8,
+     "y": 210,
      "size": 70
     },
     {
@@ -262,10 +262,10 @@
      "text": "NEW",
      "anchor": [
       384,
-      127
+      330
      ],
      "offset": [
-      -150,
+      -175,
       0
      ],
      "at": 0.7,
@@ -284,13 +284,13 @@
      "text": "^250 CM^",
      "at": 0,
      "y": 640,
-     "size": 280,
+     "size": 240,
      "shake": 0.9
     }
    ]
   },
   {
-   "b": 3,
+   "b": 4,
    "kind": "clip",
    "src": "c-lineup-new",
    "in": "zoom",
@@ -303,10 +303,10 @@
    ],
    "cam": [
     [
-     250,
-     40,
-     1290,
-     620
+     110,
+     50,
+     1210,
+     640
     ]
    ],
    "drift": 0.04,
@@ -316,8 +316,8 @@
     5,
     8
    ],
-   "from": 0.3,
-   "speed": 1.4,
+   "from": 0.0,
+   "speed": 0.6,
    "cursor": false,
    "text": [
     {
@@ -340,7 +340,7 @@
      "text": "YOUR",
      "at": 0,
      "y": 620,
-     "size": 170,
+     "size": 150,
      "shake": 0.5
     },
     {
@@ -348,15 +348,8 @@
      "text": "*VILLAIN* NEXT.",
      "at": 0.5,
      "y": 800,
-     "size": 150,
+     "size": 132,
      "shake": 0.6
-    },
-    {
-     "style": "small",
-     "text": "Free to start in your browser",
-     "at": 1.0,
-     "y": 1040,
-     "size": 40
     }
    ]
   }

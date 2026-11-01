@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-02-b-villain-in-seconds",
+  "engine": 2,
+  "video": "videos/2026-11-02-b-villain-in-seconds.mp4",
+  "video_bio": "videos/2026-11-02-b-villain-in-seconds-bio.mp4",
+  "format": "F12 Speed build",
+  "built_for": "conversion, sends",
+  "opening": "frame one: THIS VILLAIN / DIDN'T EXIST / 10 SECONDS AGO. over the dark lineup tight on Quillbane alone (new character, 250 cm)",
+  "slot": "B 2026-11-02 00:00 Lisbon (+00:00)",
+  "dueAt": "2026-11-02T00:00:00+00:00",
+  "hook": "This villain didn't exist 10 seconds ago.",
+  "question": "How tall is your villain? Just the number.",
+  "length_s": 12.2,
+  "bpm": 128,
+  "music": "dark",
+  "thumbnailOffset": 1500,
+  "experiment": "engine 2 vs engine 1; CTA arm [ctl] (end card only); result-first hook",
+  "made_by": "rendered 31 Oct; re-cut 1 Nov by the daily run on fresh footage (12.2 s, Inkwell named at 1.9 s, new opening crop, early CTA line removed); reviewed by a separate agent, fixes applied",
+  "captions": {
+    "tiktok": "This villain didn't exist 10 seconds ago (villain OC)\nI typed a name and a height, 250 cm, and Inkwell put him at the front of the lineup, taller than The Hollow King.\nMade in Inkwell, the comic planner I'm building. Free to start in your browser, link in bio.\nHow tall is your villain? Just the number.\n#villainoc #oc #heightcomparison #comicartist",
+    "instagram": "This villain didn't exist 10 seconds ago (villain OC)\nI made Quillbane for this video: New character, Villain, a name, 250 cm. Inkwell lined him up straight away, taller than The Hollow King, the villain in my example comic.\nInkwell is the comic planner I'm building. Free to start in your browser, link in bio.\nHow tall is your villain? Just the number.\n#villainoc #oc #originalcharacter #heightcomparison #webcomic",
+    "youtube_title": "This villain didn't exist 10 seconds ago | villain OC height comparison",
+    "youtube": "I made a new villain for this video, Quillbane, inside Afterburn, the example comic in Inkwell: New character, Villain, a name, a height of 250 cm. The lineup put him first, taller than The Hollow King.\nInkwell is a comic planner and story bible. Free to start in your browser: inkwell-comics.gbusiness-mtake.workers.dev\n#villainoc #oc #comicartist"
+  },
+  "buffer": {}
+}
