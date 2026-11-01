@@ -1,0 +1,982 @@
+{
+ "id": "2026-11-02-a-nine-places",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 150,
+ "footage": "../footage/2026-11-02",
+ "pulse": 0.005,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "frantic"
+   },
+   {
+    "at": 13,
+    "style": "lofi",
+    "half": true
+   }
+  ],
+  "opener": "impact"
+ },
+ "shots": [
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-stock-25575-hook",
+   "theme": "ink",
+   "grade": "tense",
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     30,
+     52,
+     510,
+     905
+    ]
+   ],
+   "camEase": "outCubic",
+   "cursor": false,
+   "text": [
+    {
+     "style": "caption",
+     "text": "Your comic lives in *9 places.*",
+     "at": -1.4,
+     "y": 236,
+     "size": 86
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div class=\"sticky\">Rosa: 9 or 10??</div>",
+     "box": [
+      70,
+      990,
+      400,
+      330
+     ],
+     "kf": [
+      [
+       0.4,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -18
+       }
+      ],
+      [
+       0.62,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -6
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky pink\">who knows her secret?!</div>",
+     "box": [
+      600,
+      1050,
+      410,
+      360
+     ],
+     "kf": [
+      [
+       1.1,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -7
+       }
+      ],
+      [
+       1.32,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 5
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky blue\">villain: 240 cm??</div>",
+     "box": [
+      250,
+      1340,
+      440,
+      300
+     ],
+     "kf": [
+      [
+       1.8,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -9
+       }
+      ],
+      [
+       2.02,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 3
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "blank",
+   "bg": "ink",
+   "theme": "ink",
+   "in": "punch",
+   "text": [
+    {
+     "style": "caption",
+     "text": "2/9 notes app",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div class=\"ui\"><div class=\"bar\"><i></i><i></i><i></i>&nbsp;Notes</div><div class=\"body\"><div class=\"h\">comic ideas FINAL (3)</div>- villain backstory??<br>- Rosa is 9? or 10<br><span class=\"dim\">- issue 4: ????</span><br>- who knows Dani's secret<br><span class=\"red\">- DON'T FORGET THE MAP</span></div></div>",
+     "box": [
+      90,
+      470,
+      900,
+      820
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "s": 1.12,
+        "r": -4
+       }
+      ],
+      [
+       1,
+       {
+        "s": 1.0,
+        "r": -2
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-stock-99890-write",
+   "theme": "ink",
+   "grade": "film",
+   "in": "punch",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "text": [
+    {
+     "style": "caption",
+     "text": "3/9 a sketchbook",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "blank",
+   "bg": "ink",
+   "theme": "ink",
+   "in": "punch",
+   "text": [
+    {
+     "style": "caption",
+     "text": "4/9 23 tabs",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div class=\"ui\"><div class=\"tabs\"><b>villain names</b><b>240 cm in ft</b><b>issue 4</b><b>map ideas</b><b>power scale</b><b>+18</b></div><div class=\"body\"><div class=\"h\">240 cm in feet</div><span class=\"dim\">7 ft 10 in</span><br><br><span class=\"dim\">people also ask: how tall should a villain be?</span></div></div>",
+     "box": [
+      70,
+      480,
+      940,
+      760
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "s": 1.1,
+        "r": 3
+       }
+      ],
+      [
+       1,
+       {
+        "s": 1.0,
+        "r": 1.5
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-stock-50112-sticky",
+   "theme": "ink",
+   "grade": "film",
+   "in": "punch",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "text": [
+    {
+     "style": "caption",
+     "text": "5/9 more sticky notes",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "blank",
+   "bg": "ink",
+   "theme": "ink",
+   "in": "punch",
+   "text": [
+    {
+     "style": "caption",
+     "text": "6/9 a doc called FINAL",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div class=\"ui\"><div class=\"bar\">Issue 3 plot FINAL v2 (old)</div><div class=\"body\"><s style=\"text-decoration-color:#E0434A;text-decoration-thickness:4px\">Dani finds the mask in the attic</s><br><s style=\"text-decoration-color:#E0434A;text-decoration-thickness:4px\">Rosa sees everything</s> <span class=\"red\">no?</span><br>Titan lies about the Crater<br><span class=\"dim\">(continued in the other doc)</span></div></div>",
+     "box": [
+      80,
+      500,
+      920,
+      700
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "s": 1.12,
+        "r": -3
+       }
+      ],
+      [
+       1,
+       {
+        "s": 1.0,
+        "r": -1
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-stock-4526-throw",
+   "theme": "ink",
+   "grade": "tense",
+   "in": "punch",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "text": [
+    {
+     "style": "caption",
+     "text": "7/9 printouts",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "blank",
+   "bg": "ink",
+   "theme": "ink",
+   "in": "punch",
+   "text": [
+    {
+     "style": "caption",
+     "text": "8/9 texts to yourself",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"display:inline-block;float:right;background:#7C5CFF;color:#fff;font:700 46px Sans;padding:24px 34px;border-radius:38px 38px 10px 38px;box-shadow:0 18px 40px rgba(0,0,0,0.35)\">rosa knows!!</div>",
+     "box": [
+      200,
+      560,
+      700,
+      140
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "s": 0.6,
+        "o": 0
+       }
+      ],
+      [
+       0.12,
+       {
+        "s": 1,
+        "o": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style=\"display:inline-block;float:right;background:#7C5CFF;color:#fff;font:700 46px Sans;padding:24px 34px;border-radius:38px 38px 10px 38px;box-shadow:0 18px 40px rgba(0,0,0,0.35)\">wait does she</div>",
+     "box": [
+      200,
+      740,
+      700,
+      140
+     ],
+     "kf": [
+      [
+       0.3,
+       {
+        "s": 0.6,
+        "o": 0
+       }
+      ],
+      [
+       0.42,
+       {
+        "s": 1,
+        "o": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style=\"display:inline-block;float:right;background:#7C5CFF;color:#fff;font:700 46px Sans;padding:24px 34px;border-radius:38px 38px 10px 38px;box-shadow:0 18px 40px rgba(0,0,0,0.35)\">check issue 2 tmrw</div>",
+     "box": [
+      200,
+      920,
+      700,
+      140
+     ],
+     "kf": [
+      [
+       0.6,
+       {
+        "s": 0.6,
+        "o": 0
+       }
+      ],
+      [
+       0.72,
+       {
+        "s": 1,
+        "o": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "b": 1,
+   "kind": "clip",
+   "src": "c-stock-4508-head",
+   "theme": "ink",
+   "grade": "tense",
+   "in": "punch",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "text": [
+    {
+     "style": "caption",
+     "text": "9/9 *your head.*",
+     "at": -1.0,
+     "y": 236,
+     "size": 74,
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "clip",
+   "src": "c-stock-25575-peak",
+   "theme": "ink",
+   "grade": "tense",
+   "in": "punch",
+   "shake": 0.6,
+   "stop": 0.8,
+   "cursor": false,
+   "cam": [
+    [
+     20,
+     36,
+     520,
+     924
+    ],
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div class=\"sticky orange\" style=\"font-size:52px\">map??</div>",
+     "box": [
+      80,
+      300,
+      330,
+      300
+     ],
+     "kf": [
+      [
+       0.0,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -20
+       }
+      ],
+      [
+       0.22,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -8
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky\" style=\"font-size:52px\">issue 3 \u2192 see doc</div>",
+     "box": [
+      640,
+      260,
+      380,
+      320
+     ],
+     "kf": [
+      [
+       0.12,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -5
+       }
+      ],
+      [
+       0.33999999999999997,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 7
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky pink\" style=\"font-size:52px\">Dani's mask colour?</div>",
+     "box": [
+      120,
+      760,
+      400,
+      330
+     ],
+     "kf": [
+      [
+       0.24,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -7
+       }
+      ],
+      [
+       0.45999999999999996,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 5
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky blue\" style=\"font-size:52px\">WHO told Maddox</div>",
+     "box": [
+      600,
+      700,
+      400,
+      330
+     ],
+     "kf": [
+      [
+       0.36,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -18
+       }
+      ],
+      [
+       0.58,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -6
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky\" style=\"font-size:52px\">kill Blue Comet??</div>",
+     "box": [
+      300,
+      1040,
+      420,
+      320
+     ],
+     "kf": [
+      [
+       0.48,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -3
+       }
+      ],
+      [
+       0.7,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 9
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky green\" style=\"font-size:52px\">power scale!!</div>",
+     "box": [
+      60,
+      1300,
+      380,
+      300
+     ],
+     "kf": [
+      [
+       0.6,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -22
+       }
+      ],
+      [
+       0.82,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -10
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky pink\" style=\"font-size:52px\">plot hole p.12</div>",
+     "box": [
+      640,
+      1180,
+      380,
+      320
+     ],
+     "kf": [
+      [
+       0.72,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -8
+       }
+      ],
+      [
+       0.94,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 4
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky white\" style=\"font-size:52px\">Titan vs Dani?</div>",
+     "box": [
+      360,
+      480,
+      380,
+      300
+     ],
+     "kf": [
+      [
+       0.84,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -15
+       }
+      ],
+      [
+       1.06,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -3
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky\" style=\"font-size:52px\">rename the city</div>",
+     "box": [
+      660,
+      1480,
+      360,
+      300
+     ],
+     "kf": [
+      [
+       0.96,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -19
+       }
+      ],
+      [
+       1.18,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -7
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky blue\" style=\"font-size:52px\">wait, what's his name</div>",
+     "box": [
+      160,
+      1500,
+      420,
+      320
+     ],
+     "kf": [
+      [
+       1.08,
+       {
+        "s": 1.7,
+        "o": 0,
+        "r": -6
+       }
+      ],
+      [
+       1.3,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 6
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "blank",
+   "bg": "paper",
+   "theme": "paper",
+   "in": "fade",
+   "fadeDur": 0.5,
+   "text": [
+    {
+     "style": "serif",
+     "text": "Or",
+     "at": 0.2,
+     "y": 700,
+     "size": 170
+    },
+    {
+     "style": "serif",
+     "text": "*one place.*",
+     "at": 1.2,
+     "y": 880,
+     "size": 170
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "clip",
+   "src": "c-gs-search-tall",
+   "theme": "paper",
+   "grade": "warm",
+   "in": "blurin",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     16,
+     28,
+     524,
+     932
+    ]
+   ],
+   "text": [
+    {
+     "style": "cap",
+     "text": "*Inkwell:* every note, one search away.",
+     "at": 0.3,
+     "y": 1120,
+     "size": 64
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "clip",
+   "src": "c-lineup-pan",
+   "theme": "paper",
+   "in": "page",
+   "look": "card",
+   "box": [
+    70,
+    600,
+    940,
+    608
+   ],
+   "cam": [
+    [
+     150,
+     70,
+     1340,
+     840
+    ]
+   ],
+   "drift": 0.04,
+   "tilt": [
+    6,
+    -9,
+    3,
+    6
+   ],
+   "speed": 1.2,
+   "from": 0.1,
+   "cursor": false,
+   "text": [
+    {
+     "style": "hand",
+     "text": "your whole cast, to scale",
+     "at": 0.2,
+     "y": 330,
+     "size": 80,
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "clip",
+   "src": "c-web-hover",
+   "theme": "paper",
+   "in": "page",
+   "look": "card",
+   "box": [
+    70,
+    600,
+    940,
+    608
+   ],
+   "cam": [
+    [
+     250,
+     110,
+     1250,
+     800
+    ]
+   ],
+   "drift": 0.05,
+   "tilt": [
+    6,
+    9,
+    3,
+    -6
+   ],
+   "speed": 1.4,
+   "from": 0.4,
+   "text": [
+    {
+     "style": "hand",
+     "text": "and who knows *whose secret*",
+     "at": 0.2,
+     "y": 330,
+     "size": 80,
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-stock-4954-close",
+   "theme": "paper",
+   "grade": "warm",
+   "in": "fade",
+   "fadeDur": 0.35,
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     24,
+     30,
+     516,
+     905
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Done for *tonight.*",
+     "at": 0.4,
+     "y": 300,
+     "size": 112
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 6,
+  "theme": "paper",
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}
