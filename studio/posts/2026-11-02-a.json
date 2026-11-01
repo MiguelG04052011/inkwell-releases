@@ -1,0 +1,27 @@
+{
+ "id": "2026-11-02-a-nine-places",
+ "engine": 3,
+ "idea": "S1 chaos to calm",
+ "structure": "countdown+arc",
+ "look": "ink>paper",
+ "sound": "frantic>lofi",
+ "footage": "stock people (Mixkit 25575, 99890, 50112, 4526, 4508, 4954) + generic UI + app on a real laptop (100321) + app clips",
+ "hook": "relatable count: Your comic lives in 9 places.",
+ "length_s": 14.8,
+ "slot": "A",
+ "dueAt": "2026-11-02T19:00:00+00:00",
+ "built_for": [
+  "conversion",
+  "sends"
+ ],
+ "buffer": {
+  "tiktok": "6ae743e91ee172cd6dfd20d3",
+  "instagram": "6ae743eaf0984eef336a4315",
+  "youtube": "6ae743ea21c807e9d5bfede2"
+ },
+ "files": {
+  "tiktok": "videos/2026-11-02-a-nine-places.mp4",
+  "instagram": "videos/2026-11-02-a-nine-places-bio.mp4",
+  "youtube": "videos/2026-11-02-a-nine-places.mp4"
+ }
+}

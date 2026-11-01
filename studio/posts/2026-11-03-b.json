@@ -1,0 +1,26 @@
+{
+ "id": "2026-11-03-b-247-notes",
+ "engine": 3,
+ "idea": "S4 product film",
+ "structure": "product film",
+ "look": "night>clean",
+ "sound": "cinematic",
+ "footage": "3D UI cards from app stills + laptop mock-up + app clip",
+ "hook": "big number: Your comic, right now: 247 notes",
+ "length_s": 13.0,
+ "slot": "B",
+ "dueAt": "2026-11-03T00:00:00+00:00",
+ "built_for": [
+  "conversion"
+ ],
+ "buffer": {
+  "tiktok": "6ae743eb37c1acd2a008e9f2",
+  "instagram": "6ae743ecab019b908760638c",
+  "youtube": "6ae743ed37c1acd2a008ea3b"
+ },
+ "files": {
+  "tiktok": "videos/2026-11-03-b-247-notes.mp4",
+  "instagram": "videos/2026-11-03-b-247-notes-bio.mp4",
+  "youtube": "videos/2026-11-03-b-247-notes.mp4"
+ }
+}
