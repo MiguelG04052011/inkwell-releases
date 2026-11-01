@@ -1,11 +1,65 @@
 # Inkwell video studio
 
-Makes Inkwell's short vertical videos (1080×1920, 30 fps, H.264 + AAC) from the real app, with code-driven motion
-design and synthesised sound. No stock footage, no samples, no generated imagery.
+Makes Inkwell's short vertical videos (1080×1920, 30 fps, H.264 + AAC) from the real app, licensed real-world
+footage and code-driven motion design, with synthesised sound. No AI-generated images, video, voices or music.
 
-**Engine 2 (default since 31 Oct 2026)** cuts on the beat: a shot every 0.5–1.5 s, real app footage (recorded
-clips with the real pointer and clicks), kinetic type that slams in, counters, pills, whip/zoom/flash transitions,
-camera shake on impacts and a beat-synced soundtrack. Engine 1 (`make.sh`, below) stays as a fallback.
+**Engine 3 (default since 1 Nov 2026)** is engine 2 plus: looks (art directions), real people and places from
+licensed stock footage, the real app composited onto a real laptop, keyframed layers (sticky notes, generic UI
+cards, glowing search bars, light trails, Inkwell UI cards floating in 3D with depth of field), new transitions
+(ink, fade, blurin, page, glitch), freeze-stops, and a soundtrack with several palettes that can switch mid-video.
+Engine 2 storyboards render unchanged in engine 3. Engine 1 (`make.sh`) stays as a last-resort fallback.
+
+## Engine 3
+
+```
+./make3.sh storyboards/<id>.json [default-style] [workers]      # ../videos/<id>.mp4 + out/<id>-sheet.jpg
+./variant.sh storyboards/<id>.json bio '{"cta":"Link in bio · free to start"}'   # ../videos/<id>-bio.mp4
+node render3/capture.js storyboards/<id>.json /tmp/pv 2 0,45,90                    # check single frames
+```
+
+Storyboard: engine 2's format (shots in beats, `kind` still/clip/type/blank, `cam`, `look: card`, `tilt`, texts)
+with `"engine": 3` and these additions:
+
+- `"look"`: the video's art direction: `ink` (dark violet, engine 2), `paper` (cream paper, ink-black type, a
+  yellow marker, photos with a white border), `night` (deep navy, cyan/violet glow, glass), `clean` (white, serif
+  headlines, soft product shadows), `comic` (yellow halftone, black outlines, Bangers). A shot's `"theme"` switches
+  the look while it is on screen (a dark chaos can cut to a paper calm); `"end": {"theme": …}` for the end card.
+  Type/blank cards take `"bg"`: paper, night, clean, comic, cream, white, black, red, yellow, ink, or still:<name>.
+- Text styles (all looks): `serif` (Instrument Serif; `*word*` = italic accent), `hand` (Permanent Marker, written on
+  left to right over `dur` beats), `caption` (TikTok-native white with a black stroke), `note` (a sticky note slapped
+  on), `comic`, plus engine 2's slam, cap, tag, count (`"cls": "serifcount"` for a serif counter), small, label.
+  `"align"`, `"rot"`, `"until"` work on every style.
+- Real footage: `"src": "c-stock-<id>-<name>"` (made by `stock/prep.py`) or `"c-gs-…"` (the app on a laptop, made
+  by `stock/screen.py`) behave like app clips (cam rects in the clip's DIP = source px / 2). `"grade"`: warm, film,
+  cold, tense, mono, pop, night. `"stop": beats` freezes the last beats of a shot, drains the colour and puts a
+  tape stop in the sound. `"frame": "laptop"` puts a card clip in a laptop.
+- `"layers"`: keyframed elements over the shot. Each: `"html"` (any markup; classes in render3/compose.html:
+  `sticky` [pink|blue|green|white|orange], `scrap`, `ui` (+`bar`, `body`, `tabs`; `ui dark`), `search`
+  (+`.q` for typing), `trail` (an SVG path drawn by `dash`), `bigword`) or `"img": "<still>", "crop": [x0,y0,x1,y1]`
+  (DIP of a 1360×880 still; `"dims"` for other sizes) with `"cls": "card glow"` / `"card lightc"`; `"box": [x, y, w, h?]`
+  in stage px (h follows the crop); `"kf": [[beat, {x, y, z, s, r, rx, ry, o, blur, dash}, "ease"?], …]` (values
+  accumulate; the layer is hidden before its first key); `"type": {"text", "at", "dur", "sel"}` types text with a
+  caret and key sounds; `"sfx"`: slap, paper, pencil, chime, thump, soft, pop, click, whip; `"until"`.
+  3D: a shot with `"persp": 1100` puts its layers in perspective; `"cam3d": [[beat, {z, x, y, rx, ry}], …]` flies the
+  camera through them; `"dof": 0.011` blurs by distance from `"focus"`; layers fade before they reach the camera.
+- Transitions (`"in"`): engine 2's cut, punch, flash, whip-l/r/u/d, zoom, drop, rise, leak, plus `fade`
+  (`fadeDur`), `blurin`, `page` (a page turn), `ink` (an ink blot grows from `inkAt`), `glitch`. Soft transitions keep
+  the previous shot under the new one for half a second.
+- `"music"`: `{"sections": [{"at": beat, "style": "frantic"}, {"at": 13, "style": "lofi", "half": true,
+  "switch": "tapestop|scratch|cut"}], "opener": "impact|slap|soft|none", "risers": [beat], "hits": [beat]}`.
+  Styles (audio/music3.py): drive, dark, bright (engine 2), lofi (swung drums, electric piano, vinyl), frantic
+  (ticking hats, stabs, a clock), cinematic (pulses, taiko, braams, bells), pluck (plucked guitar, shaker, warm),
+  ambient (pads and bells, for satisfying videos). Foley comes from the edit: slaps, paper, pencil, chimes, page
+  flips, ink blooms, glitches, typing.
+
+Real footage (licensed, never committed): `python3 stock/fetch.py [ids]` downloads clips listed in
+`stock/library.json` (Mixkit, Stock Video Free License: commercial use including social media marketing, no
+attribution; the script refuses Restricted-licence clips) into `footage/stock/`; `python3 stock/prep.py <id>
+<footage dir> <name> --start S --dur D [--cx 0.4] [--wide] [--speed 0.8]` cuts a 9:16 (or 16:9) clip; `python3
+stock/screen.py --app <footage>/clips/c-search --out <footage>/clips/c-gs-search-tall --mode tall` puts any app
+clip on the green laptop of clip 100321 (hands typing). People in stock footage are actors: never present them as
+Inkwell users, never put words in their mouths as testimonials. Add new clips to library.json after checking
+the clip page says "Stock Video Free License".
 
 ## Engine 2
 
