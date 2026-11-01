@@ -1,0 +1,24 @@
+{
+ "id": "2026-11-03-a-before-i-draw",
+ "engine": 3,
+ "idea": "S2 lifestyle",
+ "structure": "day montage",
+ "look": "paper (warm)",
+ "sound": "pluck",
+ "footage": "stock people (Mixkit 43941, 100488, 99890, 785, 2858) + app on a real laptop (100321, Characters) + app clip (Timeline)",
+ "hook": "how-to promise: How to plan a comic before you draw a page.",
+ "length_s": 13.8,
+ "slot": "A",
+ "dueAt": "2026-11-03T19:00:00+00:00",
+ "built_for": [
+  "follows",
+  "saves"
+ ],
+ "note": "Speaks to 'you' because the hands are actors (Playbook rule 15). US election day: nothing political.",
+ "buffer": {},
+ "files": {
+  "tiktok": "videos/2026-11-03-a-before-i-draw.mp4",
+  "instagram": "videos/2026-11-03-a-before-i-draw-bio.mp4",
+  "youtube": "videos/2026-11-03-a-before-i-draw.mp4"
+ }
+}

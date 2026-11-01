@@ -7,7 +7,7 @@
  "sound": "cinematic",
  "footage": "3D UI cards from app stills + laptop mock-up + app clip",
  "hook": "big number: Your comic, right now: 247 notes",
- "length_s": 13.0,
+ "length_s": 16.0,
  "slot": "B",
  "dueAt": "2026-11-03T00:00:00+00:00",
  "built_for": [
@@ -19,8 +19,9 @@
   "youtube": "6ae743ed37c1acd2a008ea3b"
  },
  "files": {
-  "tiktok": "videos/2026-11-03-b-247-notes.mp4",
-  "instagram": "videos/2026-11-03-b-247-notes-bio.mp4",
-  "youtube": "videos/2026-11-03-b-247-notes.mp4"
- }
+  "tiktok": "videos/2026-11-03-b-247-notes-v2.mp4",
+  "instagram": "videos/2026-11-03-b-247-notes-v2-bio.mp4",
+  "youtube": "videos/2026-11-03-b-247-notes-v2.mp4"
+ },
+ "revision": "v2 (1 Nov, after a separate reviewer): numbers written as words and held long enough to read, the identities screen plays under the secret-identities line, the real search card; Instagram caption drops 'One word.'"
 }

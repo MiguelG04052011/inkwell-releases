@@ -41,7 +41,7 @@
    "text": [
     {
      "style": "serif",
-     "text": "How I plan a comic",
+     "text": "How to plan a comic",
      "at": -1.2,
      "y": 820,
      "size": 116,
@@ -49,7 +49,7 @@
     },
     {
      "style": "serif",
-     "text": "*before I draw a page.*",
+     "text": "*before you draw a page.*",
      "at": -0.8,
      "y": 950,
      "size": 100,
@@ -83,11 +83,11 @@
    "text": [
     {
      "style": "hand",
-     "text": "7:10 \u00b7 rough ideas",
+     "text": "7:10 · rough ideas",
      "at": 0.15,
      "y": 270,
      "size": 72,
-     "dur": 1.1,
+     "dur": 0.7,
      "cls": "light"
     }
    ]
@@ -117,11 +117,11 @@
    "text": [
     {
      "style": "hand",
-     "text": "7:25 \u00b7 who knows what",
+     "text": "7:25 · who knows what",
      "at": 0.15,
      "y": 270,
      "size": 70,
-     "dur": 1.1,
+     "dur": 0.7,
      "cls": "light"
     }
    ]
@@ -159,11 +159,11 @@
    "text": [
     {
      "style": "hand",
-     "text": "7:40 \u00b7 all of it into *Inkwell*",
+     "text": "7:40 · all of it into *Inkwell*",
      "at": 0.15,
      "y": 330,
      "size": 66,
-     "dur": 1.1
+     "dur": 0.7
     }
    ]
   },
@@ -200,11 +200,11 @@
    "text": [
     {
      "style": "hand",
-     "text": "8:00 \u00b7 what happened when",
+     "text": "8:00 · what happened when",
      "at": 0.15,
      "y": 330,
      "size": 66,
-     "dur": 1.1
+     "dur": 0.7
     }
    ]
   },
@@ -234,11 +234,11 @@
    "text": [
     {
      "style": "hand",
-     "text": "8:30 \u00b7 now I draw",
+     "text": "8:30 · now you draw",
      "at": 0.15,
      "y": 270,
      "size": 72,
-     "dur": 1.1,
+     "dur": 0.7,
      "cls": "light"
     }
    ]
@@ -271,14 +271,16 @@
      "text": "9:15.",
      "at": 0.3,
      "y": 260,
-     "size": 120
+     "size": 120,
+     "cls": "light"
     },
     {
      "style": "serif",
      "text": "*First page, done.*",
      "at": 0.8,
      "y": 390,
-     "size": 104
+     "size": 104,
+     "cls": "light"
     }
    ]
   }
