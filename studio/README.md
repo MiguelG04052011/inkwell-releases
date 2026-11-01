@@ -26,7 +26,7 @@ with `"engine": 3` and these additions:
   the look while it is on screen (a dark chaos can cut to a paper calm); `"end": {"theme": …}` for the end card.
   Type/blank cards take `"bg"`: paper, night, clean, comic, cream, white, black, red, yellow, ink, or still:<name>.
 - Text styles (all looks): `serif` (Instrument Serif; `*word*` = italic accent), `hand` (Permanent Marker, written on
-  left to right over `dur` beats), `caption` (TikTok-native white with a black stroke), `note` (a sticky note slapped
+  left to right over `dur` beats), `caption` (TikTok-native white with a black stroke; for text over footage, not over plain paper or white), `note` (a sticky note slapped
   on), `comic`, plus engine 2's slam, cap, tag, count (`"cls": "serifcount"` for a serif counter), small, label.
   `"align"`, `"rot"`, `"until"` work on every style.
 - Real footage: `"src": "c-stock-<id>-<name>"` (made by `stock/prep.py`) or `"c-gs-…"` (the app on a laptop, made
