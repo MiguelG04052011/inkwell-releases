@@ -1,0 +1,919 @@
+{
+ "id": "2026-11-04-a-story-bible-v2",
+ "engine": 3,
+ "look": "clean",
+ "fps": 30,
+ "bpm": 100,
+ "footage": "../footage/2026-11-04",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "ambient"
+   }
+  ],
+  "opener": "soft",
+  "hits": [
+   3.5,
+   8.2,
+   13.2,
+   17.9
+  ]
+ },
+ "shots": [
+  {
+   "b": 3.5,
+   "kind": "clip",
+   "src": "c-stock-41183-keys",
+   "theme": "clean",
+   "grade": "cold",
+   "cursor": false,
+   "persp": 1100,
+   "cam": [
+    [
+     20,
+     36,
+     520,
+     925
+    ],
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "layers": [
+    {
+     "img": "s-identities-paper",
+     "crop": [
+      270,
+      165,
+      800,
+      420
+     ],
+     "box": [
+      70,
+      225,
+      480
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0.4,
+       {
+        "z": -300,
+        "y": 60,
+        "r": -14,
+        "o": 0,
+        "rx": 14
+       }
+      ],
+      [
+       0.9,
+       {
+        "z": 0,
+        "y": 0,
+        "r": -7,
+        "o": 1,
+        "rx": 6
+       },
+       "outBack"
+      ],
+      [
+       3.6,
+       {
+        "y": -24,
+        "r": -5.6000000000000005
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      250,
+      60,
+      790,
+      300
+     ],
+     "box": [
+      530,
+      300,
+      480
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0.8500000000000001,
+       {
+        "z": -300,
+        "y": 60,
+        "r": 12,
+        "o": 0,
+        "rx": 14
+       }
+      ],
+      [
+       1.35,
+       {
+        "z": 0,
+        "y": 0,
+        "r": 6,
+        "o": 1,
+        "rx": 6
+       },
+       "outBack"
+      ],
+      [
+       3.6,
+       {
+        "y": -24,
+        "r": 4.800000000000001
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      270,
+      120,
+      800,
+      420
+     ],
+     "box": [
+      250,
+      960,
+      580
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       1.3,
+       {
+        "z": -300,
+        "y": 60,
+        "r": -8,
+        "o": 0,
+        "rx": 14
+       }
+      ],
+      [
+       1.8,
+       {
+        "z": 0,
+        "y": 0,
+        "r": -4,
+        "o": 1,
+        "rx": 6
+       },
+       "outBack"
+      ],
+      [
+       3.6,
+       {
+        "y": -24,
+        "r": -3.2
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "3 things every",
+     "at": -1,
+     "y": 640,
+     "size": 128,
+     "cls": "light"
+    },
+    {
+     "style": "serif",
+     "text": "*story bible* needs.",
+     "at": -1,
+     "y": 780,
+     "size": 116,
+     "cls": "light"
+    }
+   ]
+  },
+  {
+   "b": 2.4,
+   "kind": "blank",
+   "bg": "clean",
+   "theme": "clean",
+   "in": "blurin",
+   "persp": 1100,
+   "dof": 0.004,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 300,
+      "ry": 2
+     }
+    ],
+    [
+     2.4,
+     {
+      "z": 1080,
+      "ry": -2
+     },
+     "outCubic"
+    ]
+   ],
+   "layers": [
+    {
+     "img": "s-identities-paper",
+     "crop": [
+      270,
+      165,
+      800,
+      420
+     ],
+     "box": [
+      90,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1000,
+        "r": -3,
+        "ry": -6,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      250,
+      60,
+      790,
+      300
+     ],
+     "box": [
+      70,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -2400,
+        "r": 3,
+        "ry": 6,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      270,
+      120,
+      800,
+      420
+     ],
+     "box": [
+      110,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -3800,
+        "r": -2,
+        "ry": -4,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bigword\" style=\"font-size:240px;color:#5B4CF0;font-style:italic\">1</div>",
+     "box": [
+      60,
+      235,
+      200
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -800,
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Who knows",
+     "at": 0.1,
+     "y": 262,
+     "size": 96
+    },
+    {
+     "style": "serif",
+     "text": "*each secret.*",
+     "at": 0.3,
+     "y": 364,
+     "size": 96
+    }
+   ]
+  },
+  {
+   "b": 2.3,
+   "kind": "clip",
+   "src": "c-identities-paper",
+   "theme": "clean",
+   "in": "punch",
+   "cursor": false,
+   "cam": [
+    [
+     285,
+     172,
+     620,
+     768
+    ],
+    [
+     290,
+     190,
+     600,
+     742
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "from": 0.1,
+   "speed": 1.0,
+   "text": [
+    {
+     "style": "cap",
+     "text": "3 people know Dani's secret.",
+     "at": 0.1,
+     "y": 1292,
+     "size": 54
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "blank",
+   "bg": "clean",
+   "theme": "clean",
+   "in": "blurin",
+   "persp": 1100,
+   "dof": 0.004,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 1700,
+      "ry": 2
+     }
+    ],
+    [
+     2.5,
+     {
+      "z": 2480,
+      "ry": -2
+     },
+     "outCubic"
+    ]
+   ],
+   "layers": [
+    {
+     "img": "s-identities-paper",
+     "crop": [
+      270,
+      165,
+      800,
+      420
+     ],
+     "box": [
+      90,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1000,
+        "r": -3,
+        "ry": -6,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      250,
+      60,
+      790,
+      300
+     ],
+     "box": [
+      70,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -2400,
+        "r": 3,
+        "ry": 6,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      270,
+      120,
+      800,
+      420
+     ],
+     "box": [
+      110,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -3800,
+        "r": -2,
+        "ry": -4,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bigword\" style=\"font-size:240px;color:#5B4CF0;font-style:italic\">2</div>",
+     "box": [
+      60,
+      235,
+      200
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -2200,
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "When everything",
+     "at": 0.1,
+     "y": 262,
+     "size": 92
+    },
+    {
+     "style": "serif",
+     "text": "*happened.*",
+     "at": 0.3,
+     "y": 360,
+     "size": 92
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "clip",
+   "src": "c-timeline-pan-paper",
+   "theme": "clean",
+   "in": "punch",
+   "cursor": false,
+   "cam": [
+    [
+     265,
+     60,
+     645,
+     735
+    ],
+    [
+     280,
+     70,
+     630,
+     690
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "from": 0.5,
+   "speed": 0.9,
+   "text": [
+    {
+     "style": "cap",
+     "text": "Solstice's first flight: 25 years before.",
+     "at": 0.1,
+     "y": 1150,
+     "size": 54
+    }
+   ]
+  },
+  {
+   "b": 2.4,
+   "kind": "blank",
+   "bg": "clean",
+   "theme": "clean",
+   "in": "blurin",
+   "persp": 1100,
+   "dof": 0.004,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 3100,
+      "ry": 2
+     }
+    ],
+    [
+     2.4,
+     {
+      "z": 3880,
+      "ry": -2
+     },
+     "outCubic"
+    ]
+   ],
+   "layers": [
+    {
+     "img": "s-identities-paper",
+     "crop": [
+      270,
+      165,
+      800,
+      420
+     ],
+     "box": [
+      90,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1000,
+        "r": -3,
+        "ry": -6,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      250,
+      60,
+      790,
+      300
+     ],
+     "box": [
+      70,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -2400,
+        "r": 3,
+        "ry": 6,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      270,
+      120,
+      800,
+      420
+     ],
+     "box": [
+      110,
+      650,
+      900
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -3800,
+        "r": -2,
+        "ry": -4,
+        "rx": 4,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bigword\" style=\"font-size:240px;color:#5B4CF0;font-style:italic\">3</div>",
+     "box": [
+      60,
+      235,
+      200
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -3600,
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Who's",
+     "at": 0.1,
+     "y": 262,
+     "size": 96
+    },
+    {
+     "style": "serif",
+     "text": "*strongest.*",
+     "at": 0.3,
+     "y": 364,
+     "size": 96
+    }
+   ]
+  },
+  {
+   "b": 2.4,
+   "kind": "clip",
+   "src": "c-power-scroll-paper",
+   "theme": "clean",
+   "in": "punch",
+   "look": "card",
+   "box": [
+    -20,
+    -20,
+    1120,
+    1210
+   ],
+   "cursor": false,
+   "cam": [
+    [
+     272,
+     110,
+     640,
+     507
+    ],
+    [
+     272,
+     20,
+     640,
+     417
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "from": 0.1,
+   "speed": 1.0,
+   "text": [
+    {
+     "style": "cap",
+     "text": "The Hollow King, top of the list.",
+     "at": 0.1,
+     "y": 1240,
+     "size": 54
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "blank",
+   "bg": "clean",
+   "theme": "clean",
+   "in": "blurin",
+   "persp": 1100,
+   "layers": [
+    {
+     "img": "s-identities-paper",
+     "crop": [
+      270,
+      165,
+      800,
+      420
+     ],
+     "box": [
+      70,
+      600,
+      640
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0.0,
+       {
+        "z": -1500,
+        "y": 200,
+        "r": -18,
+        "o": 0,
+        "rx": 20
+       }
+      ],
+      [
+       0.8,
+       {
+        "z": 0,
+        "y": 0,
+        "r": -6,
+        "o": 1,
+        "rx": 5
+       },
+       "outBack"
+      ],
+      [
+       3,
+       {
+        "s": 1.03
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      250,
+      60,
+      790,
+      300
+     ],
+     "box": [
+      370,
+      790,
+      640
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0.3,
+       {
+        "z": -1500,
+        "y": 200,
+        "r": 15,
+        "o": 0,
+        "rx": 20
+       }
+      ],
+      [
+       1.1,
+       {
+        "z": 0,
+        "y": 0,
+        "r": 5,
+        "o": 1,
+        "rx": 5
+       },
+       "outBack"
+      ],
+      [
+       3,
+       {
+        "s": 1.03
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      270,
+      120,
+      800,
+      420
+     ],
+     "box": [
+      110,
+      1000,
+      680
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0.6,
+       {
+        "z": -1500,
+        "y": 200,
+        "r": -9,
+        "o": 0,
+        "rx": 20
+       }
+      ],
+      [
+       1.4,
+       {
+        "z": 0,
+        "y": 0,
+        "r": -3,
+        "o": 1,
+        "rx": 5
+       },
+       "outBack"
+      ],
+      [
+       3,
+       {
+        "s": 1.03
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "All three live",
+     "at": 0.2,
+     "y": 262,
+     "size": 112
+    },
+    {
+     "style": "serif",
+     "text": "in *Inkwell.*",
+     "at": 0.5,
+     "y": 382,
+     "size": 112
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 3.4,
+  "theme": "clean",
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

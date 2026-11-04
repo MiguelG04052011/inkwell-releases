@@ -1,0 +1,293 @@
+{
+ "id": "2026-11-05-b-one-remembers",
+ "engine": 3,
+ "look": "ink",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-04",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "drive"
+   }
+  ],
+  "opener": "impact",
+  "hits": [
+   5,
+   11,
+   17
+  ],
+  "risers": [
+   21.5
+  ]
+ },
+ "shots": [
+  {
+   "b": 5,
+   "kind": "clip",
+   "src": "c-split-0",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0.0,
+   "text": [
+    {
+     "style": "slam",
+     "text": "SAME COMIC.",
+     "at": -0.5,
+     "y": 420,
+     "size": 120
+    },
+    {
+     "style": "caption",
+     "text": "One of these *remembers.*",
+     "at": 1.8,
+     "y": 612,
+     "size": 70
+    },
+    {
+     "style": "tag",
+     "text": "Inkwell",
+     "at": 0.4,
+     "y": 790,
+     "size": 54
+    }
+   ]
+  },
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-split-1",
+   "in": "glitch",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0.0,
+   "text": [
+    {
+     "style": "caption",
+     "text": "Who knows her secret?",
+     "at": 0.05,
+     "y": 610,
+     "size": 78
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"display:inline-block;white-space:nowrap;font-family:InkwellDisplay;background:#F06A9C;color:#0B0B10;font-weight:900;font-size:52px;letter-spacing:-0.02em;text-transform:uppercase;padding:6px 18px 2px;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.6)\">3 people know.</div>",
+     "box": [
+      395,
+      988,
+      520
+     ],
+     "kf": [
+      [
+       2.2,
+       {
+        "s": 1.5,
+        "o": 0,
+        "r": -2
+       }
+      ],
+      [
+       2.5500000000000003,
+       {
+        "s": 1,
+        "o": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "shake": 0.3
+  },
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-split-2",
+   "in": "whip-l",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0.0,
+   "text": [
+    {
+     "style": "caption",
+     "text": "How tall is the villain?",
+     "at": 0.05,
+     "y": 610,
+     "size": 78
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"display:inline-block;white-space:nowrap;font-family:InkwellDisplay;background:#F06A9C;color:#0B0B10;font-weight:900;font-size:52px;letter-spacing:-0.02em;text-transform:uppercase;padding:6px 18px 2px;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.6)\">240 cm.</div>",
+     "box": [
+      196,
+      812,
+      520
+     ],
+     "kf": [
+      [
+       2.2,
+       {
+        "s": 1.5,
+        "o": 0,
+        "r": -2
+       }
+      ],
+      [
+       2.5500000000000003,
+       {
+        "s": 1,
+        "o": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "shake": 0.3
+  },
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-split-3",
+   "in": "whip-r",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0.0,
+   "text": [
+    {
+     "style": "caption",
+     "text": "Who's tied to who?",
+     "at": 0.05,
+     "y": 610,
+     "size": 78,
+     "until": 4.7
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"display:inline-block;white-space:nowrap;font-family:InkwellDisplay;background:#F06A9C;color:#0B0B10;font-weight:900;font-size:52px;letter-spacing:-0.02em;text-transform:uppercase;padding:6px 18px 2px;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.6)\">Inkwell draws the web.</div>",
+     "box": [
+      150,
+      1262,
+      520
+     ],
+     "kf": [
+      [
+       2.0,
+       {
+        "s": 1.5,
+        "o": 0,
+        "r": -1
+       }
+      ],
+      [
+       2.35,
+       {
+        "s": 1,
+        "o": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop",
+     "until": 4.7
+    }
+   ],
+   "shake": 0.3
+  },
+  {
+   "b": 5,
+   "kind": "clip",
+   "src": "c-search",
+   "in": "flash",
+   "flashColor": "#FFFFFF",
+   "look": "card",
+   "box": [
+    40,
+    640,
+    1000,
+    650
+   ],
+   "cam": [
+    [
+     300,
+     30,
+     1100,
+     548
+    ],
+    [
+     390,
+     50,
+     990,
+     438
+    ]
+   ],
+   "camEase": "outCubic",
+   "tilt": [
+    9,
+    -10,
+    3,
+    5
+   ],
+   "from": 0.0,
+   "speed": 1.0,
+   "cursor": false,
+   "text": [
+    {
+     "style": "slam",
+     "text": "TYPE ONE NAME.",
+     "at": 0.1,
+     "y": 290,
+     "size": 116
+    },
+    {
+     "style": "slam",
+     "text": "*INKWELL* REMEMBERS.",
+     "at": 1.5,
+     "y": 430,
+     "size": 84
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 4,
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

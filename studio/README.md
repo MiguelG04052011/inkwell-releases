@@ -52,6 +52,8 @@ with `"engine": 3` and these additions:
   ambient (pads and bells, for satisfying videos). Foley comes from the edit: slaps, paper, pencil, chimes, page
   flips, ink blooms, glitches, typing.
 
+Split screen: `python3 stock/split.py --top <stock clip> --bottom <app clip> --out <footage>/clips/c-split-x --dur 2.8 --rect x0,y0,x1,y1 --div 0:700,0.5:760` makes a clip with footage on top (colour drained, `--grey`), the real app below and a glowing divider that can move or wipe away (`y` 0 hides the top). Use it as a full-frame clip (`cursor: false`, `cam [[0,0,540,960]]`); keep what matters in the app above y 1350. Added 4 Nov 2026.
+
 Real footage (licensed, never committed): `python3 stock/fetch.py [ids]` downloads clips listed in
 `stock/library.json` (Mixkit, Stock Video Free License: commercial use including social media marketing, no
 attribution; the script refuses Restricted-licence clips) into `footage/stock/`; `python3 stock/prep.py <id>
