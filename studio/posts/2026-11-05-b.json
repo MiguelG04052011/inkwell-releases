@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-05-b-one-remembers",
+ "engine": 3,
+ "idea": "S6 before/after",
+ "structure": "split",
+ "look": "ink",
+ "sound": "drive",
+ "footage": "stock people (Mixkit 39839, 4953, 39852, 29984) + app clips, split screen (stock/split.py)",
+ "hook": "Same comic. One of these remembers.",
+ "length_s": 15.0,
+ "slot": "B",
+ "dueAt": "2026-11-05T00:00:00+00:00",
+ "built_for": [
+  "sends",
+  "conversion"
+ ],
+ "note": "Afternoon-check fallback.",
+ "buffer": {
+  "tiktok": "6aeb8c3e8aec178794a2b371",
+  "instagram": "6aeb8c3f8aec178794a2b3c3",
+  "youtube": "6aeb8c40d0337bbdcd45c00d"
+ },
+ "files": {
+  "tiktok": "videos/2026-11-05-b-one-remembers.mp4",
+  "instagram": "videos/2026-11-05-b-one-remembers-bio.mp4",
+  "youtube": "videos/2026-11-05-b-one-remembers.mp4"
+ }
+}

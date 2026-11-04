@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-04-a-story-bible-v2",
+ "engine": 3,
+ "idea": "S3 how-to",
+ "structure": "list",
+ "look": "clean",
+ "sound": "ambient",
+ "footage": "real hands (Mixkit 41183) + Inkwell's real cards in 3D + full-bleed app clips",
+ "hook": "how-to number: 3 things every story bible needs.",
+ "length_s": 14.6,
+ "slot": "A (late)",
+ "dueAt": "2026-11-04T21:00:00+00:00",
+ "built_for": [
+  "saves",
+  "conversion"
+ ],
+ "note": "Afternoon-check fallback. Slot A (19:00) was missed; the run's clock read two hours slow. Re-cut twice after the critic.",
+ "buffer": {
+  "tiktok": "6aeb8c59d0337bbdcd45c5b1",
+  "instagram": "6aeb8c59d0337bbdcd45c601",
+  "youtube": "6aeb8c5a8aec178794a2b81e"
+ },
+ "files": {
+  "tiktok": "videos/2026-11-04-a-story-bible-v2.mp4",
+  "instagram": "videos/2026-11-04-a-story-bible-v2-bio.mp4",
+  "youtube": "videos/2026-11-04-a-story-bible-v2.mp4"
+ }
+}
