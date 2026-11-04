@@ -1,0 +1,23 @@
+{
+ "status": "held, not scheduled",
+ "note": "Rendered on 4 Nov by the morning run, whose session stalled from about 10:20 to 19:50 UTC. Meanwhile the afternoon check filled both slots with videos on the same idea, so this one was not scheduled (no double-booking, no same idea twice in a row). Not to be scheduled before 11 Nov; the Sunday run decides. Reviewed and passed: see Log.md, 4 Nov.",
+ "engine": 3,
+ "buffer": {},
+ "id": "2026-11-05-b-comic-page",
+ "idea": "S6 before/after",
+ "structure": "comic-page split",
+ "look": "comic (halftone mono to colour)",
+ "sound": "dark>bright",
+ "footage": "stock people (Mixkit 4953, 39852, 29984, 39839) + app clips (light theme)",
+ "hook": "filter: If you still plan your comic in three notebooks\u2026",
+ "length_s": 15.7,
+ "files": {
+  "tiktok": "videos/2026-11-05-b-comic-page.mp4",
+  "instagram": "videos/2026-11-05-b-comic-page-bio.mp4",
+  "youtube": "videos/2026-11-05-b-comic-page.mp4"
+ },
+ "captions": {
+  "first_line": "If you still plan your comic in three notebooks (comic planner app)",
+  "youtube_title": "If you still plan your comic in three notebooks | comic planner app"
+ }
+}

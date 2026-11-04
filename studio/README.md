@@ -63,6 +63,9 @@ clip on the green laptop of clip 100321 (hands typing). People in stock footage 
 Inkwell users, never put words in their mouths as testimonials. Add new clips to library.json after checking
 the clip page says "Stock Video Free License".
 
+
+Comic-page panels (added 4 Nov 2026): `python3 stock/panels.py <footage dir> ops/panels/<id>.json` composites two footage panels split by a slanted, sliding gutter into a clip folder (`c-panel-…`): `"ink": true` prints a side as black halftone on newsprint, the other stays in colour (spec format in the script's header). Use as a full clip with `"cam": [[0,0,540,960]]`, `"cursor": false`, in the `comic` look (no vignette since 4 Nov). The `clean` look's serif now has a white glow so it reads over floating cards. One-take flights: put hero cards at increasing z in one `blank` shot and stack `img` layers of real app frames (copied from a clip into `stills/`) to change their state on arrival.
+
 ## Engine 2
 
 ```

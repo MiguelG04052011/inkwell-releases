@@ -1,0 +1,232 @@
+{
+ "id": "2026-11-05-b-comic-page",
+ "engine": 3,
+ "look": "comic",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-04",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "dark"
+   },
+   {
+    "at": 12,
+    "style": "bright",
+    "switch": "scratch"
+   }
+  ],
+  "opener": "slap",
+  "risers": [
+   12
+  ],
+  "hits": [
+   12,
+   20.5
+  ],
+  "papers": []
+ },
+ "shots": [
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-panel-hook",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "cap",
+     "text": "IF YOU STILL PLAN YOUR COMIC",
+     "at": -1,
+     "y": 210,
+     "size": 72
+    },
+    {
+     "style": "cap",
+     "text": "IN THREE NOTEBOOKS\u2026",
+     "at": -1,
+     "y": 1170,
+     "size": 78
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "clip",
+   "src": "c-panel-flip",
+   "in": "page",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "comic",
+     "text": "SCRATCH\u2026",
+     "at": 0.1,
+     "y": 300,
+     "size": 118,
+     "rot": -6,
+     "until": 3.9
+    },
+    {
+     "style": "comic",
+     "text": "SCRATCH\u2026",
+     "at": 1,
+     "y": 480,
+     "size": 140,
+     "rot": 4,
+     "until": 3.9
+    },
+    {
+     "style": "cap",
+     "text": "WHO KNOWS HER SECRET?",
+     "at": 0.9,
+     "y": 1140,
+     "size": 80
+    }
+   ],
+   "layers": [
+    {
+     "html": "<i></i>",
+     "box": [
+      0,
+      0,
+      10
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<i></i>",
+     "box": [
+      0,
+      0,
+      10
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    }
+   ]
+  },
+  {
+   "b": 7,
+   "kind": "clip",
+   "src": "c-panel-who",
+   "cursor": false,
+   "in": "punch",
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "cap",
+     "text": "MEANWHILE, IN INKWELL\u2026",
+     "at": 2.9,
+     "y": 300,
+     "size": 70
+    }
+   ]
+  },
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-panel-find",
+   "cursor": false,
+   "in": "whip-l",
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "cap",
+     "text": "ONE SEARCH.",
+     "at": 2.3,
+     "y": 1255,
+     "size": 80
+    }
+   ]
+  },
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-panel-same",
+   "cursor": false,
+   "in": "punch",
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "comic",
+     "text": "SAME COMIC.",
+     "at": 0.1,
+     "y": 250,
+     "size": 118
+    },
+    {
+     "style": "cap",
+     "text": "ONE OF THESE REMEMBERS.",
+     "at": 2.0,
+     "y": 440,
+     "size": 74
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 4.5,
+  "theme": "comic",
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

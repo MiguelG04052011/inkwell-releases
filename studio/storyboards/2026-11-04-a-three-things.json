@@ -1,0 +1,1177 @@
+{
+ "id": "2026-11-04-a-three-things",
+ "engine": 3,
+ "look": "clean",
+ "fps": 30,
+ "bpm": 100,
+ "footage": "../footage/2026-11-04",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "ambient"
+   }
+  ],
+  "opener": "soft",
+  "dropouts": [
+   [
+    2.9,
+    3.5
+   ]
+  ]
+ },
+ "shots": [
+  {
+   "b": 23,
+   "kind": "blank",
+   "bg": "clean",
+   "theme": "clean",
+   "persp": 1100,
+   "dof": 0.006,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -40,
+      "x": 0,
+      "y": 0
+     }
+    ],
+    [
+     3.5,
+     {
+      "z": 0,
+      "x": 0,
+      "y": 0
+     }
+    ],
+    [
+     4.6,
+     {
+      "z": 1700,
+      "x": -170,
+      "y": -50
+     },
+     "inOutCubic"
+    ],
+    [
+     8.6,
+     {
+      "z": 1770,
+      "x": -170,
+      "y": -50
+     }
+    ],
+    [
+     9.6,
+     {
+      "z": 3400,
+      "x": -130,
+      "y": 70
+     },
+     "inOutCubic"
+    ],
+    [
+     13.6,
+     {
+      "z": 3470,
+      "x": 430,
+      "y": 70
+     }
+    ],
+    [
+     14.6,
+     {
+      "z": 5100,
+      "x": -140,
+      "y": -30
+     },
+     "inOutCubic"
+    ],
+    [
+     18.6,
+     {
+      "z": 5170,
+      "x": -140,
+      "y": -30
+     }
+    ],
+    [
+     19.6,
+     {
+      "z": 6800,
+      "x": 0,
+      "y": 0
+     },
+     "inOutCubic"
+    ],
+    [
+     23,
+     {
+      "z": 6870,
+      "x": 0,
+      "y": 0
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "img": "s-identities-paper",
+     "crop": [
+      240,
+      0,
+      1340,
+      320
+     ],
+     "box": [
+      924,
+      1485,
+      601
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -117,
+        "ry": -22,
+        "rx": -2,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      240,
+      60,
+      1340,
+      380
+     ],
+     "box": [
+      -374,
+      941,
+      585
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -318,
+        "ry": 9,
+        "rx": 6,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": -4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      240,
+      100,
+      1340,
+      420
+     ],
+     "box": [
+      852,
+      645,
+      416
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -568,
+        "ry": -18,
+        "rx": 6,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-web",
+     "crop": [
+      300,
+      60,
+      1200,
+      700
+     ],
+     "box": [
+      -264,
+      590,
+      569
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -848,
+        "ry": 22,
+        "rx": -6,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": -4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      240,
+      60,
+      1340,
+      380
+     ],
+     "box": [
+      751,
+      1205,
+      618
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -2010,
+        "ry": -13,
+        "rx": 8,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      240,
+      100,
+      1340,
+      420
+     ],
+     "box": [
+      -173,
+      781,
+      387
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -2211,
+        "ry": 18,
+        "rx": -5,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": -4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-web",
+     "crop": [
+      300,
+      60,
+      1200,
+      700
+     ],
+     "box": [
+      858,
+      594,
+      454
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -2518,
+        "ry": -6,
+        "rx": -2,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      240,
+      100,
+      1340,
+      420
+     ],
+     "box": [
+      859,
+      945,
+      584
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -3879,
+        "ry": -20,
+        "rx": 8,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-web",
+     "crop": [
+      300,
+      60,
+      1200,
+      700
+     ],
+     "box": [
+      -263,
+      1345,
+      567
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -4079,
+        "ry": 9,
+        "rx": 4,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": -4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-power-paper",
+     "crop": [
+      240,
+      100,
+      1340,
+      420
+     ],
+     "box": [
+      -179,
+      1057,
+      399
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -5474,
+        "ry": 6,
+        "rx": 3,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": -4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-web",
+     "crop": [
+      300,
+      60,
+      1200,
+      700
+     ],
+     "box": [
+      858,
+      1550,
+      539
+     ],
+     "cls": "card lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -5747,
+        "ry": -10,
+        "rx": 4,
+        "o": 1
+       }
+      ],
+      [
+       22,
+       {
+        "ry": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-identities-paper",
+     "crop": [
+      280,
+      170,
+      980,
+      420
+     ],
+     "box": [
+      -40,
+      590,
+      600
+     ],
+     "cls": "card lightc",
+     "until": 4.2,
+     "kf": [
+      [
+       0,
+       {
+        "z": -90,
+        "r": -4,
+        "o": 1
+       }
+      ],
+      [
+       4,
+       {
+        "r": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-pw2",
+     "crop": [
+      270,
+      110,
+      1000,
+      420
+     ],
+     "box": [
+      520,
+      830,
+      600
+     ],
+     "cls": "card lightc",
+     "until": 4.2,
+     "kf": [
+      [
+       0,
+       {
+        "z": -90,
+        "r": 3,
+        "o": 1
+       }
+      ],
+      [
+       4,
+       {
+        "r": -3
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      250,
+      50,
+      1000,
+      330
+     ],
+     "box": [
+      -30,
+      1090,
+      600
+     ],
+     "cls": "card lightc",
+     "until": 4.2,
+     "kf": [
+      [
+       0,
+       {
+        "z": -90,
+        "r": -3,
+        "o": 1
+       }
+      ],
+      [
+       4,
+       {
+        "r": 3
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:760px;height:220px;border:5px dashed #A9A3BD;border-radius:26px;background:rgba(255,255,255,.28)\" ><div style=\"font-family:Serif;font-size:120px;color:#A9A3BD;text-align:center;line-height:210px\">1</div></div>",
+     "box": [
+      160,
+      610,
+      760,
+      220
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": 0,
+        "o": 1
+       }
+      ]
+     ],
+     "until": 4
+    },
+    {
+     "html": "<div style=\"width:760px;height:220px;border:5px dashed #A9A3BD;border-radius:26px;background:rgba(255,255,255,.28)\"></div>",
+     "box": [
+      160,
+      570,
+      760,
+      220
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -6800,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:760px;height:220px;border:5px dashed #A9A3BD;border-radius:26px;background:rgba(255,255,255,.28)\" ><div style=\"font-family:Serif;font-size:120px;color:#A9A3BD;text-align:center;line-height:210px\">2</div></div>",
+     "box": [
+      160,
+      880,
+      760,
+      220
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": 0,
+        "o": 1
+       }
+      ]
+     ],
+     "until": 4
+    },
+    {
+     "html": "<div style=\"width:760px;height:220px;border:5px dashed #A9A3BD;border-radius:26px;background:rgba(255,255,255,.28)\"></div>",
+     "box": [
+      160,
+      840,
+      760,
+      220
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -6800,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:760px;height:220px;border:5px dashed #A9A3BD;border-radius:26px;background:rgba(255,255,255,.28)\" ><div style=\"font-family:Serif;font-size:120px;color:#A9A3BD;text-align:center;line-height:210px\">3</div></div>",
+     "box": [
+      160,
+      1150,
+      760,
+      220
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": 0,
+        "o": 1
+       }
+      ]
+     ],
+     "until": 4
+    },
+    {
+     "html": "<div style=\"width:760px;height:220px;border:5px dashed #A9A3BD;border-radius:26px;background:rgba(255,255,255,.28)\"></div>",
+     "box": [
+      160,
+      1110,
+      760,
+      220
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -6800,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-id0",
+     "crop": [
+      970,
+      170,
+      1330,
+      560
+     ],
+     "box": [
+      -30,
+      417,
+      800
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       3.6,
+       {
+        "z": -1700,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-id1",
+     "crop": [
+      970,
+      170,
+      1330,
+      560
+     ],
+     "box": [
+      -30,
+      417,
+      800
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       6.1,
+       {
+        "z": -1700,
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "click"
+    },
+    {
+     "img": "s-a-id2",
+     "crop": [
+      970,
+      170,
+      1330,
+      560
+     ],
+     "box": [
+      -30,
+      417,
+      800
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       6.7,
+       {
+        "z": -1700,
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "click"
+    },
+    {
+     "img": "s-a-id3",
+     "crop": [
+      970,
+      170,
+      1330,
+      560
+     ],
+     "box": [
+      -30,
+      417,
+      800
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       7.5,
+       {
+        "z": -1700,
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "click"
+    },
+    {
+     "html": "<svg width=\"56\" height=\"64\" viewBox=\"0 0 28 32\"><path d=\"M3 2 L3 24 L9 19 L13 29 L18 27 L14 17 L22 17 Z\" fill=\"#111\" stroke=\"#fff\" stroke-width=\"2.4\"/></svg>",
+     "box": [
+      0,
+      0,
+      56
+     ],
+     "kf": [
+      [
+       4.8,
+       {
+        "x": 381.1111111111111,
+        "y": 945.8888888888889,
+        "z": -1696,
+        "o": 1
+       }
+      ],
+      [
+       6.0,
+       {
+        "x": 221.11111111111111,
+        "y": 725.8888888888889,
+        "z": -1696
+       },
+       "inOutCubic"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      250,
+      50,
+      1350,
+      430
+     ],
+     "box": [
+      -60,
+      711,
+      1500
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -3400,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-pw0",
+     "crop": [
+      270,
+      110,
+      800,
+      470
+     ],
+     "box": [
+      -50,
+      565,
+      900
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       0,
+       {
+        "z": -5100,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-a-pw1",
+     "crop": [
+      270,
+      110,
+      800,
+      470
+     ],
+     "box": [
+      -50,
+      565,
+      900
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       16.0,
+       {
+        "z": -5100,
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "click"
+    },
+    {
+     "img": "s-a-pw2",
+     "crop": [
+      270,
+      110,
+      800,
+      470
+     ],
+     "box": [
+      -50,
+      565,
+      900
+     ],
+     "cls": "card glow lightc",
+     "kf": [
+      [
+       17.0,
+       {
+        "z": -5100,
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "click"
+    },
+    {
+     "html": "<svg width=\"56\" height=\"64\" viewBox=\"0 0 28 32\"><path d=\"M3 2 L3 24 L9 19 L13 29 L18 27 L14 17 L22 17 Z\" fill=\"#111\" stroke=\"#fff\" stroke-width=\"2.4\"/></svg>",
+     "box": [
+      0,
+      0,
+      56
+     ],
+     "kf": [
+      [
+       14.8,
+       {
+        "x": 607.5471698113208,
+        "y": 1345.3773584905662,
+        "z": -5096,
+        "o": 1
+       }
+      ],
+      [
+       15.9,
+       {
+        "x": 447.54716981132077,
+        "y": 1125.3773584905662,
+        "z": -5096
+       },
+       "inOutCubic"
+      ]
+     ],
+     "until": 16.05
+    },
+    {
+     "html": "<svg width=\"56\" height=\"64\" viewBox=\"0 0 28 32\"><path d=\"M3 2 L3 24 L9 19 L13 29 L18 27 L14 17 L22 17 Z\" fill=\"#111\" stroke=\"#fff\" stroke-width=\"2.4\"/></svg>",
+     "box": [
+      0,
+      0,
+      56
+     ],
+     "kf": [
+      [
+       16.1,
+       {
+        "x": 682.2641509433962,
+        "y": 1345.3773584905662,
+        "z": -5096,
+        "o": 1
+       }
+      ],
+      [
+       16.9,
+       {
+        "x": 522.2641509433962,
+        "y": 1125.3773584905662,
+        "z": -5096
+       },
+       "inOutCubic"
+      ]
+     ]
+    },
+    {
+     "img": "s-a-id3",
+     "crop": [
+      240,
+      0,
+      1340,
+      319
+     ],
+     "box": [
+      160,
+      570,
+      760
+     ],
+     "cls": "card glow lightc",
+     "sfx": "thump",
+     "kf": [
+      [
+       19.2,
+       {
+        "z": -6300,
+        "x": -300,
+        "y": 240,
+        "r": -6,
+        "o": 0
+       }
+      ],
+      [
+       19.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       19.9,
+       {
+        "z": -6800,
+        "x": 0,
+        "y": 0,
+        "r": 0
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-paper",
+     "crop": [
+      240,
+      60,
+      1340,
+      379
+     ],
+     "box": [
+      160,
+      840,
+      760
+     ],
+     "cls": "card glow lightc",
+     "sfx": "thump",
+     "kf": [
+      [
+       19.7,
+       {
+        "z": -6300,
+        "x": 320,
+        "y": 240,
+        "r": 5,
+        "o": 0
+       }
+      ],
+      [
+       19.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       20.4,
+       {
+        "z": -6800,
+        "x": 0,
+        "y": 0,
+        "r": 0
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "img": "s-a-pw2",
+     "crop": [
+      240,
+      100,
+      1340,
+      419
+     ],
+     "box": [
+      160,
+      1110,
+      760
+     ],
+     "cls": "card glow lightc",
+     "sfx": "thump",
+     "kf": [
+      [
+       20.2,
+       {
+        "z": -6300,
+        "x": -240,
+        "y": 240,
+        "r": -4,
+        "o": 0
+       }
+      ],
+      [
+       20.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       20.9,
+       {
+        "z": -6800,
+        "x": 0,
+        "y": 0,
+        "r": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Your story bible",
+     "at": -1,
+     "until": 3.6,
+     "y": 270,
+     "size": 128
+    },
+    {
+     "style": "serif",
+     "text": "is *missing 3 things.*",
+     "at": -1,
+     "until": 3.6,
+     "y": 410,
+     "size": 112
+    },
+    {
+     "style": "serif",
+     "text": "*1.* Who knows each secret.",
+     "at": 4.0,
+     "until": 9.0,
+     "y": 250,
+     "size": 98
+    },
+    {
+     "style": "serif",
+     "text": "Inkwell keeps every mask on one screen.",
+     "at": 4.5,
+     "until": 9.0,
+     "y": 365,
+     "size": 56
+    },
+    {
+     "style": "serif",
+     "text": "*2.* What happened when.",
+     "at": 9.1,
+     "until": 14.0,
+     "y": 250,
+     "size": 104
+    },
+    {
+     "style": "serif",
+     "text": "The whole past on one timeline.",
+     "at": 9.6,
+     "until": 14.0,
+     "y": 365,
+     "size": 60
+    },
+    {
+     "style": "serif",
+     "text": "*3.* How strong everyone is.",
+     "at": 14.1,
+     "until": 19.0,
+     "y": 250,
+     "size": 98
+    },
+    {
+     "style": "serif",
+     "text": "Keep everyone\u2019s powers consistent.",
+     "at": 14.6,
+     "until": 19.0,
+     "y": 365,
+     "size": 60
+    },
+    {
+     "style": "serif",
+     "text": "All three, *in Inkwell.*",
+     "at": 19.3,
+     "until": 23,
+     "y": 300,
+     "size": 112
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 3.5,
+  "theme": "clean",
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

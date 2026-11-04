@@ -1,0 +1,23 @@
+{
+ "status": "held, not scheduled",
+ "note": "Rendered on 4 Nov by the morning run, whose session stalled from about 10:20 to 19:50 UTC. Meanwhile the afternoon check filled both slots with videos on the same idea, so this one was not scheduled (no double-booking, no same idea twice in a row). Not to be scheduled before 11 Nov; the Sunday run decides. Reviewed and passed: see Log.md, 4 Nov.",
+ "engine": 3,
+ "buffer": {},
+ "id": "2026-11-04-a-three-things",
+ "idea": "S3 how-to",
+ "structure": "one-take list",
+ "look": "clean",
+ "sound": "ambient",
+ "footage": "3D UI cards with real app states (light theme)",
+ "hook": "hot take: Your story bible is missing 3 things.",
+ "length_s": 15.9,
+ "files": {
+  "tiktok": "videos/2026-11-04-a-three-things.mp4",
+  "instagram": "videos/2026-11-04-a-three-things-bio.mp4",
+  "youtube": "videos/2026-11-04-a-three-things.mp4"
+ },
+ "captions": {
+  "first_line": "Your story bible is missing 3 things (how to plan a comic)",
+  "youtube_title": "Your story bible is missing 3 things | how to plan a comic"
+ }
+}
