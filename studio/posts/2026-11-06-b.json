@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-06-b-guess-her-height",
+ "engine": 3,
+ "idea": "D-F13 guess first",
+ "structure": "guess",
+ "look": "comic",
+ "sound": "bright",
+ "footage": "app clips + comic panel with stock hands (Mixkit 100321, halftone)",
+ "hook": "Guess her height before it stops.",
+ "length_s": 14.1,
+ "slot": "B",
+ "dueAt": "2026-11-07T00:00:00+00:00",
+ "built_for": [
+  "comments",
+  "rewatches"
+ ],
+ "note": "Afternoon-check fallback made on 5 Nov; the session stopped before scheduling and resumed on 6 Nov, so it went into the 6 Nov slots.",
+ "buffer": {
+  "tiktok": "6aedec00bbaeea3ce9f444c1",
+  "instagram": "6aedec0181acfda28fc33856",
+  "youtube": "6aedec01d7bf6f595dc14c58"
+ },
+ "files": {
+  "tiktok": "videos/2026-11-06-b-guess-her-height.mp4",
+  "instagram": "videos/2026-11-06-b-guess-her-height-bio.mp4",
+  "youtube": "videos/2026-11-06-b-guess-her-height.mp4"
+ }
+}

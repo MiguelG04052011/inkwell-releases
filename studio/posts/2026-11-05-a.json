@@ -1,0 +1,28 @@
+{
+ "id": "2026-11-05-a-supposed-to-be-dead",
+ "engine": 3,
+ "idea": "S7 story-time",
+ "structure": "story arc",
+ "look": "night>paper",
+ "sound": "dark>ambient",
+ "footage": "stock hands (Mixkit 1781) + ink (105) + 3D app cards + app clips",
+ "hook": "2 a.m. Issue 7. Your hero is supposed to be dead.",
+ "length_s": 16.9,
+ "slot": "A",
+ "dueAt": "2026-11-06T19:00:00+00:00",
+ "built_for": [
+  "sends",
+  "conversion"
+ ],
+ "note": "Afternoon-check fallback made on 5 Nov; the session stopped before scheduling and resumed on 6 Nov, so it went into the 6 Nov slots.",
+ "buffer": {
+  "tiktok": "6aedebfd0a30a4b11eef6c7c",
+  "instagram": "6aedebfe263cb82eef0c7bc3",
+  "youtube": "6aedebff81acfda28fc337a4"
+ },
+ "files": {
+  "tiktok": "videos/2026-11-05-a-supposed-to-be-dead.mp4",
+  "instagram": "videos/2026-11-05-a-supposed-to-be-dead-bio.mp4",
+  "youtube": "videos/2026-11-05-a-supposed-to-be-dead.mp4"
+ }
+}
