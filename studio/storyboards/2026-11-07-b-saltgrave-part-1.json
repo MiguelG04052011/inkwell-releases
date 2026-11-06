@@ -1,0 +1,1762 @@
+{
+ "id": "2026-11-07-b-saltgrave-part-1",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 96,
+ "footage": "../footage/2026-11-06",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "lofi"
+   }
+  ],
+  "opener": "slap",
+  "risers": [
+   13.4
+  ],
+  "hits": [
+   15.7
+  ]
+ },
+ "shots": [
+  {
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "paper",
+   "persp": 1600,
+   "dof": 0.0016,
+   "focus": -200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -40
+     }
+    ],
+    [
+     3.6,
+     {
+      "z": 60
+     },
+     "inOutSine"
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F2B94B;box-shadow:0 8px 24px rgba(120,80,0,.25)\"></div>",
+     "box": [
+      340,
+      520,
+      230,
+      230
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -700
+       }
+      ],
+      [
+       3.6,
+       {
+        "y": -16
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 1600 500\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -6px 8px rgba(30,40,60,.2))\"><path d=\"M0 500 L0 240 C200 120 340 260 520 200 S 860 60 1040 190 S 1400 120 1600 240 L1600 500Z\" fill=\"#B9C4BE\"/></svg>",
+     "box": [
+      -260,
+      860,
+      1600,
+      500
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -500
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 120 420\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(5px 6px 6px rgba(30,40,60,.3))\"><path d=\"M42 80 L78 80 L92 420 L28 420Z\" fill=\"#F4EEE0\"/><path d=\"M38 170 L82 170 L85 230 L35 230Z M32 300 L88 300 L91 360 L29 360Z\" fill=\"#C8473B\"/><rect x=\"36\" y=\"48\" width=\"48\" height=\"34\" fill=\"#F2B94B\"/><path d=\"M30 48 L60 16 L90 48Z\" fill=\"#C8473B\"/></svg>",
+     "box": [
+      850,
+      770,
+      125,
+      438
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -420
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 V 900 H -300 Z\" fill=\"#7FB3BF\"/></svg>",
+     "box": [
+      -460,
+      1240,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -300,
+        "x": 0
+       }
+      ],
+      [
+       3.6,
+       {
+        "x": -70
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 520 160\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(6px 10px 8px rgba(30,30,40,.35))\"><rect x=\"0\" y=\"0\" width=\"520\" height=\"30\" fill=\"#8A5A3C\"/><rect x=\"60\" y=\"30\" width=\"26\" height=\"130\" fill=\"#6E4630\"/><rect x=\"250\" y=\"30\" width=\"26\" height=\"130\" fill=\"#6E4630\"/><rect x=\"440\" y=\"30\" width=\"26\" height=\"130\" fill=\"#6E4630\"/></svg>",
+     "box": [
+      -40,
+      1238,
+      520,
+      160
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -220
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      180,
+      474.7692307692307,
+      250,
+      769.2307692307693
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ],
+      [
+       3.6,
+       {
+        "s": 1.02
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;box-sizing:border-box;border:9px dashed #1f2a44;border-radius:150px 150px 30px 30px;display:flex;align-items:center;justify-content:center;font-family:Hand;font-size:190px;color:#1f2a44;\">?</div>",
+     "box": [
+      590,
+      505,
+      250,
+      739
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "r": -1,
+        "z": -210
+       }
+      ],
+      [
+       1.2,
+       {
+        "y": -26,
+        "r": 1
+       },
+       "inOutSine"
+      ],
+      [
+       2.4,
+       {
+        "y": 12,
+        "r": -1
+       },
+       "inOutSine"
+      ],
+      [
+       3.6,
+       {
+        "y": -40,
+        "r": 1
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1310,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -120,
+        "x": -60
+       }
+      ],
+      [
+       3.6,
+       {
+        "x": 30
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1400,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       3.6,
+       {
+        "x": -130
+       },
+       "linear"
+      ]
+     ]
+    }
+   ],
+   "b": 3.6,
+   "text": [
+    {
+     "style": "serif",
+     "text": "My hero is *168 cm.*",
+     "at": -1.4,
+     "y": 226,
+     "size": 112,
+     "align": "center",
+     "stagger": 0
+    },
+    {
+     "style": "serif",
+     "text": "How tall should her villain be?",
+     "at": 0.7,
+     "y": 362,
+     "size": 80,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 3,
+   "kind": "clip",
+   "src": "c-series-start",
+   "from": 0.72,
+   "speed": 0.75,
+   "theme": "paper",
+   "look": "card",
+   "box": [
+    40,
+    430,
+    1000,
+    520
+   ],
+   "tilt": [
+    -4,
+    5,
+    2,
+    -3
+   ],
+   "in": "page",
+   "cursor": true,
+   "cam": [
+    [
+     140,
+     345,
+     520,
+     543
+    ],
+    [
+     160,
+     356,
+     460,
+     512
+    ]
+   ],
+   "camEase": "linear",
+   "layers": [
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 V 900 H -300 Z\" fill=\"#7FB3BF\"/></svg>",
+     "box": [
+      -460,
+      1120,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": 0
+       }
+      ],
+      [
+       3,
+       {
+        "x": -70
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1230,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": -60
+       }
+      ],
+      [
+       3,
+       {
+        "x": 30
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1340,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       3,
+       {
+        "x": -130
+       },
+       "linear"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "tag",
+     "text": "PART 1",
+     "at": -1,
+     "y": 204,
+     "cls": "hot",
+     "stagger": 0
+    },
+    {
+     "style": "hand",
+     "text": "A whole comic in Inkwell",
+     "at": 0,
+     "dur": 0.6,
+     "y": 310,
+     "size": 68,
+     "align": "center",
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1.5,
+   "kind": "clip",
+   "src": "c-series-char1",
+   "from": 1.3,
+   "speed": 1.6,
+   "theme": "paper",
+   "look": "card",
+   "box": [
+    40,
+    400,
+    1000,
+    440
+   ],
+   "tilt": [
+    3,
+    -5,
+    0,
+    3
+   ],
+   "in": "whip-l",
+   "cursor": false,
+   "cam": [
+    [
+     270,
+     10,
+     810,
+     248
+    ],
+    [
+     300,
+     14,
+     740,
+     208
+    ]
+   ],
+   "camEase": "linear",
+   "layers": [
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 V 900 H -300 Z\" fill=\"#7FB3BF\"/></svg>",
+     "box": [
+      -460,
+      1200,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": 0
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -40
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      70,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0,
+        "y": 60
+       }
+      ],
+      [
+       0.4,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1300,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": -60
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1395,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -90
+       },
+       "linear"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "1/5  Pell, the hero",
+     "at": 0,
+     "dur": 0.5,
+     "y": 268,
+     "size": 80,
+     "align": "center",
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1.5,
+   "kind": "clip",
+   "src": "c-series-char3",
+   "from": 1.3,
+   "speed": 1.6,
+   "theme": "paper",
+   "look": "card",
+   "box": [
+    40,
+    400,
+    1000,
+    440
+   ],
+   "tilt": [
+    -3,
+    5,
+    0,
+    -3
+   ],
+   "in": "whip-r",
+   "cursor": false,
+   "cam": [
+    [
+     270,
+     10,
+     810,
+     248
+    ],
+    [
+     300,
+     14,
+     740,
+     208
+    ]
+   ],
+   "camEase": "linear",
+   "layers": [
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 V 900 H -300 Z\" fill=\"#7FB3BF\"/></svg>",
+     "box": [
+      -460,
+      1200,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": 0
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -40
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      70,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-I.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      270,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0,
+        "y": 60
+       }
+      ],
+      [
+       0.4,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1300,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": -60
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1395,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -90
+       },
+       "linear"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "2/5  Ilse, her mentor",
+     "at": 0,
+     "dur": 0.5,
+     "y": 268,
+     "size": 80,
+     "align": "center",
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1.5,
+   "kind": "clip",
+   "src": "c-series-char4",
+   "from": 1.3,
+   "speed": 1.6,
+   "theme": "paper",
+   "look": "card",
+   "box": [
+    40,
+    400,
+    1000,
+    440
+   ],
+   "tilt": [
+    3,
+    -4,
+    0,
+    3
+   ],
+   "in": "whip-l",
+   "cursor": false,
+   "cam": [
+    [
+     270,
+     10,
+     810,
+     248
+    ],
+    [
+     300,
+     14,
+     740,
+     208
+    ]
+   ],
+   "camEase": "linear",
+   "layers": [
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 V 900 H -300 Z\" fill=\"#7FB3BF\"/></svg>",
+     "box": [
+      -460,
+      1200,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": 0
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -40
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      70,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-I.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      270,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-T.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      470,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0,
+        "y": 60
+       }
+      ],
+      [
+       0.4,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1300,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": -60
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1395,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -90
+       },
+       "linear"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "3/5  Tomas, her brother",
+     "at": 0,
+     "dur": 0.5,
+     "y": 268,
+     "size": 80,
+     "align": "center",
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1.5,
+   "kind": "clip",
+   "src": "c-series-char5",
+   "from": 1.3,
+   "speed": 1.6,
+   "theme": "paper",
+   "look": "card",
+   "box": [
+    40,
+    400,
+    1000,
+    440
+   ],
+   "tilt": [
+    -3,
+    4,
+    0,
+    -3
+   ],
+   "in": "whip-r",
+   "cursor": false,
+   "cam": [
+    [
+     270,
+     10,
+     810,
+     248
+    ],
+    [
+     300,
+     14,
+     740,
+     208
+    ]
+   ],
+   "camEase": "linear",
+   "layers": [
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 V 900 H -300 Z\" fill=\"#7FB3BF\"/></svg>",
+     "box": [
+      -460,
+      1200,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": 0
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -40
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      70,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-I.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      270,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-T.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      470,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-W.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      670,
+      796.9230769230769,
+      170,
+      523.0769230769231
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0,
+        "y": 60
+       }
+      ],
+      [
+       0.4,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1300,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": -60
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1395,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       1.5,
+       {
+        "x": -90
+       },
+       "linear"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "4/5  Wren, her rival",
+     "at": 0,
+     "dur": 0.5,
+     "y": 268,
+     "size": 80,
+     "align": "center",
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "b": 1.9,
+   "kind": "clip",
+   "src": "c-series-char2",
+   "from": 3.2,
+   "speed": 1.0,
+   "theme": "paper",
+   "look": "card",
+   "box": [
+    40,
+    400,
+    1000,
+    560
+   ],
+   "tilt": [
+    3,
+    -4,
+    -1,
+    3
+   ],
+   "in": "zoom",
+   "cursor": false,
+   "cam": [
+    [
+     230,
+     370,
+     760,
+     667
+    ],
+    [
+     262,
+     410,
+     500,
+     543
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "layers": [
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1220,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -1,
+        "x": -60
+       }
+      ],
+      [
+       1.9,
+       {
+        "x": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1330,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       1.9,
+       {
+        "x": -90
+       },
+       "linear"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "5/5  Ansel, her villain",
+     "at": 0,
+     "dur": 0.5,
+     "y": 268,
+     "size": 80,
+     "align": "center",
+     "stagger": 0
+    }
+   ]
+  },
+  {
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "paper",
+   "persp": 1600,
+   "dof": 0.0016,
+   "focus": -200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 40
+     }
+    ],
+    [
+     6,
+     {
+      "z": -30
+     },
+     "inOutSine"
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F2B94B;box-shadow:0 8px 24px rgba(120,80,0,.25)\"></div>",
+     "box": [
+      340,
+      520,
+      230,
+      230
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -700
+       }
+      ],
+      [
+       6,
+       {
+        "y": -16
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 1600 500\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -6px 8px rgba(30,40,60,.2))\"><path d=\"M0 500 L0 240 C200 120 340 260 520 200 S 860 60 1040 190 S 1400 120 1600 240 L1600 500Z\" fill=\"#B9C4BE\"/></svg>",
+     "box": [
+      -260,
+      860,
+      1600,
+      500
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -500
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 120 420\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(5px 6px 6px rgba(30,40,60,.3))\"><path d=\"M42 80 L78 80 L92 420 L28 420Z\" fill=\"#F4EEE0\"/><path d=\"M38 170 L82 170 L85 230 L35 230Z M32 300 L88 300 L91 360 L29 360Z\" fill=\"#C8473B\"/><rect x=\"36\" y=\"48\" width=\"48\" height=\"34\" fill=\"#F2B94B\"/><path d=\"M30 48 L60 16 L90 48Z\" fill=\"#C8473B\"/></svg>",
+     "box": [
+      850,
+      770,
+      125,
+      438
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -420
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 q 75.0 -16 150.0 0 t 150.0 0 V 900 H -300 Z\" fill=\"#7FB3BF\"/></svg>",
+     "box": [
+      -460,
+      1240,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -300,
+        "x": 0
+       }
+      ],
+      [
+       6,
+       {
+        "x": -70
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 520 160\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(6px 10px 8px rgba(30,30,40,.35))\"><rect x=\"0\" y=\"0\" width=\"520\" height=\"30\" fill=\"#8A5A3C\"/><rect x=\"60\" y=\"30\" width=\"26\" height=\"130\" fill=\"#6E4630\"/><rect x=\"250\" y=\"30\" width=\"26\" height=\"130\" fill=\"#6E4630\"/><rect x=\"440\" y=\"30\" width=\"26\" height=\"130\" fill=\"#6E4630\"/></svg>",
+     "box": [
+      -40,
+      1238,
+      520,
+      160
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -220
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      180,
+      474.7692307692307,
+      250,
+      769.2307692307693
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-06/stills/fig-A.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(10px 14px 8px rgba(40,30,20,.35))\">",
+     "box": [
+      585,
+      474.7692307692307,
+      250,
+      769.2307692307693
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "y": 1000,
+        "z": -210
+       }
+      ],
+      [
+       1.2,
+       {
+        "y": 0
+       },
+       "outExpo"
+      ],
+      [
+       6,
+       {
+        "y": -6
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 q 90.0 -20 180.0 0 t 180.0 0 V 900 H -300 Z\" fill=\"#4E8FA3\"/></svg>",
+     "box": [
+      -460,
+      1310,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -120,
+        "x": -60
+       }
+      ],
+      [
+       6,
+       {
+        "x": 30
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(30,40,60,.28))\"><path d=\"M -300 60 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 q 105.0 -26 210.0 0 t 210.0 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1400,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": -20
+       }
+      ],
+      [
+       6,
+       {
+        "x": -130
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50% 50% 50% 8%;background:#7FB3BF;box-shadow:2px 4px 4px rgba(30,40,60,.3)\"></div>",
+     "box": [
+      610,
+      1210,
+      34,
+      34
+     ],
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "z": -150
+       }
+      ],
+      [
+       1.9,
+       {
+        "y": -420,
+        "x": -120,
+        "r": 120
+       },
+       "outCubic"
+      ],
+      [
+       2.5,
+       {
+        "y": 40,
+        "o": 0
+       },
+       "inCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50% 50% 50% 8%;background:#7FB3BF;box-shadow:2px 4px 4px rgba(30,40,60,.3)\"></div>",
+     "box": [
+      700,
+      1210,
+      26,
+      26
+     ],
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "z": -150
+       }
+      ],
+      [
+       1.9,
+       {
+        "y": -520,
+        "x": -30,
+        "r": 120
+       },
+       "outCubic"
+      ],
+      [
+       2.5,
+       {
+        "y": 40,
+        "o": 0
+       },
+       "inCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50% 50% 50% 8%;background:#7FB3BF;box-shadow:2px 4px 4px rgba(30,40,60,.3)\"></div>",
+     "box": [
+      780,
+      1210,
+      40,
+      40
+     ],
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "z": -150
+       }
+      ],
+      [
+       1.9,
+       {
+        "y": -460,
+        "x": 70,
+        "r": 120
+       },
+       "outCubic"
+      ],
+      [
+       2.5,
+       {
+        "y": 40,
+        "o": 0
+       },
+       "inCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50% 50% 50% 8%;background:#7FB3BF;box-shadow:2px 4px 4px rgba(30,40,60,.3)\"></div>",
+     "box": [
+      860,
+      1210,
+      28,
+      28
+     ],
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "z": -150
+       }
+      ],
+      [
+       1.9,
+       {
+        "y": -380,
+        "x": 150,
+        "r": 120
+       },
+       "outCubic"
+      ],
+      [
+       2.5,
+       {
+        "y": 40,
+        "o": 0
+       },
+       "inCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50% 50% 50% 8%;background:#7FB3BF;box-shadow:2px 4px 4px rgba(30,40,60,.3)\"></div>",
+     "box": [
+      560,
+      1210,
+      24,
+      24
+     ],
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "z": -150
+       }
+      ],
+      [
+       1.9,
+       {
+        "y": -300,
+        "x": -190,
+        "r": 120
+       },
+       "outCubic"
+      ],
+      [
+       2.5,
+       {
+        "y": 40,
+        "o": 0
+       },
+       "inCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;border-top:7px dashed #1F2A44\"></div>",
+     "box": [
+      130,
+      664,
+      770,
+      8
+     ],
+     "kf": [
+      [
+       1.4,
+       {
+        "o": 0,
+        "z": -210
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "in": "flash",
+   "shake": 0.4,
+   "b": 6,
+   "text": [
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 168,
+     "to": 214,
+     "unit": "cm",
+     "at": 0,
+     "dur": 1.2,
+     "y": 222,
+     "size": 150
+    },
+    {
+     "style": "hand",
+     "text": "How tall is yours?",
+     "at": 3.2,
+     "dur": 0.7,
+     "y": 400,
+     "size": 66,
+     "align": "center"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 4,
+  "theme": "paper",
+  "line": "Part 2: who knows her secret?",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

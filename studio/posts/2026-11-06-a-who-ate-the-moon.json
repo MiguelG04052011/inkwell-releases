@@ -1,0 +1,23 @@
+{
+ "id": "2026-11-06-a-who-ate-the-moon",
+ "engine": 3,
+ "idea": "S7 story-time",
+ "structure": "chat thread",
+ "look": "night",
+ "sound": "ambient>cinematic",
+ "footage": "stock hands (Mixkit 1781) + generic chat bubbles + app clip c-search-king + 3D UI cards",
+ "hook": "You at 2am, texting yourself your comic.",
+ "length_s": 15.8,
+ "slot": "A",
+ "dueAt": "2026-11-06T19:00:00+00:00",
+ "built_for": [
+  "conversion",
+  "sends",
+  "human element"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-06-a-who-ate-the-moon.mp4",
+  "instagram": "videos/2026-11-06-a-who-ate-the-moon-bio.mp4",
+  "youtube": "videos/2026-11-06-a-who-ate-the-moon.mp4"
+ }
+}

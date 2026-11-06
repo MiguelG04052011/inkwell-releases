@@ -1,0 +1,977 @@
+{
+ "id": "2026-11-06-a-who-ate-the-moon",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 120,
+ "footage": "../footage/2026-11-06",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "ambient"
+   },
+   {
+    "at": 13,
+    "style": "cinematic",
+    "switch": "cut"
+   }
+  ],
+  "opener": "soft",
+  "risers": [
+   11
+  ],
+  "hits": [
+   13,
+   17.5,
+   23
+  ]
+ },
+ "shots": [
+  {
+   "b": 7,
+   "kind": "clip",
+   "src": "c-stock-1781-typing",
+   "theme": "night",
+   "grade": "night",
+   "cursor": false,
+   "cam": [
+    [
+     20,
+     40,
+     520,
+     929
+    ],
+    [
+     50,
+     90,
+     490,
+     872
+    ]
+   ],
+   "camEase": "linear",
+   "text": [
+    {
+     "style": "caption",
+     "text": "You at 2am, texting yourself *your comic.*",
+     "at": -1.4,
+     "y": 226,
+     "size": 76,
+     "stagger": 0
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;background:radial-gradient(62% 40% at 52% 50%, rgba(8,12,34,0.22), rgba(4,6,18,0.86));\"></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"stamp\">2:14 am</div>",
+     "box": [
+      390,
+      520,
+      300,
+      70
+     ],
+     "kf": [
+      [
+       0.2,
+       {
+        "o": 0
+       }
+      ],
+      [
+       0.5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bub \">NEW VILLAIN</div>",
+     "box": [
+      380,
+      620,
+      580,
+      130
+     ],
+     "kf": [
+      [
+       0.8,
+       {
+        "s": 0.6,
+        "o": 0,
+        "y": 40,
+        "r": 0
+       }
+      ],
+      [
+       1.08,
+       {
+        "s": 1,
+        "o": 1,
+        "y": 0,
+        "r": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div class=\"bub \">he ate a moon</div>",
+     "box": [
+      280,
+      770,
+      680,
+      130
+     ],
+     "kf": [
+      [
+       2.4,
+       {
+        "s": 0.6,
+        "o": 0,
+        "y": 40,
+        "r": 0
+       }
+      ],
+      [
+       2.6799999999999997,
+       {
+        "s": 1,
+        "o": 1,
+        "y": 0,
+        "r": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div class=\"bub \">a MOON</div>",
+     "box": [
+      560,
+      920,
+      400,
+      130
+     ],
+     "kf": [
+      [
+       3.8,
+       {
+        "s": 0.6,
+        "o": 0,
+        "y": 40,
+        "r": 0
+       }
+      ],
+      [
+       4.08,
+       {
+        "s": 1,
+        "o": 1,
+        "y": 0,
+        "r": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div class=\"bub \">don&#39;t forget this</div>",
+     "box": [
+      170,
+      1070,
+      790,
+      130
+     ],
+     "kf": [
+      [
+       5.0,
+       {
+        "s": 0.6,
+        "o": 0,
+        "y": 40,
+        "r": 0
+       }
+      ],
+      [
+       5.28,
+       {
+        "s": 1,
+        "o": 1,
+        "y": 0,
+        "r": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-stock-1781-typing",
+   "theme": "night",
+   "grade": "night",
+   "in": "glitch",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "stop": 0.8,
+   "text": [
+    {
+     "style": "caption",
+     "text": "3 weeks later",
+     "at": 0,
+     "y": 226,
+     "size": 84,
+     "stagger": 0,
+     "until": 6
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;background:#050814;opacity:.8\"></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"thread\"><div class=\"bub dim\">villain name ideas???</div><div class=\"bub dim\">the tide thing</div><div class=\"bub dim\">REMEMBER THE MAP</div><div class=\"bub dim\">issue 3 twist</div><div class=\"bub dim\">who knows her secret</div><div class=\"bub dim\">ending idea (good)</div><div class=\"bub dim\">what if he ate the sun</div><div class=\"bub dim\">no. moon</div><div class=\"bub dim\">call her mum?</div><div class=\"bub dim\">page 7 needs a reveal</div><div class=\"bub dim\">hero costume: red?</div><div class=\"bub dim\">the sister is 9. or 10</div><div class=\"bub dim\">FINAL plan</div><div class=\"bub dim\">FINAL plan 2</div></div>",
+     "box": [
+      150,
+      420,
+      810,
+      2400
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "y": -1420,
+        "blur": 5
+       }
+      ],
+      [
+       1.6,
+       {
+        "y": -1620,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       6,
+       {
+        "y": -1620
+       }
+      ]
+     ],
+     "sfx": "whip"
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;background:linear-gradient(180deg,#050814 62%,rgba(5,8,20,0));\"></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      620
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bub \">wait</div>",
+     "box": [
+      720,
+      800,
+      240,
+      130
+     ],
+     "kf": [
+      [
+       1.8,
+       {
+        "s": 0.6,
+        "o": 0,
+        "y": 40,
+        "r": 0
+       }
+      ],
+      [
+       2.08,
+       {
+        "s": 1,
+        "o": 1,
+        "y": 0,
+        "r": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div class=\"bub \">which villain ate the moon</div>",
+     "box": [
+      110,
+      950,
+      850,
+      130
+     ],
+     "kf": [
+      [
+       2.8,
+       {
+        "s": 0.6,
+        "o": 0,
+        "y": 40,
+        "r": 0
+       }
+      ],
+      [
+       3.08,
+       {
+        "s": 1,
+        "o": 1,
+        "y": 0,
+        "r": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div class=\"bub \">WHO ATE THE MOON</div>",
+     "box": [
+      130,
+      1100,
+      830,
+      130
+     ],
+     "kf": [
+      [
+       4.2,
+       {
+        "s": 0.6,
+        "o": 0,
+        "y": 40,
+        "r": -2
+       }
+      ],
+      [
+       4.48,
+       {
+        "s": 1,
+        "o": 1,
+        "y": 0,
+        "r": -2
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "from": 3.4
+  },
+  {
+   "b": 4.5,
+   "kind": "clip",
+   "src": "c-search-king",
+   "from": 0.35,
+   "speed": 1.15,
+   "theme": "night",
+   "in": "blurin",
+   "look": "card",
+   "box": [
+    40,
+    560,
+    1000,
+    720
+   ],
+   "tilt": [
+    7,
+    -9,
+    2,
+    3
+   ],
+   "bgLook": "night",
+   "cursor": true,
+   "cam": [
+    [
+     300,
+     50,
+     1060,
+     596
+    ],
+    [
+     360,
+     80,
+     850,
+     433
+    ],
+    [
+     360,
+     80,
+     850,
+     433
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Type *moon* into Inkwell.",
+     "at": 0.1,
+     "y": 300,
+     "size": 112,
+     "align": "center"
+    }
+   ],
+   "camEase": "inOutCubic"
+  },
+  {
+   "b": 5.5,
+   "kind": "still",
+   "src": "s-char-the-hollow-king",
+   "theme": "night",
+   "in": "cut",
+   "look": "card",
+   "box": [
+    70,
+    560,
+    940,
+    677
+   ],
+   "tilt": [
+    2,
+    2,
+    0,
+    0
+   ],
+   "bgLook": "night",
+   "cam": [
+    [
+     276,
+     140,
+     886,
+     580
+    ],
+    [
+     626,
+     225,
+     946,
+     455
+    ],
+    [
+     626,
+     225,
+     946,
+     455
+    ],
+    [
+     628,
+     228,
+     936,
+     449
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "text": [
+    {
+     "style": "serif",
+     "text": "*There he is.*",
+     "at": 0.1,
+     "y": 300,
+     "size": 112,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 4.5,
+   "kind": "blank",
+   "bg": "night",
+   "theme": "night",
+   "in": "blurin",
+   "fadeDur": 0,
+   "persp": 1100,
+   "dof": 0.0035,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -220
+     }
+    ],
+    [
+     5.5,
+     {
+      "z": 120
+     },
+     "inOutSine"
+    ]
+   ],
+   "layers": [
+    {
+     "img": "s-covers",
+     "crop": [
+      280,
+      90,
+      1340,
+      560
+     ],
+     "box": [
+      -260,
+      640,
+      900
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -900,
+        "r": -3,
+        "o": 0.9
+       }
+      ],
+      [
+       4.5,
+       {
+        "y": -40,
+        "r": -1.5
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-power",
+     "crop": [
+      280,
+      290,
+      1360,
+      640
+     ],
+     "box": [
+      420,
+      1180,
+      900
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1000,
+        "r": 5,
+        "o": 0.9
+       }
+      ],
+      [
+       4.5,
+       {
+        "y": -40,
+        "r": 2.5
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline",
+     "crop": [
+      280,
+      80,
+      1340,
+      560
+     ],
+     "box": [
+      -200,
+      1320,
+      900
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1100,
+        "r": 3,
+        "o": 0.9
+       }
+      ],
+      [
+       4.5,
+       {
+        "y": -40,
+        "r": 1.5
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-characters",
+     "crop": [
+      280,
+      150,
+      1030,
+      560
+     ],
+     "box": [
+      500,
+      430,
+      800
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1200,
+        "r": -4,
+        "o": 0.9
+       }
+      ],
+      [
+       4.5,
+       {
+        "y": -40,
+        "r": -2.0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 1080 1920\" style=\"filter:blur(2px)\"><defs><linearGradient id=\"tg9\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#2DE2E6\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#8C7CFF\"/></linearGradient></defs><path d=\"M -60 1500 C 260 1380, 520 1500, 700 1240 S 1000 760, 1160 640\" stroke=\"url(#tg9)\" stroke-width=\"10\"/></svg>",
+     "cls": "trail",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       0.2,
+       {
+        "dash": 0,
+        "o": 1
+       }
+      ],
+      [
+       3.2,
+       {
+        "dash": 1
+       },
+       "inOutCubic"
+      ],
+      [
+       4.5,
+       {
+        "o": 0.5
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bub\">NEW VILLAIN</div>",
+     "box": [
+      120,
+      560,
+      500,
+      130
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -100,
+        "r": -3
+       }
+      ],
+      [
+       1.1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.5,
+       {
+        "o": 0,
+        "s": 0.7
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bub\">he ate a moon</div>",
+     "box": [
+      440,
+      810,
+      560,
+      130
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": 60,
+        "r": 2
+       }
+      ],
+      [
+       1.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.2,
+       {
+        "o": 0,
+        "s": 0.7
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"bub\">don&#39;t forget this</div>",
+     "box": [
+      90,
+      1140,
+      740,
+      130
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -40,
+        "r": -1
+       }
+      ],
+      [
+       2.5,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.9,
+       {
+        "o": 0,
+        "s": 0.7
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-char-the-hollow-king",
+     "crop": [
+      276,
+      10,
+      960,
+      340
+     ],
+     "box": [
+      60,
+      520,
+      640
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       1.1,
+       {
+        "o": 0,
+        "s": 0.82,
+        "z": -100,
+        "r": -3
+       }
+      ],
+      [
+       1.6,
+       {
+        "o": 1,
+        "s": 1,
+        "z": -60,
+        "r": -3
+       },
+       "outBack"
+      ],
+      [
+       4.5,
+       {
+        "z": 0,
+        "r": -1
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "img": "s-lineup",
+     "crop": [
+      260,
+      70,
+      1340,
+      520
+     ],
+     "box": [
+      350,
+      800,
+      680
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       1.8,
+       {
+        "o": 0,
+        "s": 0.82,
+        "z": 60,
+        "r": 2
+       }
+      ],
+      [
+       2.3,
+       {
+        "o": 1,
+        "s": 1,
+        "z": 40,
+        "r": 2
+       },
+       "outBack"
+      ],
+      [
+       4.5,
+       {
+        "z": 90,
+        "r": 1
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "img": "s-web",
+     "crop": [
+      280,
+      90,
+      1120,
+      640
+     ],
+     "box": [
+      60,
+      1090,
+      520
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       2.5,
+       {
+        "o": 0,
+        "s": 0.82,
+        "z": -40,
+        "r": -1
+       }
+      ],
+      [
+       3.0,
+       {
+        "o": 1,
+        "s": 1,
+        "z": -10,
+        "r": -1
+       },
+       "outBack"
+      ],
+      [
+       4.5,
+       {
+        "z": 30,
+        "r": 1
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Next time, put it in *Inkwell.*",
+     "at": 1.2,
+     "y": 270,
+     "size": 92,
+     "align": "center"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 4,
+  "theme": "night",
+  "line": "Your whole story, in one place.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}
