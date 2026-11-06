@@ -1,0 +1,907 @@
+{
+ "id": "2026-11-05-a-supposed-to-be-dead",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-05",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "dark"
+   },
+   {
+    "at": 10.5,
+    "style": "ambient",
+    "switch": "tapestop"
+   }
+  ],
+  "opener": "impact",
+  "risers": [],
+  "hits": [
+   10.5
+  ]
+ },
+ "shots": [
+  {
+   "b": 6.5,
+   "kind": "clip",
+   "src": "c-stock-1781-hands",
+   "grade": "brightness(0.46) contrast(1.25) saturate(0.5) hue-rotate(195deg)",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     40,
+     70,
+     500,
+     888
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "2 a.m. Issue 7.",
+     "at": -1,
+     "y": 300,
+     "size": 118
+    },
+    {
+     "style": "caption",
+     "text": "Your hero is supposed to be dead.",
+     "at": -1,
+     "y": 470,
+     "size": 76
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:1080px;height:1920px;background:radial-gradient(ellipse 760px 900px at 86% 8%,rgba(255,178,92,.62),rgba(255,150,70,.18) 55%,transparent 75%);mix-blend-mode:screen\"></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "clip",
+   "src": "c-stock-1781-keys",
+   "grade": "brightness(0.46) contrast(1.25) saturate(0.5) hue-rotate(195deg)",
+   "in": "whip-l",
+   "cursor": false,
+   "cam": [
+    [
+     60,
+     100,
+     480,
+     847
+    ],
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "shake": 0.4,
+   "text": [],
+   "layers": [
+    {
+     "html": "<div style=\"width:1080px;height:1920px;background:radial-gradient(ellipse 760px 900px at 86% 8%,rgba(255,178,92,.62),rgba(255,150,70,.18) 55%,transparent 75%);mix-blend-mode:screen\"></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div class=\"sticky pink\" style=\"font-size:58px;padding:30px 34px\">issue 5?</div>",
+     "box": [
+      110,
+      330,
+      400
+     ],
+     "kf": [
+      [
+       0.05,
+       {
+        "s": 1.5,
+        "o": 0,
+        "r": 1
+       }
+      ],
+      [
+       0.3,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -5
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky blue\" style=\"font-size:58px;padding:30px 34px\">issue 6??</div>",
+     "box": [
+      520,
+      560,
+      400
+     ],
+     "kf": [
+      [
+       0.65,
+       {
+        "s": 1.5,
+        "o": 0,
+        "r": 10
+       }
+      ],
+      [
+       0.9,
+       {
+        "s": 1,
+        "o": 1,
+        "r": 4
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div class=\"sticky white\" style=\"font-size:58px;padding:30px 34px\">notes_FINAL2</div>",
+     "box": [
+      150,
+      830,
+      560
+     ],
+     "kf": [
+      [
+       1.25,
+       {
+        "s": 1.5,
+        "o": 0,
+        "r": 3
+       }
+      ],
+      [
+       1.5,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -3
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "clip",
+   "src": "c-stock-1781-hands",
+   "from": 2.5,
+   "grade": "brightness(0.46) contrast(1.25) saturate(0.5) hue-rotate(195deg)",
+   "in": "punch",
+   "cursor": false,
+   "stop": 1.3,
+   "cam": [
+    [
+     120,
+     200,
+     420,
+     733
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "caption",
+     "text": "Who checks at 2 a.m.?",
+     "at": 0.1,
+     "y": 520,
+     "size": 84
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:1080px;height:1920px;background:radial-gradient(ellipse 760px 900px at 86% 8%,rgba(255,178,92,.62),rgba(255,150,70,.18) 55%,transparent 75%);mix-blend-mode:screen\"></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 2,
+   "kind": "clip",
+   "src": "c-stock-105-bloom",
+   "grade": "hue-rotate(190deg) saturate(0.9) brightness(1.05)",
+   "in": "ink",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     60,
+     106,
+     480,
+     853
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "*Inkwell* does.",
+     "at": 0.5,
+     "y": 760,
+     "size": 150
+    }
+   ]
+  },
+  {
+   "b": 9,
+   "kind": "blank",
+   "bg": "night",
+   "theme": "night",
+   "in": "blurin",
+   "persp": 1100,
+   "dof": 0.0024,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -140,
+      "rx": 4
+     }
+    ],
+    [
+     9,
+     {
+      "z": 30,
+      "rx": -3
+     },
+     "outCubic"
+    ]
+   ],
+   "text": [],
+   "layers": [
+    {
+     "html": "<div style=\"width:6000px;height:9000px;background:radial-gradient(circle at 50% 42%,#0f5a58 0%,#082b33 40%,#030a0f 80%)\"></div>",
+     "box": [
+      -2460,
+      -3400,
+      6000
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -2600,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline",
+     "crop": [
+      300,
+      70,
+      860,
+      210
+     ],
+     "box": [
+      -120,
+      180,
+      620
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -900,
+        "ry": 16,
+        "o": 0.9
+       }
+      ],
+      [
+       9,
+       {
+        "ry": 8.0,
+        "z": -780
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-lineup",
+     "crop": [
+      250,
+      180,
+      800,
+      530
+     ],
+     "box": [
+      620,
+      1120,
+      620
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -700,
+        "ry": -20,
+        "o": 0.9
+       }
+      ],
+      [
+       9,
+       {
+        "ry": -10.0,
+        "z": -580
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-threads",
+     "crop": [
+      280,
+      120,
+      1000,
+      420
+     ],
+     "box": [
+      -160,
+      1250,
+      700
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1100,
+        "ry": 14,
+        "o": 0.9
+       }
+      ],
+      [
+       9,
+       {
+        "ry": 7.0,
+        "z": -980
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-end",
+     "crop": [
+      860,
+      62,
+      1110,
+      204
+     ],
+     "box": [
+      640,
+      120,
+      460
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1200,
+        "ry": -14,
+        "o": 0.9
+       }
+      ],
+      [
+       9,
+       {
+        "ry": -7.0,
+        "z": -1080
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"display:inline-block;white-space:nowrap;font-family:InkwellDisplay;background:#7BE8D8;color:#04201F;font-weight:800;font-size:44px;padding:8px 22px 4px;border-radius:12px;\">Continuity check</div>",
+     "box": [
+      100,
+      500,
+      420
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0,
+        "y": 24
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "soft"
+    },
+    {
+     "img": "s-checks",
+     "crop": [
+      328,
+      130,
+      628,
+      156
+     ],
+     "box": [
+      90,
+      600,
+      900
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0.1,
+       {
+        "z": -300,
+        "o": 0,
+        "ry": 12
+       }
+      ],
+      [
+       0.9,
+       {
+        "z": 0,
+        "o": 1,
+        "ry": -4
+       },
+       "outCubic"
+      ],
+      [
+       9,
+       {
+        "z": 30,
+        "ry": 4
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-checks",
+     "crop": [
+      626,
+      130,
+      756,
+      156
+     ],
+     "box": [
+      170,
+      770,
+      790
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       1.5,
+       {
+        "z": -340,
+        "o": 0,
+        "ry": -12
+       }
+      ],
+      [
+       2.3,
+       {
+        "z": 0,
+        "o": 1,
+        "ry": 4
+       },
+       "outCubic"
+      ],
+      [
+       9,
+       {
+        "z": 46,
+        "ry": -4
+       }
+      ]
+     ],
+     "sfx": "chime"
+    }
+   ]
+  },
+  {
+   "b": 5,
+   "kind": "blank",
+   "bg": "night",
+   "theme": "night",
+   "in": "zoom",
+   "persp": 1100,
+   "dof": 0.0028,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -260,
+      "ry": 5
+     }
+    ],
+    [
+     1.6,
+     {
+      "z": 10,
+      "ry": -2
+     },
+     "outCubic"
+    ],
+    [
+     5.5,
+     {
+      "z": 90,
+      "ry": 2
+     }
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Or just a flashback?",
+     "at": 0.1,
+     "y": 330,
+     "size": 112
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:6000px;height:9000px;background:radial-gradient(circle at 50% 42%,#0f5a58 0%,#082b33 40%,#030a0f 80%)\"></div>",
+     "box": [
+      -2460,
+      -3400,
+      6000
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": -2600,
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-end",
+     "crop": [
+      866,
+      62,
+      1110,
+      204
+     ],
+     "box": [
+      640,
+      1080,
+      620
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -800,
+        "ry": -22,
+        "o": 0.9
+       }
+      ],
+      [
+       8,
+       {
+        "ry": -11.0,
+        "z": -680
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-end",
+     "crop": [
+      1120,
+      62,
+      1340,
+      204
+     ],
+     "box": [
+      -160,
+      300,
+      560
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1100,
+        "ry": 18,
+        "o": 0.9
+       }
+      ],
+      [
+       8,
+       {
+        "ry": 9.0,
+        "z": -980
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline",
+     "crop": [
+      300,
+      70,
+      860,
+      210
+     ],
+     "box": [
+      520,
+      120,
+      640
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "z": -1300,
+        "ry": -16,
+        "o": 0.9
+       }
+      ],
+      [
+       8,
+       {
+        "ry": -8.0,
+        "z": -1180
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline-end",
+     "crop": [
+      400,
+      66,
+      632,
+      206
+     ],
+     "box": [
+      50,
+      560,
+      980
+     ],
+     "cls": "card glow",
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "ry": -5,
+        "rx": 3
+       }
+      ],
+      [
+       5.5,
+       {
+        "ry": 4,
+        "rx": -2
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:460px;height:74px;border:6px solid #7BE8D8;border-radius:14px;box-shadow:0 0 34px #7BE8D8\"></div>",
+     "box": [
+      86,
+      672,
+      460
+     ],
+     "kf": [
+      [
+       1.5,
+       {
+        "o": 0,
+        "s": 1.2,
+        "z": 60
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 1,
+        "s": 1,
+        "z": 60
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style=\"width:630px;height:74px;border:6px solid #7BE8D8;border-radius:14px;box-shadow:0 0 34px #7BE8D8\"></div>",
+     "box": [
+      92,
+      990,
+      630
+     ],
+     "kf": [
+      [
+       2.1,
+       {
+        "o": 0,
+        "s": 1.2,
+        "z": 60
+       }
+      ],
+      [
+       2.5,
+       {
+        "o": 1,
+        "s": 1,
+        "z": 60
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "b": 3.5,
+   "kind": "clip",
+   "src": "c-checks-dismiss",
+   "in": "whip-u",
+   "look": "card",
+   "box": [
+    30,
+    620,
+    1020,
+    312
+   ],
+   "tilt": [
+    -5,
+    8,
+    2,
+    -3
+   ],
+   "from": 0.95,
+   "speed": 0.75,
+   "cam": [
+    [
+     800,
+     60,
+     1340,
+     225
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Dismiss it. It stays dismissed.",
+     "at": 0.05,
+     "y": 390,
+     "size": 86
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "clip",
+   "src": "c-stock-1781-keys",
+   "from": 1.5,
+   "grade": "brightness(0.72) saturate(0.85) sepia(0.32)",
+   "in": "cut",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     50,
+     90,
+     490,
+     870
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Now go to bed.",
+     "at": 0.1,
+     "y": 660,
+     "size": 120
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 3.5,
+  "theme": "paper",
+  "line": "Catch it before your readers do.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

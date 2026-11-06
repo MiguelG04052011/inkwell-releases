@@ -1,0 +1,459 @@
+{
+ "id": "2026-11-06-b-guess-her-height",
+ "engine": 3,
+ "look": "comic",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-05",
+ "pulse": 0.0,
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "bright"
+   }
+  ],
+  "opener": "slap",
+  "risers": [
+   4
+  ],
+  "hits": [
+   8,
+   22
+  ],
+  "dropouts": [
+   [
+    6,
+    8
+   ]
+  ]
+ },
+ "shots": [
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-lineup-pan",
+   "look": "card",
+   "box": [
+    40,
+    520,
+    1000,
+    560
+   ],
+   "tilt": [
+    6,
+    -7,
+    -3,
+    5
+   ],
+   "cursor": false,
+   "speed": 0.5,
+   "cam": [
+    [
+     600,
+     130,
+     1360,
+     555
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "comic",
+     "text": "GUESS HER HEIGHT",
+     "at": -1,
+     "y": 205,
+     "size": 122,
+     "until": 6
+    },
+    {
+     "style": "comic",
+     "text": "BEFORE IT STOPS.",
+     "at": -1,
+     "y": 345,
+     "size": 122,
+     "until": 6
+    },
+    {
+     "style": "tag",
+     "text": "INKWELL \u00b7 LINEUP",
+     "at": 0.8,
+     "y": 1295,
+     "size": 46,
+     "until": 6
+    },
+    {
+     "style": "count",
+     "from": 240,
+     "to": 163,
+     "unit": "cm",
+     "at": 0.1,
+     "dur": 5.4,
+     "y": 1120,
+     "size": 190,
+     "until": 6
+    }
+   ],
+   "layers": [
+    {
+     "html": "<svg width=\"240\" height=\"240\" viewBox=\"-120 -120 240 240\"><polygon fill=\"#E8343A\" stroke=\"#111\" stroke-width=\"8\" stroke-linejoin=\"round\" points=\"112,0 70,23 91,66 43,60 35,107 0,74 -35,107 -43,60 -91,66 -70,23 -112,0 -70,-23 -91,-66 -43,-60 -35,-107 -0,-74 35,-107 43,-60 91,-66 70,-23\"/><text x=\"0\" y=\"48\" font-family=\"Comic\" font-size=\"130\" text-anchor=\"middle\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"5\" paint-order=\"stroke\">?</text></svg>",
+     "box": [
+      800,
+      925,
+      240
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -6
+       }
+      ],
+      [
+       6,
+       {
+        "r": 6
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg width=\"170\" height=\"170\" viewBox=\"-120 -120 240 240\"><polygon fill=\"#E8343A\" stroke=\"#111\" stroke-width=\"8\" stroke-linejoin=\"round\" points=\"112,0 70,23 91,66 43,60 35,107 0,74 -35,107 -43,60 -91,66 -70,23 -112,0 -70,-23 -91,-66 -43,-60 -35,-107 -0,-74 35,-107 43,-60 91,-66 70,-23\"/><text x=\"0\" y=\"48\" font-family=\"Comic\" font-size=\"130\" text-anchor=\"middle\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"5\" paint-order=\"stroke\">?</text></svg>",
+     "box": [
+      905,
+      968,
+      170
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "r": 8,
+        "s": 1
+       }
+      ],
+      [
+       3.0,
+       {
+        "o": 1,
+        "s": 1
+       }
+      ],
+      [
+       3.5,
+       {
+        "o": 0,
+        "s": 0.2
+       },
+       "inCubic"
+      ]
+     ]
+    }
+   ],
+   "from": 1.45
+  },
+  {
+   "b": 2,
+   "kind": "still",
+   "src": "s-lineup-end",
+   "look": "card",
+   "box": [
+    40,
+    520,
+    1000,
+    560
+   ],
+   "in": "cut",
+   "shake": 0.5,
+   "cam": [
+    [
+     600,
+     130,
+     1360,
+     555
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "comic",
+     "text": "PAUSE. GUESS.",
+     "at": 0,
+     "y": 260,
+     "size": 150
+    },
+    {
+     "style": "tag",
+     "text": "INKWELL \u00b7 LINEUP",
+     "at": -1,
+     "y": 1295,
+     "size": 46
+    },
+    {
+     "style": "count",
+     "from": 163,
+     "to": 163,
+     "unit": "cm",
+     "at": -1,
+     "dur": 0.1,
+     "y": 1120,
+     "size": 190
+    }
+   ],
+   "layers": [
+    {
+     "html": "<svg width=\"240\" height=\"240\" viewBox=\"-120 -120 240 240\"><polygon fill=\"#E8343A\" stroke=\"#111\" stroke-width=\"8\" stroke-linejoin=\"round\" points=\"112,0 70,23 91,66 43,60 35,107 0,74 -35,107 -43,60 -91,66 -70,23 -112,0 -70,-23 -91,-66 -43,-60 -35,-107 -0,-74 35,-107 43,-60 91,-66 70,-23\"/><text x=\"0\" y=\"48\" font-family=\"Comic\" font-size=\"130\" text-anchor=\"middle\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"5\" paint-order=\"stroke\">?</text></svg>",
+     "box": [
+      800,
+      925,
+      240
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -6
+       }
+      ],
+      [
+       2,
+       {
+        "r": 6
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 3.5,
+   "kind": "still",
+   "src": "s-lineup-end",
+   "look": "card",
+   "box": [
+    190,
+    450,
+    700,
+    860
+   ],
+   "in": "flash",
+   "shake": 0.7,
+   "cam": [
+    [
+     1150,
+     270,
+     1395,
+     567
+    ]
+   ],
+   "drift": 0.02,
+   "text": [
+    {
+     "style": "count",
+     "from": 163,
+     "to": 132,
+     "unit": "cm",
+     "at": 0,
+     "dur": 0.8,
+     "y": 225,
+     "size": 190
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"display:inline-block;background:#fff;color:#111;font-family:Comic;font-size:84px;padding:18px 36px 10px;border:7px solid #111;border-radius:60px;box-shadow:8px 8px 0 #111;white-space:nowrap\">I'M NINE.</div>",
+     "box": [
+      110,
+      560,
+      420
+     ],
+     "kf": [
+      [
+       1.1,
+       {
+        "s": 0.3,
+        "o": 0,
+        "r": -10
+       }
+      ],
+      [
+       1.45,
+       {
+        "s": 1,
+        "o": 1,
+        "r": -4
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ]
+  },
+  {
+   "b": 3.5,
+   "kind": "still",
+   "src": "s-char-rosa-reyes",
+   "look": "card",
+   "box": [
+    40,
+    620,
+    1000,
+    203
+   ],
+   "in": "page",
+   "cam": [
+    [
+     280,
+     288,
+     625,
+     358
+    ],
+    [
+     445,
+     288,
+     790,
+     358
+    ],
+    [
+     445,
+     288,
+     790,
+     358
+    ]
+   ],
+   "text": [
+    {
+     "style": "cap",
+     "text": "NOTICES EVERYTHING.",
+     "at": 0.3,
+     "y": 420,
+     "size": 84
+    }
+   ],
+   "tilt": [
+    -5,
+    8,
+    3,
+    -5
+   ],
+   "camEase": "inOutCubic"
+  },
+  {
+   "b": 5,
+   "kind": "clip",
+   "src": "c-panel-scale",
+   "in": "page",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "cap",
+     "text": "TYPE A HEIGHT ONCE.",
+     "at": 0.1,
+     "y": 230,
+     "size": 78
+    },
+    {
+     "style": "cap",
+     "text": "INKWELL LINES UP YOUR CAST.",
+     "at": 2,
+     "y": 640,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "b": 6,
+   "kind": "type",
+   "bg": "comic",
+   "in": "punch",
+   "text": [
+    {
+     "style": "comic",
+     "text": "HOW SHORT IS",
+     "at": 0,
+     "y": 520,
+     "size": 150
+    },
+    {
+     "style": "comic",
+     "text": "YOUR SHORTEST?",
+     "at": 0.3,
+     "y": 690,
+     "size": 150
+    },
+    {
+     "style": "cap",
+     "text": "MINE: 132.",
+     "at": 1.0,
+     "y": 930,
+     "size": 100
+    }
+   ],
+   "layers": [
+    {
+     "img": "s-lineup-end",
+     "crop": [
+      1195,
+      265,
+      1350,
+      535
+     ],
+     "box": [
+      405,
+      1000,
+      270
+     ],
+     "cls": "card",
+     "kf": [
+      [
+       0.5,
+       {
+        "y": 420,
+        "r": -8,
+        "o": 1
+       }
+      ],
+      [
+       1.1,
+       {
+        "y": 0,
+        "r": -3
+       },
+       "outBack"
+      ],
+      [
+       6,
+       {
+        "r": 3,
+        "s": 1.06
+       }
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 4,
+  "theme": "comic",
+  "line": "Your whole cast, to scale.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}
