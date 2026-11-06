@@ -9,7 +9,7 @@
  "hook": "My hero is 168 cm. How tall should her villain be?",
  "length_s": 15.3,
  "slot": "B",
- "dueAt": "2026-11-07T00:00:00+00:00",
+ "dueAt": "2026-11-08T00:00:00+00:00",
  "built_for": [
   "comments",
   "follows"
@@ -23,5 +23,6 @@
   "tiktok": "6aedec19d7bf6f595dc15428",
   "instagram": "6aedec1abbaeea3ce9f44d21",
   "youtube": "6aedec1b6e87069bd7173471"
- }
+ },
+ "note": "Moved a slot on after the 5 Nov afternoon check, running late, booked 6 Nov 19:00 and 00:00 about 20 s before this run did."
 }

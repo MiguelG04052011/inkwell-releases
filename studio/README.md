@@ -66,6 +66,8 @@ the clip page says "Stock Video Free License".
 
 Comic-page panels (added 4 Nov 2026): `python3 stock/panels.py <footage dir> ops/panels/<id>.json` composites two footage panels split by a slanted, sliding gutter into a clip folder (`c-panel-…`): `"ink": true` prints a side as black halftone on newsprint, the other stays in colour (spec format in the script's header). Use as a full clip with `"cam": [[0,0,540,960]]`, `"cursor": false`, in the `comic` look (no vignette since 4 Nov). The `clean` look's serif now has a white glow so it reads over floating cards. One-take flights: put hero cards at increasing z in one `blank` shot and stack `img` layers of real app frames (copied from a clip into `stills/`) to change their state on arrival.
 
+Chat threads and paper worlds (added 6 Nov 2026): `.bub` (`.dim`, and `.thread` for a scrolling stack) and `.stamp` in compose.html make a generic text thread, no real app's look. A `html` layer can show a transparent PNG from the footage folder (`<img src="../footage/<date>/stills/fig-x.png">`), so real Lineup figures can stand in a world drawn by code: SVG waves, hills and a lighthouse as layers at different `z` in a `persp` shot. Keep figures that are compared at one `z`, or their scale lies.
+
 ## Engine 2
 
 ```
