@@ -1,0 +1,14 @@
+{"id":"example-char","engine":3,"look":"paper","fps":30,"bpm":96,"footage":"../footage/none",
+ "music":{"sections":[{"at":0,"style":"frantic"},{"at":4,"style":"lofi","switch":"tapestop"}],"opener":"slap"},
+ "end":{"b":3,"theme":"paper","cta":"Free to start in your browser","sub":"On a Mac or in any browser"},
+ "shots":[
+  {"kind":"blank","bg":"cream","theme":"paper","b":8,
+   "layers":[
+    {"html":"<div class='sticky pink'>who knows her secret??</div>","box":[90,420,300],"kf":[[0.6,{"o":1,"r":-8,"s":1.3}],[0.9,{"s":1}]],"sfx":"slap","until":4},
+    {"html":"<div class='sticky blue'>villain: 240 cm??</div>","box":[640,500,300],"kf":[[1.2,{"o":1,"r":7,"s":1.3}],[1.5,{"s":1}]],"sfx":"slap","until":4},
+    {"html":"<div class='sticky green'>issue 5 or 6?</div>","box":[620,1150,300],"kf":[[1.8,{"o":1,"r":-5,"s":1.3}],[2.1,{"s":1}]],"sfx":"slap","until":4},
+    {"char":{"shape":"drop","color":"#5B3DF5","mood":[[0,"calm"],[0.8,"worried"],[1.9,"frustrated"],[4,"surprised"],[5.2,"happy"]],"look":[[0,[0,0]],[0.7,[-1,-0.6]],[1.3,[1,-0.4]],[1.9,[0.6,0.8]],[4,[0,0]]]},
+     "box":[340,760,400,560],"kf":[[0,{"o":1,"y":40}],[0.5,{"y":0},"outBack"]]}
+   ],
+   "text":[{"style":"serif","text":"Your comic, *right now.*","at":0.2,"until":3.9,"y":250},{"style":"serif","text":"Or *one place.*","at":4.2,"y":250}]}
+ ]}

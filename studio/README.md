@@ -68,6 +68,18 @@ Comic-page panels (added 4 Nov 2026): `python3 stock/panels.py <footage dir> ops
 
 Chat threads and paper worlds (added 6 Nov 2026): `.bub` (`.dim`, and `.thread` for a scrolling stack) and `.stamp` in compose.html make a generic text thread, no real app's look. A `html` layer can show a transparent PNG from the footage folder (`<img src="../footage/<date>/stills/fig-x.png">`), so real Lineup figures can stand in a world drawn by code: SVG waves, hills and a lighthouse as layers at different `z` in a `persp` shot. Keep figures that are compared at one `z`, or their scale lies.
 
+Shape characters (added 8 Nov 2026, the week's new technique): a layer with `"char"` instead of `html` draws a
+character made of one shape with eyes, brows and a mouth, all in code (SVG, no generated art). `"char": {"shape":
+"drop"|"blob"|"circle"|"square"|"page" (or an SVG path in a 200×240 box), "color", "ink", "outline", "faceY", "mood":
+[[beat, "calm"|"worried"|"frustrated"|"surprised"|"thinking"|"happy"|"proud"|"love"|"sleepy"], …], "look": [[beat,
+[dx, dy]], …], "sfx": false}`. Moods blend over about 0.22 s; the eyes blink on their own; pupils follow `look`
+(−1…1); the body breathes, squashes and stretches on every mood change (a soft pop in the sound unless `sfx` is
+false), shakes and sweats when frustrated or worried. Position and move it like any layer (`box`, `kf`, 3D). The
+house character is **the ink drop** (`drop`, `#5B3DF5`): Inkwell's own mascot, a stand-in for the viewer's feelings
+(stuck → relieved), never a person and never given a testimonial. Keep it at least 380 px wide so the face reads on a
+phone, let real app screens do the product's talking, and give it a reaction to something real (a sticky note, a
+real search result, a figure from the Lineup). `storyboards/example-char.json` is a 7-second test.
+
 ## Engine 2
 
 ```

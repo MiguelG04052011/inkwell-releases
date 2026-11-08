@@ -170,6 +170,7 @@
         if (L.css) e.style.cssText += ';' + L.css;
         const kf = (L.kf || [[0, {}]]).map((k) => ({ t: start + k[0] * BEAT, p: k[1] || {}, ease: k[2] }));
         const Ly = { L, e, kf, t0: kf[0].t, paths: [...e.querySelectorAll('path')].map((p) => [p, p.getTotalLength ? p.getTotalLength() : 1000]) };
+        if (L.char) charBuild(Ly, start);
         if (L.type) {
           const tg = L.type.sel ? e.querySelector(L.type.sel) : e;
           const tt0 = start + (L.type.at || 0) * BEAT, td = (L.type.dur || 1) * BEAT, txt = L.type.text;
@@ -280,6 +281,108 @@
       pts.push(`${(cx + Math.cos(a) * r * n).toFixed(1)}px ${(cy + Math.sin(a) * r * n).toFixed(1)}px`);
     }
     return `polygon(${pts.join(',')})`;
+  }
+  // ---- shape characters ("char" layers): a body made of one shape, with eyes, brows and a mouth that act ----
+  // Added 8 Nov 2026. Moods blend over ~0.22 s, the eyes blink on their own, pupils follow "look", the body breathes,
+  // squashes on every mood change and shakes when frustrated. Everything is drawn by code (SVG), deterministic.
+  function CH_S() { return {
+    drop: 'M100 6 C 128 58 182 104 182 158 A 82 82 0 0 1 18 158 C 18 104 72 58 100 6 Z',
+    blob: 'M100 34 C 150 30 188 70 186 130 C 184 196 150 232 100 232 C 48 232 14 198 14 134 C 14 74 52 38 100 34 Z',
+    circle: 'M100 46 A 92 92 0 1 1 99.9 46 Z',
+    square: 'M40 48 H160 Q186 48 186 74 V206 Q186 232 160 232 H40 Q14 232 14 206 V74 Q14 48 40 48 Z',
+    page: 'M30 40 H140 L180 80 V226 Q180 232 174 232 H30 Q24 232 24 226 V46 Q24 40 30 40 Z',
+  }; }
+  function CH_M() { return {
+    //            eye  brow(deg) browY smile  open pupil blush sweat shake
+    calm:       [1.0,   0,   0,   0.30, 0.00, 1.0, 0.0, 0, 0],
+    happy:      [0.55, -6,  -6,   1.00, 0.45, 1.0, 1.0, 0, 0],
+    proud:      [0.45, -8,  -4,   0.80, 0.00, 1.0, 0.6, 0, 0],
+    frustrated: [0.65, 20,   7,  -0.85, 0.18, 0.9, 0.0, 1, 1],
+    worried:    [1.0, -16,  -6,  -0.50, 0.10, 0.8, 0.0, 1, 0],
+    surprised:  [1.30,-12, -16,   0.00, 0.95, 0.6, 0.0, 0, 0],
+    sleepy:     [0.12,  0,   4,   0.05, 0.00, 1.0, 0.0, 0, 0],
+    thinking:   [0.90, -4,  -8,  -0.10, 0.00, 1.0, 0.0, 0, 0],
+    love:       [0.50, -6,  -6,   0.90, 0.20, 1.0, 1.0, 0, 0],
+  }; }
+  function chHash(n) { const x = Math.sin(n * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
+  function charBuild(Ly, start) {
+    const C = Ly.L.char;
+    const col = C.color || '#5B3DF5', ink = C.ink || '#14121C', shape = CH_S()[C.shape || 'drop'] || C.shape;
+    const fy = C.faceY || (C.shape === 'drop' || !C.shape ? 152 : 140);
+    const ns = 'http://www.w3.org/2000/svg';
+    const wrap = document.createElement('div'); wrap.className = 'char';
+    Object.assign(wrap.style, { width: '100%', height: '100%', transformOrigin: '50% 100%' });
+    wrap.innerHTML = `<svg viewBox="-20 -20 240 280" style="width:100%;height:100%;overflow:visible">
+      <ellipse class="ch-sh" cx="100" cy="240" rx="70" ry="9" fill="rgba(20,18,28,.18)"/>
+      <g class="ch-b"><path d="${shape}" fill="${col}" stroke="${ink}" stroke-width="${C.outline != null ? C.outline : 5}" stroke-linejoin="round"/>
+      <path d="${shape}" fill="url(#chg${Ly.L.box ? Ly.L.box[0] : 0})" opacity=".55"/>
+      <ellipse cx="66" cy="${fy - 52}" rx="14" ry="22" fill="#fff" opacity=".35" transform="rotate(-28 66 ${fy - 52})"/>
+      <g class="ch-f">
+        <ellipse class="ch-bl" cx="${100 - 46}" cy="${fy + 22}" rx="15" ry="8" fill="#FF6B8A"/>
+        <ellipse class="ch-bl" cx="${100 + 46}" cy="${fy + 22}" rx="15" ry="8" fill="#FF6B8A"/>
+        <g class="ch-e" data-x="${100 - 28}"><ellipse rx="17" ry="20" fill="#fff" stroke="${ink}" stroke-width="3.5"/><circle class="ch-p" r="9" fill="${ink}"/><circle class="ch-g" r="3" fill="#fff"/></g>
+        <g class="ch-e" data-x="${100 + 28}"><ellipse rx="17" ry="20" fill="#fff" stroke="${ink}" stroke-width="3.5"/><circle class="ch-p" r="9" fill="${ink}"/><circle class="ch-g" r="3" fill="#fff"/></g>
+        <path class="ch-br" d="M-15 0 H15" stroke="${ink}" stroke-width="6" stroke-linecap="round"/>
+        <path class="ch-br" d="M-15 0 H15" stroke="${ink}" stroke-width="6" stroke-linecap="round"/>
+        <path class="ch-m" fill="${ink}" stroke="${ink}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path class="ch-sw" d="M0 -14 C 7 -2 9 4 0 10 C -9 4 -7 -2 0 -14 Z" fill="#7FD3FF" stroke="${ink}" stroke-width="2.5"/></g>
+      <defs><radialGradient id="chg${Ly.L.box ? Ly.L.box[0] : 0}" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></radialGradient></defs></svg>`;
+    Ly.e.appendChild(wrap);
+    const q = (c) => [...wrap.querySelectorAll(c)];
+    const moods = (C.mood || [[0, 'calm']]).map((m) => ({ t: start + m[0] * BEAT, v: CH_M()[m[1]] || CH_M().calm, name: m[1] }));
+    const looks = (C.look || [[0, [0, 0]]]).map((m) => ({ t: start + m[0] * BEAT, v: m[1] }));
+    if (C.sfx !== false) moods.slice(1).forEach((m) => events.pops.push(m.t));
+    Ly.ch = { wrap, fy, moods, looks, body: q('.ch-b')[0], eyes: q('.ch-e'), brows: q('.ch-br'), mouth: q('.ch-m')[0], blush: q('.ch-bl'), sweat: q('.ch-sw')[0], seed: (Ly.L.box ? Ly.L.box[0] : 7) * 0.013 };
+  }
+  function charUpdate(Ly, t) {
+    const c = Ly.ch, fy = c.fy;
+    // mood blend
+    let i = 0; while (i < c.moods.length - 1 && t >= c.moods[i + 1].t) i++;
+    const cur = c.moods[i], prev = c.moods[Math.max(0, i - 1)];
+    const k = i === 0 ? 1 : E.outCubic(clamp((t - cur.t) / 0.22));
+    const m = cur.v.map((v, j) => lerp(prev.v[j], v, k));
+    const [eye, brow, browY, smile, open, pupil, blush, sweat, shake] = m;
+    // look (pupils), linear blend over 0.18 s
+    let li = 0; while (li < c.looks.length - 1 && t >= c.looks[li + 1].t) li++;
+    const lc = c.looks[li], lp = c.looks[Math.max(0, li - 1)];
+    const lk = li === 0 ? 1 : E.outCubic(clamp((t - lc.t) / 0.18));
+    const lx = lerp(lp.v[0], lc.v[0], lk), ly = lerp(lp.v[1], lc.v[1], lk);
+    // blink: every 2.2-3.6 s, 0.13 s long
+    let bl = 1; const per = 2.2 + chHash(Math.floor(t / 2.9) + c.seed) * 1.4; const ph = (t + c.seed * 10) % per;
+    if (ph < 0.13) bl = Math.abs(ph - 0.065) / 0.065;
+    // body: breathe, squash on mood change, shake
+    const since = t - cur.t;
+    const sq = i > 0 && since < 0.45 ? Math.sin(since / 0.45 * Math.PI * 2) * Math.exp(-since * 6) * 0.16 : 0;
+    const br = Math.sin(t * 2.6 + c.seed) * 0.018;
+    const sx = 1 + sq * 0.8 - br * 0.5, sy = 1 - sq + br;
+    const shx = shake * Math.sin(t * 55) * 4;
+    c.wrap.style.transform = `translateX(${shx.toFixed(1)}px) scale(${sx.toFixed(3)}, ${sy.toFixed(3)})`;
+    // eyes
+    const ey = fy - 12 - browY * 0.15;
+    c.eyes.forEach((g) => {
+      const x = +g.dataset.x;
+      g.setAttribute('transform', `translate(${x} ${ey.toFixed(1)}) scale(1 ${Math.max(0.06, eye * bl).toFixed(3)})`);
+      const pp = g.querySelector('.ch-p'), gl = g.querySelector('.ch-g');
+      const px = lx * 7, py = ly * 8;
+      pp.setAttribute('cx', px.toFixed(1)); pp.setAttribute('cy', py.toFixed(1)); pp.setAttribute('r', (9 * pupil).toFixed(1));
+      gl.setAttribute('cx', (px + 3).toFixed(1)); gl.setAttribute('cy', (py - 3).toFixed(1));
+    });
+    // brows (inner ends tilt by `brow` degrees; positive = angry/frustrated)
+    c.brows.forEach((b, j) => {
+      const x = j === 0 ? 100 - 28 : 100 + 28, a = j === 0 ? brow : -brow;
+      b.setAttribute('transform', `translate(${x} ${(fy - 40 + browY - (eye - 1) * 10).toFixed(1)}) rotate(${a.toFixed(1)})`);
+    });
+    // mouth
+    const my = fy + 26, w = 22 - open * (1 - Math.abs(smile)) * 8, cy1 = my + smile * 16 - open * (1 - Math.abs(smile)) * 16, cy2 = cy1 + open * 30;
+    c.mouth.setAttribute('d', open > 0.04
+      ? `M${100 - w} ${my} Q100 ${cy1.toFixed(1)} ${100 + w} ${my} Q100 ${cy2.toFixed(1)} ${100 - w} ${my} Z`
+      : `M${100 - w} ${my} Q100 ${cy1.toFixed(1)} ${100 + w} ${my}`);
+    c.mouth.setAttribute('fill', open > 0.04 ? '#3A1420' : 'none');
+    c.blush.forEach((b) => b.setAttribute('opacity', (blush * 0.75).toFixed(2)));
+    const sw = sweat > 0.02 ? ((t * 0.9) % 1) : 0;
+    c.sweat.setAttribute('transform', `translate(${100 + 62} ${(fy - 60 + sw * 40).toFixed(1)}) scale(${(sweat * 1.1).toFixed(2)})`);
+    c.sweat.setAttribute('opacity', (sweat * (1 - sw * 0.7)).toFixed(2));
   }
   function kfAt(Ly, t) {
     const k = Ly.kf;
@@ -499,6 +602,7 @@
           Ly.e.style.transform = `translate3d(${(p.x || 0).toFixed(1)}px, ${(p.y || 0).toFixed(1)}px, ${z.toFixed(1)}px) rotateX(${(p.rx || 0).toFixed(2)}deg) rotateY(${(p.ry || 0).toFixed(2)}deg) rotate(${(p.r || 0).toFixed(2)}deg) scale(${(p.s != null ? p.s : 1).toFixed(4)})`;
           Ly.e.style.opacity = ((p.o != null ? clamp(p.o) : 1) * nearFade).toFixed(3);
           Ly.e.style.filter = bl > 0.3 ? `blur(${bl.toFixed(1)}px)` : 'none';
+          if (Ly.ch) charUpdate(Ly, t);
           if (Ly.paths.length && p.dash != null) Ly.paths.forEach(([pe, len]) => { pe.style.strokeDasharray = `${len}`; pe.style.strokeDashoffset = `${(len * (1 - clamp(p.dash))).toFixed(1)}`; });
           if (Ly.tg) {
             const n = clamp(Math.floor(((t - Ly.tt0) / Ly.td) * Ly.txt.length), 0, Ly.txt.length);
