@@ -7,10 +7,23 @@
  "sound": "cinematic>pluck (scratch)",
  "footage": "stock person (Mixkit 50133) + real Lineup figures + app clip (c-versus-pick) + app still (s-battles) + code-drawn arena",
  "hook": "A 16-year-old hero. A 201 cm villain.",
- "length_s": 16.0,
+ "length_s": 14.5,
  "slot": "A",
  "dueAt": "2026-11-08T14:00:00+00:00",
- "built_for": ["sends", "comments", "conversion"],
- "files": {"tiktok": "videos/2026-11-08-a-fight-night.mp4", "instagram": "videos/2026-11-08-a-fight-night-bio.mp4", "youtube": "videos/2026-11-08-a-fight-night.mp4"},
- "buffer": {"tiktok": "6af067c1229bf05dafadc9e1", "instagram": "6af067c151492b796e382feb", "youtube": "6af067c2004e4879a7b6915a"}
+ "built_for": [
+  "sends",
+  "comments",
+  "conversion"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-08-a-fight-night-v2.mp4",
+  "instagram": "videos/2026-11-08-a-fight-night-v2-bio.mp4",
+  "youtube": "videos/2026-11-08-a-fight-night-v2.mp4"
+ },
+ "buffer": {
+  "tiktok": "6af067c1229bf05dafadc9e1",
+  "instagram": "6af067c151492b796e382feb",
+  "youtube": "6af067c2004e4879a7b6915a"
+ },
+ "note": "Re-cut to 14.5 s with its own end line ('Put the fight on paper first.') after the Sunday run's new Playbook rules (12\u201314 s, video-specific end line); posts repointed to the -v2 files."
 }
