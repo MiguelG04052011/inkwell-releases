@@ -1,0 +1,16 @@
+{
+ "id": "2026-11-09-b-saltgrave-part-2",
+ "engine": 3,
+ "idea": "S5 series episode",
+ "structure": "series beat",
+ "look": "paper theatre at night",
+ "sound": "ambient",
+ "footage": "app clips (c-series-secret, c-series-web) + real Lineup figures cut out (fig-*.png from s-series-lineup) + code-drawn night world",
+ "hook": "She can hold back the sea. Only one person knows.",
+ "length_s": 15.0,
+ "slot": "B",
+ "dueAt": "2026-11-09T00:00:00+00:00",
+ "built_for": ["follows", "comments"],
+ "files": {"tiktok": "videos/2026-11-09-b-saltgrave-part-2.mp4", "instagram": "videos/2026-11-09-b-saltgrave-part-2-bio.mp4", "youtube": "videos/2026-11-09-b-saltgrave-part-2.mp4"},
+ "buffer": {"tiktok": "6af06e5051492b796e3a5862", "instagram": "6af06e509214322f68527f71", "youtube": "6af06e519214322f68527fb7"}
+}
