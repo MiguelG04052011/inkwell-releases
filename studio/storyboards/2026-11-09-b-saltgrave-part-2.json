@@ -1,0 +1,2282 @@
+{
+ "id": "2026-11-09-b-saltgrave-part-2",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 90,
+ "footage": "../footage/2026-11-08-series",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "ambient"
+   }
+  ],
+  "opener": "soft",
+  "risers": [
+   14
+  ],
+  "hits": [
+   4,
+   10.3,
+   15.2
+  ]
+ },
+ "shots": [
+  {
+   "b": 4,
+   "kind": "blank",
+   "bg": "night",
+   "persp": 1600,
+   "dof": 0.0014,
+   "focus": -200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -80
+     }
+    ],
+    [
+     4,
+     {
+      "z": 130
+     },
+     "inOutSine"
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;background:linear-gradient(180deg,#14203d 0%,#2a3d66 55%,#4a5f86 100%)\"></div>",
+     "box": [
+      -1400,
+      -1400,
+      3880,
+      4700
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -900
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 900'><circle cx='90' cy='120' r='3' fill='#F4EEE0' opacity='.8'/><circle cx='250' cy='60' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='400' cy='180' r='2.5' fill='#F4EEE0' opacity='.8'/><circle cx='640' cy='90' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='820' cy='150' r='3' fill='#F4EEE0' opacity='.8'/><circle cx='980' cy='70' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='160' cy='300' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='720' cy='260' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='930' cy='330' r='2.5' fill='#F4EEE0' opacity='.8'/><circle cx='520' cy='40' r='2' fill='#F4EEE0' opacity='.8'/></svg>",
+     "box": [
+      -300,
+      -200,
+      1680,
+      1300
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -800
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;box-shadow:0 0 80px 20px rgba(244,238,224,.35)\"></div>",
+     "box": [
+      720,
+      470,
+      190,
+      190
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -700
+       }
+      ],
+      [
+       6,
+       {
+        "y": -14
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 1600 500\" style=\"width:100%;height:100%;overflow:visible\"><path d=\"M0 500 L0 240 C200 120 340 260 520 200 S 860 60 1040 190 S 1400 120 1600 240 L1600 500Z\" fill=\"#24324f\"/></svg>",
+     "box": [
+      -260,
+      880,
+      1600,
+      500
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -500
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;background:linear-gradient(90deg,rgba(255,226,150,.55),rgba(255,226,150,0));clip-path:polygon(0 46%,100% 0,100% 100%,0 54%);filter:blur(18px);mix-blend-mode:screen\"></div>",
+     "box": [
+      922,
+      620,
+      1100,
+      420
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 0.3,
+        "z": -420,
+        "r": 190
+       }
+      ],
+      [
+       2.0,
+       {
+        "r": 176
+       },
+       "inOutSine"
+      ],
+      [
+       4,
+       {
+        "r": 186
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 120 420\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(5px 6px 6px rgba(0,0,0,.4))\"><path d=\"M42 80 L78 80 L92 420 L28 420Z\" fill=\"#E9E1CF\"/><path d=\"M38 170 L82 170 L85 230 L35 230Z M32 300 L88 300 L91 360 L29 360Z\" fill=\"#A93A31\"/><rect x=\"36\" y=\"48\" width=\"48\" height=\"34\" fill=\"#FFD27A\" style=\"filter:drop-shadow(0 0 12px #FFD27A)\"/><path d=\"M30 48 L60 16 L90 48Z\" fill=\"#A93A31\"/></svg>",
+     "box": [
+      860,
+      790,
+      125,
+      438
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -420
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 V 900 H -300 Z\" fill=\"#3E7F96\"/></svg>",
+     "box": [
+      -460,
+      1240,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -300,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 520 160\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(6px 10px 8px rgba(0,0,0,.4))\"><rect x=\"0\" y=\"0\" width=\"520\" height=\"30\" fill=\"#6B4A35\"/><rect x=\"60\" y=\"30\" width=\"26\" height=\"130\" fill=\"#523627\"/><rect x=\"250\" y=\"30\" width=\"26\" height=\"130\" fill=\"#523627\"/><rect x=\"440\" y=\"30\" width=\"26\" height=\"130\" fill=\"#523627\"/></svg>",
+     "box": [
+      -40,
+      1238,
+      560,
+      160
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -220
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 600 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(-10px 0 14px rgba(0,0,0,.35))\"><path d=\"M600 900 L600 120 C520 40 380 40 330 140 C300 200 360 240 400 210 C350 300 300 520 260 900 Z\" fill=\"#3E7F96\"/><path d=\"M600 900 L600 220 C540 160 470 170 450 240 C430 330 410 600 380 900Z\" fill=\"#2C6C86\"/><path d=\"M330 140 C360 110 410 110 440 140\" stroke=\"#E9F2F2\" stroke-width=\"14\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+     "box": [
+      520,
+      560,
+      600,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -260,
+        "y": 30,
+        "r": 0
+       }
+      ],
+      [
+       0.6,
+       {
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       0.85,
+       {
+        "r": 2.5,
+        "x": -8,
+        "y": -6
+       },
+       "inOutSine"
+      ],
+      [
+       1.35,
+       {
+        "r": -2.5,
+        "x": 8,
+        "y": 6
+       },
+       "inOutSine"
+      ],
+      [
+       1.85,
+       {
+        "r": 2.5,
+        "x": -8,
+        "y": -6
+       },
+       "inOutSine"
+      ],
+      [
+       2.35,
+       {
+        "r": -2.5,
+        "x": 8,
+        "y": 6
+       },
+       "inOutSine"
+      ],
+      [
+       2.85,
+       {
+        "r": 2.5,
+        "x": -8,
+        "y": -6
+       },
+       "inOutSine"
+      ],
+      [
+       3.35,
+       {
+        "r": -2.5,
+        "x": 8,
+        "y": 6
+       },
+       "inOutSine"
+      ],
+      [
+       3.85,
+       {
+        "r": 2.5,
+        "x": -8,
+        "y": -6
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 2px rgba(255,240,210,.6))\">",
+     "box": [
+      190,
+      644.0,
+      190.0,
+      606.0
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ],
+      [
+       4,
+       {
+        "s": 1.02
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 300 200'><circle cx='40' cy='120' r='7' fill='#E9F2F2' opacity='.85'/><circle cx='80' cy='80' r='5' fill='#E9F2F2' opacity='.85'/><circle cx='120' cy='110' r='6' fill='#E9F2F2' opacity='.85'/><circle cx='160' cy='60' r='4' fill='#E9F2F2' opacity='.85'/><circle cx='200' cy='95' r='5' fill='#E9F2F2' opacity='.85'/><circle cx='60' cy='40' r='3' fill='#E9F2F2' opacity='.85'/><circle cx='230' cy='50' r='4' fill='#E9F2F2' opacity='.85'/><circle cx='140' cy='20' r='3' fill='#E9F2F2' opacity='.85'/></svg>",
+     "box": [
+      790,
+      560,
+      300,
+      200
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 0.0,
+        "z": -250
+       }
+      ],
+      [
+       0.4,
+       {
+        "o": 1,
+        "y": 0
+       }
+      ],
+      [
+       1.5,
+       {
+        "y": -40,
+        "o": 0.4
+       },
+       "outCubic"
+      ],
+      [
+       1.6,
+       {
+        "y": 0,
+        "o": 1
+       }
+      ],
+      [
+       2.8,
+       {
+        "y": -40,
+        "o": 0.4
+       },
+       "outCubic"
+      ],
+      [
+       2.9,
+       {
+        "y": 0,
+        "o": 1
+       }
+      ],
+      [
+       4,
+       {
+        "y": -40,
+        "o": 0.4
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1310,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -120,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 V 900 H -300 Z\" fill=\"#1C4F66\"/></svg>",
+     "box": [
+      -460,
+      1400,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "She can hold back *the sea.*",
+     "at": -1.4,
+     "y": 230,
+     "size": 100,
+     "align": "center",
+     "stagger": 0
+    },
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Only one person knows.",
+     "at": 1.1,
+     "y": 370,
+     "size": 90,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 2.5,
+   "kind": "blank",
+   "bg": "night",
+   "in": "page",
+   "persp": 1600,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -20,
+      "x": -50
+     }
+    ],
+    [
+     2.5,
+     {
+      "z": 50,
+      "x": 50
+     },
+     "linear"
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;background:linear-gradient(180deg,#14203d 0%,#2a3d66 55%,#4a5f86 100%)\"></div>",
+     "box": [
+      -1400,
+      -1400,
+      3880,
+      4700
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -900
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 900'><circle cx='90' cy='120' r='3' fill='#F4EEE0' opacity='.8'/><circle cx='250' cy='60' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='400' cy='180' r='2.5' fill='#F4EEE0' opacity='.8'/><circle cx='640' cy='90' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='820' cy='150' r='3' fill='#F4EEE0' opacity='.8'/><circle cx='980' cy='70' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='160' cy='300' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='720' cy='260' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='930' cy='330' r='2.5' fill='#F4EEE0' opacity='.8'/><circle cx='520' cy='40' r='2' fill='#F4EEE0' opacity='.8'/></svg>",
+     "box": [
+      -300,
+      -200,
+      1680,
+      1300
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -800
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 1600 500\" style=\"width:100%;height:100%;overflow:visible\"><path d=\"M0 500 L0 240 C200 120 340 260 520 200 S 860 60 1040 190 S 1400 120 1600 240 L1600 500Z\" fill=\"#24324f\"/></svg>",
+     "box": [
+      -260,
+      880,
+      1600,
+      500
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -500
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;background:linear-gradient(90deg,rgba(255,226,150,.55),rgba(255,226,150,0));clip-path:polygon(0 46%,100% 0,100% 100%,0 54%);filter:blur(18px);mix-blend-mode:screen\"></div>",
+     "box": [
+      922,
+      620,
+      1100,
+      420
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 0.3,
+        "z": -420,
+        "r": 190
+       }
+      ],
+      [
+       1.25,
+       {
+        "r": 176
+       },
+       "inOutSine"
+      ],
+      [
+       2.5,
+       {
+        "r": 186
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 120 420\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(5px 6px 6px rgba(0,0,0,.4))\"><path d=\"M42 80 L78 80 L92 420 L28 420Z\" fill=\"#E9E1CF\"/><path d=\"M38 170 L82 170 L85 230 L35 230Z M32 300 L88 300 L91 360 L29 360Z\" fill=\"#A93A31\"/><rect x=\"36\" y=\"48\" width=\"48\" height=\"34\" fill=\"#FFD27A\" style=\"filter:drop-shadow(0 0 12px #FFD27A)\"/><path d=\"M30 48 L60 16 L90 48Z\" fill=\"#A93A31\"/></svg>",
+     "box": [
+      860,
+      790,
+      125,
+      438
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -420
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 V 900 H -300 Z\" fill=\"#3E7F96\"/></svg>",
+     "box": [
+      -460,
+      1240,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -300,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-A.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 2px rgba(255,240,210,.6))\">",
+     "box": [
+      40,
+      474.0,
+      240.0,
+      776.0
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-I.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 2px rgba(255,240,210,.6))\">",
+     "box": [
+      320,
+      678.0,
+      184.0,
+      572.0
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-T.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 2px rgba(255,240,210,.6))\">",
+     "box": [
+      560,
+      598.0,
+      206.0,
+      652.0
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-W.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 2px rgba(255,240,210,.6))\">",
+     "box": [
+      810,
+      634.0,
+      200.0,
+      616.0
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;display:flex;align-items:center;justify-content:center;font-family:Hand;font-size:84px;color:#1f2a44;box-shadow:0 0 30px rgba(255,226,150,.5)\">?</div>",
+     "box": [
+      220,
+      420,
+      96,
+      96
+     ],
+     "kf": [
+      [
+       0.3,
+       {
+        "o": 0,
+        "s": 0.3,
+        "z": -200
+       }
+      ],
+      [
+       0.6499999999999999,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       1.25,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ],
+      [
+       1.8499999999999999,
+       {
+        "y": 14
+       },
+       "inOutSine"
+      ],
+      [
+       2.45,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;display:flex;align-items:center;justify-content:center;font-family:Hand;font-size:84px;color:#1f2a44;box-shadow:0 0 30px rgba(255,226,150,.5)\">?</div>",
+     "box": [
+      430,
+      600,
+      96,
+      96
+     ],
+     "kf": [
+      [
+       0.7,
+       {
+        "o": 0,
+        "s": 0.3,
+        "z": -200
+       }
+      ],
+      [
+       1.0499999999999998,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       1.65,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "y": 14
+       },
+       "inOutSine"
+      ],
+      [
+       2.8499999999999996,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;display:flex;align-items:center;justify-content:center;font-family:Hand;font-size:84px;color:#1f2a44;box-shadow:0 0 30px rgba(255,226,150,.5)\">?</div>",
+     "box": [
+      690,
+      540,
+      96,
+      96
+     ],
+     "kf": [
+      [
+       1.1,
+       {
+        "o": 0,
+        "s": 0.3,
+        "z": -200
+       }
+      ],
+      [
+       1.4500000000000002,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       2.0500000000000003,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ],
+      [
+       2.6500000000000004,
+       {
+        "y": 14
+       },
+       "inOutSine"
+      ],
+      [
+       3.25,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;display:flex;align-items:center;justify-content:center;font-family:Hand;font-size:84px;color:#1f2a44;box-shadow:0 0 30px rgba(255,226,150,.5)\">?</div>",
+     "box": [
+      920,
+      570,
+      96,
+      96
+     ],
+     "kf": [
+      [
+       1.5,
+       {
+        "o": 0,
+        "s": 0.3,
+        "z": -200
+       }
+      ],
+      [
+       1.85,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       2.45,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ],
+      [
+       3.05,
+       {
+        "y": 14
+       },
+       "inOutSine"
+      ],
+      [
+       3.6500000000000004,
+       {
+        "y": -14
+       },
+       "inOutSine"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1310,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -120,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 V 900 H -300 Z\" fill=\"#1C4F66\"/></svg>",
+     "box": [
+      -460,
+      1400,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "tag",
+     "text": "PART 2",
+     "at": 0,
+     "y": 200,
+     "size": 60,
+     "cls": "hot"
+    },
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Who knows *her secret?*",
+     "at": 0.1,
+     "y": 290,
+     "size": 104,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 5,
+   "kind": "clip",
+   "src": "c-series-secret",
+   "from": 0.4,
+   "speed": 1.15,
+   "theme": "night",
+   "in": "blurin",
+   "look": "card",
+   "box": [
+    40,
+    600,
+    1000,
+    700
+   ],
+   "tilt": [
+    4,
+    -6,
+    1,
+    2
+   ],
+   "bgLook": "night",
+   "cursor": false,
+   "cam": [
+    [
+     930,
+     150,
+     1340,
+     437
+    ],
+    [
+     930,
+     160,
+     1340,
+     447
+    ],
+    [
+     1010,
+     330,
+     1340,
+     561
+    ],
+    [
+     940,
+     150,
+     1340,
+     430
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "text": [
+    {
+     "style": "tag",
+     "text": "IN INKWELL",
+     "at": 0,
+     "y": 230,
+     "size": 58,
+     "cls": "hot"
+    },
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Tomas, her brother, *knows.*",
+     "at": 0.2,
+     "y": 340,
+     "size": 94,
+     "align": "center"
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;box-shadow:0 0 80px 20px rgba(244,238,224,.35)\"></div>",
+     "box": [
+      880,
+      480,
+      110,
+      110
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 0.9
+       }
+      ],
+      [
+       6,
+       {
+        "y": -10
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 V 900 H -300 Z\" fill=\"#3E7F96\"/></svg>",
+     "box": [
+      -460,
+      1380,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       4.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1470,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       4.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 V 900 H -300 Z\" fill=\"#1C4F66\"/></svg>",
+     "box": [
+      -460,
+      1560,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       4.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 3.5,
+   "kind": "clip",
+   "src": "c-series-web",
+   "from": 0.2,
+   "speed": 1.1,
+   "theme": "night",
+   "in": "whip-l",
+   "look": "card",
+   "box": [
+    40,
+    560,
+    1000,
+    860
+   ],
+   "tilt": [
+    -4,
+    6,
+    -1,
+    1
+   ],
+   "bgLook": "night",
+   "cursor": true,
+   "cam": [
+    [
+     420,
+     150,
+     1150,
+     804
+    ],
+    [
+     470,
+     190,
+     1110,
+     763
+    ]
+   ],
+   "camEase": "linear",
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Inkwell draws *the web.*",
+     "at": 0.1,
+     "y": 320,
+     "size": 104,
+     "align": "center"
+    }
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;box-shadow:0 0 80px 20px rgba(244,238,224,.35)\"></div>",
+     "box": [
+      880,
+      480,
+      110,
+      110
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 0.9
+       }
+      ],
+      [
+       6,
+       {
+        "y": -10
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 V 900 H -300 Z\" fill=\"#3E7F96\"/></svg>",
+     "box": [
+      -460,
+      1380,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1470,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 V 900 H -300 Z\" fill=\"#1C4F66\"/></svg>",
+     "box": [
+      -460,
+      1560,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "blank",
+   "bg": "night",
+   "in": "blurin",
+   "persp": 1600,
+   "dof": 0.0014,
+   "focus": -200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -40,
+      "x": 30
+     }
+    ],
+    [
+     4,
+     {
+      "z": 90,
+      "x": -30
+     },
+     "inOutSine"
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style=\"width:100%;height:100%;background:linear-gradient(180deg,#14203d 0%,#2a3d66 55%,#4a5f86 100%)\"></div>",
+     "box": [
+      -1400,
+      -1400,
+      3880,
+      4700
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -900
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 900'><circle cx='90' cy='120' r='3' fill='#F4EEE0' opacity='.8'/><circle cx='250' cy='60' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='400' cy='180' r='2.5' fill='#F4EEE0' opacity='.8'/><circle cx='640' cy='90' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='820' cy='150' r='3' fill='#F4EEE0' opacity='.8'/><circle cx='980' cy='70' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='160' cy='300' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='720' cy='260' r='2' fill='#F4EEE0' opacity='.8'/><circle cx='930' cy='330' r='2.5' fill='#F4EEE0' opacity='.8'/><circle cx='520' cy='40' r='2' fill='#F4EEE0' opacity='.8'/></svg>",
+     "box": [
+      -300,
+      -200,
+      1680,
+      1300
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -800
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;border-radius:50%;background:#F4EEE0;box-shadow:0 0 80px 20px rgba(244,238,224,.35)\"></div>",
+     "box": [
+      720,
+      470,
+      190,
+      190
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -700
+       }
+      ],
+      [
+       6,
+       {
+        "y": -14
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 1600 500\" style=\"width:100%;height:100%;overflow:visible\"><path d=\"M0 500 L0 240 C200 120 340 260 520 200 S 860 60 1040 190 S 1400 120 1600 240 L1600 500Z\" fill=\"#24324f\"/></svg>",
+     "box": [
+      -260,
+      880,
+      1600,
+      500
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -500
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style=\"width:100%;height:100%;background:linear-gradient(90deg,rgba(255,226,150,.55),rgba(255,226,150,0));clip-path:polygon(0 46%,100% 0,100% 100%,0 54%);filter:blur(18px);mix-blend-mode:screen\"></div>",
+     "box": [
+      922,
+      620,
+      1100,
+      420
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 0.3,
+        "z": -420,
+        "r": 190
+       }
+      ],
+      [
+       2.0,
+       {
+        "r": 176
+       },
+       "inOutSine"
+      ],
+      [
+       4,
+       {
+        "r": 186
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 120 420\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(5px 6px 6px rgba(0,0,0,.4))\"><path d=\"M42 80 L78 80 L92 420 L28 420Z\" fill=\"#E9E1CF\"/><path d=\"M38 170 L82 170 L85 230 L35 230Z M32 300 L88 300 L91 360 L29 360Z\" fill=\"#A93A31\"/><rect x=\"36\" y=\"48\" width=\"48\" height=\"34\" fill=\"#FFD27A\" style=\"filter:drop-shadow(0 0 12px #FFD27A)\"/><path d=\"M30 48 L60 16 L90 48Z\" fill=\"#A93A31\"/></svg>",
+     "box": [
+      860,
+      790,
+      125,
+      438
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -420
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-A.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 14px rgba(160,210,255,.85))\">",
+     "box": [
+      640,
+      939.1999999999999,
+      192.0,
+      620.8000000000001
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "z": -420,
+        "y": 320
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.6,
+       {
+        "y": -60
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 q 75.0 -16 150 0 t 150 0 V 900 H -300 Z\" fill=\"#3E7F96\"/></svg>",
+     "box": [
+      -460,
+      1240,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -300,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 520 160\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(6px 10px 8px rgba(0,0,0,.4))\"><rect x=\"0\" y=\"0\" width=\"520\" height=\"30\" fill=\"#6B4A35\"/><rect x=\"60\" y=\"30\" width=\"26\" height=\"130\" fill=\"#523627\"/><rect x=\"250\" y=\"30\" width=\"26\" height=\"130\" fill=\"#523627\"/><rect x=\"440\" y=\"30\" width=\"26\" height=\"130\" fill=\"#523627\"/></svg>",
+     "box": [
+      -40,
+      1238,
+      560,
+      160
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -220
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-P.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 2px rgba(255,240,210,.6))\">",
+     "box": [
+      150,
+      644.0,
+      190.0,
+      606.0
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src=\"../footage/2026-11-08-series/stills/fig-T.png\" style=\"width:100%;height:100%;display:block;filter:drop-shadow(8px 12px 10px rgba(0,0,0,.45)) drop-shadow(0 0 2px rgba(255,240,210,.6))\">",
+     "box": [
+      380,
+      598.0,
+      206.0,
+      652.0
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -210
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920'><path d='M330 700 C 420 600, 520 600, 600 660' stroke='#FFD27A' stroke-width='8' fill='none' style='filter:drop-shadow(0 0 10px #FFD27A)'/></svg>",
+     "cls": "trail",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       0.3,
+       {
+        "dash": 0,
+        "o": 1,
+        "z": -210
+       }
+      ],
+      [
+       1.5,
+       {
+        "dash": 1
+       },
+       "inOutCubic"
+      ],
+      [
+       2.2,
+       {
+        "o": 0.55
+       }
+      ],
+      [
+       2.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.6,
+       {
+        "o": 0.6
+       }
+      ],
+      [
+       4.2,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 q 90.0 -20 180 0 t 180 0 V 900 H -300 Z\" fill=\"#2C6C86\"/></svg>",
+     "box": [
+      -460,
+      1310,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": -120,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox=\"0 0 2000 900\" style=\"width:100%;height:100%;overflow:visible;filter:drop-shadow(0 -8px 10px rgba(0,0,0,.3))\"><path d=\"M -300 60 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 q 105.0 -26 210 0 t 210 0 V 900 H -300 Z\" fill=\"#1C4F66\"/></svg>",
+     "box": [
+      -460,
+      1400,
+      2000,
+      900
+     ],
+     "kf": [
+      [
+       -5,
+       {
+        "o": 1,
+        "z": 0,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       0.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       1.5,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       2.25,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ],
+      [
+       3.0,
+       {
+        "x": -90,
+        "y": 10
+       },
+       "inOutSine"
+      ],
+      [
+       3.75,
+       {
+        "x": 90,
+        "y": -10
+       },
+       "inOutSine"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Ansel doesn't know. *Yet.*",
+     "at": 0.8,
+     "y": 250,
+     "size": 104,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Who knows *yours?*",
+     "at": 2.2,
+     "y": 380,
+     "size": 84,
+     "align": "center"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 3.5,
+  "line": "Part 3: who wins?",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}
