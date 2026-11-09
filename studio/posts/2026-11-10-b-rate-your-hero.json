@@ -1,0 +1,27 @@
+{
+ "id": "2026-11-10-b-rate-your-hero",
+ "engine": 3,
+ "idea": "S3 how-to",
+ "structure": "bookend (page > app > page)",
+ "look": "clean",
+ "sound": "pluck",
+ "footage": "stock hands (Mixkit 99910) + app clips c-power-edit, c-tier-fill",
+ "hook": "Your hero's strength, out of 10?",
+ "length_s": 13.3,
+ "slot": "B",
+ "dueAt": "2026-11-10T00:00:00+00:00",
+ "built_for": [
+  "comments",
+  "saves"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-10-b-rate-your-hero.mp4",
+  "instagram": "videos/2026-11-10-b-rate-your-hero-bio.mp4",
+  "youtube": "videos/2026-11-10-b-rate-your-hero.mp4"
+ },
+ "buffer": {
+  "tiktok": "6af1d97616e7ebcf36222c21",
+  "instagram": "6af1d9771f1018c1dacfd817",
+  "youtube": "6af1d97816e7ebcf36222c76"
+ }
+}

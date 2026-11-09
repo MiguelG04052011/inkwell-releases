@@ -1,0 +1,27 @@
+{
+ "id": "2026-11-09-a-villain-weakness",
+ "engine": 3,
+ "idea": "S7 story-time",
+ "structure": "story arc",
+ "look": "paper",
+ "sound": "frantic>lofi (tape stop)",
+ "footage": "ink drop (code character) + app clip c-search-weak + app still s-search-weak + code-drawn world (sun, horizon, dashed villain)",
+ "hook": "What's your villain's weakness?",
+ "length_s": 12.8,
+ "slot": "A",
+ "dueAt": "2026-11-09T19:00:00+00:00",
+ "built_for": [
+  "sends",
+  "conversion"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-09-a-villain-weakness.mp4",
+  "instagram": "videos/2026-11-09-a-villain-weakness-bio.mp4",
+  "youtube": "videos/2026-11-09-a-villain-weakness.mp4"
+ },
+ "buffer": {
+  "tiktok": "6af1d969990be196eb72bf95",
+  "instagram": "6af1d9692f9380f8d482954e",
+  "youtube": "6af1d96a2f9380f8d482957f"
+ }
+}
