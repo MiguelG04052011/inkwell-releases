@@ -1,0 +1,280 @@
+{
+ "id": "2026-11-10-b-rate-your-hero",
+ "engine": 3,
+ "look": "clean",
+ "fps": 30,
+ "bpm": 96,
+ "footage": "../footage/2026-11-09",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "pluck"
+   }
+  ],
+  "opener": "soft",
+  "risers": [],
+  "hits": [
+   5,
+   9.5,
+   13.5
+  ]
+ },
+ "end": {
+  "b": 3.2,
+  "theme": "clean",
+  "line": "Keep everyone's powers consistent.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ },
+ "shots": [
+  {
+   "b": 5,
+   "kind": "clip",
+   "src": "c-stock-99910-note",
+   "speed": 0.55,
+   "grade": "warm",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Your hero's strength,",
+     "at": -1,
+     "y": 300,
+     "size": 104,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "*out of 10?*",
+     "at": -1,
+     "y": 430,
+     "size": 118,
+     "align": "center"
+    },
+    {
+     "style": "hand",
+     "text": "strength: ?",
+     "at": 0.7,
+     "dur": 1.6,
+     "y": 650,
+     "size": 84,
+     "align": "center",
+     "rot": 4,
+     "color": "#1f2a52"
+    }
+   ]
+  },
+  {
+   "b": 4.5,
+   "kind": "clip",
+   "src": "c-power-edit",
+   "from": 0.3,
+   "speed": 0.75,
+   "in": "blurin",
+   "look": "card",
+   "box": [
+    40,
+    560,
+    1000,
+    620
+   ],
+   "tilt": [
+    6,
+    -8,
+    2,
+    3
+   ],
+   "bgLook": "clean",
+   "cursor": true,
+   "cam": [
+    [
+     260,
+     250,
+     860,
+     622
+    ],
+    [
+     330,
+     330,
+     750,
+     590
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "text": [
+    {
+     "style": "tag",
+     "text": "IN INKWELL",
+     "at": 0,
+     "y": 230,
+     "size": 58,
+     "cls": "hot"
+    },
+    {
+     "style": "serif",
+     "text": "Click it once.",
+     "at": 0.2,
+     "y": 330,
+     "size": 104,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "*Afterburn: 6.*",
+     "at": 3.1,
+     "y": 440,
+     "size": 104,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 4.5,
+   "kind": "clip",
+   "src": "c-tier-fill",
+   "from": 0.4,
+   "speed": 1.0,
+   "in": "whip-l",
+   "look": "card",
+   "box": [
+    40,
+    560,
+    1000,
+    620
+   ],
+   "tilt": [
+    -6,
+    8,
+    -2,
+    -3
+   ],
+   "bgLook": "clean",
+   "cursor": true,
+   "cam": [
+    [
+     260,
+     170,
+     1330,
+     834
+    ],
+    [
+     260,
+     330,
+     1100,
+     851
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "text": [
+    {
+     "style": "serif",
+     "text": "Then one click",
+     "at": 0.1,
+     "y": 300,
+     "size": 100,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "*fills the tier list.*",
+     "at": 0.5,
+     "y": 420,
+     "size": 104,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "clip",
+   "src": "c-stock-99910-note",
+   "from": 1.0,
+   "speed": 0.05,
+   "grade": "warm",
+   "in": "fade",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "layers": [
+    {
+     "html": "<svg viewBox='0 0 600 60' style='width:100%;height:100%;overflow:visible'><path d='M8 40 C150 30 330 22 590 18' stroke='#c2185b' stroke-width='9' fill='none' stroke-linecap='round'/></svg>",
+     "box": [
+      270,
+      700,
+      560,
+      60
+     ],
+     "kf": [
+      [
+       0.3,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       0.75,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "pencil"
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "strength: ?",
+     "at": -1,
+     "dur": 0.01,
+     "y": 650,
+     "size": 84,
+     "align": "center",
+     "rot": 4,
+     "color": "#1f2a52"
+    },
+    {
+     "style": "hand",
+     "text": "6 out of 10",
+     "at": 0.8,
+     "dur": 1.2,
+     "y": 790,
+     "size": 92,
+     "align": "center",
+     "rot": 4,
+     "color": "#c2185b"
+    },
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "Yours?",
+     "at": 0.3,
+     "y": 330,
+     "size": 130,
+     "align": "center"
+    }
+   ]
+  }
+ ]
+}
