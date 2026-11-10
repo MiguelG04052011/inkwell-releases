@@ -1,0 +1,23 @@
+{
+ "id": "2026-11-10-a-string-board",
+ "engine": 3,
+ "idea": "S1 chaos > calm",
+ "structure": "story arc (string board > web)",
+ "look": "corkboard (new)",
+ "sound": "dark>bright",
+ "footage": "stock person (Mixkit 4526) + code-drawn corkboard + app clip c-web-drag + app still s-web",
+ "hook": "Your cast: 11 characters. 55 possible ties.",
+ "length_s": 13.3,
+ "slot": "A",
+ "dueAt": "2026-11-10T19:00:00+00:00",
+ "built_for": [
+  "sends",
+  "conversion"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-10-a-string-board.mp4",
+  "instagram": "videos/2026-11-10-a-string-board-bio.mp4",
+  "youtube": "videos/2026-11-10-a-string-board.mp4"
+ },
+ "buffer": {}
+}

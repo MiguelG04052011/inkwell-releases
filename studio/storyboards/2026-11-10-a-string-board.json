@@ -1,0 +1,805 @@
+{
+ "id": "2026-11-10-a-string-board",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 100,
+ "footage": "../footage/2026-11-10",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "dark"
+   },
+   {
+    "at": 10,
+    "style": "bright",
+    "switch": "cut"
+   }
+  ],
+  "opener": "impact",
+  "risers": [
+   8.5
+  ],
+  "hits": [
+   3.5,
+   10,
+   15.5
+  ]
+ },
+ "end": {
+  "b": 3.2,
+  "theme": "paper",
+  "line": "Write a tie once. See the web.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ },
+ "shots": [
+  {
+   "b": 3.5,
+   "kind": "clip",
+   "src": "c-stock-4526-toss",
+   "speed": 0.95,
+   "grade": "cold",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     30,
+     40,
+     510,
+     893
+    ]
+   ],
+   "drift": 0,
+   "text": [
+    {
+     "style": "caption",
+     "text": "Your cast: 11 characters.",
+     "at": -1,
+     "y": 300,
+     "size": 84,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "cls": "light",
+     "text": "*55* possible ties.",
+     "at": -1,
+     "y": 540,
+     "size": 150,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 5,
+   "kind": "blank",
+   "bg": "black",
+   "in": "whip-l",
+   "persp": 1100,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 0
+     }
+    ],
+    [
+     5,
+     {
+      "z": 140,
+      "y": -30
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='position:absolute;inset:0;background:radial-gradient(circle at 20% 30%,rgba(0,0,0,.10) 0 2px,transparent 3px),radial-gradient(circle at 70% 60%,rgba(255,255,255,.10) 0 2px,transparent 3px),radial-gradient(circle at 40% 80%,rgba(0,0,0,.12) 0 1.5px,transparent 2.5px),radial-gradient(ellipse at 50% 45%,#c08a5c 0%,#9c6a40 70%,#6e4526 100%);background-size:23px 23px,31px 31px,17px 17px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M270 480 Q485 530 780 460' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       1.45,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M270 480 Q285 715 220 830' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       1.3,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       1.75,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M780 460 Q755 695 810 810' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       1.6,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       2.0500000000000003,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M220 830 Q400 1020 500 1090' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       1.9,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       2.35,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M270 480 Q505 880 820 1160' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       2.2,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       2.6500000000000004,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M810 810 Q695 1010 500 1090' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       2.5,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       2.95,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M780 460 Q460 705 220 830' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       2.8,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       3.25,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M820 1160 Q700 1185 500 1090' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       3.1,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       3.5500000000000003,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M270 480 Q500 705 810 810' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       3.4,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       3.85,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M780 460 Q840 870 820 1160' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       3.6999999999999997,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       4.1499999999999995,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%;overflow:visible'><path d='M220 830 Q475 880 810 810' stroke='#c81e1e' stroke-width='5' fill='none' stroke-linecap='round' style='filter:drop-shadow(0 3px 2px rgba(0,0,0,.45))'/></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       4.0,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       4.45,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:240px;height:150px;background:#fffdf6;box-shadow:0 14px 28px rgba(0,0,0,.45);border-top:10px solid #d64545;transform:rotate(-4deg);display:flex;align-items:center;justify-content:center;font-family:\"Courier New\",monospace;font-weight:700;font-size:33px;text-align:center;line-height:1.1;padding:0 10px;color:#1d1d1d;position:relative'>AFTERBURN<div style='position:absolute;top:-22px;left:104px;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8080,#b01616);box-shadow:0 4px 6px rgba(0,0,0,.5)'></div></div>",
+     "box": [
+      150,
+      470,
+      240
+     ],
+     "kf": [
+      [
+       0.2,
+       {
+        "o": 0,
+        "s": 1.25,
+        "z": 0
+       }
+      ],
+      [
+       0.38,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:240px;height:150px;background:#fffdf6;box-shadow:0 14px 28px rgba(0,0,0,.45);border-top:10px solid #d64545;transform:rotate(5deg);display:flex;align-items:center;justify-content:center;font-family:\"Courier New\",monospace;font-weight:700;font-size:33px;text-align:center;line-height:1.1;padding:0 10px;color:#1d1d1d;position:relative'>THE HOLLOW KING<div style='position:absolute;top:-22px;left:104px;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8080,#b01616);box-shadow:0 4px 6px rgba(0,0,0,.5)'></div></div>",
+     "box": [
+      660,
+      450,
+      240
+     ],
+     "kf": [
+      [
+       0.5,
+       {
+        "o": 0,
+        "s": 1.25,
+        "z": 0
+       }
+      ],
+      [
+       0.6799999999999999,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:240px;height:150px;background:#fffdf6;box-shadow:0 14px 28px rgba(0,0,0,.45);border-top:10px solid #d64545;transform:rotate(3deg);display:flex;align-items:center;justify-content:center;font-family:\"Courier New\",monospace;font-weight:700;font-size:33px;text-align:center;line-height:1.1;padding:0 10px;color:#1d1d1d;position:relative'>ROSA REYES<div style='position:absolute;top:-22px;left:104px;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8080,#b01616);box-shadow:0 4px 6px rgba(0,0,0,.5)'></div></div>",
+     "box": [
+      100,
+      820,
+      240
+     ],
+     "kf": [
+      [
+       0.8,
+       {
+        "o": 0,
+        "s": 1.25,
+        "z": 0
+       }
+      ],
+      [
+       0.98,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:240px;height:150px;background:#fffdf6;box-shadow:0 14px 28px rgba(0,0,0,.45);border-top:10px solid #d64545;transform:rotate(-6deg);display:flex;align-items:center;justify-content:center;font-family:\"Courier New\",monospace;font-weight:700;font-size:33px;text-align:center;line-height:1.1;padding:0 10px;color:#1d1d1d;position:relative'>SOLSTICE<div style='position:absolute;top:-22px;left:104px;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8080,#b01616);box-shadow:0 4px 6px rgba(0,0,0,.5)'></div></div>",
+     "box": [
+      690,
+      800,
+      240
+     ],
+     "kf": [
+      [
+       1.1,
+       {
+        "o": 0,
+        "s": 1.25,
+        "z": 0
+       }
+      ],
+      [
+       1.28,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:240px;height:150px;background:#fffdf6;box-shadow:0 14px 28px rgba(0,0,0,.45);border-top:10px solid #d64545;transform:rotate(2deg);display:flex;align-items:center;justify-content:center;font-family:\"Courier New\",monospace;font-weight:700;font-size:33px;text-align:center;line-height:1.1;padding:0 10px;color:#1d1d1d;position:relative'>AGENT MADDOX<div style='position:absolute;top:-22px;left:104px;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8080,#b01616);box-shadow:0 4px 6px rgba(0,0,0,.5)'></div></div>",
+     "box": [
+      380,
+      1080,
+      240
+     ],
+     "kf": [
+      [
+       1.4,
+       {
+        "o": 0,
+        "s": 1.25,
+        "z": 0
+       }
+      ],
+      [
+       1.5799999999999998,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:240px;height:150px;background:#fffdf6;box-shadow:0 14px 28px rgba(0,0,0,.45);border-top:10px solid #d64545;transform:rotate(-3deg);display:flex;align-items:center;justify-content:center;font-family:\"Courier New\",monospace;font-weight:700;font-size:33px;text-align:center;line-height:1.1;padding:0 10px;color:#1d1d1d;position:relative'>CAPTAIN TITAN<div style='position:absolute;top:-22px;left:104px;width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8080,#b01616);box-shadow:0 4px 6px rgba(0,0,0,.5)'></div></div>",
+     "box": [
+      700,
+      1150,
+      240
+     ],
+     "kf": [
+      [
+       1.7,
+       {
+        "o": 0,
+        "s": 1.25,
+        "z": 0
+       }
+      ],
+      [
+       1.88,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "slap"
+    }
+   ],
+   "text": [
+    {
+     "style": "caption",
+     "text": "Who knows who?",
+     "at": 0.6,
+     "until": 1.9,
+     "y": 300,
+     "size": 92,
+     "align": "center"
+    },
+    {
+     "style": "caption",
+     "text": "Who lied to who?",
+     "at": 1.9,
+     "until": 3.2,
+     "y": 300,
+     "size": 92,
+     "align": "center"
+    },
+    {
+     "style": "caption",
+     "text": "Who's secretly related?",
+     "at": 3.2,
+     "y": 290,
+     "size": 74,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 1.5,
+   "kind": "clip",
+   "src": "c-stock-4526-head",
+   "speed": 0.9,
+   "grade": "film",
+   "in": "punch",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "drift": 0,
+   "stop": 0.8
+  },
+  {
+   "b": 5.5,
+   "kind": "clip",
+   "src": "c-web-drag",
+   "from": 0.3,
+   "speed": 1.0,
+   "in": "ink",
+   "theme": "night",
+   "look": "card",
+   "box": [
+    20,
+    520,
+    1040,
+    776
+   ],
+   "tilt": [
+    6,
+    -8,
+    2,
+    3
+   ],
+   "bgLook": "night",
+   "cursor": false,
+   "cam": [
+    [
+     470,
+     200,
+     1090,
+     662
+    ],
+    [
+     480,
+     290,
+     1020,
+     692
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "text": [
+    {
+     "style": "tag",
+     "text": "IN INKWELL",
+     "at": 0,
+     "y": 230,
+     "size": 58,
+     "cls": "hot"
+    },
+    {
+     "style": "serif",
+     "text": "Type a tie once.",
+     "at": 0.2,
+     "y": 340,
+     "size": 104,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "*The web draws itself.*",
+     "at": 1.6,
+     "y": 460,
+     "size": 100,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 3.5,
+   "kind": "blank",
+   "bg": "black",
+   "in": "page",
+   "persp": 1100,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 0
+     }
+    ],
+    [
+     3.5,
+     {
+      "z": 90
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='position:absolute;inset:0;background:radial-gradient(circle at 20% 30%,rgba(0,0,0,.10) 0 2px,transparent 3px),radial-gradient(circle at 70% 60%,rgba(255,255,255,.10) 0 2px,transparent 3px),radial-gradient(circle at 40% 80%,rgba(0,0,0,.12) 0 1.5px,transparent 2.5px),radial-gradient(ellipse at 50% 45%,#c08a5c 0%,#9c6a40 70%,#6e4526 100%);background-size:23px 23px,31px 31px,17px 17px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "img": "s-web",
+     "crop": [
+      505,
+      180,
+      1080,
+      725
+     ],
+     "cls": "card",
+     "box": [
+      160,
+      450,
+      760
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0,
+        "s": 1.3,
+        "r": -8
+       }
+      ],
+      [
+       0.45,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -3
+       },
+       "outBack"
+      ],
+      [
+       3.5,
+       {
+        "s": 1.04,
+        "r": -1
+       }
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff8080,#b01616);box-shadow:0 5px 8px rgba(0,0,0,.5)'></div>",
+     "box": [
+      523,
+      433,
+      34
+     ],
+     "kf": [
+      [
+       0.45,
+       {
+        "o": 0,
+        "s": 2
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "thump"
+    }
+   ],
+   "text": [
+    {
+     "style": "caption",
+     "text": "Every tie, on one board.",
+     "at": 0.5,
+     "y": 300,
+     "size": 74,
+     "align": "center"
+    },
+    {
+     "style": "caption",
+     "text": "Who's your villain",
+     "at": 1.8,
+     "y": 1250,
+     "size": 80,
+     "align": "center"
+    },
+    {
+     "style": "caption",
+     "text": "tied to?",
+     "at": 1.8,
+     "y": 1340,
+     "size": 80,
+     "align": "center"
+    }
+   ]
+  }
+ ]
+}

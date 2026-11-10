@@ -1,0 +1,23 @@
+{
+ "id": "2026-11-11-b-thirty-years",
+ "engine": 3,
+ "idea": "D-F6 lore drop",
+ "structure": "years back (question > timeline card > words in the world > pan)",
+ "look": "rain-night (new)",
+ "sound": "ambient",
+ "footage": "stock rain (Mixkit 99839) + stock tea (100252) + app still s-timeline + app clip c-timeline-pan + code-drawn falling light",
+ "hook": "What happened 30 years before your page one?",
+ "length_s": 13.6,
+ "slot": "B",
+ "dueAt": "2026-11-11T00:00:00+00:00",
+ "built_for": [
+  "comments",
+  "saves"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-11-b-thirty-years.mp4",
+  "instagram": "videos/2026-11-11-b-thirty-years-bio.mp4",
+  "youtube": "videos/2026-11-11-b-thirty-years.mp4"
+ },
+ "buffer": {}
+}
