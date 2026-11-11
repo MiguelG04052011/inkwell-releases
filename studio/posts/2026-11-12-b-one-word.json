@@ -1,0 +1,24 @@
+{
+ "id": "2026-11-12-b-one-word",
+ "engine": 3,
+ "idea": "D-Q answer in one word (ink drop interviewed)",
+ "structure": "Q&A interview > notebook > app > stamps",
+ "look": "comic, blue halftone (stuck) > yellow (answer)",
+ "sound": "bright",
+ "footage": "code character (ink drop) + stock hands (Mixkit 99888) + app clip c-identity-hover (new) + code-drawn comic panel",
+ "hook": "Answer in one word: your villain's backstory?",
+ "length_s": 12.6,
+ "slot": "B",
+ "dueAt": "2026-11-12T00:00:00+00:00",
+ "built_for": [
+  "comments",
+  "sends",
+  "conversion"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-12-b-one-word.mp4",
+  "instagram": "videos/2026-11-12-b-one-word-bio.mp4",
+  "youtube": "videos/2026-11-12-b-one-word.mp4"
+ },
+ "buffer": {}
+}

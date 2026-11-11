@@ -1,0 +1,24 @@
+{
+ "id": "2026-11-11-a-left-page",
+ "engine": 3,
+ "idea": "D-F5 craft tip (left-page reveal)",
+ "structure": "book > app > page turn in the book",
+ "look": "proof sheet (new: cream paper, printer's crop marks, CMYK registration)",
+ "sound": "lofi (page and pencil foley)",
+ "footage": "code-drawn comic spread with pencil roughs + app clip c-planner-scroll (held) + code-drawn villain splash",
+ "hook": "Where does your villain first appear?",
+ "length_s": 12.5,
+ "slot": "A",
+ "dueAt": "2026-11-11T19:00:00+00:00",
+ "built_for": [
+  "saves",
+  "sends",
+  "conversion"
+ ],
+ "files": {
+  "tiktok": "videos/2026-11-11-a-left-page.mp4",
+  "instagram": "videos/2026-11-11-a-left-page-bio.mp4",
+  "youtube": "videos/2026-11-11-a-left-page.mp4"
+ },
+ "buffer": {}
+}

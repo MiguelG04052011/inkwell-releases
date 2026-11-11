@@ -1,0 +1,1005 @@
+{
+ "id": "2026-11-12-b-one-word",
+ "engine": 3,
+ "look": "comic",
+ "fps": 30,
+ "bpm": 120,
+ "footage": "../footage/2026-11-11",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "bright"
+   }
+  ],
+  "opener": "slap",
+  "risers": [
+   11
+  ],
+  "hits": [
+   11.8,
+   17.2,
+   22
+  ]
+ },
+ "end": {
+  "b": 3.2,
+  "theme": "comic",
+  "line": "Keep every secret straight.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ },
+ "shots": [
+  {
+   "kind": "blank",
+   "bg": "comic",
+   "b": 2.9,
+   "layers": [
+    {
+     "html": "<div style='width:100%;height:100%;background-color:#AEDCF5;background-image:radial-gradient(circle,rgba(20,60,110,.16) 3px,transparent 3.6px),repeating-conic-gradient(from 0deg at 50% 52%,rgba(255,255,255,.45) 0deg 7deg,transparent 7deg 14deg);background-size:22px 22px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;display:inline-block;background:#fff;border:7px solid #111;border-radius:46px;padding:22px 40px 18px;font-family:Comic;font-size:74px;line-height:1.02;color:#111;box-shadow:10px 10px 0 #111;letter-spacing:.01em'>YOUR VILLAIN'S<br>BACKSTORY?<div style='position:absolute;bottom:-34px;right:70px;width:48px;height:48px;background:#fff;border-right:7px solid #111;border-bottom:7px solid #111;transform:rotate(45deg) skew(12deg,12deg)'></div></div>",
+     "box": [
+      230,
+      360,
+      760
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "s": 0.6,
+        "r": -4
+       }
+      ],
+      [
+       -0.75,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       2.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.9,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "char": {
+      "shape": "drop",
+      "color": "#5B3DF5",
+      "outline": true,
+      "mood": [
+       [
+        0,
+        "thinking"
+       ],
+       [
+        1.0,
+        "worried"
+       ]
+      ],
+      "look": [
+       [
+        0,
+        [
+         0.8,
+         -0.6
+        ]
+       ],
+       [
+        1.0,
+        [
+         -0.3,
+         -0.4
+        ]
+       ]
+      ]
+     },
+     "box": [
+      150,
+      820,
+      450,
+      620
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.3,
+       {
+        "y": -14
+       },
+       "outBack"
+      ],
+      [
+       2.9,
+       {
+        "s": 1.03
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 460 220' style='width:100%;height:100%;overflow:visible'><g stroke='#111' stroke-width='8' stroke-linejoin='round'><rect x='120' y='86' width='360' height='48' rx='20' fill='#2b2b33'/><rect x='92' y='78' width='46' height='64' rx='10' fill='#E8343A'/><circle cx='60' cy='110' r='58' fill='#9aa0ad'/></g><g stroke='#111' stroke-width='4' opacity='.55'><path d='M28 90 h64 M24 110 h72 M28 130 h64 M60 56 v108 M40 62 v96 M80 62 v96'/></g></svg>",
+     "box": [
+      500,
+      960,
+      460,
+      220
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "x": 0,
+        "r": -14
+       }
+      ],
+      [
+       0.35,
+       {
+        "x": 0,
+        "r": -9
+       },
+       "outBack"
+      ],
+      [
+       2.9,
+       {
+        "x": -12,
+        "r": -7
+       }
+      ]
+     ],
+     "sfx": "whip"
+    },
+    {
+     "html": "<div style='position:relative;display:inline-block;background:#fff;border:7px solid #111;border-radius:46px;padding:22px 40px 18px;font-family:Comic;font-size:84px;line-height:1.02;color:#111;box-shadow:10px 10px 0 #111;letter-spacing:.01em'>SOMEWHERE.<div style='position:absolute;bottom:-34px;left:80px;width:48px;height:48px;background:#fff;border-right:7px solid #111;border-bottom:7px solid #111;transform:rotate(45deg) skew(12deg,12deg)'></div></div>",
+     "box": [
+      90,
+      620,
+      560
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0,
+        "s": 0.6,
+        "r": -4
+       }
+      ],
+      [
+       1.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       2.8000000000000003,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.95,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "text": [
+    {
+     "style": "cap",
+     "text": "ANSWER IN ONE WORD.",
+     "at": -1,
+     "y": 220,
+     "size": 62,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "kind": "blank",
+   "bg": "comic",
+   "in": "punch",
+   "b": 2.8,
+   "layers": [
+    {
+     "html": "<div style='width:100%;height:100%;background-color:#AEDCF5;background-image:radial-gradient(circle,rgba(20,60,110,.16) 3px,transparent 3.6px),repeating-conic-gradient(from 0deg at 50% 52%,rgba(255,255,255,.45) 0deg 7deg,transparent 7deg 14deg);background-size:22px 22px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;display:inline-block;background:#fff;border:7px solid #111;border-radius:46px;padding:22px 40px 18px;font-family:Comic;font-size:84px;line-height:1.02;color:#111;box-shadow:10px 10px 0 #111;letter-spacing:.01em'>YOUR HERO'S<br>HEIGHT?<div style='position:absolute;bottom:-34px;right:70px;width:48px;height:48px;background:#fff;border-right:7px solid #111;border-bottom:7px solid #111;transform:rotate(45deg) skew(12deg,12deg)'></div></div>",
+     "box": [
+      300,
+      360,
+      700
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "s": 0.6,
+        "r": -4
+       }
+      ],
+      [
+       0.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       2.7,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.85,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "char": {
+      "shape": "drop",
+      "color": "#5B3DF5",
+      "outline": true,
+      "mood": [
+       [
+        0,
+        "thinking"
+       ],
+       [
+        1.0,
+        "worried"
+       ]
+      ],
+      "look": [
+       [
+        0,
+        [
+         0.9,
+         -0.7
+        ]
+       ],
+       [
+        1.0,
+        [
+         -0.5,
+         0.2
+        ]
+       ]
+      ]
+     },
+     "box": [
+      110,
+      760,
+      560,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "r": 3
+       }
+      ],
+      [
+       0.3,
+       {
+        "y": -10,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       2.8,
+       {
+        "s": 1.04
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 460 220' style='width:100%;height:100%;overflow:visible'><g stroke='#111' stroke-width='8' stroke-linejoin='round'><rect x='120' y='86' width='360' height='48' rx='20' fill='#2b2b33'/><rect x='92' y='78' width='46' height='64' rx='10' fill='#E8343A'/><circle cx='60' cy='110' r='58' fill='#9aa0ad'/></g><g stroke='#111' stroke-width='4' opacity='.55'><path d='M28 90 h64 M24 110 h72 M28 130 h64 M60 56 v108 M40 62 v96 M80 62 v96'/></g></svg>",
+     "box": [
+      560,
+      980,
+      500,
+      240
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "x": 120,
+        "r": -14
+       }
+      ],
+      [
+       0.35,
+       {
+        "x": 0,
+        "r": -9
+       },
+       "outBack"
+      ],
+      [
+       2.9,
+       {
+        "x": -12,
+        "r": -7
+       }
+      ]
+     ],
+     "sfx": "whip"
+    },
+    {
+     "html": "<div style='position:relative;display:inline-block;background:#fff;border:7px solid #111;border-radius:46px;padding:22px 40px 18px;font-family:Comic;font-size:96px;line-height:1.02;color:#111;box-shadow:10px 10px 0 #111;letter-spacing:.01em'>TALL-ISH.<div style='position:absolute;bottom:-34px;left:80px;width:48px;height:48px;background:#fff;border-right:7px solid #111;border-bottom:7px solid #111;transform:rotate(45deg) skew(12deg,12deg)'></div></div>",
+     "box": [
+      70,
+      560,
+      520
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0,
+        "s": 0.6,
+        "r": -4
+       }
+      ],
+      [
+       1.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       2.7,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.85,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "text": [
+    {
+     "style": "cap",
+     "text": "ANSWER IN ONE WORD.",
+     "at": -1,
+     "y": 220,
+     "size": 62,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "kind": "blank",
+   "bg": "comic",
+   "in": "zoom",
+   "b": 3.0,
+   "layers": [
+    {
+     "html": "<div style='width:100%;height:100%;background-color:#AEDCF5;background-image:radial-gradient(circle,rgba(20,60,110,.16) 3px,transparent 3.6px),repeating-conic-gradient(from 0deg at 50% 52%,rgba(255,255,255,.45) 0deg 7deg,transparent 7deg 14deg);background-size:22px 22px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;display:inline-block;background:#fff;border:7px solid #111;border-radius:46px;padding:22px 40px 18px;font-family:Comic;font-size:80px;line-height:1.02;color:#111;box-shadow:10px 10px 0 #111;letter-spacing:.01em'>WHO KNOWS YOUR<br>HERO'S SECRET?<div style='position:absolute;bottom:-34px;right:70px;width:48px;height:48px;background:#fff;border-right:7px solid #111;border-bottom:7px solid #111;transform:rotate(45deg) skew(12deg,12deg)'></div></div>",
+     "box": [
+      200,
+      350,
+      800
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "s": 0.6,
+        "r": -4
+       }
+      ],
+      [
+       0.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       2.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.05,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "char": {
+      "shape": "drop",
+      "color": "#5B3DF5",
+      "outline": true,
+      "mood": [
+       [
+        0,
+        "surprised"
+       ],
+       [
+        1.0,
+        "frustrated"
+       ]
+      ],
+      "look": [
+       [
+        0,
+        [
+         0.9,
+         -0.8
+        ]
+       ],
+       [
+        1.0,
+        [
+         -0.6,
+         0.6
+        ]
+       ]
+      ]
+     },
+     "box": [
+      90,
+      700,
+      760,
+      1050
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "s": 0.92
+       }
+      ],
+      [
+       3.0,
+       {
+        "s": 1.06,
+        "r": -3
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 460 220' style='width:100%;height:100%;overflow:visible'><g stroke='#111' stroke-width='8' stroke-linejoin='round'><rect x='120' y='86' width='360' height='48' rx='20' fill='#2b2b33'/><rect x='92' y='78' width='46' height='64' rx='10' fill='#E8343A'/><circle cx='60' cy='110' r='58' fill='#9aa0ad'/></g><g stroke='#111' stroke-width='4' opacity='.55'><path d='M28 90 h64 M24 110 h72 M28 130 h64 M60 56 v108 M40 62 v96 M80 62 v96'/></g></svg>",
+     "box": [
+      620,
+      1120,
+      520,
+      250
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "x": 140,
+        "r": -14
+       }
+      ],
+      [
+       0.35,
+       {
+        "x": 0,
+        "r": -9
+       },
+       "outBack"
+      ],
+      [
+       2.9,
+       {
+        "x": -12,
+        "r": -7
+       }
+      ]
+     ],
+     "sfx": "whip"
+    },
+    {
+     "html": "<div style='position:relative;display:inline-block;background:#fff;border:7px solid #111;border-radius:46px;padding:22px 40px 18px;font-family:Comic;font-size:130px;line-height:1.02;color:#111;box-shadow:10px 10px 0 #111;letter-spacing:.01em'>\u2026<div style='position:absolute;bottom:-34px;left:80px;width:48px;height:48px;background:#fff;border-right:7px solid #111;border-bottom:7px solid #111;transform:rotate(45deg) skew(12deg,12deg)'></div></div>",
+     "box": [
+      80,
+      600,
+      300
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0,
+        "s": 0.6,
+        "r": -4
+       }
+      ],
+      [
+       1.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       2.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.05,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "text": [
+    {
+     "style": "cap",
+     "text": "ANSWER IN ONE WORD.",
+     "at": -1,
+     "y": 220,
+     "size": 62,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "kind": "clip",
+   "src": "c-stock-99888-notes",
+   "from": 0.2,
+   "speed": 1.0,
+   "in": "whip-l",
+   "look": "card",
+   "grade": "pop",
+   "box": [
+    90,
+    420,
+    900,
+    880
+   ],
+   "tilt": [
+    3,
+    4,
+    1,
+    -2
+   ],
+   "cursor": false,
+   "b": 3.2,
+   "stop": 0.8,
+   "cam": [
+    [
+     0,
+     170,
+     540,
+     700
+    ],
+    [
+     40,
+     230,
+     500,
+     680
+    ]
+   ],
+   "text": [
+    {
+     "style": "cap",
+     "text": "MEANWHILE, IN A NOTEBOOK\u2026",
+     "at": 0,
+     "y": 230,
+     "size": 60,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "kind": "clip",
+   "src": "c-identity-hover",
+   "from": 0.3,
+   "speed": 1.0,
+   "in": "flash",
+   "look": "card",
+   "cursor": true,
+   "box": [
+    60,
+    470,
+    960,
+    575
+   ],
+   "tilt": [
+    4,
+    -5,
+    1,
+    2
+   ],
+   "b": 5.4,
+   "cam": [
+    [
+     270,
+     90,
+     1120,
+     600
+    ],
+    [
+     270,
+     150,
+     700,
+     408
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "layers": [
+    {
+     "char": {
+      "shape": "drop",
+      "color": "#5B3DF5",
+      "outline": true,
+      "mood": [
+       [
+        0,
+        "surprised"
+       ],
+       [
+        2.2,
+        "happy"
+       ]
+      ],
+      "look": [
+       [
+        0,
+        [
+         0.4,
+         -1
+        ]
+       ],
+       [
+        2.2,
+        [
+         0,
+         -0.6
+        ]
+       ]
+      ]
+     },
+     "box": [
+      590,
+      1100,
+      380,
+      520
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "y": 260
+       }
+      ],
+      [
+       0.5,
+       {
+        "y": 0
+       },
+       "outBack"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "tag",
+     "text": "IN INKWELL",
+     "at": 0,
+     "y": 200,
+     "size": 56
+    },
+    {
+     "style": "comic",
+     "text": "EVERY MASK. EVERYONE WHO KNOWS.",
+     "at": 0.15,
+     "until": 2.6,
+     "y": 290,
+     "size": 60,
+     "align": "center"
+    },
+    {
+     "style": "comic",
+     "text": "AFTERBURN'S SECRET? *3 PEOPLE.*",
+     "at": 2.6,
+     "y": 290,
+     "size": 66,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "kind": "blank",
+   "bg": "comic",
+   "in": "punch",
+   "b": 4.8,
+   "layers": [
+    {
+     "html": "<div style='width:100%;height:100%;background:#fff;border:9px solid #111;box-shadow:16px 16px 0 #111;box-sizing:border-box;background-image:radial-gradient(circle,rgba(0,0,0,.08) 3px,transparent 3.6px);background-size:20px 20px'><div style='position:absolute;left:0;right:0;top:40px;text-align:center;font-family:Comic;font-size:120px;color:#fff;-webkit-text-stroke:12px #111;paint-order:stroke fill;text-shadow:8px 8px 0 #111'>3 PEOPLE KNOW.</div></div>",
+     "box": [
+      80,
+      420,
+      920,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "s": 0.96,
+        "r": -1
+       }
+      ],
+      [
+       4.8,
+       {
+        "s": 1.02,
+        "r": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='display:inline-block;padding:14px 30px 8px;background:#E8343A;color:#fff;font-family:Comic;font-size:84px;border:7px solid #111;box-shadow:9px 9px 0 #111;transform:rotate(-6deg);white-space:nowrap'>RELAY</div>",
+     "box": [
+      150,
+      640,
+      360
+     ],
+     "kf": [
+      [
+       0.35,
+       {
+        "o": 0,
+        "s": 1.8
+       }
+      ],
+      [
+       0.53,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "thump"
+    },
+    {
+     "html": "<div style='display:inline-block;padding:14px 30px 8px;background:#2F62F0;color:#fff;font-family:Comic;font-size:84px;border:7px solid #111;box-shadow:9px 9px 0 #111;transform:rotate(5deg);white-space:nowrap'>SOLSTICE</div>",
+     "box": [
+      470,
+      690,
+      420
+     ],
+     "kf": [
+      [
+       0.75,
+       {
+        "o": 0,
+        "s": 1.8
+       }
+      ],
+      [
+       0.9299999999999999,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "thump"
+    },
+    {
+     "html": "<div style='display:inline-block;padding:14px 30px 8px;background:#111;color:#fff;font-family:Comic;font-size:84px;border:7px solid #111;box-shadow:9px 9px 0 #111;transform:rotate(-3deg);white-space:nowrap'>AGENT MADDOX</div>",
+     "box": [
+      190,
+      830,
+      620
+     ],
+     "kf": [
+      [
+       1.15,
+       {
+        "o": 0,
+        "s": 1.8
+       }
+      ],
+      [
+       1.3299999999999998,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "thump"
+    },
+    {
+     "char": {
+      "shape": "drop",
+      "color": "#5B3DF5",
+      "outline": true,
+      "mood": [
+       [
+        0,
+        "happy"
+       ],
+       [
+        1.4,
+        "proud"
+       ]
+      ],
+      "look": [
+       [
+        0,
+        [
+         0.3,
+         -0.8
+        ]
+       ],
+       [
+        1.4,
+        [
+         0,
+         0
+        ]
+       ]
+      ]
+     },
+     "box": [
+      560,
+      1110,
+      400,
+      550
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.4,
+       {
+        "y": -30
+       },
+       "outBack"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "cap",
+     "text": "WHO KNOWS YOURS? ONE NAME.",
+     "at": 2.0,
+     "y": 250,
+     "size": 60,
+     "align": "center"
+    }
+   ]
+  }
+ ]
+}

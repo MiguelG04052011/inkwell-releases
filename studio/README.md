@@ -80,6 +80,8 @@ house character is **the ink drop** (`drop`, `#5B3DF5`): Inkwell's own mascot, a
 phone, let real app screens do the product's talking, and give it a reaction to something real (a sticky note, a
 real search result, a figure from the Lineup). `storyboards/example-char.json` is a 7-second test.
 
+Clip hold (added 11 Nov 2026): a clip shot's `"clipEnd": <clip seconds>` holds the clip still from that point, so a marker drawn over the card (a red circle, a label) stays on what it points at. Pair it with a camera list whose last two rects are equal so the camera stops too.
+
 ## Engine 2
 
 ```

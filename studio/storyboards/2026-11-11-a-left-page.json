@@ -1,0 +1,593 @@
+{
+ "id": "2026-11-11-a-left-page",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 92,
+ "footage": "../footage/2026-11-11",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "lofi"
+   }
+  ],
+  "opener": "soft",
+  "risers": [
+   9.4
+  ],
+  "hits": [
+   10.2,
+   13.4
+  ]
+ },
+ "end": {
+  "b": 3.4,
+  "theme": "paper",
+  "line": "Plan every page turn.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ },
+ "shots": [
+  {
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "paper",
+   "b": 5,
+   "persp": 1400,
+   "layers": [
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%'><g stroke='#2a2440' stroke-width='2' fill='none' opacity='.55'><path d='M60 150 h50 M140 120 v50 M1020 150 h-50 M940 120 v50 M60 1770 h50 M140 1800 v-50 M1020 1770 h-50 M940 1800 v-50'/><circle cx='540' cy='118' r='16'/><path d='M516 118 h48 M540 94 v48'/><circle cx='540' cy='1802' r='16'/><path d='M516 1802 h48 M540 1778 v48'/></g><g opacity='.8'><rect x='860' y='1795' width='22' height='16' fill='#00AEEF'/><rect x='884' y='1795' width='22' height='16' fill='#EC008C'/><rect x='908' y='1795' width='22' height='16' fill='#FFF200'/><rect x='932' y='1795' width='22' height='16' fill='#1b1814'/></g></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:900px;height:640px;filter:drop-shadow(0 30px 40px rgba(60,40,10,.28))'><div style='position:absolute;left:0;top:0;width:50%;height:100%;background:linear-gradient(90deg,#fbf8f1 85%,#e9e2d3);'><div style='position:absolute;left:26px;top:26px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:26px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:227px;width:398px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;bottom:2px;left:18px;right:auto;font-family:Serif;font-size:26px;color:#6b6356'>2</div></div><div style='position:absolute;left:50%;top:0;width:50%;height:100%;background:linear-gradient(90deg,#e6dfcf,#fbf8f1 15%);'><div style='position:absolute;left:26px;top:26px;width:398px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:227px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:227px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;bottom:2px;left:auto;right:18px;font-family:Serif;font-size:26px;color:#6b6356'>3</div></div><div style='position:absolute;left:449px;top:0;width:2px;height:100%;background:#c9bfa9'></div></div>",
+     "box": [
+      90,
+      560,
+      900,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "rx": 14,
+        "s": 0.96,
+        "y": 30
+       }
+      ],
+      [
+       5,
+       {
+        "rx": 8,
+        "s": 1.04,
+        "y": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 900 640' style='width:100%;height:100%'><g stroke='#4a4440' stroke-width='3.2' fill='none' stroke-linecap='round' opacity='.75'><path d='M50 170 Q110 120 190 160'/><circle cx='300' cy='110' r='22'/><path d='M300 132 L300 190 M300 150 L270 175 M300 150 L330 172 M300 190 L280 230 M300 190 L320 230'/><path d='M60 330 L400 330 M90 330 L140 260 L190 330 M260 330 L260 250 L330 250 L330 330'/><ellipse cx='120' cy='490' rx='60' ry='30'/><path d='M110 520 L95 545'/><path d='M260 560 Q320 470 380 560'/><path d='M480 120 L860 120 M520 160 Q640 60 820 150'/><circle cx='560' cy='300' r='26'/><path d='M560 326 L560 400 M560 345 L525 380 M560 345 L600 370'/><path d='M700 260 L760 330 L820 270'/><path d='M480 520 L640 450 L860 520'/><circle cx='720' cy='520' r='30'/></g></svg>",
+     "box": [
+      90,
+      560,
+      900,
+      640
+     ],
+     "kf": [
+      [
+       0.2,
+       {
+        "o": 1,
+        "rx": 14,
+        "s": 0.96,
+        "y": 30,
+        "dash": 0
+       }
+      ],
+      [
+       4.6,
+       {
+        "dash": 1,
+        "rx": 8,
+        "s": 1.04,
+        "y": 0
+       },
+       "linear"
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<svg viewBox='0 0 300 120' style='width:100%;height:100%;overflow:visible'><path d='M10 100 Q150 -20 290 100' stroke='#D9363E' stroke-width='7' fill='none' stroke-linecap='round'/><path d='M262 82 L292 102 L258 112' stroke='#D9363E' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+     "box": [
+      390,
+      1240,
+      300,
+      120
+     ],
+     "kf": [
+      [
+       2.6,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       3.4,
+       {
+        "dash": 1
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='font-family:Hand;font-size:66px;color:#23201B;white-space:nowrap;transform:rotate(-4deg)'>left page?</div>",
+     "box": [
+      120,
+      1250,
+      380
+     ],
+     "kf": [
+      [
+       1.4,
+       {
+        "o": 0,
+        "y": 10
+       }
+      ],
+      [
+       1.7,
+       {
+        "o": 1,
+        "y": 0
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='font-family:Hand;font-size:66px;color:#23201B;white-space:nowrap;transform:rotate(3deg)'>or right?</div>",
+     "box": [
+      700,
+      1250,
+      330
+     ],
+     "kf": [
+      [
+       2.2,
+       {
+        "o": 0,
+        "y": 10
+       }
+      ],
+      [
+       2.5,
+       {
+        "o": 1,
+        "y": 0
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Where does your villain *first appear?*",
+     "at": -1,
+     "y": 220,
+     "size": 100,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "kind": "clip",
+   "src": "c-planner-scroll",
+   "from": 0.1,
+   "speed": 0.8,
+   "clipEnd": 1.12,
+   "theme": "paper",
+   "in": "page",
+   "look": "card",
+   "box": [
+    70,
+    420,
+    940,
+    866
+   ],
+   "tilt": [
+    5,
+    -6,
+    2,
+    3
+   ],
+   "bgLook": "paper",
+   "cursor": false,
+   "b": 5.2,
+   "cam": [
+    [
+     560,
+     230,
+     1250,
+     866
+    ],
+    [
+     790,
+     320,
+     1210,
+     706
+    ],
+    [
+     790,
+     320,
+     1210,
+     706
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "layers": [
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%'><g stroke='#2a2440' stroke-width='2' fill='none' opacity='.55'><path d='M60 150 h50 M140 120 v50 M1020 150 h-50 M940 120 v50 M60 1770 h50 M140 1800 v-50 M1020 1770 h-50 M940 1800 v-50'/><circle cx='540' cy='118' r='16'/><path d='M516 118 h48 M540 94 v48'/><circle cx='540' cy='1802' r='16'/><path d='M516 1802 h48 M540 1778 v48'/></g><g opacity='.8'><rect x='860' y='1795' width='22' height='16' fill='#00AEEF'/><rect x='884' y='1795' width='22' height='16' fill='#EC008C'/><rect x='908' y='1795' width='22' height='16' fill='#FFF200'/><rect x='932' y='1795' width='22' height='16' fill='#1b1814'/></g></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 520 720' preserveAspectRatio='none' style='width:100%;height:100%;overflow:visible'><path d='M260 12 C460 10 512 160 508 360 C504 600 420 712 250 708 C70 704 12 560 14 350 C16 150 90 20 300 30' stroke='#D9363E' stroke-width='12' fill='none' stroke-linecap='round'/></svg>",
+     "box": [
+      88,
+      650,
+      480,
+      660
+     ],
+     "kf": [
+      [
+       3.0,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       3.6,
+       {
+        "dash": 1
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='font-family:Hand;font-size:64px;color:#D9363E;white-space:nowrap;transform:rotate(-3deg)'>page 6: a left page</div>",
+     "box": [
+      110,
+      1335,
+      560
+     ],
+     "kf": [
+      [
+       3.5,
+       {
+        "o": 0,
+        "y": 10
+       }
+      ],
+      [
+       3.8,
+       {
+        "o": 1,
+        "y": 0
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    }
+   ],
+   "text": [
+    {
+     "style": "tag",
+     "text": "IN INKWELL",
+     "at": 0,
+     "y": 190,
+     "size": 56,
+     "cls": "hot"
+    },
+    {
+     "style": "serif",
+     "text": "Every issue, laid out *like print.*",
+     "at": 0.15,
+     "until": 2.7,
+     "y": 280,
+     "size": 92,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "Every left page is *a page turn.*",
+     "at": 2.7,
+     "y": 280,
+     "size": 92,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "paper",
+   "in": "fade",
+   "fadeDur": 0.3,
+   "b": 5.6,
+   "persp": 1400,
+   "layers": [
+    {
+     "html": "<svg viewBox='0 0 1080 1920' style='width:100%;height:100%'><g stroke='#2a2440' stroke-width='2' fill='none' opacity='.55'><path d='M60 150 h50 M140 120 v50 M1020 150 h-50 M940 120 v50 M60 1770 h50 M140 1800 v-50 M1020 1770 h-50 M940 1800 v-50'/><circle cx='540' cy='118' r='16'/><path d='M516 118 h48 M540 94 v48'/><circle cx='540' cy='1802' r='16'/><path d='M516 1802 h48 M540 1778 v48'/></g><g opacity='.8'><rect x='860' y='1795' width='22' height='16' fill='#00AEEF'/><rect x='884' y='1795' width='22' height='16' fill='#EC008C'/><rect x='908' y='1795' width='22' height='16' fill='#FFF200'/><rect x='932' y='1795' width='22' height='16' fill='#1b1814'/></g></svg>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:900px;height:640px;filter:drop-shadow(0 30px 40px rgba(60,40,10,.28))'><div style='position:absolute;left:0;top:0;width:50%;height:100%;background:linear-gradient(90deg,#fbf8f1 85%,#e9e2d3);'><div style='position:absolute;left:26px;top:26px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:26px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:227px;width:398px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;bottom:2px;left:18px;right:auto;font-family:Serif;font-size:26px;color:#6b6356'>2</div></div></div>",
+     "box": [
+      90,
+      560,
+      900,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "rx": 8,
+        "s": 1.04,
+        "z": -6
+       }
+      ],
+      [
+       2.15,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:900px;height:640px;filter:drop-shadow(0 30px 40px rgba(60,40,10,.28))'><div style='position:absolute;left:50%;top:0;width:50%;height:100%;background:linear-gradient(90deg,#e6dfcf,#fbf8f1 15%);'><div style='position:absolute;left:26px;top:26px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:26px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:227px;width:123px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:163px;top:227px;width:123px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:301px;top:227px;width:123px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:427px;width:398px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;bottom:2px;left:auto;right:18px;font-family:Serif;font-size:26px;color:#6b6356'>5</div></div></div>",
+     "box": [
+      90,
+      560,
+      900,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "rx": 8,
+        "s": 1.04,
+        "z": -6
+       }
+      ],
+      [
+       1.2,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.25,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.4,
+       {
+        "s": 1.03,
+        "rx": -2
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:900px;height:640px;filter:drop-shadow(0 30px 40px rgba(60,40,10,.28))'><div style='position:absolute;left:50%;top:0;width:50%;height:100%;background:linear-gradient(90deg,#e6dfcf,#fbf8f1 15%);'><div style='position:absolute;left:26px;top:26px;width:398px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:227px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:227px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:26px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;left:232px;top:427px;width:192px;height:187px;border:5px solid #1b1814;box-sizing:border-box;background:#fffdf8'></div><div style='position:absolute;bottom:2px;left:auto;right:18px;font-family:Serif;font-size:26px;color:#6b6356'>3</div></div></div>",
+     "box": [
+      90,
+      560,
+      900,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "rx": 8,
+        "s": 1.04
+       }
+      ],
+      [
+       0.9,
+       {
+        "ry": 0
+       }
+      ],
+      [
+       1.55,
+       {
+        "ry": -90
+       },
+       "inCubic"
+      ]
+     ],
+     "sfx": "page"
+    },
+    {
+     "html": "<div style='position:relative;width:900px;height:640px;filter:drop-shadow(0 30px 40px rgba(60,40,10,.28))'><div style='position:absolute;left:0;top:0;width:50%;height:100%;background:linear-gradient(90deg,#fbf8f1 85%,#e9e2d3);'><div style='position:absolute;left:26px;top:26px;right:26px;bottom:26px;border:6px solid #1b1814;background:#16131f;overflow:hidden'><svg viewBox='-100 -140 200 280' preserveAspectRatio='xMidYMid slice' style='width:100%;height:100%'><line x1='0' y1='0' x2='150.0' y2='0.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='144.9' y2='38.8' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='129.9' y2='75.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='106.1' y2='106.1' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='75.0' y2='129.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='38.8' y2='144.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-0.0' y2='150.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-38.8' y2='144.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-75.0' y2='129.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-106.1' y2='106.1' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-129.9' y2='75.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-144.9' y2='38.8' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-150.0' y2='-0.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-144.9' y2='-38.8' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-129.9' y2='-75.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-106.1' y2='-106.1' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-75.0' y2='-129.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='-38.8' y2='-144.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='0.0' y2='-150.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='38.8' y2='-144.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='75.0' y2='-129.9' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='106.1' y2='-106.1' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='129.9' y2='-75.0' stroke='#3a2f60' stroke-width='9'/><line x1='0' y1='0' x2='144.9' y2='-38.8' stroke='#3a2f60' stroke-width='9'/><circle cx='0' cy='-40' r='46' fill='#5B3DF5' opacity='.9'/><circle cx='0' cy='-40' r='26' fill='#EDE6FF'/><path d='M-17 -80 L-20 -104 L-10 -90 L0 -110 L10 -90 L20 -104 L17 -80 Z M-14 -84 Q0 -96 14 -84 L16 -62 Q0 -52 -16 -62 Z M-16 -60 L-44 -40 L-50 -30 Q-60 40 -66 140 L66 140 Q60 40 50 -30 L44 -40 L16 -60 Q0 -50 -16 -60 Z' fill='#08070c'/><path d='M-10 -72 l6 2 M10 -72 l-6 2' stroke='#E8343A' stroke-width='3'/></svg></div><div style='position:absolute;bottom:2px;left:18px;right:auto;font-family:Serif;font-size:26px;color:#6b6356'>4</div></div></div>",
+     "box": [
+      90,
+      560,
+      900,
+      640
+     ],
+     "kf": [
+      [
+       1.55,
+       {
+        "o": 1,
+        "rx": 8,
+        "s": 1.04,
+        "ry": 90
+       }
+      ],
+      [
+       2.2,
+       {
+        "ry": 0
+       },
+       "outCubic"
+      ],
+      [
+       5.6,
+       {
+        "s": 1.03,
+        "rx": -2
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 520 720' style='width:100%;height:100%;overflow:visible'><path d='M260 12 C460 10 512 160 508 360 C504 600 420 712 250 708 C70 704 12 560 14 350 C16 150 90 20 300 30' stroke='#D9363E' stroke-width='9' fill='none' stroke-linecap='round'/></svg>",
+     "box": [
+      60,
+      520,
+      520,
+      720
+     ],
+     "kf": [
+      [
+       2.5,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       3.2,
+       {
+        "dash": 1
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='font-family:Hand;font-size:78px;color:#D9363E;white-space:nowrap;transform:rotate(-5deg)'>the reveal</div>",
+     "box": [
+      170,
+      1280,
+      380
+     ],
+     "kf": [
+      [
+       3.1,
+       {
+        "o": 0,
+        "y": 10
+       }
+      ],
+      [
+       3.4,
+       {
+        "o": 1,
+        "y": 0
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Turn the page\u2026",
+     "at": 0.1,
+     "until": 2.0,
+     "y": 220,
+     "size": 100,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "\u2026and put the reveal *there.*",
+     "at": 2.0,
+     "until": 3.8,
+     "y": 220,
+     "size": 100,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "Where's *your* villain's first page?",
+     "at": 3.8,
+     "y": 220,
+     "size": 92,
+     "align": "center"
+    }
+   ]
+  }
+ ]
+}

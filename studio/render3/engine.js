@@ -243,8 +243,9 @@
   // clip time (seconds into the clip) for output time u seconds into the shot, with optional ramp
   function clipAt(S, u) {
     const s = S.s; const from = s.from || 0; const sp = s.speed || 1;
-    if (Array.isArray(sp)) { const [a, b] = sp; const k = clamp(u / S.dur); return from + S.dur * (a * k + (b - a) * k * k / 2); }
-    return from + u * sp;
+    const cap = (t) => (s.clipEnd != null ? Math.min(t, s.clipEnd) : t); // clipEnd: hold the clip still from this clip second (added 11 Nov 2026)
+    if (Array.isArray(sp)) { const [a, b] = sp; const k = clamp(u / S.dur); return cap(from + S.dur * (a * k + (b - a) * k * k / 2)); }
+    return cap(from + u * sp);
   }
   function clipInv(S, ct) { // output seconds into shot when clip reaches ct (constant speed only; ramps approximated)
     const s = S.s; const from = s.from || 0; const sp = Array.isArray(s.speed) ? (s.speed[0] + s.speed[1]) / 2 : (s.speed || 1);
