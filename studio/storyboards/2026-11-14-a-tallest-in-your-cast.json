@@ -1,0 +1,1754 @@
+{
+ "id": "2026-11-14-a-tallest-in-your-cast",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 120,
+ "footage": "../footage/2026-11-14",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "cinematic"
+   }
+  ],
+  "opener": "impact",
+  "risers": [
+   8.52
+  ],
+  "hits": [
+   9.34,
+   12.0,
+   18.0
+  ]
+ },
+ "shots": [
+  {
+   "b": 12.0,
+   "kind": "blank",
+   "bg": "night",
+   "theme": "night",
+   "persp": 1100,
+   "dof": 0.009,
+   "focus": 0,
+   "cam3d": [
+    [
+     0,
+     {
+      "x": -140,
+      "z": 40,
+      "y": -40,
+      "ry": 8
+     }
+    ],
+    [
+     2.6,
+     {
+      "x": -60,
+      "z": 120,
+      "y": 0,
+      "ry": 4
+     },
+     "inOutSine"
+    ],
+    [
+     3.6,
+     {
+      "x": -210,
+      "z": 150,
+      "y": 0,
+      "ry": 5
+     },
+     "inOutCubic"
+    ],
+    [
+     4.42,
+     {
+      "x": 210,
+      "z": 150,
+      "y": 0,
+      "ry": -5
+     },
+     "inOutCubic"
+    ],
+    [
+     5.24,
+     {
+      "x": 630,
+      "z": 150,
+      "y": 0,
+      "ry": 5
+     },
+     "inOutCubic"
+    ],
+    [
+     6.06,
+     {
+      "x": 1050,
+      "z": 150,
+      "y": 0,
+      "ry": -5
+     },
+     "inOutCubic"
+    ],
+    [
+     6.88,
+     {
+      "x": 1470,
+      "z": 150,
+      "y": 0,
+      "ry": 5
+     },
+     "inOutCubic"
+    ],
+    [
+     7.7,
+     {
+      "x": 1890,
+      "z": 150,
+      "y": 0,
+      "ry": -5
+     },
+     "inOutCubic"
+    ],
+    [
+     8.52,
+     {
+      "x": 2310,
+      "z": 150,
+      "y": 0,
+      "ry": 5
+     },
+     "inOutCubic"
+    ],
+    [
+     9.34,
+     {
+      "x": 2730,
+      "z": 170,
+      "y": -90,
+      "ry": 0
+     },
+     "inOutCubic"
+    ],
+    [
+     12.0,
+     {
+      "x": 2730,
+      "z": 190,
+      "y": -110,
+      "ry": 0
+     },
+     "inOutSine"
+    ]
+   ],
+   "layers": [
+    {
+     "img": "s-char-captain-titan",
+     "crop": [
+      300,
+      60,
+      1340,
+      520
+     ],
+     "cls": "card glow",
+     "box": [
+      3060,
+      -87,
+      552
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1234,
+        "ry": 2.5272531794494384,
+        "rx": 4.394000016178326,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": -39
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-tier-who-could-stop-titan",
+     "crop": [
+      260,
+      190,
+      1360,
+      660
+     ],
+     "cls": "card glow",
+     "box": [
+      2827,
+      48,
+      527
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -735,
+        "ry": -10.60260250924169,
+        "rx": 3.2874922039947023,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": -20
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-covers",
+     "crop": [
+      260,
+      80,
+      1060,
+      380
+     ],
+     "cls": "card glow",
+     "box": [
+      2514,
+      24,
+      535
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1436,
+        "ry": 12.833125421059147,
+        "rx": -7.133228746653259,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": 21
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-threads",
+     "crop": [
+      220,
+      90,
+      1360,
+      470
+     ],
+     "cls": "card glow",
+     "box": [
+      2203,
+      87,
+      397
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1107,
+        "ry": -8.619394198923626,
+        "rx": 4.23836327712748,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": 39
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-web",
+     "crop": [
+      320,
+      200,
+      1280,
+      780
+     ],
+     "cls": "card glow",
+     "box": [
+      1882,
+      -159,
+      414
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1252,
+        "ry": 11.694409016437941,
+        "rx": 0.01285422859627694,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": 23
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-char-afterburn",
+     "crop": [
+      300,
+      60,
+      1340,
+      520
+     ],
+     "cls": "card glow",
+     "box": [
+      1594,
+      -28,
+      380
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -824,
+        "ry": 7.4021680370242,
+        "rx": -4.837274444663114,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": -25
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-timeline",
+     "crop": [
+      240,
+      40,
+      1340,
+      460
+     ],
+     "cls": "card glow",
+     "box": [
+      1330,
+      -75,
+      394
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1087,
+        "ry": 9.682581110059683,
+        "rx": -5.773714897217374,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": -20
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-characters",
+     "crop": [
+      280,
+      150,
+      1030,
+      560
+     ],
+     "cls": "card glow",
+     "box": [
+      1053,
+      -112,
+      433
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1106,
+        "ry": -6.126836377632073,
+        "rx": 4.952171211623515,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": -25
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-versus",
+     "crop": [
+      380,
+      200,
+      1180,
+      540
+     ],
+     "cls": "card glow",
+     "box": [
+      751,
+      -82,
+      406
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -998,
+        "ry": -8.2611166322335,
+        "rx": -4.411182793890674,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": 3
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-power",
+     "crop": [
+      280,
+      290,
+      1360,
+      470
+     ],
+     "cls": "card glow",
+     "box": [
+      430,
+      1678,
+      420
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -872,
+        "ry": -7.335658330937083,
+        "rx": -6.2248395523517654,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": 14
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-identities",
+     "crop": [
+      260,
+      170,
+      940,
+      380
+     ],
+     "cls": "card glow",
+     "box": [
+      99,
+      -95,
+      521
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1331,
+        "ry": 5.602752366252851,
+        "rx": 3.651075765969706,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": -29
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-char-the-hollow-king",
+     "crop": [
+      300,
+      60,
+      1340,
+      520
+     ],
+     "cls": "card glow",
+     "box": [
+      -201,
+      1488,
+      415
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -890,
+        "ry": 10.263731799617556,
+        "rx": -7.897039134702027,
+        "o": 0.4
+       }
+      ],
+      [
+       12,
+       {
+        "y": 14
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:45px;height:45px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      -324,
+      544,
+      45
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -773,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -14
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:88px;height:88px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      717,
+      312,
+      88
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -762,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -18
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:119px;height:119px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      236,
+      400,
+      119
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1054,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -23
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:59px;height:59px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      1967,
+      458,
+      59
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1020,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 50
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:126px;height:126px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      1940,
+      1305,
+      126
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -618,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -19
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:85px;height:85px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      -190,
+      -113,
+      85
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -684,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 54
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:82px;height:82px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      1544,
+      50,
+      82
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -897,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -2
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:137px;height:137px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      1474,
+      368,
+      137
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1230,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 50
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:81px;height:81px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      4175,
+      206,
+      81
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -663,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 30
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:135px;height:135px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      2514,
+      692,
+      135
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -928,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 21
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      1260,
+      1100,
+      120
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -882,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -37
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:65px;height:65px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      788,
+      1179,
+      65
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1022,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 56
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:122px;height:122px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      3850,
+      894,
+      122
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1317,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -17
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:45px;height:45px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      -46,
+      -34,
+      45
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1241,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -25
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:69px;height:69px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      3297,
+      130,
+      69
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -865,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 44
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:94px;height:94px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      1198,
+      647,
+      94
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -895,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -5
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:130px;height:130px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      1991,
+      972,
+      130
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1383,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 5
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:110px;height:110px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      331,
+      1475,
+      110
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -607,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 56
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:62px;height:62px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      3744,
+      309,
+      62
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1084,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -25
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:117px;height:117px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      2650,
+      -23,
+      117
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1287,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -11
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:77px;height:77px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      950,
+      434,
+      77
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1349,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 49
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:122px;height:122px;border-radius:50%;background:radial-gradient(circle,rgba(45,226,230,.35),rgba(45,226,230,0) 70%)'></div>",
+     "box": [
+      1356,
+      -148,
+      122
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -878,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -36
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:75px;height:75px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      3996,
+      537,
+      75
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -708,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": -27
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:137px;height:137px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      1970,
+      1439,
+      137
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -827,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 6
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:48px;height:48px;border-radius:50%;background:radial-gradient(circle,rgba(140,124,255,.35),rgba(140,124,255,0) 70%)'></div>",
+     "box": [
+      869,
+      -16,
+      48
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1011,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 10
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:53px;height:53px;border-radius:50%;background:radial-gradient(circle,rgba(240,106,156,.35),rgba(240,106,156,0) 70%)'></div>",
+     "box": [
+      1533,
+      421,
+      53
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -1005,
+        "o": 1
+       }
+      ],
+      [
+       12,
+       {
+        "y": 1
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:4290px;height:2px;background:repeating-linear-gradient(90deg,rgba(168,243,255,.55) 0 14px,transparent 14px 26px);box-shadow:0 0 12px rgba(140,124,255,.6)'></div><div style='position:absolute;left:24px;top:-34px;font:500 24px Inter,sans-serif;color:rgba(200,230,255,.75);letter-spacing:.04em'>100 cm</div>",
+     "box": [
+      -300,
+      939,
+      4290
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -60,
+        "o": 0.0
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:4290px;height:2px;background:repeating-linear-gradient(90deg,rgba(168,243,255,.55) 0 14px,transparent 14px 26px);box-shadow:0 0 12px rgba(140,124,255,.6)'></div><div style='position:absolute;left:24px;top:-34px;font:500 24px Inter,sans-serif;color:rgba(200,230,255,.75);letter-spacing:.04em'>150</div>",
+     "box": [
+      -300,
+      744,
+      4290
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -60,
+        "o": 0.0
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:4290px;height:2px;background:repeating-linear-gradient(90deg,rgba(168,243,255,.55) 0 14px,transparent 14px 26px);box-shadow:0 0 12px rgba(140,124,255,.6)'></div><div style='position:absolute;left:24px;top:-34px;font:500 24px Inter,sans-serif;color:rgba(200,230,255,.75);letter-spacing:.04em'>200</div>",
+     "box": [
+      -300,
+      548,
+      4290
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -60,
+        "o": 0.0
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:4290px;height:2px;background:repeating-linear-gradient(90deg,rgba(168,243,255,.55) 0 14px,transparent 14px 26px);box-shadow:0 0 12px rgba(140,124,255,.6)'></div><div style='position:absolute;left:24px;top:-34px;font:500 24px Inter,sans-serif;color:rgba(200,230,255,.75);letter-spacing:.04em'>240</div>",
+     "box": [
+      -300,
+      392,
+      4290
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "z": -60,
+        "o": 0.0
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:4290px;height:6px;background:linear-gradient(90deg,#2DE2E6,#8C7CFF,#F06A9C);box-shadow:0 0 30px #8C7CFF,0 0 60px #2DE2E6;border-radius:3px'></div>",
+     "box": [
+      -300,
+      1330,
+      4290
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:264px;height:814px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-re.png' style='position:absolute;left:40px;top:0;width:184px;height:664px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-re.png' style='position:absolute;left:40px;top:668px;width:184px;height:664px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:686px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>Relay</div><div style='position:absolute;left:-60px;right:-60px;top:726px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>170 cm</div></div>",
+     "box": [
+      198,
+      666,
+      264
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:266px;height:821px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-ve.png' style='position:absolute;left:40px;top:0;width:186px;height:671px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-ve.png' style='position:absolute;left:40px;top:675px;width:186px;height:671px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:693px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>Vesper</div><div style='position:absolute;left:-60px;right:-60px;top:733px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>172 cm</div></div>",
+     "box": [
+      617,
+      659,
+      266
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:270px;height:833px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-so.png' style='position:absolute;left:40px;top:0;width:190px;height:683px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-so.png' style='position:absolute;left:40px;top:687px;width:190px;height:683px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:705px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>Solstice</div><div style='position:absolute;left:-60px;right:-60px;top:745px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>175 cm</div></div>",
+     "box": [
+      1035,
+      647,
+      270
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:275px;height:853px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-bc.png' style='position:absolute;left:40px;top:0;width:195px;height:703px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-bc.png' style='position:absolute;left:40px;top:707px;width:195px;height:703px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:725px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>Blue Comet</div><div style='position:absolute;left:-60px;right:-60px;top:765px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>180 cm</div></div>",
+     "box": [
+      1453,
+      627,
+      275
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:281px;height:872px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-am.png' style='position:absolute;left:40px;top:0;width:201px;height:722px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-am.png' style='position:absolute;left:40px;top:726px;width:201px;height:722px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:744px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>Agent Maddox</div><div style='position:absolute;left:-60px;right:-60px;top:784px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>185 cm</div></div>",
+     "box": [
+      1870,
+      608,
+      281
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:292px;height:915px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-ct.png' style='position:absolute;left:40px;top:0;width:212px;height:765px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-ct.png' style='position:absolute;left:40px;top:769px;width:212px;height:765px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:787px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>Captain Titan</div><div style='position:absolute;left:-60px;right:-60px;top:827px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>196 cm</div></div>",
+     "box": [
+      2284,
+      565,
+      292
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:298px;height:935px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-br.png' style='position:absolute;left:40px;top:0;width:218px;height:785px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-br.png' style='position:absolute;left:40px;top:789px;width:218px;height:785px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:807px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>Brickbat</div><div style='position:absolute;left:-60px;right:-60px;top:847px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>201 cm</div></div>",
+     "box": [
+      2701,
+      545,
+      298
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:339px;height:1087px'><div style='position:absolute;inset:-20px 0 110px 0;border-radius:30px;background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.03));border:1.5px solid rgba(255,255,255,.22);box-shadow:0 0 50px rgba(140,124,255,.25),inset 0 1px 0 rgba(255,255,255,.3)'></div><img src='../footage/2026-11-14/stills/fig-hk.png' style='position:absolute;left:40px;top:0;width:259px;height:937px;filter:drop-shadow(0 0 22px rgba(140,170,255,.35))'><img src='../footage/2026-11-14/stills/fig-hk.png' style='position:absolute;left:40px;top:941px;width:259px;height:937px;transform:scaleY(-1);opacity:.22;-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 45%);filter:blur(1.5px)'><div style='position:absolute;left:-60px;right:-60px;top:959px;text-align:center;font:600 30px Inter,sans-serif;color:#F4F5FA;white-space:nowrap'>The Hollow King</div><div style='position:absolute;left:-60px;right:-60px;top:999px;text-align:center;font:italic 400 34px Serif;color:#A8F3FF'>240 cm</div></div>",
+     "box": [
+      3101,
+      393,
+      339
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "How tall is the tallest",
+     "at": -4,
+     "until": 2.9000000000000004,
+     "y": 250,
+     "size": 92,
+     "align": "center",
+     "cls": "light"
+    },
+    {
+     "style": "serif",
+     "text": "in *your* cast?",
+     "at": -4,
+     "until": 2.9000000000000004,
+     "y": 350,
+     "size": 104,
+     "align": "center",
+     "cls": "light"
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 170,
+     "to": 170,
+     "unit": "cm",
+     "at": 3.25,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center",
+     "until": 4.07
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 170,
+     "to": 172,
+     "unit": "cm",
+     "at": 4.07,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center",
+     "until": 4.89
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 172,
+     "to": 175,
+     "unit": "cm",
+     "at": 4.89,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center",
+     "until": 5.71
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 175,
+     "to": 180,
+     "unit": "cm",
+     "at": 5.71,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center",
+     "until": 6.53
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 180,
+     "to": 185,
+     "unit": "cm",
+     "at": 6.53,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center",
+     "until": 7.35
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 185,
+     "to": 196,
+     "unit": "cm",
+     "at": 7.35,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center",
+     "until": 8.17
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 196,
+     "to": 201,
+     "unit": "cm",
+     "at": 8.17,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center",
+     "until": 8.99
+    },
+    {
+     "style": "count",
+     "cls": "serifcount",
+     "from": 201,
+     "to": 240,
+     "unit": "cm",
+     "at": 8.99,
+     "dur": 0.6,
+     "y": 230,
+     "size": 200,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 6,
+   "kind": "clip",
+   "src": "c-lineup-pan",
+   "from": 0.1,
+   "speed": 0.74,
+   "in": "blurin",
+   "look": "card",
+   "cursor": false,
+   "box": [
+    60,
+    540,
+    960,
+    760
+   ],
+   "tilt": [
+    6,
+    -8,
+    2,
+    3
+   ],
+   "cam": [
+    [
+     230,
+     60,
+     1360,
+     560
+    ],
+    [
+     190,
+     70,
+     1250,
+     560
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "text": [
+    {
+     "style": "tag",
+     "text": "IN INKWELL",
+     "at": 0,
+     "y": 210,
+     "size": 56
+    },
+    {
+     "style": "serif",
+     "text": "Every character.",
+     "at": 0.2,
+     "y": 300,
+     "size": 96,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "*One ruler.*",
+     "at": 0.9,
+     "y": 405,
+     "size": 104,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 4.6,
+   "kind": "blank",
+   "bg": "clean",
+   "theme": "clean",
+   "in": "flash",
+   "persp": 1100,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 0,
+      "x": -30
+     }
+    ],
+    [
+     4.6,
+     {
+      "z": 150,
+      "x": 30
+     },
+     "linear"
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1600px;height:4px;background:#0F1115;opacity:.85'></div>",
+     "box": [
+      -260,
+      1300,
+      1600
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-14/stills/fig-hk.png' style='width:100%;filter:drop-shadow(0 30px 40px rgba(0,0,0,.22))'>",
+     "box": [
+      500,
+      507,
+      220
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "y": 40
+       }
+      ],
+      [
+       0.5,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-14/stills/fig-re.png' style='width:100%;filter:drop-shadow(0 20px 30px rgba(0,0,0,.2))'>",
+     "box": [
+      300,
+      738,
+      156
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "y": 40
+       }
+      ],
+      [
+       0.8,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:600 34px Inter,sans-serif;color:#0F1115;text-align:center;line-height:1.2'>The Hollow King<br><span style='font:italic 400 38px Serif;color:#5B3DF5'>240 cm</span></div>",
+     "box": [
+      440,
+      1318,
+      340
+     ],
+     "kf": [
+      [
+       0.6,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:600 34px Inter,sans-serif;color:#555;text-align:center;line-height:1.2'>Relay<br><span style='font:italic 400 38px Serif;color:#1C9E8E'>170 cm</span></div>",
+     "box": [
+      230,
+      1318,
+      240
+     ],
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.3,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Ours: *240 cm.*",
+     "at": 0.1,
+     "y": 230,
+     "size": 104,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "Who's the tallest in yours?",
+     "at": 1.4,
+     "y": 360,
+     "size": 70,
+     "align": "center"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 3.2,
+  "theme": "clean",
+  "line": "Your whole cast, side by side.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}

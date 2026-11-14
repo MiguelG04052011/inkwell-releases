@@ -1,0 +1,577 @@
+{
+ "id": "2026-11-15-b-pitch-folder",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 120,
+ "footage": "../footage/2026-11-14",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "pluck"
+   }
+  ],
+  "opener": "soft",
+  "risers": [
+   16.0
+  ],
+  "hits": [
+   4,
+   8.5,
+   12.5,
+   16.5
+  ]
+ },
+ "shots": [
+  {
+   "b": 4,
+   "kind": "clip",
+   "src": "c-stock-29984-sketch",
+   "from": 0.0,
+   "speed": 1.0,
+   "look": "full",
+   "grade": "warm",
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     30,
+     50,
+     510,
+     910
+    ]
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Pitching your comic",
+     "at": -1,
+     "y": 250,
+     "size": 100,
+     "align": "center",
+     "cls": "light"
+    },
+    {
+     "style": "serif",
+     "text": "this weekend?",
+     "at": -1,
+     "y": 360,
+     "size": 100,
+     "align": "center",
+     "cls": "light"
+    },
+    {
+     "style": "hand",
+     "text": "Plan these 3 first.",
+     "at": 1.4,
+     "dur": 0.9,
+     "y": 1120,
+     "size": 84,
+     "align": "center",
+     "cls": "light"
+    }
+   ]
+  },
+  {
+   "b": 4.5,
+   "kind": "blank",
+   "bg": "paper",
+   "in": "page",
+   "theme": "paper",
+   "layers": [
+    {
+     "html": "<div style='width:100%;height:100%;background:#C9A46A;background-image:radial-gradient(rgba(90,60,20,.10) 1px,transparent 1.4px),radial-gradient(rgba(255,240,210,.12) 1px,transparent 1.6px),linear-gradient(170deg,#D8B57C,#B88E52);background-size:7px 7px,11px 11px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:1000px;height:1180px;background:#F3E2BF;border-radius:0 24px 24px 24px;box-shadow:0 30px 60px rgba(60,35,5,.35),0 2px 0 #fff inset'><div style='position:absolute;top:-70px;left:60px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#F3E2BF;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>1</div><div style='position:absolute;top:-70px;left:360px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#DCC292;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>2</div><div style='position:absolute;top:-70px;left:660px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#DCC292;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>3</div><div style='position:absolute;left:0;right:0;bottom:0;height:420px;background:#E9D2A6;border-radius:0 0 24px 24px;box-shadow:0 -8px 20px rgba(60,35,5,.18)'></div></div>",
+     "box": [
+      40,
+      500,
+      1000
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "y": 30
+       }
+      ],
+      [
+       4,
+       {
+        "y": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-home",
+     "crop": [
+      282,
+      17,
+      1302,
+      252
+     ],
+     "cls": "card lightc",
+     "box": [
+      80,
+      640,
+      920
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "y": 700,
+        "o": 1,
+        "r": -3.0,
+        "s": 0.96
+       }
+      ],
+      [
+       0.7999999999999999,
+       {
+        "y": 0,
+        "r": -1.5,
+        "s": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "html": "<svg width='56' height='112' viewBox='0 0 70 140' style='filter:drop-shadow(0 3px 3px rgba(0,0,0,.35))'><path d='M20 130 V30 a15 15 0 0 1 30 0 V110 a8 8 0 0 1 -16 0 V40' fill='none' stroke='#C8CED6' stroke-width='9' stroke-linecap='round'/></svg>",
+     "box": [
+      500,
+      548,
+      56
+     ],
+     "kf": [
+      [
+       0.75,
+       {
+        "o": 0,
+        "y": -40
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "click"
+    },
+    {
+     "html": "<div style='display:inline-block;padding:10px 22px;background:#5B3DF5;color:#fff;font:700 30px Inter,sans-serif;border-radius:999px;letter-spacing:.06em'>IN INKWELL</div>",
+     "box": [
+      700,
+      600,
+      260
+     ],
+     "kf": [
+      [
+       1.2,
+       {
+        "o": 0,
+        "s": 1.6
+       }
+      ],
+      [
+       1.45,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "1. Your logline",
+     "at": 0.2,
+     "dur": 0.8,
+     "y": 240,
+     "size": 92,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "\u201cThe day the world's greatest hero vanishes,",
+     "at": 1.3,
+     "y": 1030,
+     "size": 46,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "her sixteen-year-old daughter inherits her powers,",
+     "at": 1.7,
+     "y": 1090,
+     "size": 46,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "*along with every enemy she ever made.\u201d*",
+     "at": 2.1,
+     "y": 1150,
+     "size": 46,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "blank",
+   "bg": "paper",
+   "in": "whip-l",
+   "theme": "paper",
+   "layers": [
+    {
+     "html": "<div style='width:100%;height:100%;background:#C9A46A;background-image:radial-gradient(rgba(90,60,20,.10) 1px,transparent 1.4px),radial-gradient(rgba(255,240,210,.12) 1px,transparent 1.6px),linear-gradient(170deg,#D8B57C,#B88E52);background-size:7px 7px,11px 11px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:1000px;height:1180px;background:#F3E2BF;border-radius:0 24px 24px 24px;box-shadow:0 30px 60px rgba(60,35,5,.35),0 2px 0 #fff inset'><div style='position:absolute;top:-70px;left:60px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#DCC292;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>1</div><div style='position:absolute;top:-70px;left:360px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#F3E2BF;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>2</div><div style='position:absolute;top:-70px;left:660px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#DCC292;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>3</div><div style='position:absolute;left:0;right:0;bottom:0;height:420px;background:#E9D2A6;border-radius:0 0 24px 24px;box-shadow:0 -8px 20px rgba(60,35,5,.18)'></div></div>",
+     "box": [
+      40,
+      500,
+      1000
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "y": 30
+       }
+      ],
+      [
+       4,
+       {
+        "y": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-home",
+     "crop": [
+      285,
+      515,
+      880,
+      880
+     ],
+     "cls": "card lightc",
+     "box": [
+      80,
+      640,
+      920
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "y": 700,
+        "o": 1,
+        "r": 2.4,
+        "s": 0.96
+       }
+      ],
+      [
+       0.7999999999999999,
+       {
+        "y": 0,
+        "r": 1.2,
+        "s": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "html": "<svg width='56' height='112' viewBox='0 0 70 140' style='filter:drop-shadow(0 3px 3px rgba(0,0,0,.35))'><path d='M20 130 V30 a15 15 0 0 1 30 0 V110 a8 8 0 0 1 -16 0 V40' fill='none' stroke='#C8CED6' stroke-width='9' stroke-linecap='round'/></svg>",
+     "box": [
+      500,
+      548,
+      56
+     ],
+     "kf": [
+      [
+       0.75,
+       {
+        "o": 0,
+        "y": -40
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "click"
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "2. Who's who, at a glance",
+     "at": 0.2,
+     "dur": 0.8,
+     "y": 240,
+     "size": 86,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "Heroes. Villains. *Everyone else.*",
+     "at": 1.6,
+     "y": 1250,
+     "size": 58,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 4,
+   "kind": "blank",
+   "bg": "paper",
+   "in": "whip-l",
+   "theme": "paper",
+   "layers": [
+    {
+     "html": "<div style='width:100%;height:100%;background:#C9A46A;background-image:radial-gradient(rgba(90,60,20,.10) 1px,transparent 1.4px),radial-gradient(rgba(255,240,210,.12) 1px,transparent 1.6px),linear-gradient(170deg,#D8B57C,#B88E52);background-size:7px 7px,11px 11px,100% 100%'></div>",
+     "box": [
+      0,
+      0,
+      1080,
+      1920
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:1000px;height:1180px;background:#F3E2BF;border-radius:0 24px 24px 24px;box-shadow:0 30px 60px rgba(60,35,5,.35),0 2px 0 #fff inset'><div style='position:absolute;top:-70px;left:60px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#DCC292;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>1</div><div style='position:absolute;top:-70px;left:360px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#DCC292;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>2</div><div style='position:absolute;top:-70px;left:660px;width:250px;height:80px;border-radius:18px 18px 0 0;background:#F3E2BF;box-shadow:0 -2px 0 rgba(0,0,0,.06) inset;font:400 40px Marker,\"Permanent Marker\",cursive;color:#3A2A14;text-align:center;line-height:84px'>3</div><div style='position:absolute;left:0;right:0;bottom:0;height:420px;background:#E9D2A6;border-radius:0 0 24px 24px;box-shadow:0 -8px 20px rgba(60,35,5,.18)'></div></div>",
+     "box": [
+      40,
+      500,
+      1000
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "y": 30
+       }
+      ],
+      [
+       4,
+       {
+        "y": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "img": "s-home",
+     "crop": [
+      900,
+      595,
+      1310,
+      880
+     ],
+     "cls": "card lightc",
+     "box": [
+      110,
+      640,
+      860
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "y": 700,
+        "o": 1,
+        "r": -1.6,
+        "s": 0.96
+       }
+      ],
+      [
+       0.7999999999999999,
+       {
+        "y": 0,
+        "r": -0.8,
+        "s": 1
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "html": "<svg width='56' height='112' viewBox='0 0 70 140' style='filter:drop-shadow(0 3px 3px rgba(0,0,0,.35))'><path d='M20 130 V30 a15 15 0 0 1 30 0 V110 a8 8 0 0 1 -16 0 V40' fill='none' stroke='#C8CED6' stroke-width='9' stroke-linecap='round'/></svg>",
+     "box": [
+      500,
+      548,
+      56
+     ],
+     "kf": [
+      [
+       0.75,
+       {
+        "o": 0,
+        "y": -40
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "click"
+    }
+   ],
+   "text": [
+    {
+     "style": "hand",
+     "text": "3. The questions readers ask",
+     "at": 0.2,
+     "dur": 0.8,
+     "y": 240,
+     "size": 80,
+     "align": "center"
+    },
+    {
+     "style": "serif",
+     "text": "Does Rosa know? *Where is Solstice?*",
+     "at": 1.6,
+     "y": 1268,
+     "size": 56,
+     "align": "center"
+    }
+   ]
+  },
+  {
+   "b": 4.5,
+   "kind": "clip",
+   "src": "c-home-scroll",
+   "from": 0.0,
+   "speed": 1.0,
+   "in": "zoom",
+   "look": "card",
+   "cursor": false,
+   "box": [
+    70,
+    520,
+    940,
+    700
+   ],
+   "tilt": [
+    5,
+    -6,
+    1,
+    2
+   ],
+   "cam": [
+    [
+     290,
+     20,
+     1050,
+     520
+    ],
+    [
+     290,
+     260,
+     1050,
+     760
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "text": [
+    {
+     "style": "tag",
+     "text": "IN INKWELL",
+     "at": 0,
+     "y": 210,
+     "size": 56
+    },
+    {
+     "style": "serif",
+     "text": "All three, *on one screen.*",
+     "at": 0.25,
+     "y": 300,
+     "size": 92,
+     "align": "center"
+    }
+   ]
+  }
+ ],
+ "end": {
+  "b": 3.2,
+  "theme": "paper",
+  "line": "Your pitch, on one page.",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser"
+ }
+}
