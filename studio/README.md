@@ -214,3 +214,5 @@ end card. Everything is synthesised from sine waves and noise, so there's nothin
 - `assets/fonts/`: Inkwell Display (SIL Open Font License, keep `OFL.txt`).
 - `assets/video/`: the website's demo loop, vertical, both themes.
 - `assets/shots/strongest-in-brightwater.png`: the brand tier-list picture (dark) centred on a 2720×1702 canvas so the engine can film it; use `crop: [0.271, 0, 0.729, 1]` (added 14 Oct 2026).
+
+Lineup cut-outs (added 14 Nov 2026): `python3 stock/figs.py footage/<date>/stills/s-lineup.jpg footage/<date>/stills` writes `fig-hk.png … fig-re.png` (anti-aliased, every figure at one px-per-cm, about 6.3 px per cm), for figures standing in a world drawn by code. Keep compared figures on one plane and one scale. A mirrored, masked copy under each figure makes a cheap floor reflection (see `storyboards/2026-11-14-a-tallest-in-your-cast.json`).
