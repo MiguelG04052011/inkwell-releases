@@ -1,0 +1,137 @@
+{
+ "id": "example-morph",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 100,
+ "footage": "../footage/none",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "pluck"
+   }
+  ],
+  "opener": "soft"
+ },
+ "end": {
+  "b": 3,
+  "theme": "paper",
+  "cta": "Free to start in your browser",
+  "sub": "On a Mac or in any browser",
+  "line": "From a sketch to a cast."
+ },
+ "shots": [
+  {
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "paper",
+   "b": 8,
+   "layers": [
+    {
+     "morph": {
+      "at": 2.2,
+      "dur": 1.6,
+      "from": {
+       "box": [
+        250,
+        620,
+        580,
+        440
+       ],
+       "radius": 6,
+       "bg": "#fbf7ec",
+       "r": -4,
+       "html": "<svg viewBox='0 0 580 440' width='580' height='440'><g fill='none' stroke='#1b1a22' stroke-width='5' stroke-linecap='round'><line x1='40' y1='390' x2='540' y2='390'/><circle cx='120' cy='170' r='22'/><line x1='120' y1='192' x2='120' y2='300'/><line x1='120' y1='300' x2='95' y2='388'/><line x1='120' y1='300' x2='145' y2='388'/><circle cx='290' cy='90' r='26'/><line x1='290' y1='116' x2='290' y2='270'/><line x1='290' y1='270' x2='260' y2='388'/><line x1='290' y1='270' x2='320' y2='388'/><circle cx='450' cy='210' r='20'/><line x1='450' y1='230' x2='450' y2='320'/><line x1='450' y1='320' x2='428' y2='388'/><line x1='450' y1='320' x2='472' y2='388'/></g><text x='210' y='40' font-family='Marker' font-size='30' fill='#d6336c'>240 cm??</text></svg>"
+      },
+      "to": {
+       "box": [
+        60,
+        560,
+        960,
+        601
+       ],
+       "radius": 26,
+       "bg": "#101018",
+       "img": "kit:lineup",
+       "dims": [
+        2720,
+        1702
+       ],
+       "crop": [
+        0,
+        0,
+        2720,
+        1702
+       ]
+      }
+     }
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "Your cast, *on a napkin.*",
+     "at": 0.2,
+     "until": 2.4,
+     "y": 300
+    },
+    {
+     "style": "serif",
+     "text": "Your cast, *to scale.*",
+     "at": 3.6,
+     "y": 300
+    }
+   ]
+  },
+  {
+   "kind": "blank",
+   "bg": "night",
+   "theme": "night",
+   "b": 6,
+   "in": "fade",
+   "layers": [
+    {
+     "morph": {
+      "at": 1.4,
+      "dur": 1.4,
+      "from": {
+       "box": [
+        290,
+        880,
+        500,
+        110
+       ],
+       "radius": 55,
+       "bg": "#8C7CFF",
+       "html": "<div style='font:800 46px Sans;color:#0B0B10;text-align:center;line-height:110px'>Who wins?</div>"
+      },
+      "to": {
+       "box": [
+        60,
+        620,
+        960,
+        601
+       ],
+       "radius": 28,
+       "bg": "#101018",
+       "img": "kit:versus",
+       "dims": [
+        2720,
+        1702
+       ]
+      }
+     }
+    }
+   ],
+   "text": [
+    {
+     "style": "serif",
+     "text": "One click. *A verdict.*",
+     "at": 3.2,
+     "y": 300
+    }
+   ]
+  }
+ ]
+}

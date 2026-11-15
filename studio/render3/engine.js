@@ -171,6 +171,7 @@
         const kf = (L.kf || [[0, {}]]).map((k) => ({ t: start + k[0] * BEAT, p: k[1] || {}, ease: k[2] }));
         const Ly = { L, e, kf, t0: kf[0].t, paths: [...e.querySelectorAll('path')].map((p) => [p, p.getTotalLength ? p.getTotalLength() : 1000]) };
         if (L.char) charBuild(Ly, start);
+        if (L.morph) morphBuild(Ly, start);
         if (L.type) {
           const tg = L.type.sel ? e.querySelector(L.type.sel) : e;
           const tt0 = start + (L.type.at || 0) * BEAT, td = (L.type.dur || 1) * BEAT, txt = L.type.text;
@@ -384,6 +385,79 @@
     const sw = sweat > 0.02 ? ((t * 0.9) % 1) : 0;
     c.sweat.setAttribute('transform', `translate(${100 + 62} ${(fy - 60 + sw * 40).toFixed(1)}) scale(${(sweat * 1.1).toFixed(2)})`);
     c.sweat.setAttribute('opacity', (sweat * (1 - sw * 0.7)).toFixed(2));
+  }
+
+  // ---- morph layers ("morph"): one object becomes another (a drawn card, a sticky note or a pill turns into a
+  // real app screen). The container's rect, corner radius, rotation and colour travel together; the old content
+  // dissolves out while the new one focuses in; the shape stretches along its path and leaves a short trail. ----
+  function hexRgb(c) { const m = /^#?([0-9a-f]{6})$/i.exec(c || ''); if (!m) return null; const n = parseInt(m[1], 16); return [n >> 16, (n >> 8) & 255, n & 255]; }
+  function morphFace(e, d) {
+    const f = el('div', 'mface', e);
+    Object.assign(f.style, { position: 'absolute', left: 0, top: 0, width: d.box[2] + 'px', height: d.box[3] + 'px', transformOrigin: '0 0' });
+    if (d.img) {
+      const dims = d.dims || [1360, 880]; const cr = d.crop || [0, 0, dims[0], dims[1]];
+      const sx = d.box[2] / (cr[2] - cr[0]), sy = d.box[3] / (cr[3] - cr[1]);
+      Object.assign(f.style, { backgroundImage: `url(${srcOf(d.img)})`, backgroundSize: `${dims[0] * sx}px ${dims[1] * sy}px`, backgroundPosition: `${-cr[0] * sx}px ${-cr[1] * sy}px` });
+    }
+    if (d.html) f.insertAdjacentHTML('beforeend', d.html);
+    return f;
+  }
+  function morphBuild(Ly, start) {
+    const M = Ly.L.morph, e = Ly.e;
+    if (!Ly.L.box) Object.assign(e.style, { left: 0, top: 0, width: W + 'px', height: H + 'px' });
+    const mk = (cls) => { const b = el('div', cls, e); Object.assign(b.style, { position: 'absolute', overflow: 'hidden', transformOrigin: '50% 50%', willChange: 'transform' }); return b; };
+    const trails = M.trail === false ? [] : [mk('mtrail'), mk('mtrail')];
+    const box = mk('mbox');
+    const fa = morphFace(box, M.from), fb = morphFace(box, M.to);
+    const t0 = start + (M.at || 0) * BEAT, t1 = t0 + (M.dur || 1.2) * BEAT;
+    Ly.mo = { M, box, fa, fb, trails, t0, t1, ca: hexRgb(M.from.bg) || [255, 255, 255], cb: hexRgb(M.to.bg) || [14, 14, 20], hist: [] };
+    if (M.sfx !== false) { events.whips.push(t0); events.clicks.push(t1 - 0.02); }
+  }
+  function morphRect(mo, u) {
+    const A = mo.M.from, B = mo.M.to;
+    const e = (E[mo.M.ease] || E.inOutCubic)(clamp(u));
+    const os = mo.M.overshoot != null ? mo.M.overshoot : 0.035; // settles past the target and back
+    const k = e + os * Math.sin(Math.PI * clamp((u - 0.7) / 0.3)) * (u > 0.7 ? 1 : 0);
+    const r = (i) => lerp(A.box[i], B.box[i], k);
+    return { x: r(0), y: r(1), w: Math.max(4, r(2)), h: Math.max(4, r(3)), rad: lerp(A.radius || 10, B.radius != null ? B.radius : 26, e),
+      rot: lerp(A.r || 0, B.r || 0, e), e, u };
+  }
+  function morphPlace(mo, b, R, op, stretch) {
+    const cx = R.x + R.w / 2, cy = R.y + R.h / 2;
+    Object.assign(b.style, { left: (cx - R.w / 2).toFixed(1) + 'px', top: (cy - R.h / 2).toFixed(1) + 'px', width: R.w.toFixed(1) + 'px', height: R.h.toFixed(1) + 'px',
+      borderRadius: R.rad.toFixed(1) + 'px', opacity: op.toFixed(3), transform: `rotate(${R.rot.toFixed(2)}deg) scale(${(1 + stretch).toFixed(4)}, ${(1 - stretch * 0.6).toFixed(4)})` });
+  }
+  function morphUpdate(Ly, t) {
+    const mo = Ly.mo, M = mo.M;
+    const u = clamp((t - mo.t0) / Math.max(1e-6, mo.t1 - mo.t0));
+    const R = morphRect(mo, u);
+    // speed of the centre (px per frame) drives the stretch and the blur
+    const R2 = morphRect(mo, clamp(u + 1 / FPS / Math.max(1e-6, mo.t1 - mo.t0)));
+    const v = Math.hypot(R2.x + R2.w / 2 - (R.x + R.w / 2), R2.y + R2.h / 2 - (R.y + R.h / 2)) + Math.abs(R2.w - R.w) * 0.5;
+    const stretch = M.stretch === false ? 0 : clamp(v / 900, 0, 0.07);
+    morphPlace(mo, mo.box, R, 1, stretch);
+    const c = mo.ca.map((a, i) => Math.round(lerp(a, mo.cb[i], clamp((u - 0.3) / 0.3))));
+    mo.box.style.background = `rgb(${c.join(',')})`;
+    mo.box.style.boxShadow = M.shadow || `0 ${Math.round(18 + 30 * R.e)}px ${Math.round(40 + 50 * R.e)}px rgba(0,0,0,${(0.18 + 0.22 * R.e).toFixed(2)})`;
+    mo.box.style.filter = v > 6 && M.blur !== false ? `blur(${clamp(v / 14, 0, 3).toFixed(1)}px)` : 'none';
+    // faces: each keeps its own layout, scaled to the box; old out early, new in late with a small focus pull
+    const sa = [R.w / M.from.box[2], R.h / M.from.box[3]], sb = [R.w / M.to.box[2], R.h / M.to.box[3]];
+    const oa = 1 - clamp((u - 0.12) / 0.38), ob = clamp((u - 0.38) / 0.42);
+    const pull = 1 + 0.06 * (1 - ob);
+    mo.fa.style.transform = `scale(${sa[0].toFixed(4)}, ${sa[1].toFixed(4)})`; mo.fa.style.opacity = oa.toFixed(3);
+    mo.fb.style.transform = `scale(${(sb[0] * pull).toFixed(4)}, ${(sb[1] * pull).toFixed(4)}) translate(${(-(pull - 1) * M.to.box[2] / 2).toFixed(1)}px, ${(-(pull - 1) * M.to.box[3] / 2).toFixed(1)}px)`;
+    mo.fb.style.opacity = ob.toFixed(3);
+    mo.fb.style.filter = ob < 1 ? `blur(${((1 - ob) * 6).toFixed(1)}px)` : 'none';
+    // trail: two ghosts a little behind on the path, only while it moves
+    mo.trails.forEach((g, i) => {
+      const lag = (i + 1) * 0.07, ug = clamp(u - lag);
+      const live = u > 0 && u < 1 ? clamp(v / 25) : 0;
+      if (live <= 0.01) { g.style.opacity = 0; return; }
+      const Rg = morphRect(mo, ug);
+      morphPlace(mo, g, Rg, live * (0.28 - i * 0.1), 0);
+      g.style.background = M.trailColor || `rgba(${c.join(',')},1)`;
+      g.style.filter = 'blur(6px)';
+    });
   }
   function kfAt(Ly, t) {
     const k = Ly.kf;
@@ -604,6 +678,7 @@
           Ly.e.style.opacity = ((p.o != null ? clamp(p.o) : 1) * nearFade).toFixed(3);
           Ly.e.style.filter = bl > 0.3 ? `blur(${bl.toFixed(1)}px)` : 'none';
           if (Ly.ch) charUpdate(Ly, t);
+          if (Ly.mo) morphUpdate(Ly, t);
           if (Ly.paths.length && p.dash != null) Ly.paths.forEach(([pe, len]) => { pe.style.strokeDasharray = `${len}`; pe.style.strokeDashoffset = `${(len * (1 - clamp(p.dash))).toFixed(1)}`; });
           if (Ly.tg) {
             const n = clamp(Math.floor(((t - Ly.tt0) / Ly.td) * Ly.txt.length), 0, Ly.txt.length);

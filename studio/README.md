@@ -216,3 +216,18 @@ end card. Everything is synthesised from sine waves and noise, so there's nothin
 - `assets/shots/strongest-in-brightwater.png`: the brand tier-list picture (dark) centred on a 2720×1702 canvas so the engine can film it; use `crop: [0.271, 0, 0.729, 1]` (added 14 Oct 2026).
 
 Lineup cut-outs (added 14 Nov 2026): `python3 stock/figs.py footage/<date>/stills/s-lineup.jpg footage/<date>/stills` writes `fig-hk.png … fig-re.png` (anti-aliased, every figure at one px-per-cm, about 6.3 px per cm), for figures standing in a world drawn by code. Keep compared figures on one plane and one scale. A mirrored, masked copy under each figure makes a cheap floor reflection (see `storyboards/2026-11-14-a-tallest-in-your-cast.json`).
+
+Morph layers (added 15 Nov 2026, the week's new technique): a layer with `"morph"` turns one object into another
+in a single continuous move, so an app screen never arrives cold: a drawn card, a sticky note, a paper sketch or a
+pill button travels, grows and rounds off into the real screen. `"morph": {"at": beat, "dur": beats (1.2),
+"from": {"box": [x, y, w, h], "radius", "bg": "#hex", "r": deg, "html" | "img"+"crop"+"dims"}, "to": {same keys},
+"ease": "inOutCubic", "overshoot": 0.035, "stretch": true, "blur": true, "trail": true, "trailColor", "shadow",
+"sfx": true}`. Rect, corner radius, rotation and background colour travel together (with a small settle past the
+target); the old face keeps its own layout, scaled to the box, and dissolves out by 50% of the move while the new
+face focuses in from 38% (a 6% pull and a blur that clears); the box stretches along its path and blurs with speed,
+and two soft ghosts trail it while it moves. A whip at the start and a click on landing go into the sound unless
+`sfx` is false. The layer covers the stage by default, so `kf` and 3D on the layer move the whole morph.
+`storyboards/example-morph.json` shows a stick-figure sketch on paper becoming the real Lineup, and a "Who wins?"
+pill becoming the real Versus screen. Rule of use (Playbook §8, standard point 9): the object you morph from is
+already on screen and means the same thing as the screen it becomes (a height sketch → the Lineup, a question →
+the answer's screen). Keep words out of the box while it moves.
