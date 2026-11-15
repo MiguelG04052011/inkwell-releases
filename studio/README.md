@@ -231,3 +231,5 @@ and two soft ghosts trail it while it moves. A whip at the start and a click on 
 pill becoming the real Versus screen. Rule of use (Playbook §8, standard point 9): the object you morph from is
 already on screen and means the same thing as the screen it becomes (a height sketch → the Lineup, a question →
 the answer's screen). Keep words out of the box while it moves.
+
+Photo behind a card (added 15 Nov 2026): a `look: "card"` shot can take `"bgFrame": "<still>"` (any still in the footage folder, e.g. a frame copied out of a stock clip or a render of the previous shot) and an optional `"bgFilter"` (CSS filter, default `blur(16px) brightness(0.42) saturate(1.1)`), so an app screen that arrives on a desk or in a code-drawn world keeps that world, blurred, behind it.
