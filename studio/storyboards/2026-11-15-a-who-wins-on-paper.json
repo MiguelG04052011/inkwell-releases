@@ -1,0 +1,583 @@
+{
+ "id": "2026-11-15-a-who-wins-on-paper",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-15",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "drive"
+   }
+  ],
+  "opener": "slap",
+  "hits": [
+   7.0,
+   20.0
+  ]
+ },
+ "end": {
+  "b": 3.4,
+  "theme": "paper",
+  "line": "Tonight: 168 cm vs 214 cm.",
+  "cta": "Free to start in your browser",
+  "sub": ""
+ },
+ "shots": [
+  {
+   "b": 13,
+   "kind": "clip",
+   "src": "c-stock-50111-desk-overhead",
+   "look": "full",
+   "grade": "warm",
+   "from": 0.2,
+   "speed": 0.85,
+   "cursor": false,
+   "cam": [
+    [
+     30,
+     120,
+     510,
+     973
+    ],
+    [
+     70,
+     170,
+     480,
+     899
+    ]
+   ],
+   "camEase": "inOutSine",
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:620px;background:linear-gradient(rgba(12,8,4,.62),rgba(12,8,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:620px;height:600px;position:relative;background:#FBF7EC;border-radius:6px;box-shadow:0 2px 0 rgba(0,0,0,.25),0 18px 22px rgba(30,14,0,.45),0 50px 80px rgba(30,14,0,.35);background-color:#FBF7EC;background-image:linear-gradient(rgba(60,100,200,.13) 2px,transparent 2px);background-size:100% 46px'><div style='position:absolute;inset:0;border-radius:6px;background:linear-gradient(135deg,rgba(255,255,255,.35),rgba(0,0,0,0) 40%,rgba(90,60,20,.10));pointer-events:none'></div><div style='position:absolute;left:40px;right:40px;top:520px;height:5px;background:#1b1a22;border-radius:3px'></div><img src='../footage/2026-11-15/stills/fig-af.png' style='position:absolute;left:110px;top:213px;height:307px'><img src='../footage/2026-11-15/stills/fig-hk.png' style='position:absolute;left:350px;top:66px;height:454px'><div style='position:absolute;left:60px;top:530px;width:230px;text-align:center;font:44px Marker;color:#E8552D'>163 cm</div><div style='position:absolute;left:330px;top:530px;width:240px;text-align:center;font:44px Marker;color:#6B3FD6'>240 cm</div><div style='position:absolute;left:300px;top:150px;font:64px Marker;color:#1b1a22;transform:rotate(-8deg)'>vs</div></div>",
+     "box": [
+      230,
+      690,
+      620
+     ],
+     "sfx": "paper",
+     "kf": [
+      [
+       0.25,
+       {
+        "y": 900,
+        "r": 10,
+        "o": 1,
+        "rx": 30
+       }
+      ],
+      [
+       1.25,
+       {
+        "y": 0,
+        "r": -3,
+        "rx": -16
+       },
+       "outCubic"
+      ],
+      [
+       7.1,
+       {
+        "o": 1,
+        "r": -1
+       },
+       "linear"
+      ],
+      [
+       7.7,
+       {
+        "o": 0,
+        "s": 0.96
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1080px;height:1920px;background:radial-gradient(ellipse at 50% 50%,rgba(10,8,6,.45),rgba(10,8,6,.75))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       6.4,
+       {
+        "o": 0
+       }
+      ],
+      [
+       8.0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 7.0,
+      "dur": 1.5,
+      "from": {
+       "box": [
+        350,
+        592,
+        380,
+        104
+       ],
+       "radius": 52,
+       "bg": "#1B1A22",
+       "r": -3,
+       "html": "<div style='font:800 54px Sans;color:#fff;text-align:center;line-height:104px;letter-spacing:-.01em'>Who wins?</div>"
+      },
+      "to": {
+       "box": [
+        60,
+        600,
+        960,
+        593
+       ],
+       "radius": 22,
+       "bg": "#101018",
+       "img": "vs-final",
+       "crop": [
+        378,
+        168,
+        1222,
+        690
+       ]
+      }
+     },
+     "kf": [
+      [
+       2.4,
+       {
+        "o": 0
+       }
+      ],
+      [
+       2.9,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 80px Sans;color:#fff;line-height:1.12;letter-spacing:-.015em;text-shadow:0 3px 0 rgba(0,0,0,.55),0 0 24px rgba(0,0,0,.65),0 6px 30px rgba(0,0,0,.5)'>Your hero vs a <span style='color:#FFD54A'>240 cm</span> villain.</div>",
+     "box": [
+      70,
+      230,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 70px Sans;color:#fff;line-height:1.12;letter-spacing:-.015em;text-shadow:0 3px 0 rgba(0,0,0,.55),0 0 24px rgba(0,0,0,.65),0 6px 30px rgba(0,0,0,.5)'>Inkwell adds up<br>both power grids.</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       7.59,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       7.85,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ],
+   "text": [
+    {
+     "style": "tag",
+     "text": "Inkwell \u00b7 free in your browser",
+     "at": 4.0,
+     "until": 6.8,
+     "y": 455,
+     "size": 44
+    }
+   ],
+   "persp": 1300
+  },
+  {
+   "b": 6.5,
+   "kind": "still",
+   "src": "vs-final",
+   "look": "card",
+   "box": [
+    60,
+    600,
+    960,
+    593
+   ],
+   "cam": [
+    [
+     378,
+     168,
+     1222,
+     690
+    ],
+    [
+     378,
+     168,
+     1222,
+     690
+    ]
+   ],
+   "bgFrame": "desk-150",
+   "in": "cut",
+   "text": [],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:620px;background:linear-gradient(rgba(12,8,4,.62),rgba(12,8,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:900px;height:44px;border-radius:10px;background:linear-gradient(90deg,rgba(255,213,74,0),rgba(255,213,74,.28),rgba(255,213,74,0))'></div>",
+     "box": [
+      90,
+      800,
+      900
+     ],
+     "kf": [
+      [
+       0.2,
+       {
+        "o": 0,
+        "y": 0
+       }
+      ],
+      [
+       0.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.0,
+       {
+        "y": 230,
+        "o": 1
+       },
+       "inOutSine"
+      ],
+      [
+       2.3,
+       {
+        "o": 0,
+        "y": 250
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:920px;height:118px;border-radius:18px;border:5px solid #FFD54A;box-shadow:0 0 30px rgba(255,213,74,.55)'></div>",
+     "box": [
+      80,
+      1052,
+      920
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       2.3,
+       {
+        "o": 0,
+        "s": 1.15
+       }
+      ],
+      [
+       2.6,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 70px Sans;color:#fff;line-height:1.12;letter-spacing:-.015em;text-shadow:0 3px 0 rgba(0,0,0,.55),0 0 24px rgba(0,0,0,.65),0 6px 30px rgba(0,0,0,.5)'>Inkwell adds up<br>both power grids.</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 78px Sans;color:#fff;line-height:1.12;letter-spacing:-.015em;text-shadow:0 3px 0 rgba(0,0,0,.55),0 0 24px rgba(0,0,0,.65),0 6px 30px rgba(0,0,0,.5)'><span style='color:#FFD54A'>57 to 33.</span><br>On paper, he wins.</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       2.19,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       2.45,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ],
+   "camEase": "inOutCubic",
+   "cursor": false,
+   "tilt": [
+    0,
+    0,
+    3,
+    -4
+   ]
+  },
+  {
+   "b": 3.6,
+   "kind": "clip",
+   "src": "c-stock-50111-desk-overhead",
+   "look": "full",
+   "grade": "warm",
+   "from": 5.2,
+   "speed": 0.6,
+   "cursor": false,
+   "in": "flash",
+   "cam": [
+    [
+     70,
+     170,
+     480,
+     899
+    ],
+    [
+     80,
+     185,
+     470,
+     878
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:620px;background:linear-gradient(rgba(12,8,4,.62),rgba(12,8,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:620px;height:600px;position:relative;background:#FBF7EC;border-radius:6px;box-shadow:0 2px 0 rgba(0,0,0,.25),0 18px 22px rgba(30,14,0,.45),0 50px 80px rgba(30,14,0,.35);background-color:#FBF7EC;background-image:linear-gradient(rgba(60,100,200,.13) 2px,transparent 2px);background-size:100% 46px'><div style='position:absolute;inset:0;border-radius:6px;background:linear-gradient(135deg,rgba(255,255,255,.35),rgba(0,0,0,0) 40%,rgba(90,60,20,.10));pointer-events:none'></div><div style='position:absolute;left:40px;right:40px;top:520px;height:5px;background:#1b1a22;border-radius:3px'></div><img src='../footage/2026-11-15/stills/fig-af.png' style='position:absolute;left:110px;top:213px;height:307px'><img src='../footage/2026-11-15/stills/fig-hk.png' style='position:absolute;left:350px;top:66px;height:454px'><div style='position:absolute;left:60px;top:530px;width:230px;text-align:center;font:44px Marker;color:#E8552D'>163 cm</div><div style='position:absolute;left:330px;top:530px;width:240px;text-align:center;font:44px Marker;color:#6B3FD6'>240 cm</div><div style='position:absolute;left:300px;top:150px;font:64px Marker;color:#1b1a22;transform:rotate(-8deg)'>vs</div></div>",
+     "box": [
+      230,
+      690,
+      620
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "r": -3,
+        "o": 1,
+        "rx": 14
+       }
+      ],
+      [
+       3.5,
+       {
+        "r": -2,
+        "s": 1.03
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:260px;height:170px;display:flex;align-items:center;justify-content:center;font-family:Marker;font-size:150px;line-height:1;color:#E8552D;transform:rotate(-7deg);text-shadow:0 4px 0 rgba(0,0,0,.15)'>33</div>",
+     "box": [
+      255,
+      700,
+      260
+     ],
+     "sfx": "slap",
+     "kf": [
+      [
+       0.49,
+       {
+        "o": 0,
+        "s": 1.8
+       }
+      ],
+      [
+       0.7,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:260px;height:170px;display:flex;align-items:center;justify-content:center;font-family:Marker;font-size:150px;line-height:1;color:#6B3FD6;transform:rotate(-7deg);text-shadow:0 4px 0 rgba(0,0,0,.15)'>57</div>",
+     "box": [
+      700,
+      860,
+      260
+     ],
+     "sfx": "slap",
+     "kf": [
+      [
+       0.89,
+       {
+        "o": 0,
+        "s": 1.8
+       }
+      ],
+      [
+       1.1,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 84px Sans;color:#fff;line-height:1.12;letter-spacing:-.015em;text-shadow:0 3px 0 rgba(0,0,0,.55),0 0 24px rgba(0,0,0,.65),0 6px 30px rgba(0,0,0,.5)'>She has to beat <span style='color:#FFD54A'>57.</span></div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       1.29,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       1.55,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ],
+   "persp": 1300
+  }
+ ]
+}

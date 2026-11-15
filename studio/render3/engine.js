@@ -104,6 +104,13 @@
       } else bg.style.background = c;
       S.bgEl = bg;
     }
+    // (added 15 Nov 2026) a card shot can sit on a blurred, dimmed photo (a frame of the footage before it), so a
+    // screen that arrives on a real desk keeps the desk behind it: "bgFrame": "<still>", "bgFilter": CSS filter.
+    if (s.src && s.look === 'card' && s.bgFrame) {
+      const bgf = el('div', 'layer', root);
+      const im = el('img', '', bgf); im.src = srcOf(s.bgFrame);
+      im.style.cssText = 'position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;transform:scale(1.06);filter:' + (s.bgFilter || 'blur(16px) brightness(0.42) saturate(1.1)') + ';';
+    }
     if (s.src) {
       const cam = el('div', 'cam', root);
       const tilt = el('div', 'tilt', cam);
