@@ -1,0 +1,1070 @@
+{
+ "id": "2026-11-17-b-duck",
+ "engine": 3,
+ "look": "comic",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-16",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "dark"
+   },
+   {
+    "at": 11.0,
+    "style": "bright",
+    "switch": "cut"
+   }
+  ],
+  "opener": "impact",
+  "risers": [
+   7.2
+  ],
+  "hits": [
+   8.6,
+   9.6
+  ]
+ },
+ "end": {
+  "b": 3.4,
+  "theme": "night",
+  "line": "Tomorrow: a 10-minute routine.",
+  "cta": "Free to start in your browser",
+  "sub": ""
+ },
+ "shots": [
+  {
+   "b": 12.5,
+   "kind": "blank",
+   "bg": "black",
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:1920px;position:relative;background:#E9DCC0;background-image:radial-gradient(circle,rgba(20,14,10,.17) 3px,transparent 3.6px);background-size:20px 20px'><div style='position:absolute;inset:0;background:radial-gradient(ellipse 55% 40% at 52% 40%,rgba(255,246,220,.7),rgba(255,246,220,0) 70%),radial-gradient(ellipse at 50% 45%,rgba(0,0,0,0) 40%,rgba(18,10,6,.7))'></div><div style='position:absolute;left:0;right:0;top:1300px;height:620px;background:linear-gradient(#2b1e16,#0d0907)'></div><div style='position:absolute;left:321px;top:1300px;width:479px;height:560px;background:linear-gradient(rgba(255,190,90,.55),rgba(255,190,90,0));clip-path:polygon(18% 0,82% 0,100% 100%,0 100%);filter:blur(6px)'></div><div style='position:absolute;left:0;right:0;top:1296px;height:8px;background:#111'></div></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "s": 1.05
+       }
+      ],
+      [
+       12.5,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:427px;height:828px;position:relative'><div style='position:absolute;left:34px;top:34px;width:359px;height:794px;background:radial-gradient(ellipse at 50% 30%,#FFE2A8,#E89A3C 60%,#8A4A16)'></div><div style='position:absolute;left:0;top:0;width:34px;height:828px;background:linear-gradient(90deg,#3a2414,#5b3a20)'></div><div style='position:absolute;right:0;top:0;width:34px;height:828px;background:linear-gradient(90deg,#5b3a20,#3a2414)'></div></div>",
+     "box": [
+      347,
+      472,
+      427
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-16/stills/fig-af.png' style='width:179px;height:636px;display:block'>",
+     "box": [
+      471,
+      664,
+      179
+     ],
+     "kf": [
+      [
+       -0.61,
+       {
+        "o": 1,
+        "x": -700,
+        "y": 0,
+        "r": 0
+       }
+      ],
+      [
+       -0.6,
+       {
+        "x": -700,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       -0.35,
+       {
+        "x": -612,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       -0.1,
+       {
+        "x": -525,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       0.15,
+       {
+        "x": -438,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       0.4,
+       {
+        "x": -350,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       0.65,
+       {
+        "x": -262,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       0.9,
+       {
+        "x": -175,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       1.15,
+       {
+        "x": -88,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       1.4,
+       {
+        "x": 0,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       3.2,
+       {
+        "x": 0,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       3.5,
+       {
+        "x": 190,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       3.8,
+       {
+        "x": 380,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       4.1,
+       {
+        "x": 570,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       4.4,
+       {
+        "x": 760,
+        "y": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-16/stills/fig-br.png' style='width:218px;height:785px;display:block'>",
+     "box": [
+      451,
+      515,
+      218
+     ],
+     "kf": [
+      [
+       2.99,
+       {
+        "o": 1,
+        "x": -700,
+        "y": 0,
+        "r": 0
+       }
+      ],
+      [
+       3.0,
+       {
+        "x": -700,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       3.257,
+       {
+        "x": -600,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       3.514,
+       {
+        "x": -500,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       3.771,
+       {
+        "x": -400,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       4.029,
+       {
+        "x": -300,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       4.286,
+       {
+        "x": -200,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       4.543,
+       {
+        "x": -100,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       4.8,
+       {
+        "x": 0,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       6.6,
+       {
+        "x": 0,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       6.9,
+       {
+        "x": 190,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       7.2,
+       {
+        "x": 380,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       7.5,
+       {
+        "x": 570,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       7.8,
+       {
+        "x": 760,
+        "y": 0
+       },
+       "linear"
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-16/stills/fig-hk.png' style='width:260px;height:939px;display:block'>",
+     "box": [
+      430,
+      361,
+      260
+     ],
+     "kf": [
+      [
+       6.79,
+       {
+        "o": 1,
+        "x": -700,
+        "y": 0,
+        "r": 0
+       }
+      ],
+      [
+       6.8,
+       {
+        "x": -700,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       7.057,
+       {
+        "x": -600,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       7.314,
+       {
+        "x": -500,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       7.571,
+       {
+        "x": -400,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       7.829,
+       {
+        "x": -300,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       8.086,
+       {
+        "x": -200,
+        "y": -10
+       },
+       "linear"
+      ],
+      [
+       8.343,
+       {
+        "x": -100,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       8.6,
+       {
+        "x": 0,
+        "y": 0
+       },
+       "linear"
+      ],
+      [
+       8.62,
+       {
+        "x": 0,
+        "y": 0
+       }
+      ],
+      [
+       8.7,
+       {
+        "x": -8,
+        "y": 6
+       }
+      ],
+      [
+       8.8,
+       {
+        "x": 6,
+        "y": 0
+       }
+      ],
+      [
+       8.9,
+       {
+        "x": 0
+       }
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:467px;height:40px;background:linear-gradient(#6b4626,#3a2414);box-shadow:0 10px 18px rgba(0,0,0,.45)'></div>",
+     "box": [
+      327,
+      466,
+      467
+     ],
+     "sfx": "thump",
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       8.55,
+       {
+        "y": 0
+       }
+      ],
+      [
+       8.65,
+       {
+        "y": -6
+       }
+      ],
+      [
+       8.8,
+       {
+        "y": 0
+       }
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:180px;font:40px Marker;color:#C8102E;line-height:1.05'>door<br>6 ft 8</div>",
+     "box": [
+      791,
+      482,
+      180
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:80px Comic;color:#fff;line-height:1.04;letter-spacing:.01em;-webkit-text-stroke:10px #111;paint-order:stroke fill;text-shadow:7px 7px 0 #111'>A US door is 6 ft 8 in.<br>Who in your cast<br>has to duck?</div>",
+     "box": [
+      70,
+      150,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "s": 1.1
+       }
+      ],
+      [
+       0.4,
+       {
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       7.2,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.5,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:300px;text-align:left;font:800 76px Sans;color:#111;line-height:1'>5 ft 4<div style='font:44px Marker;color:#C8102E;margin-top:8px;line-height:1.05'>walks in</div></div>",
+     "box": [
+      70,
+      760,
+      300
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       1.4,
+       {
+        "o": 0,
+        "y": 12
+       }
+      ],
+      [
+       1.7,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       3.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:300px;text-align:left;font:800 76px Sans;color:#111;line-height:1'>6 ft 7<div style='font:44px Marker;color:#C8102E;margin-top:8px;line-height:1.05'>one inch<br>to spare</div></div>",
+     "box": [
+      70,
+      760,
+      300
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       4.8,
+       {
+        "o": 0,
+        "y": 12
+       }
+      ],
+      [
+       5.1,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       6.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:300px;text-align:left;font:800 76px Sans;color:#111;line-height:1'>7 ft 10<div style='font:44px Marker;color:#C8102E;margin-top:8px;line-height:1.05'>bonk.</div></div>",
+     "box": [
+      70,
+      760,
+      300
+     ],
+     "kf": [
+      [
+       8.7,
+       {
+        "o": 0,
+        "y": 12
+       }
+      ],
+      [
+       9.0,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg width='220' height='160' xmlns='http://www.w3.org/2000/svg'><polygon points='110,0 130,55 190,30 150,78 220,100 145,105 165,160 110,118 55,160 75,105 0,100 70,78 30,30 90,55' fill='#FFD54A' stroke='#111' stroke-width='6'/></svg>",
+     "box": [
+      450,
+      352,
+      220
+     ],
+     "kf": [
+      [
+       8.6,
+       {
+        "o": 0,
+        "s": 0.3
+       }
+      ],
+      [
+       8.75,
+       {
+        "o": 1,
+        "s": 1.1
+       },
+       "outBack"
+      ],
+      [
+       9.4,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 12
+       }
+      ],
+      [
+       9.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:150px Comic;color:#fff;line-height:1.04;letter-spacing:.01em;-webkit-text-stroke:10px #111;paint-order:stroke fill;text-shadow:7px 7px 0 #111'>DUCK.</div>",
+     "box": [
+      70,
+      260,
+      940
+     ],
+     "sfx": "slap",
+     "kf": [
+      [
+       9.3,
+       {
+        "o": 0,
+        "s": 2,
+        "r": -8
+       }
+      ],
+      [
+       9.6,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -6
+       },
+       "outBack"
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1080px;height:1920px;background:#000'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       7.2,
+       {
+        "o": 0
+       }
+      ],
+      [
+       7.3,
+       {
+        "o": 0.65
+       }
+      ],
+      [
+       7.45,
+       {
+        "o": 0.1
+       }
+      ],
+      [
+       7.6,
+       {
+        "o": 0.75
+       }
+      ],
+      [
+       7.85,
+       {
+        "o": 0.15
+       }
+      ],
+      [
+       8.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1080px;height:1920px;background:radial-gradient(ellipse at 50% 45%,rgba(10,8,12,.55),rgba(10,8,12,.93))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       10.6,
+       {
+        "o": 0
+       }
+      ],
+      [
+       11.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 11.0,
+      "dur": 1.4,
+      "from": {
+       "box": [
+        347,
+        472,
+        427,
+        828
+       ],
+       "radius": 0,
+       "bg": "#5b3a20",
+       "r": 0,
+       "html": "<div style='width:427px;height:828px;position:relative'><div style='position:absolute;left:34px;top:34px;width:359px;height:794px;background:radial-gradient(ellipse at 50% 30%,#FFE2A8,#E89A3C 60%,#8A4A16)'></div><div style='position:absolute;left:0;top:0;width:34px;height:828px;background:linear-gradient(90deg,#3a2414,#5b3a20)'></div><div style='position:absolute;right:0;top:0;width:34px;height:828px;background:linear-gradient(90deg,#5b3a20,#3a2414)'></div></div>"
+      },
+      "to": {
+       "box": [
+        70,
+        560,
+        940,
+        760
+       ],
+       "radius": 24,
+       "bg": "#0D0D12",
+       "img": "lft0",
+       "crop": [
+        250,
+        90,
+        790,
+        527
+       ]
+      }
+     },
+     "kf": [
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "b": 8.5,
+   "kind": "clip",
+   "src": "c-lineup-ft",
+   "look": "card",
+   "box": [
+    70,
+    560,
+    940,
+    760
+   ],
+   "from": 0.2,
+   "speed": 0.8,
+   "clipEnd": 1.9,
+   "cam": [
+    [
+     250,
+     90,
+     790,
+     527
+    ],
+    [
+     250,
+     90,
+     790,
+     527
+    ],
+    [
+     260,
+     95,
+     790,
+     523
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "bgFrame": "door-blur",
+   "bgFilter": "blur(26px) brightness(0.35)",
+   "in": "cut",
+   "tilt": [
+    0,
+    0,
+    -2,
+    3
+   ],
+   "text": [],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:560px;background:linear-gradient(rgba(10,8,12,.7),rgba(10,8,12,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:88px Comic;color:#fff;line-height:1.04;letter-spacing:.01em;-webkit-text-stroke:10px #111;paint-order:stroke fill;text-shadow:7px 7px 0 #111'>Inkwell does<br>cm or feet.</div>",
+     "box": [
+      70,
+      190,
+      940
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "y": 16
+       }
+      ],
+      [
+       0.3,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.6,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:120px;height:46px;border-radius:14px;border:5px solid #FFD54A;box-shadow:0 0 26px rgba(255,213,74,.6)'></div>",
+     "box": [
+      233,
+      1283,
+      120
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       4.6,
+       {
+        "o": 0,
+        "s": 1.2
+       }
+      ],
+      [
+       4.7,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:92px Comic;color:#fff;line-height:1.04;letter-spacing:.01em;-webkit-text-stroke:10px #111;paint-order:stroke fill;text-shadow:7px 7px 0 #111'>7 ft 10 in.<br>He ducks.</div>",
+     "box": [
+      70,
+      190,
+      940
+     ],
+     "kf": [
+      [
+       3.6,
+       {
+        "o": 0,
+        "y": 16
+       }
+      ],
+      [
+       3.9,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

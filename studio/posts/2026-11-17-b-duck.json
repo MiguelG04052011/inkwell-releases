@@ -1,0 +1,25 @@
+{
+ "id": "2026-11-17-b-duck",
+ "engine": 3,
+ "idea": "D-F7 height subject as a door test (a US door is 6 ft 8 in; who has to duck?)",
+ "structure": "walk-through test: one doorway, each character in turn (5 ft 4 walks in, 6 ft 7 one inch to spare, 7 ft 10 bonk) > doorway morphs into the real Lineup > real cm/ft toggle > ring on 7'10\"",
+ "look": "noir hallway (new: cream halftone wall, lit doorway at true scale, dark floor with light spill) > night end card",
+ "sound": "dark>bright",
+ "footage": "real Lineup figures at true scale (figs.py) + code-drawn doorway + app clip c-lineup-ft (new recording; morph)",
+ "hook": "A US door is 6 ft 8 in. Who in your cast has to duck?",
+ "length_s": 11.4,
+ "slot": "B",
+ "dueAt": "2026-11-17T00:00:00+00:00",
+ "cta_arm": "L (end card only)",
+ "built_for": [
+  "comments",
+  "conversion"
+ ],
+ "end_line": "Tomorrow: a 10-minute routine.",
+ "files": {
+  "tiktok": "videos/2026-11-17-b-duck.mp4",
+  "instagram": "videos/2026-11-17-b-duck-bio.mp4",
+  "youtube": "videos/2026-11-17-b-duck.mp4"
+ },
+ "critic": "first cut (shadow guess > Lineup pan) RE-CUT as a repeat of Tallest in your cast; replaced by the door test: FIX THEN POST (push-in cut heads, ring on the name) > fixed > POST; vs standard BELOW all three on finish (flat 2D, no people), best concept of the day; rest the Lineup screen after this"
+}
