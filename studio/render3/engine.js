@@ -270,6 +270,8 @@
     $('endCta').textContent = END.cta || '';
     $('endSub').textContent = END.sub || '';
     if (END.word) $('endWord').textContent = END.word;
+    // Added 17 Nov 2026: end.css restyles the end card in the video's own type (e.g. #endLine in Caveat).
+    if (END.css) { const st = document.createElement('style'); st.textContent = END.css; document.head.appendChild(st); }
   }
   const M = SB.music || {};
   window.SB_EVENTS = Object.assign(events, {

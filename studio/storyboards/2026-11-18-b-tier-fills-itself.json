@@ -1,0 +1,642 @@
+{
+ "id": "2026-11-18-b-tier-fills-itself",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-17",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "ambient"
+   }
+  ],
+  "opener": "soft",
+  "hits": [
+   7.35
+  ],
+  "risers": [
+   5.6
+  ]
+ },
+ "end": {
+  "b": 3.2,
+  "theme": "night",
+  "line": "Next: your hero is too strong.",
+  "cta": "Free to start in your browser",
+  "sub": "",
+  "css": "body #endLine{font:800 60px Sans !important;color:#F6F1E7 !important;letter-spacing:-.03em !important;top:950px !important} body #endCta{top:1130px !important;background:#FFC857 !important;color:#16120f !important;box-shadow:0 20px 70px rgba(255,200,87,.35) !important} body #end{background:radial-gradient(ellipse 60% 40% at 50% 45%,#3a2a1c,#0b0a09) !important}"
+ },
+ "shots": [
+  {
+   "kind": "blank",
+   "bg": "black",
+   "theme": "night",
+   "b": 4.8,
+   "persp": 1200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -260,
+      "ry": -9,
+      "rx": 10,
+      "y": 40
+     }
+    ],
+    [
+     4.8,
+     {
+      "z": 40,
+      "ry": 0,
+      "rx": 2,
+      "y": 0
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:1920px;background:radial-gradient(ellipse 60% 38% at 50% 50%,rgba(255,214,150,.30),rgba(255,214,150,0) 70%),radial-gradient(ellipse at 50% 120%,#3a2a1c 0%,#16120f 55%,#0b0a09 100%)'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -400,
+        "s": 2.4
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1400px;height:1400px;background:repeating-linear-gradient(90deg,#4a3422 0 120px,#4f3925 120px 122px,#46301f 122px 260px,#513a26 260px 262px);box-shadow:inset 0 0 300px 120px rgba(0,0,0,.85)'></div>",
+     "box": [
+      -160,
+      420,
+      1400
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0.55,
+        "z": -120,
+        "rx": 62,
+        "y": 380
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:600px;height:480px;box-shadow:0 60px 90px rgba(0,0,0,.65),0 10px 20px rgba(0,0,0,.4)'></div>",
+     "box": [
+      240,
+      900,
+      600
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "r": -6,
+        "rx": 18
+       }
+      ],
+      [
+       2.6,
+       {
+        "r": -2,
+        "rx": 8
+       }
+      ],
+      [
+       2.65,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:600px;height:480px;box-sizing:border-box;padding:24px 30px;background:#FBF7EC;'><div style='font:700 44px Hand;color:#1b1a22;margin-bottom:10px'>my cast, ranked??</div><div style='border:3px solid #1b1a22;border-bottom:none'><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#E8505B;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>S</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#F08A3C;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>A</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#F2C14E;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>B</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#4CC27A;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>C</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#33B5D6;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>D</div><div style='flex:1'></div></div></div></div>",
+     "box": [
+      240,
+      900,
+      600
+     ],
+     "sfx": "paper",
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "r": -6,
+        "rx": 18
+       }
+      ],
+      [
+       2.6,
+       {
+        "r": -2,
+        "rx": 8
+       }
+      ],
+      [
+       2.65,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 2.6,
+      "dur": 1.6,
+      "from": {
+       "box": [
+        240,
+        900,
+        600,
+        480
+       ],
+       "radius": 4,
+       "bg": "#FBF7EC",
+       "r": -2,
+       "html": "<div style='width:600px;height:480px;box-sizing:border-box;padding:24px 30px;background:#FBF7EC;'><div style='font:700 44px Hand;color:#1b1a22;margin-bottom:10px'>my cast, ranked??</div><div style='border:3px solid #1b1a22;border-bottom:none'><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#E8505B;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>S</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#F08A3C;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>A</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#F2C14E;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>B</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#4CC27A;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>C</div><div style='flex:1'></div></div><div style='display:flex;height:76px;border-bottom:3px solid #1b1a22'><div style='width:90px;background:#33B5D6;border-right:3px solid #1b1a22;font:400 58px Marker;color:#1b1a22;text-align:center;line-height:76px'>D</div><div style='flex:1'></div></div></div></div>"
+      },
+      "to": {
+       "box": [
+        60,
+        560,
+        960,
+        630
+       ],
+       "radius": 26,
+       "bg": "#101018",
+       "img": "tier-empty",
+       "crop": [
+        272,
+        180,
+        1220,
+        802
+       ]
+      },
+      "trailColor": "#FFC857"
+     },
+     "kf": [
+      [
+       2.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 118px Sans;color:#F6F1E7;line-height:1.04;letter-spacing:-.03em;text-shadow:0 4px 30px rgba(0,0,0,.6)'>This tier list<br><span style='color:#FFC857'>fills itself.</span></div>",
+     "box": [
+      70,
+      240,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "clip",
+   "src": "c-tier-fill",
+   "look": "card",
+   "box": [
+    60,
+    560,
+    960,
+    630
+   ],
+   "from": 1.0,
+   "speed": 0.6,
+   "clipEnd": 2.95,
+   "b": 9.2,
+   "cursor": true,
+   "in": "cut",
+   "tilt": [
+    3,
+    -4,
+    1,
+    2
+   ],
+   "bgFrame": "stage-lamp",
+   "bgFilter": "none",
+   "cam": [
+    [
+     272,
+     180,
+     1220,
+     802
+    ],
+    [
+     272,
+     180,
+     1220,
+     802
+    ],
+    [
+     272,
+     180,
+     1220,
+     802
+    ],
+    [
+     272,
+     290,
+     900,
+     702
+    ],
+    [
+     276,
+     292,
+     864,
+     677
+    ],
+    [
+     276,
+     292,
+     864,
+     677
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "layers": [
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 118px Sans;color:#F6F1E7;line-height:1.04;letter-spacing:-.03em;text-shadow:0 4px 30px rgba(0,0,0,.6)'>This tier list<br><span style='color:#FFC857'>fills itself.</span></div>",
+     "box": [
+      70,
+      240,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.15,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 124px Sans;color:#F6F1E7;line-height:1.04;letter-spacing:-.03em;text-shadow:0 4px 30px rgba(0,0,0,.6)'>One click.</div>",
+     "box": [
+      70,
+      280,
+      940
+     ],
+     "kf": [
+      [
+       2.0,
+       {
+        "o": 0,
+        "y": 18,
+        "blur": 6
+       }
+      ],
+      [
+       2.3,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       5.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.25,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:960px;height:640px;border-radius:26px;background:radial-gradient(ellipse at 70% 30%,rgba(255,235,190,.75),rgba(255,235,190,0) 70%)'></div>",
+     "box": [
+      60,
+      560,
+      960
+     ],
+     "kf": [
+      [
+       2.55,
+       {
+        "o": 0
+       }
+      ],
+      [
+       2.7,
+       {
+        "o": 1
+       },
+       "outCubic"
+      ],
+      [
+       3.3,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 84px Sans;color:#F6F1E7;line-height:1.04;letter-spacing:-.03em;text-shadow:0 4px 30px rgba(0,0,0,.6)'>Everyone lands<br>where their <span style='color:#FFC857'>powers</span> put them.</div>",
+     "box": [
+      70,
+      230,
+      940
+     ],
+     "kf": [
+      [
+       5.3,
+       {
+        "o": 0,
+        "y": 18,
+        "blur": 6
+       }
+      ],
+      [
+       5.6,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       8.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       8.85,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:280px;height:76px;box-sizing:border-box;border-radius:38px;border:6px solid #FFC857;box-shadow:0 0 34px rgba(255,200,87,.6),inset 0 0 24px rgba(255,200,87,.25)'></div>",
+     "box": [
+      214,
+      649,
+      280
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       7.0,
+       {
+        "o": 0,
+        "s": 1.12
+       }
+      ],
+      [
+       7.3,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 8.3,
+      "dur": 1.0,
+      "from": {
+       "box": [
+        230,
+        661,
+        248,
+        52
+       ],
+       "radius": 30,
+       "bg": "#26283A",
+       "img": "s-tier-filled",
+       "crop": [
+        380,
+        354,
+        532,
+        386
+       ]
+      },
+      "to": {
+       "box": [
+        60,
+        600,
+        960,
+        591
+       ],
+       "radius": 24,
+       "bg": "#101018",
+       "img": "s-power",
+       "crop": [
+        182,
+        276,
+        702,
+        596
+       ]
+      },
+      "trailColor": "#FFC857"
+     },
+     "kf": [
+      [
+       8.3,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "still",
+   "src": "s-power",
+   "look": "card",
+   "box": [
+    60,
+    600,
+    960,
+    591
+   ],
+   "cam": [
+    [
+     192,
+     290,
+     692,
+     596
+    ],
+    [
+     196,
+     292,
+     688,
+     593
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "in": "cut",
+   "tilt": [
+    0,
+    0,
+    2,
+    -3
+   ],
+   "bgFrame": "stage-lamp",
+   "bgFilter": "none",
+   "b": 4.6,
+   "layers": [
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 104px Sans;color:#F6F1E7;line-height:1.04;letter-spacing:-.03em;text-shadow:0 4px 30px rgba(0,0,0,.6)'>The Hollow King.<br>Why S?</div>",
+     "box": [
+      70,
+      240,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.15,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 104px Sans;color:#F6F1E7;line-height:1.04;letter-spacing:-.03em;text-shadow:0 4px 30px rgba(0,0,0,.6)'>1st in<br><span style='color:#FFC857'>Power rankings.</span></div>",
+     "box": [
+      70,
+      240,
+      940
+     ],
+     "kf": [
+      [
+       2.0,
+       {
+        "o": 0,
+        "y": 18,
+        "blur": 6
+       }
+      ],
+      [
+       2.3,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:700px;height:118px;box-sizing:border-box;border-radius:59px;border:6px solid #FFC857;box-shadow:0 0 34px rgba(255,200,87,.6),inset 0 0 24px rgba(255,200,87,.25)'></div>",
+     "box": [
+      40,
+      640,
+      700
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0,
+        "s": 1.12
+       }
+      ],
+      [
+       1.3,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    }
+   ],
+   "text": []
+  }
+ ]
+}

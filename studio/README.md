@@ -233,3 +233,5 @@ already on screen and means the same thing as the screen it becomes (a height sk
 the answer's screen). Keep words out of the box while it moves.
 
 Photo behind a card (added 15 Nov 2026): a `look: "card"` shot can take `"bgFrame": "<still>"` (any still in the footage folder, e.g. a frame copied out of a stock clip or a render of the previous shot) and an optional `"bgFilter"` (CSS filter, default `blur(16px) brightness(0.42) saturate(1.1)`), so an app screen that arrives on a desk or in a code-drawn world keeps that world, blurred, behind it.
+
+End card in the video's own type (added 17 Nov 2026): `"end": {"css": "body #endLine{font:700 92px Hand !important;…} body #endCta{…}"}` injects CSS for the end card only (use `!important` to beat the look's own colours), so the end card can carry the video's type and colour instead of the default template.

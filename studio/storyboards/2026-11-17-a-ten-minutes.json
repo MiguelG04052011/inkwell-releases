@@ -1,0 +1,1181 @@
+{
+ "id": "2026-11-17-a-ten-minutes",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-17",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "lofi"
+   }
+  ],
+  "opener": "soft",
+  "hits": [
+   5.4,
+   9.4,
+   15.0,
+   20.7
+  ]
+ },
+ "end": {
+  "b": 3.2,
+  "theme": "paper",
+  "line": "Thursday: Saltgrave, part 4.",
+  "cta": "Free to start in your browser",
+  "sub": "",
+  "css": "body #endLine{font:700 92px Hand !important;color:#1d3fb8 !important;letter-spacing:0 !important;top:945px !important} body #endCta{background:#FF7A2F !important;color:#fff !important;box-shadow:0 20px 60px rgba(255,122,47,.45) !important}"
+ },
+ "shots": [
+  {
+   "b": 5.4,
+   "kind": "clip",
+   "src": "c-stock-99909-todo",
+   "look": "full",
+   "grade": "warm",
+   "from": 0.0,
+   "speed": 0.9,
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     26,
+     40,
+     514,
+     908
+    ]
+   ],
+   "camEase": "inOutSine",
+   "in": "cut",
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:560px;background:linear-gradient(rgba(24,12,4,0.5),rgba(24,12,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>who knows what</div>",
+     "box": [
+      250,
+      1010,
+      640
+     ],
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0,
+        "x": -26,
+        "r": 14
+       }
+      ],
+      [
+       1.35,
+       {
+        "o": 1,
+        "x": 0,
+        "r": 14
+       },
+       "outCubic"
+      ],
+      [
+       4.25,
+       {
+        "o": 1
+       }
+      ],
+      [
+       4.3,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>how strong</div>",
+     "box": [
+      250,
+      1128,
+      640
+     ],
+     "kf": [
+      [
+       1.6,
+       {
+        "o": 0,
+        "x": -26,
+        "r": 14
+       }
+      ],
+      [
+       2.0500000000000003,
+       {
+        "o": 1,
+        "x": 0,
+        "r": 14
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>which page</div>",
+     "box": [
+      250,
+      1246,
+      640
+     ],
+     "kf": [
+      [
+       2.3,
+       {
+        "o": 0,
+        "x": -26,
+        "r": 14
+       }
+      ],
+      [
+       2.75,
+       {
+        "o": 1,
+        "x": 0,
+        "r": 14
+       },
+       "outCubic"
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "morph": {
+      "at": 4.25,
+      "dur": 1.15,
+      "from": {
+       "box": [
+        230,
+        1000,
+        640,
+        104
+       ],
+       "radius": 10,
+       "bg": "#FFFDF4",
+       "r": 14,
+       "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>who knows what</div>"
+      },
+      "to": {
+       "box": [
+        60,
+        560,
+        960,
+        619
+       ],
+       "radius": 22,
+       "bg": "#FFFFFF",
+       "img": "id-hover-end",
+       "crop": [
+        272,
+        172,
+        632,
+        404
+       ]
+      },
+      "trailColor": "#FF7A2F"
+     },
+     "kf": [
+      [
+       4.25,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 128px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>10 minutes<br>before you <span style='color:#FFB36B'>draw.</span></div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       4.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       4.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "b": 4.0,
+   "kind": "clip",
+   "src": "c-identity-hover-paper",
+   "look": "card",
+   "box": [
+    60,
+    560,
+    960,
+    619
+   ],
+   "from": 1.2,
+   "speed": 1.0,
+   "clipEnd": 3.6,
+   "cursor": true,
+   "cam": [
+    [
+     272,
+     172,
+     632,
+     404
+    ],
+    [
+     272,
+     172,
+     632,
+     404
+    ]
+   ],
+   "bgFrame": "desk-todo",
+   "bgFilter": "blur(7px) brightness(0.68) saturate(1.1) sepia(.15)",
+   "in": "cut",
+   "tilt": [
+    0,
+    0,
+    2,
+    -3
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:640px;background:linear-gradient(rgba(24,12,4,0.62),rgba(24,12,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 96px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>Who knows she's Afterburn?</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.1,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 104px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'><span style='color:#FFB36B'>3 people.</span> Checked.</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       2.0,
+       {
+        "o": 0,
+        "y": 16
+       }
+      ],
+      [
+       2.25,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 720 180' style='width:720px;height:180px;overflow:visible'><path d='M58 54 C144 -11 619 -7 698 76 C749 155 288 194 58 144 C-29 112 14 40 158 18' stroke='#FF7A2F' stroke-width='10' stroke-linecap='round' fill='none' style='filter:drop-shadow(0 0 10px rgba(255,122,47,.55))'/></svg>",
+     "box": [
+      70,
+      878,
+      720
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       1.9,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       2.5,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 74px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>Inkwell &middot; <span style='color:#FFB36B'>free in your browser</span></div>",
+     "box": [
+      70,
+      1215,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "b": 1.8,
+   "kind": "clip",
+   "src": "c-stock-99909-todo",
+   "look": "full",
+   "grade": "warm",
+   "from": 1.9,
+   "speed": 0.9,
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     26,
+     40,
+     514,
+     908
+    ]
+   ],
+   "camEase": "inOutSine",
+   "in": "cut",
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:560px;background:linear-gradient(rgba(24,12,4,0.5),rgba(24,12,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>who knows what</div>",
+     "box": [
+      250,
+      1010,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>how strong</div>",
+     "box": [
+      250,
+      1128,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.65,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>which page</div>",
+     "box": [
+      250,
+      1246,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 640 90' style='width:640px;height:90px;overflow:visible'><path d='M84 44 L470 40' stroke='#FF7A2F' stroke-width='9' stroke-linecap='round' fill='none'/><path d='M2 40 L20 66 L58 6' stroke='#FF7A2F' stroke-width='11' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>",
+     "box": [
+      250,
+      1014,
+      640
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       0.0,
+       {
+        "o": 1,
+        "dash": 0,
+        "r": 14
+       }
+      ],
+      [
+       0.5,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 0.6,
+      "dur": 1.15,
+      "from": {
+       "box": [
+        230,
+        1118,
+        640,
+        104
+       ],
+       "radius": 10,
+       "bg": "#FFFDF4",
+       "r": 14,
+       "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>how strong</div>"
+      },
+      "to": {
+       "box": [
+        60,
+        600,
+        960,
+        591
+       ],
+       "radius": 22,
+       "bg": "#FFFFFF",
+       "img": "s-power-paper",
+       "crop": [
+        182,
+        276,
+        702,
+        596
+       ]
+      },
+      "trailColor": "#FF7A2F"
+     },
+     "kf": [
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "b": 3.8,
+   "kind": "still",
+   "src": "s-power-paper",
+   "look": "card",
+   "box": [
+    60,
+    600,
+    960,
+    591
+   ],
+   "cam": [
+    [
+     182,
+     276,
+     702,
+     596
+    ],
+    [
+     192,
+     290,
+     692,
+     596
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "bgFrame": "desk-todo",
+   "bgFilter": "blur(7px) brightness(0.68) saturate(1.1) sepia(.15)",
+   "in": "cut",
+   "tilt": [
+    0,
+    0,
+    -2,
+    3
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:640px;background:linear-gradient(rgba(24,12,4,0.62),rgba(24,12,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 700 132' style='width:700px;height:132px;overflow:visible'><path d='M56 40 C140 -8 602 -5 679 55 C728 114 280 143 56 106 C-28 82 14 29 154 13' stroke='#FF7A2F' stroke-width='10' stroke-linecap='round' fill='none' style='filter:drop-shadow(0 0 10px rgba(255,122,47,.55))'/></svg>",
+     "box": [
+      40,
+      1080,
+      700
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       1.2,
+       {
+        "o": 1,
+        "dash": 0
+       }
+      ],
+      [
+       1.7999999999999998,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 104px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>How strong is she?</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.7,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 110px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'><span style='color:#FFB36B'>5th</span> in her cast.</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       1.8,
+       {
+        "o": 0,
+        "y": 16
+       }
+      ],
+      [
+       2.05,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "b": 1.8,
+   "kind": "clip",
+   "src": "c-stock-99909-todo",
+   "look": "full",
+   "grade": "warm",
+   "from": 2.9,
+   "speed": 0.9,
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     26,
+     40,
+     514,
+     908
+    ]
+   ],
+   "camEase": "inOutSine",
+   "in": "cut",
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:560px;background:linear-gradient(rgba(24,12,4,0.5),rgba(24,12,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>who knows what</div>",
+     "box": [
+      250,
+      1010,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>how strong</div>",
+     "box": [
+      250,
+      1128,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>which page</div>",
+     "box": [
+      250,
+      1246,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1,
+        "r": 14
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.65,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 640 90' style='width:640px;height:90px;overflow:visible'><path d='M84 44 L470 40' stroke='#FF7A2F' stroke-width='9' stroke-linecap='round' fill='none'/><path d='M2 40 L20 66 L58 6' stroke='#FF7A2F' stroke-width='11' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>",
+     "box": [
+      250,
+      1014,
+      640
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "dash": 0,
+        "r": 14
+       }
+      ],
+      [
+       -0.5,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 640 90' style='width:640px;height:90px;overflow:visible'><path d='M84 44 L470 40' stroke='#FF7A2F' stroke-width='9' stroke-linecap='round' fill='none'/><path d='M2 40 L20 66 L58 6' stroke='#FF7A2F' stroke-width='11' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>",
+     "box": [
+      250,
+      1132,
+      640
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       0.0,
+       {
+        "o": 1,
+        "dash": 0,
+        "r": 14
+       }
+      ],
+      [
+       0.5,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 0.6,
+      "dur": 1.15,
+      "from": {
+       "box": [
+        230,
+        1236,
+        640,
+        104
+       ],
+       "radius": 10,
+       "bg": "#FFFDF4",
+       "r": 14,
+       "html": "<div style='width:640px;font:700 76px Hand;color:#1d3fb8;mix-blend-mode:multiply;white-space:nowrap;'><span style='display:inline-block;width:46px;height:46px;border:4px solid #1d3fb8;border-radius:6px;vertical-align:-6px;margin-right:22px;position:relative'></span>which page</div>"
+      },
+      "to": {
+       "box": [
+        318,
+        540,
+        445,
+        800
+       ],
+       "radius": 18,
+       "bg": "#FFFFFF",
+       "img": "s-planner-paper",
+       "crop": [
+        572,
+        316,
+        780,
+        690
+       ]
+      },
+      "trailColor": "#FF7A2F"
+     },
+     "kf": [
+      [
+       0.6,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "b": 3.9,
+   "kind": "still",
+   "src": "s-planner-paper",
+   "look": "card",
+   "box": [
+    318,
+    540,
+    445,
+    800
+   ],
+   "cam": [
+    [
+     572,
+     316,
+     780,
+     690
+    ],
+    [
+     578,
+     330,
+     774,
+     682
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "bgFrame": "desk-todo",
+   "bgFilter": "blur(7px) brightness(0.68) saturate(1.1) sepia(.15)",
+   "in": "cut",
+   "tilt": [
+    0,
+    0,
+    2,
+    2
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:640px;background:linear-gradient(rgba(24,12,4,0.62),rgba(24,12,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 104px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>Which page is it?</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.7,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 110px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>Page 1.<br><span style='color:#FFB36B'>A splash.</span></div>",
+     "box": [
+      70,
+      230,
+      940
+     ],
+     "kf": [
+      [
+       1.8,
+       {
+        "o": 0,
+        "y": 16
+       }
+      ],
+      [
+       2.05,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "b": 2.8,
+   "kind": "clip",
+   "src": "c-stock-785-tablet",
+   "look": "full",
+   "grade": "warm",
+   "from": 0.3,
+   "speed": 0.95,
+   "cursor": false,
+   "cam": [
+    [
+     0,
+     40,
+     540,
+     1000
+    ],
+    [
+     30,
+     70,
+     500,
+     905
+    ]
+   ],
+   "camEase": "inOutSine",
+   "in": "whip-l",
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:600px;background:linear-gradient(rgba(24,12,4,0.55),rgba(24,12,4,0))'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 96px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>&#10003; &#10003; &#10003;</div>",
+     "box": [
+      70,
+      230,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:700 150px Hand;color:#FFF3DF;line-height:1.0;text-shadow:0 3px 0 rgba(40,20,0,.55),0 0 26px rgba(0,0,0,.6),0 8px 30px rgba(0,0,0,.45)'>Now draw.</div>",
+     "box": [
+      70,
+      340,
+      940
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  }
+ ]
+}
