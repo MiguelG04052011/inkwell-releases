@@ -1,0 +1,1346 @@
+{
+ "id": "2026-11-18-a-too-strong",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-18",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "drive"
+   }
+  ],
+  "opener": "impact",
+  "hits": [
+   2.0,
+   9.4,
+   12.0,
+   16.4
+  ],
+  "risers": [
+   7.2
+  ]
+ },
+ "end": {
+  "b": 4.6,
+  "theme": "night",
+  "line": "Tonight: 3 numbers your villain needs.",
+  "cta": "Free to start in your browser",
+  "sub": "",
+  "css": "body #end{background:radial-gradient(ellipse 60% 40% at 50% 40%,rgba(255,200,120,.35),rgba(0,0,0,0) 70%),repeating-linear-gradient(90deg,#240807 0 110px,#352c22 110px 220px) !important} body #endLine{font:400 52px Serif !important;text-transform:uppercase !important;color:#FFF1D6 !important;text-shadow:4px 4px 0 #D6312B !important;line-height:1 !important} body #endCta{background:#FFF1D6 !important;color:#2b160c !important}"
+ },
+ "shots": [
+  {
+   "kind": "blank",
+   "bg": "black",
+   "theme": "night",
+   "b": 9.4,
+   "persp": 1200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -140,
+      "y": 40,
+      "rx": 4
+     }
+    ],
+    [
+     2.0,
+     {
+      "z": -60,
+      "y": 0,
+      "rx": 0
+     }
+    ],
+    [
+     5.6,
+     {
+      "z": 60,
+      "y": -30,
+      "ry": -4
+     }
+    ],
+    [
+     8.0,
+     {
+      "z": 130,
+      "y": -10,
+      "ry": 2
+     }
+    ],
+    [
+     9.4,
+     {
+      "z": 140
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1500px;height:2400px;background:repeating-linear-gradient(90deg,#7E1C1A 0 110px,#E9D9BC 110px 220px);filter:brightness(.42) saturate(1.1)'></div>",
+     "box": [
+      -210,
+      -240,
+      1500
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -260,
+        "s": 1.25
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1500px;height:2400px;background:radial-gradient(ellipse 45% 38% at 50% 42%,rgba(255,200,120,.38),rgba(0,0,0,0) 70%),linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0) 30%,rgba(0,0,0,.0) 60%,rgba(0,0,0,.85))'></div>",
+     "box": [
+      -210,
+      -240,
+      1500
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -200,
+        "s": 1.2
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:1240px;height:90px'><div style='position:absolute;left:0px;top:28px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:92px;top:20px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:184px;top:13px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:276px;top:8px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:368px;top:4px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:460px;top:1px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:552px;top:0px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:644px;top:0px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:736px;top:1px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:828px;top:4px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:920px;top:8px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:1012px;top:13px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:1104px;top:20px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:1196px;top:28px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div></div>",
+     "box": [
+      -80,
+      150,
+      1240
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -80
+       }
+      ],
+      [
+       3,
+       {
+        "o": 0.75
+       }
+      ],
+      [
+       3.3,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7,
+       {
+        "o": 0.8
+       }
+      ],
+      [
+       7.3,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1600px;height:900px;background:radial-gradient(ellipse 50% 40% at 50% 20%,#5a3a24,#1a0f0a 70%)'></div>",
+     "box": [
+      -260,
+      1460,
+      1600
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -60
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:240px;height:1000px;position:relative'><div style='position:absolute;left:70px;top:0;width:100px;height:80px;border-radius:50px 50px 10px 10px;background:radial-gradient(circle at 40% 35%,#FFF2B8,#F5C04A 45%,#9A6B12);box-shadow:0 0 30px rgba(245,192,74,.6)'></div><div style='position:absolute;left:30px;top:88px;width:180px;height:790px;border:8px solid #3a1d0e;border-radius:8px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.6)'><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>10</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>9</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>8</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>7</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>6</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>5</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>4</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>3</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>2</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>1</div></div><div style='position:absolute;left:0;top:880px;width:240px;height:60px;background:#3a1d0e;border-radius:6px'></div><div style='position:absolute;left:20px;top:940px;width:200px;height:40px;background:#D6312B;border-radius:0 0 30px 30px'></div></div>",
+     "box": [
+      560,
+      490,
+      240
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:70px;height:70px;border-radius:35px;background:radial-gradient(circle at 35% 30%,#ff8a7a,#C01E18 60%,#600);box-shadow:0 0 26px rgba(255,80,60,.8)'></div>",
+     "box": [
+      645,
+      1310,
+      70
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "y": 0
+       }
+      ],
+      [
+       1.1,
+       {
+        "y": 0
+       }
+      ],
+      [
+       1.8,
+       {
+        "y": -810
+       },
+       "outCubic"
+      ],
+      [
+       2.0,
+       {
+        "y": -795
+       }
+      ],
+      [
+       2.3,
+       {
+        "y": -805
+       }
+      ],
+      [
+       2.6,
+       {
+        "y": -798
+       }
+      ],
+      [
+       8.0,
+       {
+        "y": -798
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:110px;height:90px;border-radius:55px 55px 10px 10px;background:radial-gradient(circle at 40% 35%,#FFFBE0,#FFD966 50%,#B07A16);box-shadow:0 0 60px 20px rgba(255,220,120,.85)'></div>",
+     "box": [
+      625,
+      485,
+      110
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0.35
+       }
+      ],
+      [
+       1.75,
+       {
+        "o": 0.35
+       }
+      ],
+      [
+       1.85,
+       {
+        "o": 1,
+        "r": -10,
+        "s": 1.12
+       }
+      ],
+      [
+       2.1,
+       {
+        "r": 9
+       }
+      ],
+      [
+       2.35,
+       {
+        "r": -6
+       }
+      ],
+      [
+       2.6,
+       {
+        "r": 5,
+        "s": 1
+       }
+      ],
+      [
+       2.9,
+       {
+        "r": -4
+       }
+      ],
+      [
+       3.2,
+       {
+        "r": 3
+       }
+      ],
+      [
+       3.5,
+       {
+        "r": -2
+       }
+      ],
+      [
+       3.8,
+       {
+        "r": 1
+       }
+      ],
+      [
+       4.2,
+       {
+        "r": 0,
+        "o": 0.9
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg width='240' height='640' viewBox='0 0 240 640'><g fill='none' stroke='#FFF1D6' stroke-width='7' stroke-linejoin='round'><circle cx='120' cy='70' r='54'/><path d='M60 140 H180 L205 380 H170 L160 640 H128 L120 420 L112 640 H80 L70 380 H35 Z'/></g></svg>",
+     "box": [
+      150,
+      810,
+      240
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": 0
+       }
+      ],
+      [
+       1.0,
+       {
+        "y": -10
+       }
+      ],
+      [
+       1.2,
+       {
+        "y": 0
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 92px Serif;color:#FFF1D6;background:#D6312B;padding:6px 24px;border:6px solid #FFF1D6;text-transform:uppercase;letter-spacing:.04em;box-shadow:0 10px 40px rgba(0,0,0,.5)'>Too strong</div>",
+     "box": [
+      110,
+      640,
+      560
+     ],
+     "sfx": "slap",
+     "kf": [
+      [
+       1.9,
+       {
+        "o": 0,
+        "s": 1.8,
+        "r": -14
+       }
+      ],
+      [
+       2.1,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -8
+       },
+       "outBack"
+      ],
+      [
+       3.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.2,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1080px;height:1920px;background:radial-gradient(circle at 63% 20%,rgba(255,240,190,.9),rgba(255,240,190,0) 60%)'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       1.8,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.4,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:700 34px Sans;color:#2b160c;background:#FFF1D6;padding:10px 22px;border-radius:40px;box-shadow:0 8px 30px rgba(0,0,0,.45)'>Inkwell \u00b7 free in your browser</div>",
+     "box": [
+      70,
+      560,
+      540
+     ],
+     "kf": [
+      [
+       3.0,
+       {
+        "o": 0,
+        "y": 20
+       }
+      ],
+      [
+       3.25,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.9,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 52px Hand;color:#FFF1D6;transform:rotate(-6deg);text-shadow:0 2px 10px rgba(0,0,0,.6)'>your hero</div>",
+     "box": [
+      330,
+      840,
+      320
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:164px;height:78px;border:6px solid #FFE27A;box-sizing:border-box;box-shadow:0 0 30px 8px rgba(255,220,120,.8),inset 0 0 20px rgba(255,220,120,.6)'></div>",
+     "box": [
+      598,
+      586,
+      164
+     ],
+     "kf": [
+      [
+       1.85,
+       {
+        "o": 0
+       }
+      ],
+      [
+       2.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.0,
+       {
+        "o": 0.7
+       }
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       8.0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 64px Hand;color:#FFF1D6;text-shadow:0 2px 10px rgba(0,0,0,.6)'>z z z</div>",
+     "box": [
+      150,
+      700,
+      300
+     ],
+     "kf": [
+      [
+       5.9,
+       {
+        "o": 0,
+        "y": 20,
+        "r": -8
+       }
+      ],
+      [
+       6.3,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.8,
+       {
+        "o": 1,
+        "y": -40,
+        "x": 30
+       }
+      ],
+      [
+       8.0,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 8.1,
+      "dur": 1.3,
+      "from": {
+       "box": [
+        590,
+        578,
+        180,
+        790
+       ],
+       "radius": 8,
+       "bg": "#F3D9A8",
+       "img": "fair-bg",
+       "crop": [
+        590,
+        578,
+        770,
+        1368
+       ],
+       "dims": [
+        1080,
+        1920
+       ]
+      },
+      "to": {
+       "box": [
+        70,
+        580,
+        880,
+        655
+       ],
+       "radius": 26,
+       "bg": "#101018",
+       "img": "pe-start",
+       "crop": [
+        290,
+        130,
+        760,
+        480
+       ]
+      },
+      "trailColor": "#F5C04A"
+     },
+     "kf": [
+      [
+       8.1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:860px;text-align:center;font:400 110px Serif;color:#FFF1D6;line-height:0.98;letter-spacing:.01em;text-transform:uppercase;text-shadow:5px 5px 0 #D6312B,0 8px 40px rgba(0,0,0,.6);'>Your hero is<br>too strong.</div>",
+     "box": [
+      110,
+      215,
+      860
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.2,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:860px;text-align:center;font:400 100px Serif;color:#FFF1D6;line-height:0.98;letter-spacing:.01em;text-transform:uppercase;text-shadow:5px 5px 0 #D6312B,0 8px 40px rgba(0,0,0,.6);'>A 10<br>can't lose.</div>",
+     "box": [
+      110,
+      215,
+      860
+     ],
+     "kf": [
+      [
+       3.3,
+       {
+        "o": 0,
+        "y": 16,
+        "blur": 5
+       }
+      ],
+      [
+       3.52,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       5.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.819999999999999,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:860px;text-align:center;font:400 100px Serif;color:#FFF1D6;line-height:0.98;letter-spacing:.01em;text-transform:uppercase;text-shadow:5px 5px 0 #D6312B,0 8px 40px rgba(0,0,0,.6);'>So nothing<br>happens.</div>",
+     "box": [
+      110,
+      215,
+      860
+     ],
+     "kf": [
+      [
+       5.8,
+       {
+        "o": 0,
+        "y": 16,
+        "blur": 5
+       }
+      ],
+      [
+       6.02,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       8.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       8.22,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "clip",
+   "src": "c-power-edit",
+   "look": "card",
+   "box": [
+    70,
+    580,
+    880,
+    655
+   ],
+   "from": 0.5,
+   "speed": 1.0,
+   "clipEnd": 2.3,
+   "b": 7.0,
+   "cursor": true,
+   "in": "cut",
+   "tilt": [
+    3,
+    -4,
+    1,
+    2
+   ],
+   "bgFrame": "fair-bg",
+   "bgFilter": "blur(28px) brightness(.45)",
+   "cam": [
+    [
+     290,
+     130,
+     760,
+     480
+    ],
+    [
+     300,
+     320,
+     650,
+     580
+    ],
+    [
+     300,
+     320,
+     650,
+     580
+    ],
+    [
+     300,
+     320,
+     650,
+     580
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "layers": [
+    {
+     "html": "<div style='width:860px;text-align:center;font:700 72px Sans;color:#FFF1D6;line-height:1.1;text-shadow:0 4px 24px rgba(0,0,0,.7)'>In Inkwell, you set it.</div>",
+     "box": [
+      110,
+      300,
+      860
+     ],
+     "kf": [
+      [
+       0.0,
+       {
+        "o": 0,
+        "y": 16,
+        "blur": 5
+       }
+      ],
+      [
+       0.22,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       2.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.8200000000000003,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:860px;text-align:center;font:400 96px Serif;color:#FFF1D6;line-height:0.98;letter-spacing:.01em;text-transform:uppercase;text-shadow:5px 5px 0 #D6312B,0 8px 40px rgba(0,0,0,.6);'>Afterburn:<br>6 out of 10.</div>",
+     "box": [
+      110,
+      215,
+      860
+     ],
+     "kf": [
+      [
+       2.8,
+       {
+        "o": 0,
+        "y": 16,
+        "blur": 5
+       }
+      ],
+      [
+       3.02,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       6.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.12,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:860px;text-align:center;font:600 46px Sans;color:#FFF1D6;line-height:1.1;text-shadow:0 4px 24px rgba(0,0,0,.7)'>Her real strength, in the example comic.</div>",
+     "box": [
+      110,
+      1270,
+      860
+     ],
+     "kf": [
+      [
+       3.1,
+       {
+        "o": 0,
+        "y": 16,
+        "blur": 5
+       }
+      ],
+      [
+       3.3200000000000003,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       6.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.12,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:230px;height:80px;border:7px solid #F5C04A;border-radius:44px;box-shadow:0 0 26px rgba(245,192,74,.7)'></div>",
+     "box": [
+      668,
+      842,
+      230
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       3.2,
+       {
+        "o": 0,
+        "s": 1.4
+       }
+      ],
+      [
+       3.45,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "blank",
+   "bg": "black",
+   "theme": "night",
+   "b": 5.0,
+   "in": "cut",
+   "persp": 1200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -40,
+      "y": 0
+     }
+    ],
+    [
+     5.0,
+     {
+      "z": 90,
+      "y": -20,
+      "ry": -3
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1500px;height:2400px;background:repeating-linear-gradient(90deg,#7E1C1A 0 110px,#E9D9BC 110px 220px);filter:brightness(.42) saturate(1.1)'></div>",
+     "box": [
+      -210,
+      -240,
+      1500
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -260,
+        "s": 1.25
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1500px;height:2400px;background:radial-gradient(ellipse 45% 38% at 50% 42%,rgba(255,200,120,.38),rgba(0,0,0,0) 70%),linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0) 30%,rgba(0,0,0,.0) 60%,rgba(0,0,0,.85))'></div>",
+     "box": [
+      -210,
+      -240,
+      1500
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -200,
+        "s": 1.2
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='position:relative;width:1240px;height:90px'><div style='position:absolute;left:0px;top:28px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:92px;top:20px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:184px;top:13px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:276px;top:8px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:368px;top:4px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:460px;top:1px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:552px;top:0px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:644px;top:0px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:736px;top:1px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:828px;top:4px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:920px;top:8px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:1012px;top:13px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:1104px;top:20px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div><div style='position:absolute;left:1196px;top:28px;width:26px;height:26px;border-radius:13px;background:#FFE7A8;box-shadow:0 0 18px 6px rgba(255,200,90,.75)'></div></div>",
+     "box": [
+      -80,
+      150,
+      1240
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -80
+       }
+      ],
+      [
+       3,
+       {
+        "o": 0.75
+       }
+      ],
+      [
+       3.3,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7,
+       {
+        "o": 0.8
+       }
+      ],
+      [
+       7.3,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1600px;height:900px;background:radial-gradient(ellipse 50% 40% at 50% 20%,#5a3a24,#1a0f0a 70%)'></div>",
+     "box": [
+      -260,
+      1460,
+      1600
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -60
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:240px;height:1000px;position:relative'><div style='position:absolute;left:70px;top:0;width:100px;height:80px;border-radius:50px 50px 10px 10px;background:radial-gradient(circle at 40% 35%,#FFF2B8,#F5C04A 45%,#9A6B12);box-shadow:0 0 30px rgba(245,192,74,.6)'></div><div style='position:absolute;left:30px;top:88px;width:180px;height:790px;border:8px solid #3a1d0e;border-radius:8px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.6)'><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>10</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>9</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>8</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>7</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>6</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>5</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>4</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>3</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#E9C88E'>2</div><div style='height:78px;border-top:3px solid rgba(40,20,10,.5);font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px;background:#F3D9A8'>1</div></div><div style='position:absolute;left:0;top:880px;width:240px;height:60px;background:#3a1d0e;border-radius:6px'></div><div style='position:absolute;left:20px;top:940px;width:200px;height:40px;background:#D6312B;border-radius:0 0 30px 30px'></div></div>",
+     "box": [
+      560,
+      490,
+      240
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:70px;height:70px;border-radius:35px;background:radial-gradient(circle at 35% 30%,#ff8a7a,#C01E18 60%,#600);box-shadow:0 0 26px rgba(255,80,60,.8)'></div>",
+     "box": [
+      645,
+      1310,
+      70
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "y": -760
+       }
+      ],
+      [
+       0.85,
+       {
+        "o": 0,
+        "y": -760
+       }
+      ],
+      [
+       0.9,
+       {
+        "o": 1,
+        "y": -760
+       }
+      ],
+      [
+       1.25,
+       {
+        "y": -408
+       },
+       "outBounce"
+      ],
+      [
+       2.4,
+       {
+        "y": -408
+       }
+      ],
+      [
+       2.6,
+       {
+        "y": -430
+       }
+      ],
+      [
+       2.8,
+       {
+        "y": -408
+       },
+       "outBounce"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:110px;height:90px;border-radius:55px 55px 10px 10px;background:radial-gradient(circle at 40% 35%,#FFFBE0,#FFD966 50%,#B07A16);box-shadow:0 0 60px 20px rgba(255,220,120,.85)'></div>",
+     "box": [
+      625,
+      485,
+      110
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0.35
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-18/stills/fig-af.png' style='width:178px;height:636px;display:block'>",
+     "box": [
+      300,
+      824,
+      178
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "y": -60
+       }
+      ],
+      [
+       0.5,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outBounce"
+      ],
+      [
+       2.4,
+       {
+        "r": 0
+       }
+      ],
+      [
+       2.6,
+       {
+        "r": -5,
+        "x": -10
+       }
+      ],
+      [
+       2.9,
+       {
+        "r": 3,
+        "x": 4
+       }
+      ],
+      [
+       3.2,
+       {
+        "r": 0,
+        "x": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 0,
+      "dur": 0.9,
+      "from": {
+       "box": [
+        70,
+        806,
+        880,
+        151
+       ],
+       "radius": 16,
+       "bg": "#101018",
+       "img": "pe-six",
+       "crop": [
+        300,
+        410,
+        650,
+        470
+       ]
+      },
+      "to": {
+       "box": [
+        598,
+        898,
+        164,
+        78
+       ],
+       "radius": 2,
+       "bg": "#E9C88E",
+       "html": "<div style='width:164px;height:78px;background:#E9C88E;font:400 54px Serif;color:#2b160c;text-align:center;line-height:78px'>6</div>"
+      },
+      "trailColor": "#F5C04A"
+     },
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.95,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.1,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:860px;text-align:center;font:400 104px Serif;color:#FFF1D6;line-height:0.98;letter-spacing:.01em;text-transform:uppercase;text-shadow:5px 5px 0 #D6312B,0 8px 40px rgba(0,0,0,.6);'>6 can lose.</div>",
+     "box": [
+      110,
+      215,
+      860
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0,
+        "y": 16,
+        "blur": 5
+       }
+      ],
+      [
+       1.22,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       5.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.22,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:860px;text-align:center;font:400 84px Serif;color:#F5C04A;line-height:0.98;letter-spacing:.01em;text-transform:uppercase;text-shadow:5px 5px 0 #D6312B,0 8px 40px rgba(0,0,0,.6);text-shadow:4px 4px 0 #5a0e0c,0 8px 40px rgba(0,0,0,.6)'>That's a story.</div>",
+     "box": [
+      110,
+      340,
+      860
+     ],
+     "kf": [
+      [
+       1.8,
+       {
+        "o": 0,
+        "y": 16,
+        "blur": 5
+       }
+      ],
+      [
+       2.02,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       5.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.22,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 50px Hand;color:#FFF1D6;transform:rotate(-5deg);text-shadow:0 2px 10px rgba(0,0,0,.6)'>Afterburn, 163 cm</div>",
+     "box": [
+      90,
+      700,
+      460
+     ],
+     "kf": [
+      [
+       0.8,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.1,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  }
+ ]
+}

@@ -1,0 +1,1288 @@
+{
+ "id": "2026-11-19-b-villain-numbers",
+ "engine": 3,
+ "look": "night",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-18",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "cinematic"
+   }
+  ],
+  "opener": "impact",
+  "hits": [
+   6.8,
+   11.6,
+   16.2,
+   19.7
+  ],
+  "risers": [
+   18.2
+  ]
+ },
+ "end": {
+  "b": 4.6,
+  "theme": "night",
+  "line": "Thursday: Saltgrave, part 4.",
+  "cta": "Free to start in your browser",
+  "sub": "",
+  "css": "body #end{background:repeating-linear-gradient(0deg,rgba(255,255,255,.12) 0 2px,transparent 2px 200px),repeating-linear-gradient(90deg,rgba(255,255,255,.12) 0 2px,transparent 2px 200px),repeating-linear-gradient(0deg,rgba(255,255,255,.05) 0 1px,transparent 1px 40px),repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 1px,transparent 1px 40px),radial-gradient(ellipse 70% 55% at 50% 45%,#1B5596,#0F3B6E 60%,#08203F) !important} body #endLine{font:700 44px Mono !important;color:#F4F8FF !important;letter-spacing:-.02em !important} body #endCta{background:#FFD25A !important;color:#0F2340 !important;box-shadow:0 20px 60px rgba(255,210,90,.3) !important}"
+ },
+ "shots": [
+  {
+   "kind": "clip",
+   "src": "c-stock-2858-draw",
+   "b": 4.0,
+   "look": "full",
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     60,
+     140,
+     480,
+     880
+    ]
+   ],
+   "cursor": false,
+   "grade": "cold",
+   "from": 0.1,
+   "speed": 1.0,
+   "in": "cut",
+   "layers": [
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 104px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>3 numbers<br>your villain needs.</div>",
+     "box": [
+      70,
+      230,
+      940
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.3,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.6,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "blank",
+   "bg": "black",
+   "theme": "night",
+   "b": 19.0,
+   "in": "blurin",
+   "persp": 1200,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -170,
+      "ry": -11,
+      "rx": 7,
+      "x": -30
+     }
+    ],
+    [
+     5.5,
+     {
+      "z": -60,
+      "ry": -3,
+      "rx": 3
+     }
+    ],
+    [
+     11,
+     {
+      "z": -20,
+      "ry": 4,
+      "rx": 2
+     }
+    ],
+    [
+     19.0,
+     {
+      "z": 50,
+      "ry": 10,
+      "rx": 0,
+      "x": 30
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1500px;height:2400px;background:radial-gradient(ellipse 60% 40% at 50% 60%,#123E70,#071A33 60%,#030B17)'></div>",
+     "box": [
+      -210,
+      -240,
+      1500
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -600,
+        "s": 2.2
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1400px;height:2300px;background:repeating-linear-gradient(0deg,rgba(255,255,255,.16) 0 2px,transparent 2px 200px),repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0 2px,transparent 2px 200px),repeating-linear-gradient(0deg,rgba(255,255,255,.07) 0 1px,transparent 1px 40px),repeating-linear-gradient(90deg,rgba(255,255,255,.07) 0 1px,transparent 1px 40px),radial-gradient(ellipse 70% 55% at 50% 45%,#1B5596,#0F3B6E 60%,#08203F);'></div>",
+     "box": [
+      -160,
+      -190,
+      1400
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -260,
+        "s": 1.5,
+        "rx": 34,
+        "y": 140
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:260px;height:2200px;background:linear-gradient(90deg,rgba(156,200,255,0),rgba(190,225,255,.22),rgba(156,200,255,0))'></div>",
+     "box": [
+      -300,
+      -140,
+      260
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "x": 0,
+        "z": -100
+       }
+      ],
+      [
+       2.2,
+       {
+        "x": 1500
+       }
+      ],
+      [
+       2.25,
+       {
+        "o": 0
+       }
+      ],
+      [
+       15.5,
+       {
+        "o": 0,
+        "x": 0
+       }
+      ],
+      [
+       15.55,
+       {
+        "o": 1
+       }
+      ],
+      [
+       17.5,
+       {
+        "x": 1500
+       }
+      ],
+      [
+       17.6,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:490px;border:2px solid rgba(244,248,255,.7);font:600 24px Mono;color:rgba(244,248,255,.85);padding:10px 14px;line-height:1.45;box-sizing:border-box'>VILLAIN SPEC \u00b7 DWG 01<br>MR. MINUS<br>AFTERBURN \u00b7 EXAMPLE COMIC</div>",
+     "box": [
+      470,
+      1200,
+      490
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0
+       }
+      ],
+      [
+       0.3,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-18/stills/fig-mm.png' style='width:211px;height:760px;display:block;filter:drop-shadow(0 0 2px rgba(255,255,255,.9)) drop-shadow(0 0 14px rgba(120,180,255,.5))'>",
+     "box": [
+      150,
+      490,
+      211
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "z": 60
+       }
+      ],
+      [
+       0,
+       {
+        "o": 0,
+        "y": 30
+       }
+      ],
+      [
+       0.35,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       1.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.0,
+       {
+        "o": 0.18
+       }
+      ],
+      [
+       5.6,
+       {
+        "o": 0.18
+       }
+      ],
+      [
+       5.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0.18
+       }
+      ],
+      [
+       10.4,
+       {
+        "o": 0.18
+       }
+      ],
+      [
+       10.7,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.4,
+       {
+        "o": 0.18
+       }
+      ],
+      [
+       15.4,
+       {
+        "o": 0.18
+       }
+      ],
+      [
+       15.7,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<svg width='60' height='770' viewBox='0 0 60 770'><path d='M10 4 H50 M30 4 V766 M10 766 H50' stroke='#F4F8FF' stroke-width='4' fill='none'/></svg>",
+     "box": [
+      392,
+      488,
+      60
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "z": 60
+       }
+      ],
+      [
+       0.2,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.0,
+       {
+        "o": 0.25
+       }
+      ],
+      [
+       15.4,
+       {
+        "o": 0.25
+       }
+      ],
+      [
+       15.7,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 96px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'><span style='font-family:Mono;font-weight:700'>1</span> \u00b7 Height</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       0.3,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       0.55,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       2.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.0,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:210px;height:84px;box-sizing:border-box;border:4px solid #FFD25A;border-radius:10px;font:700 50px Mono;color:#FFD25A;text-align:center;line-height:76px;background:#0B2E57;box-shadow:0 0 24px rgba(255,210,90,.35)'>? cm</div>",
+     "box": [
+      450,
+      790,
+      210
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       0.9,
+       {
+        "o": 0,
+        "s": 0.6
+       }
+      ],
+      [
+       1.15,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       1.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.65,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 1.6,
+      "dur": 1.2,
+      "from": {
+       "box": [
+        450,
+        790,
+        210,
+        84
+       ],
+       "radius": 10,
+       "bg": "#0F3B6E",
+       "html": "<div style='width:210px;height:84px;box-sizing:border-box;border:4px solid #FFD25A;border-radius:10px;font:700 50px Mono;color:#FFD25A;text-align:center;line-height:76px;background:#0B2E57;box-shadow:0 0 24px rgba(255,210,90,.35)'>? cm</div>"
+      },
+      "to": {
+       "box": [
+        90,
+        520,
+        900,
+        540
+       ],
+       "radius": 24,
+       "bg": "#0d0d12",
+       "img": "s-lineup-end",
+       "crop": [
+        740,
+        170,
+        1340,
+        530
+       ]
+      },
+      "trailColor": "#9CC8FF"
+     },
+     "kf": [
+      [
+       1.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.6,
+       {
+        "o": 1,
+        "s": 1.03
+       }
+      ],
+      [
+       5.9,
+       {
+        "o": 0,
+        "s": 0.94
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 130px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>168 cm.</div>",
+     "box": [
+      70,
+      215,
+      940
+     ],
+     "kf": [
+      [
+       2.95,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       3.2,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       5.55,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.8,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:880px;text-align:center;font:600 38px Sans;color:#CFE3FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>Shorter than Relay. Taller than Afterburn.</div>",
+     "box": [
+      90,
+      362,
+      880
+     ],
+     "kf": [
+      [
+       3.1,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       3.35,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       5.55,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.8,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:190px;height:70px;border:6px solid #FFD25A;border-radius:40px;box-shadow:0 0 24px rgba(255,210,90,.6)'></div>",
+     "box": [
+      450,
+      1002,
+      190
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       3.4,
+       {
+        "o": 0,
+        "s": 1.4
+       }
+      ],
+      [
+       3.65,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       5.55,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.75,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 96px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'><span style='font-family:Mono;font-weight:700'>2</span> \u00b7 Power</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       5.8,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       6.05,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.85,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:200px;height:84px;box-sizing:border-box;border:4px solid #FFD25A;border-radius:10px;font:700 50px Mono;color:#FFD25A;text-align:center;line-height:76px;background:#0B2E57;box-shadow:0 0 24px rgba(255,210,90,.35)'>?th</div>",
+     "box": [
+      560,
+      690,
+      200
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       5.9,
+       {
+        "o": 0,
+        "s": 0.6
+       }
+      ],
+      [
+       6.15,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       6.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.45,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 6.4,
+      "dur": 1.2,
+      "from": {
+       "box": [
+        560,
+        690,
+        200,
+        84
+       ],
+       "radius": 10,
+       "bg": "#0F3B6E",
+       "html": "<div style='width:200px;height:84px;box-sizing:border-box;border:4px solid #FFD25A;border-radius:10px;font:700 50px Mono;color:#FFD25A;text-align:center;line-height:76px;background:#0B2E57;box-shadow:0 0 24px rgba(255,210,90,.35)'>?th</div>"
+      },
+      "to": {
+       "box": [
+        90,
+        700,
+        900,
+        295
+       ],
+       "radius": 22,
+       "bg": "#0d0d12",
+       "img": "s-power",
+       "crop": [
+        300,
+        604,
+        660,
+        722
+       ]
+      },
+      "trailColor": "#9CC8FF"
+     },
+     "kf": [
+      [
+       6.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       10.4,
+       {
+        "o": 1,
+        "s": 1.04
+       }
+      ],
+      [
+       10.7,
+       {
+        "o": 0,
+        "s": 0.94
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 130px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>7th of 11.</div>",
+     "box": [
+      70,
+      215,
+      940
+     ],
+     "kf": [
+      [
+       7.8,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       8.05,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       10.35,
+       {
+        "o": 1
+       }
+      ],
+      [
+       10.6,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:600 50px Sans;color:#CFE3FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>Middle of the cast.</div>",
+     "box": [
+      70,
+      360,
+      940
+     ],
+     "kf": [
+      [
+       7.95,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       8.2,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       10.35,
+       {
+        "o": 1
+       }
+      ],
+      [
+       10.6,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:120px;height:120px;border:6px solid #FFD25A;border-radius:60px;box-shadow:0 0 24px rgba(255,210,90,.6)'></div>",
+     "box": [
+      77,
+      860,
+      120
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       8.2,
+       {
+        "o": 0,
+        "s": 1.4
+       }
+      ],
+      [
+       8.45,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       10.35,
+       {
+        "o": 1
+       }
+      ],
+      [
+       10.55,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 96px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'><span style='font-family:Mono;font-weight:700'>3</span> \u00b7 Who knows</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       10.6,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       10.85,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       12.2,
+       {
+        "o": 1
+       }
+      ],
+      [
+       12.45,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:160px;height:84px;box-sizing:border-box;border:4px solid #FFD25A;border-radius:10px;font:700 50px Mono;color:#FFD25A;text-align:center;line-height:76px;background:#0B2E57;box-shadow:0 0 24px rgba(255,210,90,.35)'>??</div>",
+     "box": [
+      580,
+      960,
+      160
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       10.6,
+       {
+        "o": 0,
+        "s": 0.6
+       }
+      ],
+      [
+       10.85,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.05,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 11.0,
+      "dur": 1.2,
+      "from": {
+       "box": [
+        580,
+        960,
+        160,
+        84
+       ],
+       "radius": 10,
+       "bg": "#0F3B6E",
+       "html": "<div style='width:160px;height:84px;box-sizing:border-box;border:4px solid #FFD25A;border-radius:10px;font:700 50px Mono;color:#FFD25A;text-align:center;line-height:76px;background:#0B2E57;box-shadow:0 0 24px rgba(255,210,90,.35)'>??</div>"
+      },
+      "to": {
+       "box": [
+        90,
+        520,
+        900,
+        582
+       ],
+       "radius": 24,
+       "bg": "#15151c",
+       "img": "s-identities",
+       "crop": [
+        986,
+        182,
+        1320,
+        398
+       ]
+      },
+      "trailColor": "#9CC8FF"
+     },
+     "kf": [
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       15.4,
+       {
+        "o": 1,
+        "s": 1.04
+       }
+      ],
+      [
+       15.7,
+       {
+        "o": 0,
+        "s": 0.94
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 140px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>0.</div>",
+     "box": [
+      70,
+      215,
+      940
+     ],
+     "kf": [
+      [
+       12.4,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       12.65,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       15.35,
+       {
+        "o": 1
+       }
+      ],
+      [
+       15.6,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:600 50px Sans;color:#CFE3FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>Nobody knows he's Walter Minsky.</div>",
+     "box": [
+      70,
+      360,
+      940
+     ],
+     "kf": [
+      [
+       12.55,
+       {
+        "o": 0,
+        "y": 14,
+        "blur": 5
+       }
+      ],
+      [
+       12.8,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       15.35,
+       {
+        "o": 1
+       }
+      ],
+      [
+       15.6,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:410px;height:76px;border:6px solid #FFD25A;border-radius:40px;box-shadow:0 0 24px rgba(255,210,90,.6)'></div>",
+     "box": [
+      93,
+      750,
+      410
+     ],
+     "sfx": "pencil",
+     "kf": [
+      [
+       12.8,
+       {
+        "o": 0,
+        "s": 1.4
+       }
+      ],
+      [
+       13.05,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       15.35,
+       {
+        "o": 1
+       }
+      ],
+      [
+       15.55,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 74px Hand;color:#FFD25A;white-space:nowrap;text-shadow:0 0 18px rgba(255,210,90,.45)'>168 cm</div>",
+     "box": [
+      455,
+      840,
+      400
+     ],
+     "sfx": "slap",
+     "kf": [
+      [
+       15.7,
+       {
+        "o": 0,
+        "s": 1.6,
+        "r": -8
+       }
+      ],
+      [
+       15.899999999999999,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -4
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 74px Hand;color:#FFD25A;white-space:nowrap;text-shadow:0 0 18px rgba(255,210,90,.45)'>7th of 11</div>",
+     "box": [
+      520,
+      680,
+      420
+     ],
+     "sfx": "slap",
+     "kf": [
+      [
+       16.05,
+       {
+        "o": 0,
+        "s": 1.6,
+        "r": -8
+       }
+      ],
+      [
+       16.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -4
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 74px Hand;color:#FFD25A;white-space:nowrap;text-shadow:0 0 18px rgba(255,210,90,.45)'>nobody knows</div>",
+     "box": [
+      470,
+      1000,
+      480
+     ],
+     "sfx": "slap",
+     "kf": [
+      [
+       16.4,
+       {
+        "o": 0,
+        "s": 1.6,
+        "r": -8
+       }
+      ],
+      [
+       16.599999999999998,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -4
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:940px;text-align:center;font:800 86px Sans;color:#F4F8FF;line-height:1.05;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45);'>All three, in <span style='color:#FFD25A'>Inkwell</span>.</div>",
+     "box": [
+      70,
+      250,
+      940
+     ],
+     "kf": [
+      [
+       15.8,
+       {
+        "o": 0,
+        "y": 10,
+        "blur": 5
+       }
+      ],
+      [
+       16.05,
+       {
+        "o": 1,
+        "y": 0,
+        "blur": 0
+       },
+       "outCubic"
+      ],
+      [
+       18.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       18.65,
+       {
+        "o": 0,
+        "y": -10
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  }
+ ]
+}
