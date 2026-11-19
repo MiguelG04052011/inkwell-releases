@@ -1,0 +1,948 @@
+{
+ "id": "2026-11-20-b-then-and-now",
+ "engine": 3,
+ "look": "paper",
+ "fps": 30,
+ "bpm": 110,
+ "footage": "../footage/none",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "bright"
+   }
+  ],
+  "opener": "slap",
+  "hits": [
+   7.0,
+   12.6
+  ],
+  "risers": [
+   5.0
+  ]
+ },
+ "end": {
+  "b": 4,
+  "theme": "paper",
+  "line": "Saturday: a planning trick.",
+  "cta": "Free to start in your browser",
+  "sub": "",
+  "css": "body #endLine{font:400 56px Marker !important;color:#e5484d !important}"
+ },
+ "shots": [
+  {
+   "b": 16.5,
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "paper",
+   "persp": 1600,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": -60,
+      "y": 20
+     }
+    ],
+    [
+     5,
+     {
+      "z": 40,
+      "y": 0
+     },
+     "inOutSine"
+    ],
+    [
+     11,
+     {
+      "z": 20,
+      "x": 10,
+      "ry": -1.5
+     },
+     "inOutSine"
+    ],
+    [
+     16.5,
+     {
+      "z": 70,
+      "x": 0,
+      "ry": 1
+     },
+     "inOutSine"
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867'><rect width='900' height='1000' rx='18' fill='#fffdf6'/><g stroke='#bcd3ea' stroke-width='3'><line x1='0' y1='90' x2='900' y2='90'/><line x1='0' y1='152' x2='900' y2='152'/><line x1='0' y1='214' x2='900' y2='214'/><line x1='0' y1='276' x2='900' y2='276'/><line x1='0' y1='338' x2='900' y2='338'/><line x1='0' y1='400' x2='900' y2='400'/><line x1='0' y1='462' x2='900' y2='462'/><line x1='0' y1='524' x2='900' y2='524'/><line x1='0' y1='586' x2='900' y2='586'/><line x1='0' y1='648' x2='900' y2='648'/><line x1='0' y1='710' x2='900' y2='710'/><line x1='0' y1='772' x2='900' y2='772'/><line x1='0' y1='834' x2='900' y2='834'/><line x1='0' y1='896' x2='900' y2='896'/><line x1='0' y1='958' x2='900' y2='958'/></g><line x1='90' y1='0' x2='90' y2='1000' stroke='#f0a0a0' stroke-width='3'/></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "s": 0.97
+       }
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867' style='overflow:visible'><defs><filter id='cr'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='5'/></filter></defs><g filter='url(#cr)' fill='none' stroke-linecap='round' stroke-linejoin='round'><path d='M690 150 a70 70 0 1 0 140 0 a70 70 0 1 0 -140 0' stroke='#f5c518' stroke-width='16'/><path d='M760 40 L760 10 M860 150 L890 150 M835 75 L860 50 M680 70 L660 45' stroke='#f5c518' stroke-width='12'/></g></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "dash": 0.4,
+        "s": 0.97
+       }
+      ],
+      [
+       0.2,
+       {
+        "o": 1,
+        "dash": 0.4
+       }
+      ],
+      [
+       0.23,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.8,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867' style='overflow:visible'><defs><filter id='cr'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='5'/></filter></defs><g filter='url(#cr)' fill='none' stroke-linecap='round' stroke-linejoin='round'><path d='M358 380 a62 62 0 1 0 124 0 a62 62 0 1 0 -124 0' stroke='#f2690d' stroke-width='14'/><path d='M370 330 L350 250 L395 300 L420 220 L445 300 L490 250 L470 330' stroke='#e5484d' stroke-width='14'/></g></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "dash": 0,
+        "s": 0.97
+       }
+      ],
+      [
+       0.8,
+       {
+        "o": 0,
+        "dash": 0
+       }
+      ],
+      [
+       0.8300000000000001,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.4,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867' style='overflow:visible'><defs><filter id='cr'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='5'/></filter></defs><g filter='url(#cr)' fill='none' stroke-linecap='round' stroke-linejoin='round'><path d='M420 442 L420 650 M420 500 L300 420 M420 500 L560 430 M420 650 L350 800 M420 650 L490 800' stroke='#f2690d' stroke-width='16'/><path d='M560 430 L600 380 L590 430 L640 400 L600 460' stroke='#e5484d' stroke-width='12'/></g></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "dash": 0,
+        "s": 0.97
+       }
+      ],
+      [
+       1.4,
+       {
+        "o": 0,
+        "dash": 0
+       }
+      ],
+      [
+       1.43,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.0,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867' style='overflow:visible'><defs><filter id='cr'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='5'/></filter></defs><g filter='url(#cr)' fill='none' stroke-linecap='round' stroke-linejoin='round'><path d='M140 880 Q450 840 800 880' stroke='#2b9a66' stroke-width='16'/><path d='M395 405 Q420 428 447 405' stroke='#222' stroke-width='8'/></g></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "dash": 0,
+        "s": 0.97
+       }
+      ],
+      [
+       2.0,
+       {
+        "o": 0,
+        "dash": 0
+       }
+      ],
+      [
+       2.03,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.6,
+       {
+        "dash": 1
+       },
+       "outCubic"
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867'><circle cx='398' cy='372' r='8' fill='#222'/><circle cx='442' cy='372' r='8' fill='#222'/></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       1.2,
+       {
+        "o": 0,
+        "s": 0.97
+       }
+      ],
+      [
+       1.3,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867' style='overflow:visible'><defs><filter id='cr'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='5'/></filter></defs><g filter='url(#cr)'><text x='130' y='150' font-family='Marker' font-size='92' fill='#e5484d' transform='rotate(-6 300 120)'>FIRE GIRL</text></g></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 1,
+        "s": 0.97
+       }
+      ],
+      [
+       0.5,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867' style='overflow:visible'><defs><filter id='cr'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='5'/></filter></defs><g filter='url(#cr)'><text x='520' y='620' font-family='Marker' font-size='42' fill='#3e63dd' transform='rotate(4 620 600)'>STRONGEST</text><text x='560' y='675' font-family='Marker' font-size='42' fill='#3e63dd' transform='rotate(4 620 660)'>EVER!!</text></g></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "s": 0.97
+       }
+      ],
+      [
+       2.4,
+       {
+        "o": 0
+       }
+      ],
+      [
+       2.6999999999999997,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<svg viewBox='0 0 900 1000' width='780' height='867' style='overflow:visible'><defs><filter id='cr'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' result='n'/><feDisplacementMap in='SourceGraphic' in2='n' scale='5'/></filter></defs><g filter='url(#cr)'><text x='130' y='965' font-family='Marker' font-size='40' fill='#8e4ec6'>by me</text></g></svg>",
+     "box": [
+      150,
+      380,
+      780
+     ],
+     "kf": [
+      [
+       -1,
+       {
+        "o": 0,
+        "s": 0.97
+       }
+      ],
+      [
+       2.8,
+       {
+        "o": 0
+       }
+      ],
+      [
+       3.0999999999999996,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.0,
+       {
+        "s": 1.0
+       },
+       "linear"
+      ],
+      [
+       5.0,
+       {}
+      ],
+      [
+       6.2,
+       {
+        "x": 235,
+        "y": -318,
+        "s": 0.45,
+        "r": 5
+       },
+       "inOutCubic"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:840px;text-align:center;font:800 74px Sans;color:#1b1a22;line-height:1.1;letter-spacing:-.015em'>Your first hero, <span style='background:#f5c518;padding:0 10px;border-radius:6px'>age 9.</span></div>",
+     "box": [
+      120,
+      210,
+      840
+     ],
+     "kf": [
+      [
+       -0.25,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       0.0,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       4.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.0,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='display:inline-block;padding:12px 26px;background:#1b1a22;color:#fff;font:700 38px Sans;border-radius:40px'>Inkwell \u00b7 free in your browser</div>",
+     "box": [
+      215,
+      1290,
+      650
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       2.4,
+       {
+        "o": 0,
+        "s": 0.8
+       }
+      ],
+      [
+       2.8,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       4.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.1,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 5.6,
+      "dur": 1.4,
+      "from": {
+       "box": [
+        640,
+        320,
+        210,
+        60
+       ],
+       "radius": 30,
+       "bg": "#e5484d",
+       "r": -4,
+       "html": "<div style='width:210px;height:60px;font:400 34px Marker;color:#fff;text-align:center;line-height:60px'>FIRE GIRL</div>"
+      },
+      "to": {
+       "box": [
+        60,
+        740,
+        960,
+        601
+       ],
+       "radius": 24,
+       "bg": "#ffffff",
+       "img": "kit:light/character-page",
+       "dims": [
+        2720,
+        1702
+       ],
+       "crop": [
+        560,
+        50,
+        1400,
+        576
+       ]
+      },
+      "trailColor": "#e5484d",
+      "shadow": true
+     },
+     "kf": [
+      [
+       5.5,
+       {
+        "o": 0
+       }
+      ],
+      [
+       5.55,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.0,
+       {
+        "o": 1,
+        "y": 0
+       }
+      ],
+      [
+       11.6,
+       {
+        "o": 0,
+        "y": -40
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:100%;height:100%;background:rgba(245,197,24,.45);border-radius:8px'></div>",
+     "box": [
+      345,
+      1008,
+      370,
+      46
+     ],
+     "kf": [
+      [
+       7.4,
+       {
+        "o": 1,
+        "sx": 0
+       }
+      ],
+      [
+       8.2,
+       {
+        "sx": 1
+       },
+       "outCubic"
+      ],
+      [
+       11.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.4,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:520px;text-align:left;font:800 72px Sans;color:#1b1a22;line-height:1.1;letter-spacing:-.015em'>Your hero <span style='background:#f5c518;padding:0 10px;border-radius:6px'>now.</span></div>",
+     "box": [
+      90,
+      300,
+      520
+     ],
+     "kf": [
+      [
+       5.75,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       6.0,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.3999999999999995,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.6,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:520px;text-align:left;font:800 72px Sans;color:#1b1a22;line-height:1.1;letter-spacing:-.015em'>Secretly<br><span style='background:#f5c518;padding:0 10px;border-radius:6px'>Dani Reyes.</span></div>",
+     "box": [
+      90,
+      300,
+      520
+     ],
+     "kf": [
+      [
+       7.55,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       7.8,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       10.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       11.0,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 11.2,
+      "dur": 1.4,
+      "from": {
+       "box": [
+        760,
+        525,
+        200,
+        60
+       ],
+       "radius": 30,
+       "bg": "#3e63dd",
+       "r": 4,
+       "html": "<div style='width:200px;height:60px;font:400 30px Marker;color:#fff;text-align:center;line-height:60px'>STRONGEST</div>"
+      },
+      "to": {
+       "box": [
+        60,
+        760,
+        960,
+        511
+       ],
+       "radius": 24,
+       "bg": "#ffffff",
+       "img": "kit:light/character-page",
+       "dims": [
+        2720,
+        1702
+       ],
+       "crop": [
+        1964,
+        350,
+        2640,
+        710
+       ]
+      },
+      "trailColor": "#3e63dd",
+      "shadow": true
+     },
+     "kf": [
+      [
+       11.1,
+       {
+        "o": 0
+       }
+      ],
+      [
+       11.15,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:150px;height:150px;border-radius:50%;border:7px solid #e5484d;box-shadow:0 0 18px rgba(229,72,77,.5)'></div>",
+     "box": [
+      465,
+      868,
+      150
+     ],
+     "sfx": "pop",
+     "kf": [
+      [
+       13.2,
+       {
+        "o": 0,
+        "s": 1.3
+       }
+      ],
+      [
+       13.5,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:520px;text-align:left;font:800 72px Sans;color:#1b1a22;line-height:1.1;letter-spacing:-.015em'>Strongest ever?</div>",
+     "box": [
+      90,
+      300,
+      520
+     ],
+     "kf": [
+      [
+       11.15,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       11.4,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       12.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       13.1,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:520px;text-align:left;font:800 72px Sans;color:#1b1a22;line-height:1.1;letter-spacing:-.015em'>2 wins,<br><span style='background:#f5c518;padding:0 10px;border-radius:6px'>1 loss.</span></div>",
+     "box": [
+      90,
+      300,
+      520
+     ],
+     "kf": [
+      [
+       13.05,
+       {
+        "o": 0,
+        "y": 14
+       }
+      ],
+      [
+       13.3,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
