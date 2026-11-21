@@ -1,0 +1,955 @@
+{
+ "id": "2026-11-22-b-three-people-know",
+ "engine": 3,
+ "look": "clean",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-21",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "pluck"
+   }
+  ],
+  "opener": "soft",
+  "hits": [
+   7.4,
+   9.1,
+   10.4,
+   11.7,
+   15.4,
+   18.2
+  ],
+  "risers": [
+   13.6
+  ]
+ },
+ "shots": [
+  {
+   "kind": "clip",
+   "src": "c-split-who",
+   "look": "full",
+   "cursor": false,
+   "from": 0,
+   "speed": 1.0,
+   "b": 7.4,
+   "in": "cut",
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='font:400 68px Marker;color:#fff;line-height:1.05;text-shadow:0 4px 0 rgba(0,0,0,.55),0 8px 30px rgba(0,0,0,.55);'>WHO KNOWS HER SECRET?<br>3 PEOPLE.</div>",
+     "box": [
+      80,
+      210,
+      920
+     ],
+     "kf": [
+      [
+       -0.3,
+       {
+        "o": 0,
+        "y": 26
+       }
+      ],
+      [
+       0.0,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       3.15,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.4,
+       {
+        "o": 0,
+        "y": -16
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:700 60px Hand;color:#1E2A4A;transform:rotate(-6deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>Dani = Afterburn</div>",
+     "box": [
+      60,
+      425,
+      640
+     ],
+     "kf": [
+      [
+       0.4,
+       {
+        "o": 0,
+        "x": -20
+       }
+      ],
+      [
+       0.8500000000000001,
+       {
+        "o": 1,
+        "x": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.4,
+       {
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='font:700 58px Hand;color:#1E2A4A;transform:rotate(-6deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>who knows??</div>",
+     "box": [
+      100,
+      495,
+      640
+     ],
+     "kf": [
+      [
+       1.3,
+       {
+        "o": 0,
+        "x": -20
+       }
+      ],
+      [
+       1.75,
+       {
+        "o": 1,
+        "x": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.4,
+       {
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='font:700 58px Hand;color:#1E2A4A;transform:rotate(-6deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>Relay? Maddox?</div>",
+     "box": [
+      60,
+      562,
+      640
+     ],
+     "kf": [
+      [
+       2.2,
+       {
+        "o": 0,
+        "x": -20
+       }
+      ],
+      [
+       2.6500000000000004,
+       {
+        "o": 1,
+        "x": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.4,
+       {
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='font:700 58px Hand;color:#1E2A4A;transform:rotate(-6deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>her mum??</div>",
+     "box": [
+      130,
+      625,
+      640
+     ],
+     "kf": [
+      [
+       3.0,
+       {
+        "o": 0,
+        "x": -20
+       }
+      ],
+      [
+       3.45,
+       {
+        "o": 1,
+        "x": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.4,
+       {
+        "o": 1
+       }
+      ]
+     ],
+     "sfx": "pencil"
+    },
+    {
+     "html": "<div style='width:660px;height:200px;background:#16171C'></div>",
+     "box": [
+      50,
+      1118,
+      660
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1080px;height:560px;background:#16171C'></div>",
+     "box": [
+      0,
+      1405,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 80px Marker;color:#fff;line-height:1.05;text-shadow:0 4px 0 rgba(0,0,0,.55),0 8px 30px rgba(0,0,0,.55);'>YOUR NOTEBOOK<br>HAS GUESSES.</div>",
+     "box": [
+      80,
+      210,
+      900
+     ],
+     "kf": [
+      [
+       3.4,
+       {
+        "o": 0,
+        "y": 26
+       }
+      ],
+      [
+       3.6999999999999997,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.15,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.4,
+       {
+        "o": 0,
+        "y": -16
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "clip",
+   "src": "c-stock-99890-notebook",
+   "look": "full",
+   "cursor": false,
+   "from": 1.0,
+   "speed": 0.8,
+   "b": 13.0,
+   "in": "cut",
+   "grade": "warm",
+   "cam": [
+    [
+     0,
+     0,
+     540,
+     960
+    ],
+    [
+     20,
+     30,
+     520,
+     919
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1080px;height:1920px;background:rgba(18,14,10,.38);backdrop-filter:blur(12px)'></div>",
+     "box": [
+      0,
+      0,
+      1080
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:960px;height:619px;overflow:hidden;border-radius:26px;box-shadow:0 40px 90px rgba(0,0,0,.6);background:#16171C'><img src='../footage/2026-11-21/stills/s-identities.jpg' style='display:block;width:3933px;max-width:none;margin-left:-816px;margin-top:-529px'></div>",
+     "box": [
+      60,
+      480,
+      960
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "s": 0.96,
+        "y": 30
+       }
+      ],
+      [
+       0.35,
+       {
+        "o": 1,
+        "s": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       6.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:253px;height:82px;background:#16171C'></div>",
+     "box": [
+      110,
+      799,
+      253
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       1.9,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.05,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:412px;height:88px;background:#16171C'></div>",
+     "box": [
+      107,
+      883,
+      412
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.2,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.35,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:299px;height:82px;background:#16171C'></div>",
+     "box": [
+      370,
+      799,
+      299
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       4.5,
+       {
+        "o": 1
+       }
+      ],
+      [
+       4.65,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='background:rgba(250,248,240,.85);border-radius:14px;padding:4px 18px;display:inline-block'><div style='font:700 70px Hand;color:#1E2A4A;transform:rotate(-4deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>Relay?</div></div>",
+     "box": [
+      80,
+      1145,
+      420
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.78,
+       {
+        "o": 1
+       }
+      ],
+      [
+       0.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='background:rgba(250,248,240,.85);border-radius:14px;padding:4px 18px;display:inline-block'><div style='font:700 70px Hand;color:#1E2A4A;transform:rotate(-4deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>Maddox?</div></div>",
+     "box": [
+      640,
+      1145,
+      420
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.08,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.1,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='background:rgba(250,248,240,.85);border-radius:14px;padding:4px 18px;display:inline-block'><div style='font:700 70px Hand;color:#1E2A4A;transform:rotate(-4deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>her mum??</div></div>",
+     "box": [
+      330,
+      1240,
+      420
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.38,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.4,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 0.8,
+      "dur": 1.1,
+      "from": {
+       "box": [
+        80,
+        1145,
+        300,
+        96
+       ],
+       "radius": 14,
+       "bg": "rgba(250,248,240,.85)",
+       "html": "<div style='font:700 70px Hand;color:#1E2A4A;transform:rotate(-4deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>Relay?</div>"
+      },
+      "to": {
+       "box": [
+        118,
+        804,
+        237,
+        72
+       ],
+       "radius": 30,
+       "bg": "#26272E",
+       "img": "s-identities",
+       "crop": [
+        302,
+        295,
+        384,
+        320
+       ]
+      },
+      "trailColor": "#F5C45C",
+      "trail": false
+     },
+     "kf": [
+      [
+       0.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 2.1,
+      "dur": 1.1,
+      "from": {
+       "box": [
+        640,
+        1145,
+        300,
+        96
+       ],
+       "radius": 14,
+       "bg": "rgba(250,248,240,.85)",
+       "html": "<div style='font:700 70px Hand;color:#1E2A4A;transform:rotate(-4deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>Maddox?</div>"
+      },
+      "to": {
+       "box": [
+        115,
+        888,
+        396,
+        78
+       ],
+       "radius": 30,
+       "bg": "#26272E",
+       "img": "s-identities",
+       "crop": [
+        301,
+        324,
+        438,
+        351
+       ]
+      },
+      "trailColor": "#F5C45C",
+      "trail": false
+     },
+     "kf": [
+      [
+       2.1,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 3.4,
+      "dur": 1.1,
+      "from": {
+       "box": [
+        330,
+        1240,
+        300,
+        96
+       ],
+       "radius": 14,
+       "bg": "rgba(250,248,240,.85)",
+       "html": "<div style='font:700 70px Hand;color:#1E2A4A;transform:rotate(-4deg);white-space:nowrap;text-shadow:0 0 6px rgba(255,255,250,.9),0 0 14px rgba(255,255,250,.7);'>her mum??</div>"
+      },
+      "to": {
+       "box": [
+        378,
+        804,
+        283,
+        72
+       ],
+       "radius": 30,
+       "bg": "#26272E",
+       "img": "s-identities",
+       "crop": [
+        392,
+        295,
+        490,
+        320
+       ]
+      },
+      "trailColor": "#F5C45C",
+      "trail": false
+     },
+     "kf": [
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 92px Marker;color:#fff;line-height:1.05;text-shadow:0 4px 0 rgba(0,0,0,.55),0 8px 30px rgba(0,0,0,.55);'>IN INKWELL,<br>THEY'RE NAMES.</div>",
+     "box": [
+      80,
+      230,
+      900
+     ],
+     "kf": [
+      [
+       0.3,
+       {
+        "o": 0,
+        "y": 26
+       }
+      ],
+      [
+       0.6,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       4.35,
+       {
+        "o": 1
+       }
+      ],
+      [
+       4.6,
+       {
+        "o": 0,
+        "y": -16
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 100px Marker;color:#fff;line-height:1.05;text-shadow:0 4px 0 rgba(0,0,0,.55),0 8px 30px rgba(0,0,0,.55);'>HER MUM IS<br>SOLSTICE.</div>",
+     "box": [
+      80,
+      230,
+      900
+     ],
+     "kf": [
+      [
+       4.6,
+       {
+        "o": 0,
+        "y": 26
+       }
+      ],
+      [
+       4.8999999999999995,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       6.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.0,
+       {
+        "o": 0,
+        "y": -16
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 6.8,
+      "dur": 1.1,
+      "from": {
+       "box": [
+        60,
+        480,
+        960,
+        619
+       ],
+       "radius": 26,
+       "bg": "#16171C",
+       "img": "s-identities",
+       "crop": [
+        282,
+        183,
+        614,
+        397
+       ]
+      },
+      "to": {
+       "box": [
+        60,
+        560,
+        960,
+        454
+       ],
+       "radius": 26,
+       "bg": "#16171C",
+       "img": "s-identities",
+       "crop": [
+        985,
+        183,
+        1317,
+        340
+       ]
+      },
+      "trailColor": "#F5C45C"
+     },
+     "kf": [
+      [
+       6.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       8.0,
+       {
+        "o": 1,
+        "s": 1
+       }
+      ],
+      [
+       13.0,
+       {
+        "s": 1.04,
+        "y": -14
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:434px;height:87px;border:8px solid #F5C45C;border-radius:36px;box-shadow:0 0 26px rgba(245,196,92,.7)'></div>",
+     "box": [
+      64,
+      794,
+      434
+     ],
+     "kf": [
+      [
+       8.3,
+       {
+        "o": 0,
+        "s": 1.2
+       }
+      ],
+      [
+       8.6,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style='font:400 100px Marker;color:#fff;line-height:1.05;text-shadow:0 4px 0 rgba(0,0,0,.55),0 8px 30px rgba(0,0,0,.55);'>MR. MINUS:<br>NOBODY KNOWS.</div>",
+     "box": [
+      80,
+      230,
+      900
+     ],
+     "kf": [
+      [
+       8.0,
+       {
+        "o": 0,
+        "y": 26
+       }
+      ],
+      [
+       8.3,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       10.55,
+       {
+        "o": 1
+       }
+      ],
+      [
+       10.8,
+       {
+        "o": 0,
+        "y": -16
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 190px Marker;color:#F5C45C;line-height:1.05;text-shadow:0 4px 0 rgba(0,0,0,.55),0 8px 30px rgba(0,0,0,.55);'>YET.</div>",
+     "box": [
+      80,
+      230,
+      900
+     ],
+     "kf": [
+      [
+       10.8,
+       {
+        "o": 0,
+        "y": 26
+       }
+      ],
+      [
+       11.100000000000001,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       12.75,
+       {
+        "o": 1
+       }
+      ],
+      [
+       13.0,
+       {
+        "o": 0,
+        "y": -16
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  }
+ ],
+ "end": {
+  "b": 5.0,
+  "theme": "clean",
+  "line": "Monday: Saltgrave, part 5.",
+  "cta": "Free to start in your browser",
+  "sub": "",
+  "css": "body #end{background:linear-gradient(90deg,rgba(0,0,0,0) 118px,rgba(214,80,80,.45) 118px 122px,rgba(0,0,0,0) 122px),repeating-linear-gradient(180deg,#FFF7E8 0 58px,#B9C7E3 58px 61px) !important} body #endLine{font:700 64px Hand !important;color:#1E2A4A !important;line-height:1.05 !important;white-space:nowrap !important} body #endCta{background:#F5C45C !important;color:#1d1a14 !important}"
+ }
+}

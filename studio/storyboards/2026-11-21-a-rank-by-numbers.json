@@ -1,0 +1,1117 @@
+{
+ "id": "2026-11-21-a-rank-by-numbers",
+ "engine": 3,
+ "look": "comic",
+ "fps": 30,
+ "bpm": 128,
+ "footage": "../footage/2026-11-21",
+ "music": {
+  "sections": [
+   {
+    "at": 0,
+    "style": "drive"
+   }
+  ],
+  "opener": "impact",
+  "hits": [
+   0.1,
+   3.6,
+   7.4,
+   14.4,
+   16.0
+  ],
+  "risers": [
+   5.4
+  ]
+ },
+ "shots": [
+  {
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "comic",
+   "b": 7.4,
+   "persp": 1150,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 60,
+      "y": 0
+     }
+    ],
+    [
+     3.4,
+     {
+      "z": -10,
+      "ry": 2
+     }
+    ],
+    [
+     7.4,
+     {
+      "z": 50,
+      "ry": -2
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1400px;height:2300px;background:radial-gradient(circle,#E2362B 28%,transparent 31%) 0 0/34px 34px,#F6ECD6;'><div style='position:absolute;inset:0;background:radial-gradient(ellipse 70% 55% at 50% 45%,#F6ECD6 45%,rgba(246,236,214,0) 80%)'></div></div>",
+     "box": [
+      -160,
+      -190,
+      1400
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -240,
+        "s": 1.22
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1000px;height:1840px;border:14px solid #141010;box-sizing:border-box'></div>",
+     "box": [
+      40,
+      40,
+      1000
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -40
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:900px;height:230px;display:flex;border:8px solid #141010;box-shadow:14px 14px 0 #141010;background:#FFFBF1'><div style='width:200px;background:#E2362B;border-right:6px solid #141010;font:400 160px Comic;color:#141010;display:flex;align-items:center;justify-content:center'>S</div><div style='flex:1'></div></div>",
+     "box": [
+      90,
+      760,
+      900
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.7,
+       {
+        "o": 0,
+        "y": 40
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:200px;height:150px;background:#fff;border:6px solid #141010;box-shadow:7px 7px 0 #141010;display:flex;flex-direction:column;align-items:center;padding-top:4px'><svg width='120' height='150' viewBox='0 0 120 150'><circle cx='60' cy='34' r='26' fill='#7DB7F0' stroke='#141010' stroke-width='6'/><path d='M18 150 C18 92 102 92 102 150 Z' fill='#7DB7F0' stroke='#141010' stroke-width='6'/><text x='60' y='46' font-family='Comic' font-size='36' text-anchor='middle' fill='#141010'>?</text></svg><div style='font:400 34px Comic;color:#141010;margin-top:-6px'>?</div></div>",
+     "box": [
+      330,
+      800,
+      220
+     ],
+     "kf": [
+      [
+       -0.2,
+       {
+        "o": 0,
+        "s": 1.9,
+        "r": -15,
+        "y": -120
+       }
+      ],
+      [
+       0.0,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -5,
+        "y": 0
+       },
+       "outBack"
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.7,
+       {
+        "o": 0,
+        "y": 40
+       }
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:200px;height:150px;background:#fff;border:6px solid #141010;box-shadow:7px 7px 0 #141010;display:flex;flex-direction:column;align-items:center;padding-top:4px'><svg width='120' height='150' viewBox='0 0 120 150'><circle cx='60' cy='34' r='26' fill='#B48CE8' stroke='#141010' stroke-width='6'/><path d='M18 150 C18 92 102 92 102 150 Z' fill='#B48CE8' stroke='#141010' stroke-width='6'/><text x='60' y='46' font-family='Comic' font-size='36' text-anchor='middle' fill='#141010'>?</text></svg><div style='font:400 34px Comic;color:#141010;margin-top:-6px'>?</div></div>",
+     "box": [
+      560,
+      790,
+      220
+     ],
+     "kf": [
+      [
+       -0.2,
+       {
+        "o": 0,
+        "s": 1.9,
+        "r": 12,
+        "y": -120
+       }
+      ],
+      [
+       0.0,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 4,
+        "y": 0
+       },
+       "outBack"
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.7,
+       {
+        "o": 0,
+        "y": 40
+       }
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='width:200px;height:150px;background:#fff;border:6px solid #141010;box-shadow:7px 7px 0 #141010;display:flex;flex-direction:column;align-items:center;padding-top:4px'><svg width='120' height='150' viewBox='0 0 120 150'><circle cx='60' cy='34' r='26' fill='#9BD49B' stroke='#141010' stroke-width='6'/><path d='M18 150 C18 92 102 92 102 150 Z' fill='#9BD49B' stroke='#141010' stroke-width='6'/><text x='60' y='46' font-family='Comic' font-size='36' text-anchor='middle' fill='#141010'>?</text></svg><div style='font:400 34px Comic;color:#141010;margin-top:-6px'>?</div></div>",
+     "box": [
+      780,
+      805,
+      220
+     ],
+     "kf": [
+      [
+       -0.2,
+       {
+        "o": 0,
+        "s": 1.9,
+        "r": -9,
+        "y": -120
+       }
+      ],
+      [
+       0.0,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -3,
+        "y": 0
+       },
+       "outBack"
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.7,
+       {
+        "o": 0,
+        "y": 40
+       }
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='font:400 104px Comic;color:#E2362B;border:10px solid #E2362B;padding:2px 30px;letter-spacing:.06em;background:rgba(255,251,241,.6)'>GUESSWORK</div>",
+     "box": [
+      250,
+      840,
+      640
+     ],
+     "kf": [
+      [
+       0.1,
+       {
+        "o": 0,
+        "s": 2.2,
+        "r": -24
+       }
+      ],
+      [
+       0.3,
+       {
+        "o": 1,
+        "s": 1,
+        "r": -10
+       },
+       "outBack"
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.7,
+       {
+        "o": 0,
+        "y": 40
+       }
+      ]
+     ],
+     "sfx": "thump"
+    },
+    {
+     "html": "<div style='font:400 128px Comic;color:#141010;line-height:1.0;letter-spacing:.02em;text-align:left;transform:rotate(0deg);text-shadow:5px 5px 0 #E2362B;'>WHO'S S TIER<br>IN YOUR CAST?</div>",
+     "box": [
+      102,
+      260,
+      880
+     ],
+     "kf": [
+      [
+       -0.25,
+       {
+        "o": 0,
+        "s": 1.5,
+        "r": -4
+       }
+      ],
+      [
+       0.0,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       3.1999999999999997,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.4,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 118px Comic;color:#141010;line-height:1.0;letter-spacing:.02em;text-align:left;transform:rotate(0deg);text-shadow:5px 5px 0 #E2362B;'>LET THE NUMBERS<br>RANK THEM.</div>",
+     "box": [
+      90,
+      260,
+      900
+     ],
+     "kf": [
+      [
+       3.4,
+       {
+        "o": 0,
+        "s": 1.5,
+        "r": -4
+       }
+      ],
+      [
+       3.65,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       7.2,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.4,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:700 36px Sans;color:#F6ECD6;background:#141010;padding:10px 24px;border-radius:40px;box-shadow:0 8px 24px rgba(0,0,0,.35)'>Inkwell \u00b7 free to start in your browser</div>",
+     "box": [
+      90,
+      540,
+      720
+     ],
+     "kf": [
+      [
+       3.5,
+       {
+        "o": 0,
+        "y": 16
+       }
+      ],
+      [
+       3.75,
+       {
+        "o": 1,
+        "y": 0
+       },
+       "outCubic"
+      ],
+      [
+       7.0,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.3,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:900px;background:#FFFBF1;border:8px solid #141010;box-shadow:14px 14px 0 #141010'><div style='display:flex;align-items:center;height:104px;border-top:0px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>1</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>2</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>3</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>4</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>5</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div></div>",
+     "box": [
+      90,
+      700,
+      900
+     ],
+     "kf": [
+      [
+       3.6,
+       {
+        "o": 0,
+        "y": 200,
+        "r": 6
+       }
+      ],
+      [
+       3.95,
+       {
+        "o": 1,
+        "y": 0,
+        "r": -1.5
+       },
+       "outBack"
+      ],
+      [
+       5.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       5.85,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "paper"
+    },
+    {
+     "morph": {
+      "at": 5.8,
+      "dur": 1.4,
+      "from": {
+       "box": [
+        90,
+        700,
+        916,
+        561
+       ],
+       "radius": 2,
+       "bg": "#FFFBF1",
+       "r": -1.5,
+       "html": "<div style='width:900px;background:#FFFBF1;border:8px solid #141010;box-shadow:14px 14px 0 #141010'><div style='display:flex;align-items:center;height:104px;border-top:0px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>1</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>2</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>3</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>4</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div><div style='display:flex;align-items:center;height:104px;border-top:5px solid #141010'><div style='width:120px;font:400 84px Comic;color:#E2362B;text-align:center'>5</div><div style='flex:1;height:34px;margin-right:40px;background:repeating-linear-gradient(90deg,#141010 0 30px,transparent 30px 44px);opacity:.18'></div><div style='width:90px;font:400 70px Comic;color:#141010'>?</div></div></div>"
+      },
+      "to": {
+       "box": [
+        40,
+        700,
+        1000,
+        633
+       ],
+       "radius": 24,
+       "bg": "#101018",
+       "img": "s-power",
+       "crop": [
+        295,
+        305,
+        760,
+        600
+       ]
+      },
+      "trailColor": "#E2362B"
+     },
+     "kf": [
+      [
+       5.8,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "still",
+   "src": "s-power",
+   "look": "card",
+   "box": [
+    40,
+    700,
+    1000,
+    633
+   ],
+   "b": 7.0,
+   "in": "cut",
+   "tilt": [
+    2,
+    -3,
+    1,
+    2
+   ],
+   "bgFrame": "comic-bg",
+   "bgFilter": "blur(3px) brightness(.95)",
+   "cam": [
+    [
+     295,
+     305,
+     760,
+     600
+    ],
+    [
+     295,
+     305,
+     760,
+     600
+    ],
+    [
+     295,
+     452,
+     760,
+     747
+    ],
+    [
+     295,
+     452,
+     760,
+     747
+    ]
+   ],
+   "camEase": "inOutCubic",
+   "cursor": {
+    "path": [
+     [
+      520,
+      330,
+      0
+     ],
+     [
+      520,
+      340,
+      1.2
+     ],
+     [
+      520,
+      340,
+      2.6
+     ],
+     [
+      470,
+      580,
+      4.4
+     ],
+     [
+      470,
+      580,
+      7.0
+     ]
+    ]
+   },
+   "layers": [
+    {
+     "html": "<div style='font:400 112px Comic;color:#141010;line-height:1.0;letter-spacing:.02em;text-align:left;transform:rotate(0deg);text-shadow:5px 5px 0 #E2362B;'>RANKED BY THEIR<br>POWER GRIDS.</div>",
+     "box": [
+      90,
+      260,
+      900
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 0,
+        "s": 1.5,
+        "r": -4
+       }
+      ],
+      [
+       0.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       3.4,
+       {
+        "o": 1
+       }
+      ],
+      [
+       3.6,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 124px Comic;color:#141010;line-height:1.0;letter-spacing:.02em;text-align:left;transform:rotate(0deg);text-shadow:5px 5px 0 #E2362B;'>AFTERBURN:<br>5TH OF 11.</div>",
+     "box": [
+      90,
+      260,
+      900
+     ],
+     "kf": [
+      [
+       3.6,
+       {
+        "o": 0,
+        "s": 1.5,
+        "r": -4
+       }
+      ],
+      [
+       3.85,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       6.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.0,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:960px;height:130px;border:9px solid #E2362B;border-radius:60px;box-shadow:0 0 0 5px #F6ECD6'></div>",
+     "box": [
+      60,
+      705,
+      960
+     ],
+     "kf": [
+      [
+       0.6,
+       {
+        "o": 0,
+        "s": 1.3
+       }
+      ],
+      [
+       0.85,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       2.5999999999999996,
+       {
+        "o": 1
+       }
+      ],
+      [
+       2.8,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style='width:960px;height:135px;border:9px solid #E2362B;border-radius:60px;box-shadow:0 0 0 5px #F6ECD6'></div>",
+     "box": [
+      60,
+      895,
+      960
+     ],
+     "kf": [
+      [
+       4.5,
+       {
+        "o": 0,
+        "s": 1.3
+       }
+      ],
+      [
+       4.75,
+       {
+        "o": 1,
+        "s": 1
+       },
+       "outBack"
+      ],
+      [
+       6.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       7.0,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "pop"
+    }
+   ],
+   "text": []
+  },
+  {
+   "kind": "blank",
+   "bg": "cream",
+   "theme": "comic",
+   "b": 6.8,
+   "in": "cut",
+   "persp": 1150,
+   "cam3d": [
+    [
+     0,
+     {
+      "z": 40,
+      "y": 0
+     }
+    ],
+    [
+     1.6,
+     {
+      "z": 0,
+      "ry": 3
+     }
+    ],
+    [
+     3.9,
+     {
+      "z": 70,
+      "ry": -5,
+      "y": 40
+     }
+    ],
+    [
+     4.1,
+     {
+      "z": 60,
+      "ry": -5,
+      "y": 40
+     }
+    ],
+    [
+     6.8,
+     {
+      "z": 60,
+      "ry": 3,
+      "y": 40
+     }
+    ]
+   ],
+   "layers": [
+    {
+     "html": "<div style='width:1400px;height:2300px;background:radial-gradient(circle,#E2362B 28%,transparent 31%) 0 0/34px 34px,#F6ECD6;'><div style='position:absolute;inset:0;background:radial-gradient(ellipse 70% 55% at 50% 45%,#F6ECD6 45%,rgba(246,236,214,0) 80%)'></div></div>",
+     "box": [
+      -160,
+      -190,
+      1400
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -240,
+        "s": 1.22
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:1000px;height:1840px;border:14px solid #141010;box-sizing:border-box'></div>",
+     "box": [
+      40,
+      40,
+      1000
+     ],
+     "kf": [
+      [
+       0,
+       {
+        "o": 1,
+        "z": -40
+       }
+      ]
+     ]
+    },
+    {
+     "morph": {
+      "at": 0.0,
+      "dur": 0.9,
+      "from": {
+       "box": [
+        40,
+        700,
+        1000,
+        376
+       ],
+       "radius": 6,
+       "bg": "#101018",
+       "img": "s-power",
+       "crop": [
+        295,
+        305,
+        760,
+        480
+       ]
+      },
+      "to": {
+       "box": [
+        90,
+        1040,
+        900,
+        210
+       ],
+       "radius": 0,
+       "bg": "#FFFBF1",
+       "html": "<div style='width:900px;height:210px;display:flex;border:8px solid #141010;box-shadow:14px 14px 0 #141010;background:#FFFBF1'><div style='width:170px;background:#E2362B;border-right:6px solid #141010;font:400 140px Comic;color:#141010;display:flex;align-items:center;justify-content:center'>S</div><div style='flex:1'></div></div>"
+      },
+      "trailColor": "#E2362B"
+     },
+     "kf": [
+      [
+       0,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='width:900px;height:210px;display:flex;border:8px solid #141010;box-shadow:14px 14px 0 #141010;background:#FFFBF1'><div style='width:170px;background:#E2362B;border-right:6px solid #141010;font:400 140px Comic;color:#141010;display:flex;align-items:center;justify-content:center'>S</div><div style='flex:1'></div></div>",
+     "box": [
+      90,
+      1040,
+      900
+     ],
+     "kf": [
+      [
+       0.55,
+       {
+        "o": 0
+       }
+      ],
+      [
+       0.9,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-21/stills/fig-hk.png' style='width:176px;display:block;filter:drop-shadow(8px 8px 0 #141010)'>",
+     "box": [
+      285,
+      515,
+      176
+     ],
+     "kf": [
+      [
+       0.7,
+       {
+        "o": 0,
+        "y": -260,
+        "s": 1.05
+       }
+      ],
+      [
+       1.0,
+       {
+        "o": 1,
+        "y": 0,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style='font:700 30px Hand;color:#141010;text-align:center;width:200px;line-height:1;white-space:nowrap'>#1 Hollow King<br>240 cm</div>",
+     "box": [
+      273.2,
+      1162,
+      200
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.25,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-21/stills/fig-ct.png' style='width:144px;display:block;filter:drop-shadow(8px 8px 0 #141010)'>",
+     "box": [
+      750,
+      631,
+      144
+     ],
+     "kf": [
+      [
+       1.3,
+       {
+        "o": 0,
+        "y": -260,
+        "s": 1.05
+       }
+      ],
+      [
+       1.6,
+       {
+        "o": 1,
+        "y": 0,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style='font:700 30px Hand;color:#141010;text-align:center;width:200px;line-height:1;white-space:nowrap'>#3 Captain Titan<br>196 cm</div>",
+     "box": [
+      722.24,
+      1162,
+      200
+     ],
+     "kf": [
+      [
+       1.6,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.85,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<img src='../footage/2026-11-21/stills/fig-so.png' style='width:129px;display:block;filter:drop-shadow(8px 8px 0 #141010)'>",
+     "box": [
+      525,
+      687,
+      129
+     ],
+     "kf": [
+      [
+       1.0,
+       {
+        "o": 0,
+        "y": -260,
+        "s": 1.05
+       }
+      ],
+      [
+       1.3,
+       {
+        "o": 1,
+        "y": 0,
+        "s": 1
+       },
+       "outBack"
+      ]
+     ],
+     "sfx": "pop"
+    },
+    {
+     "html": "<div style='font:700 30px Hand;color:#141010;text-align:center;width:200px;line-height:1;white-space:nowrap'>#2 Solstice<br>175 cm</div>",
+     "box": [
+      489.67999999999995,
+      1162,
+      200
+     ],
+     "kf": [
+      [
+       1.3,
+       {
+        "o": 0
+       }
+      ],
+      [
+       1.55,
+       {
+        "o": 1
+       }
+      ]
+     ]
+    },
+    {
+     "html": "<div style='font:400 124px Comic;color:#141010;line-height:1.0;letter-spacing:.02em;text-align:left;transform:rotate(0deg);text-shadow:5px 5px 0 #E2362B;'>NOW WRITE<br>THE FIGHT.</div>",
+     "box": [
+      115,
+      250,
+      860
+     ],
+     "kf": [
+      [
+       1.5,
+       {
+        "o": 0,
+        "s": 1.5,
+        "r": -4
+       }
+      ],
+      [
+       1.75,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       3.8,
+       {
+        "o": 1
+       }
+      ],
+      [
+       4.0,
+       {
+        "o": 0
+       }
+      ]
+     ],
+     "sfx": "slap"
+    },
+    {
+     "html": "<div style='font:400 112px Comic;color:#141010;line-height:1.0;letter-spacing:.02em;text-align:left;transform:rotate(0deg);text-shadow:5px 5px 0 #E2362B;'>AFTERBURN? 5TH.<br>FOR NOW.</div>",
+     "box": [
+      115,
+      250,
+      860
+     ],
+     "kf": [
+      [
+       4.0,
+       {
+        "o": 0,
+        "s": 1.5,
+        "r": -4
+       }
+      ],
+      [
+       4.25,
+       {
+        "o": 1,
+        "s": 1,
+        "r": 0
+       },
+       "outBack"
+      ],
+      [
+       6.6,
+       {
+        "o": 1
+       }
+      ],
+      [
+       6.8,
+       {
+        "o": 0
+       }
+      ]
+     ]
+    }
+   ],
+   "text": []
+  }
+ ],
+ "end": {
+  "b": 5.0,
+  "theme": "comic",
+  "line": "Tonight: who knows her secret?",
+  "cta": "Free to start in your browser",
+  "sub": "",
+  "css": "body #end{box-shadow:inset 0 0 0 54px #F6ECD6,inset 0 0 0 68px #141010 !important;background:radial-gradient(circle,#E2362B 28%,transparent 31%) 0 0/34px 34px,#F6ECD6 !important} body #endLine{font:400 64px Comic !important;color:#141010 !important;background:#FFFBF1 !important;border:7px solid #141010 !important;box-shadow:9px 9px 0 #141010 !important;padding:14px 26px !important;line-height:1.05 !important;letter-spacing:.02em !important} body #endCta{background:#141010 !important;color:#F6ECD6 !important} body #endWord, body .wordmark{color:#141010 !important}"
+ }
+}
